@@ -1,0 +1,11 @@
+# Until all reverse dependencies have migrated to 0.8, we ship these symlinks as a work
+# around. IIUC the API is not 100% the same, but the difference is not used by
+# the reverse dependencies: brltty, chromium-browser, jovie, kaccessible, mumble
+# navit, and speechd-up
+#
+# Paul Gevers <elbrus@debian.org>, Sun, 19 Jan 2014 10:36:42 +0100
+usr/include/speech-dispatcher/libspeechd.h		usr/include/libspeechd.h
+usr/include/speech-dispatcher/libspeechd_version.h	usr/include/libspeechd_version.h
+usr/include/speech-dispatcher/spd_audio_plugin.h	usr/include/spd_audio_plugin.h
+usr/include/speech-dispatcher/speechd_defines.h		usr/include/speechd_defines.h
+usr/include/speech-dispatcher/speechd_types.h		usr/include/speechd_types.h

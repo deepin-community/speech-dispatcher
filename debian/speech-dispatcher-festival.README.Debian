@@ -1,0 +1,28 @@
+In order to use Speech Dispatcher with Festival (which is recommended), you
+must have installed this package (or the packages it depends on) and have the
+Festival server started.  To achieve the latter, you must start the server
+by hand such as running
+
+  festival --server
+
+on a command line or in some script. If you want to run festival system wide,
+please read its README.Debian which contains important (security) information
+and how to create /etc/init.d/festival.
+
+If Speech Dispatcher is running as a system service (which is not recommended
+anymore) and started before the Festival server is started, you must run
+
+  invoke-rc.d speech-dispatcher reload
+
+to allow Speech Dispatcher to figure out that the previously unavailable
+Festival server is now running.
+
+And finally, you must tell Speech Dispatcher to use Festival for its output.
+Change the following configuration options in
+~/.config/speech-dispatcher/speechd.conf:
+
+  DefaultModule festival
+  LanguageDefaultModule "en" "festival"
+
+ -- Milan Zamazal <pdm@debian.org>, Wed Nov 26 12:41:31 2003
+ -- Paul Gevers <elbrus@debian.org>, Tue, 14 Jan 2014 21:46:02 +0100

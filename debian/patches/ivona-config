@@ -1,0 +1,37 @@
+commit 64e6920e6ddac6d587b1da881586a6eec57417ce
+Author: Samuel Thibault <samuel.thibault@ens-lyon.org>
+Date:   Mon Apr 19 02:43:27 2021 +0200
+
+    ivona: Only install configuration file when support is available
+
+diff --git a/config/modules/Makefile.am b/config/modules/Makefile.am
+index c1d9fa0c..6b039952 100644
+--- a/config/modules/Makefile.am
++++ b/config/modules/Makefile.am
+@@ -18,19 +18,24 @@
+ ## Process this file with automake to produce Makefile.in
+ 
+ dist_moduleconf_DATA = cicero.conf espeak.conf espeak-ng.conf festival.conf \
+-		       flite.conf ivona.conf dtk-generic.conf \
++		       flite.conf dtk-generic.conf \
+                        epos-generic.conf \
+                        espeak-ng-mbrola-generic.conf espeak-mbrola-generic.conf \
+                        llia_phon-generic.conf \
+                        swift-generic.conf mary-generic-disabled.conf
+ 
+ dist_moduleconforig_DATA = cicero.conf espeak.conf festival.conf espeak-ng.conf
+-	                   flite.conf ivona.conf dtk-generic.conf \
++	                   flite.conf dtk-generic.conf \
+                            epos-generic.conf \
+                            espeak-ng-mbrola-generic.conf espeak-mbrola-generic.conf \
+                            llia_phon-generic.conf \
+                            swift-generic.conf mary-generic-disabled.conf
+ 
++if ivona_support
++dist_moduleconf_DATA += ivona.conf
++dist_moduleconforig_DATA += ivona.conf
++endif
++
+ if pico_support
+ dist_moduleconf_DATA += pico.conf
+ dist_moduleconforig_DATA += pico.conf

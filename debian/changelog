@@ -1,0 +1,1260 @@
+speech-dispatcher (0.10.2-3) unstable; urgency=medium
+
+  [ Samuel Thibault ]
+  * speech-dispatcher.postinst, speech-dispatcher.maintscript: Remove upgrade
+    path from 0.8.8, which is before Buster.
+  * control: Set Rules-Requires-Root to no.
+  * control: Build-Depend on libdumbtts-dev for contrib.
+  * control: Add speech-dispatcher-ivona contrib package.
+  * speech-dispatcher-ivona.install: Install Ivona module.
+  * patches/ivona-paths: Fix sound icons patch.
+  * patches/ivona-config: Fix installation of ivona config file.
+  * control: Make speech-dispatcher-ivona break+replace speech-dispatcher for
+    the ivona config file.
+  * speech-dispatcher.maintscript: Drop ivona.conf file.
+  * rules: Disable ivona module for main builds.
+  * source/lintian-overrides: Drop warnings.
+  * rules,salsa-ci.yml: Ignore specific blhc false positive rather than the
+    whole result.
+  * rules: Drop ddeb-migration rules, now useless
+  * patches/generic-set-voice-name: Fix setting voice name for the generic
+    module.
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since stretch:
+    + speech-dispatcher-festival: Drop versioned constraint on
+      festival-freebsoft-utils and speech-dispatcher in Depends.
+    + speech-dispatcher-*: Drop versioned constraint on speech-dispatcher
+      in Replaces/Breaks.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 19 Sep 2021 15:55:15 +0200
+
+speech-dispatcher (0.10.2-2) unstable; urgency=medium
+
+  * speech-dispatcher: Handle moving configuration file from main package to
+    baratinoo, ibmtts and kali contrib packages (Closes: Bug#976247).
+
+ -- Samuel Thibault <sthibault@debian.org>  Wed, 16 Dec 2020 01:17:56 +0100
+
+speech-dispatcher (0.10.2-1) unstable; urgency=medium
+
+  * New upstream release.
+    - control, speech-dispatcher-voxin.install: Add speech-dispatcher-voxin
+      package.
+    - speech-dispatcher.maintscript: Remove espeak-generic.conf and
+      pico-generic.conf config files.
+    - libspeechd2.symbols: Update.
+    - update lintian overrides.
+  * Bump debhelper from 10 to 12.
+    - control: Replace dh_systemd_enable with dh_installsystemd.
+    - speech-dispatcher.install: Install spdsend.
+    - speech-dispatcher.info: Install from installed path.
+    - not-installed: Note that we don't install .la files, nor the static
+      versions of sound helpers.
+    - rules: Disable building plugins for non-free syntheses.
+  * Move baratinoo, ibmtts, kali config files to contrib packages.
+
+ -- Samuel Thibault <sthibault@debian.org>  Wed, 25 Nov 2020 01:18:56 +0100
+
+speech-dispatcher (0.10.1-2) unstable; urgency=medium
+
+  [ Sebastien Bacher ]
+  * debian/rules:
+    - don't use dh_gencontrol -N on a non existent binary
+      (specific to Ubuntu) (Closes: Bug#968319).
+
+  [ Samuel Thibault ]
+  * speech-dispatcher.maintscript: Remove old mary-generic.conf conf file
+    (Closes: Bug#968483).
+
+ -- Samuel Thibault <sthibault@debian.org>  Thu, 20 Aug 2020 00:11:57 +0200
+
+speech-dispatcher (0.10.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * control: Enable speech-dispatcher-ibmtts on amd64 too. ViaVoice is not
+    actually available as 64bit binary, and the i386 package is simpler to just
+    install and get ViaVoice running, but some people are still used to going
+    through the voxin 64bit proxy; we can as well make their life easier by
+    providing the amd64 build.
+  * control: Bump Standards-Version to 4.5.0 (no change)
+  * watch: Use ~ for rc releases as well.
+  * control: Revert adding libsystemd-dev, configure looks for systemd.pc, not
+    libsystemd.pc
+
+ -- Samuel Thibault <sthibault@debian.org>  Mon, 10 Aug 2020 01:11:53 +0200
+
+speech-dispatcher (0.10.0~rc4-2) experimental; urgency=medium
+
+  * control: Add missing libsystemd-dev dependency to get systemd services
+    path.
+
+ -- Samuel Thibault <sthibault@debian.org>  Thu, 16 Jul 2020 00:59:06 +0200
+
+speech-dispatcher (0.10.0~rc4-1) experimental; urgency=medium
+
+  * New upstream pre-release.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 05 Jul 2020 01:59:02 +0200
+
+speech-dispatcher (0.10.0~rc3-1) experimental; urgency=medium
+
+  * New upstream pre-release.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 26 Apr 2020 21:28:37 +0200
+
+speech-dispatcher (0.10.0~rc1-1) experimental; urgency=medium
+
+  * New upstream pre-release.
+    - patches/mbrola-paths: Refresh.
+
+ -- Samuel Thibault <sthibault@debian.org>  Fri, 29 Nov 2019 03:09:00 +0100
+
+speech-dispatcher (0.9.1-5) unstable; urgency=medium
+
+  * patches/no-common: Cherry-pick upstream fix for build with gcc-10
+    (Closes: Bug#957830, Bug#966157).
+  * patches/pulseaudio-latency: Fix default pulseaudio latency which triggers
+    pulseaudio scratchy output.
+  * NEWS.Debian: Rename to NEWS for debhelper to find it.
+  * control: Update alioth list domain.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 26 Apr 2020 21:45:17 +0200
+
+speech-dispatcher (0.9.1-4) unstable; urgency=medium
+
+  [ Christian Göttsche ]
+  * README.Debian, patches/systemd-debian, rules, speech-dispatcher.init,
+    debian/speech-dispatcher.postinst, speech-dispatcher.postrm,
+    speech-dispatcher.tmpfile: Use /run instead of /var/run (Closes: #912749).
+
+  [ Steve Langasek ]
+  * rules: Omit speech-dispatcher-festival on Ubuntu/i386 (Closes: #946554).
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * debian/copyright: use spaces rather than tabs to start continuation
+    lines.
+  * Set upstream metadata fields: Bug-Submit (from ./configure),
+    Repository, Repository-Browse.
+  * Set upstream metadata fields: Bug-Database.
+
+  [ Samuel Thibault ]
+  * speech-dispatcher.init: Create cache dir as well (Closes: #948679).
+  * patches/no-generic: Prevent generic module from being loaded without a
+    specific config file.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 19 Jan 2020 19:26:24 +0100
+
+speech-dispatcher (0.9.1-3) unstable; urgency=medium
+
+  * control: Set Vcs-* to salsa.debian.org.
+  * control: Bump Standards-Version to 4.4.0 (no changes).
+  * patches/man: Add descriptions to NAME sections of manpages.
+  * watch: Generalize pattern.
+  * control: Make libspeechd-dev depend on libglib2.0-dev.
+  * source/lintian-overrides: Ignore warnings about substvar between main and
+    contrib packages.
+  * speech-dispatcher.{postinst,preinst,postrm}: Move rm_conffile call to
+    speech-dispatcher.maintscript.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sat, 07 Dec 2019 13:58:59 +0100
+
+speech-dispatcher (0.9.1-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Samuel Thibault <sthibault@debian.org>  Mon, 05 Aug 2019 14:48:52 +0200
+
+speech-dispatcher (0.9.1-1) experimental; urgency=medium
+
+  * New upstream releas (Closes: #928216).
+    - patches/ibmtts-shim: Upstreamed.
+    - copyright: Update.
+
+ -- Samuel Thibault <sthibault@debian.org>  Fri, 10 May 2019 10:54:18 +0200
+
+speech-dispatcher (0.9.0-8) unstable; urgency=medium
+
+  * patches/git-baratinoo-char: cherry-pick upstream fix for spelling
+    characters with the baratinoo synthesis (Closes: Bug#930132).
+
+ -- Samuel Thibault <sthibault@debian.org>  Fri, 07 Jun 2019 18:59:02 +0200
+
+speech-dispatcher (0.9.0-7) unstable; urgency=medium
+
+  * speech-dispatcher-pico.install: Ship pico.conf (Closes: Bug#929856).
+  * control: Fix description of speech-dispatcher-baratinoo.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 02 Jun 2019 00:29:03 +0200
+
+speech-dispatcher (0.9.0-6) unstable; urgency=medium
+
+  * control: Fix speech-dispatcher-audio-plugins dependency.
+
+ -- Samuel Thibault <sthibault@debian.org>  Thu, 21 Feb 2019 19:08:40 +0100
+
+speech-dispatcher (0.9.0-5) unstable; urgency=medium
+
+  * control: Do not require exactly the same binary version of
+    speech-dispatcher-audio-plugins, upstream version should be enough for
+    binary compatibility.
+
+ -- Samuel Thibault <sthibault@debian.org>  Wed, 20 Feb 2019 13:22:57 +0100
+
+speech-dispatcher (0.9.0-4) experimental; urgency=medium
+
+  * patches/ibmtts-shim: Upstream shim to be able to build ibmtts module
+    (Closes: #922108).
+  * speech-dispatcher-ibmtts: New package to include the ibmtts module, i386
+    only since the proprietary libibmeci.so is available for i386 only
+    (Closes: #428149).
+  * speech-dispatcher: Make multi-arch: foreign so that the i386
+    speech-dispatcher-ibmtts can be installed along an amd64 speech-dispatcher.
+  * control: Drop voxin recommends from speech-dispatcher-ibmtts, make it
+    depend on speech-dispatcher-audio-plugins to pull the i386 version.
+    Make speech modules Multi-arch: foreign since they can work cross-arch.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 10 Feb 2019 16:55:43 +0100
+
+speech-dispatcher (0.9.0-3) unstable; urgency=medium
+
+  * Move all contrib binary packages to contrib source package, to avoid
+    confusing dak (see #824169)
+
+ -- Samuel Thibault <sthibault@debian.org>  Mon, 04 Feb 2019 21:06:46 +0100
+
+speech-dispatcher (0.9.0-2) unstable; urgency=medium
+
+  * Move voxygen and kali-tts to recommends rather than depends.
+
+ -- Samuel Thibault <sthibault@debian.org>  Mon, 04 Feb 2019 11:33:00 +0100
+
+speech-dispatcher (0.9.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sat, 26 Jan 2019 20:40:43 +0100
+
+speech-dispatcher (0.9.0~rc5-1) experimental; urgency=medium
+
+  * New upstream pre-release.
+
+ -- Samuel Thibault <sthibault@debian.org>  Fri, 18 Jan 2019 16:30:36 +0100
+
+speech-dispatcher (0.9.0~rc4-2) experimental; urgency=medium
+
+  * Import 0.8.8-9 fix.
+
+ -- Samuel Thibault <sthibault@debian.org>  Tue, 15 Jan 2019 12:47:42 +0100
+
+speech-dispatcher (0.9.0~rc4-1) experimental; urgency=medium
+
+  * New upstream pre-release.
+    - libspeechd2.symbols: Update.
+  * watch: Fix URL.
+  * control: Remove ancient python version field, remove spurious autotools-dev
+    build-dep.
+
+ -- Samuel Thibault <sthibault@debian.org>  Tue, 01 Jan 2019 18:59:13 +0100
+
+speech-dispatcher (0.9.0~rc3-1) experimental; urgency=medium
+
+  * New upstream pre-release.
+  * control: Make sure to upgrade library clients since the protocol has
+    changed a bit (notably the voice list format) (Closes: Bug#914365).
+
+ -- Samuel Thibault <sthibault@debian.org>  Mon, 26 Nov 2018 15:36:01 +0100
+
+speech-dispatcher (0.9.0~rc2-1) experimental; urgency=medium
+
+  * New upstream pre-release.
+  * Fix installability of speech-dispatcher-{pico,kali,baratinoo}.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sat, 17 Nov 2018 15:17:51 +0100
+
+speech-dispatcher (0.9.0~rc1-1) experimental; urgency=medium
+
+  * New upstream pre-release.
+    - Add new speech-dispatcher-baratinoo and speech-dispatcher-kali contrib
+      packages.
+    - Remove merged patches: change-default-module.patch, pico-fallback,
+      pulse-default-latency.patch, systemd.
+    - patches/mbrola-paths: New patch to fix mbrola voice dependency paths.
+    - Replace intltool build-dep with gettext.
+    - Remove debian/*.1 manpages, install upstream-generated manpages.
+    - Add help2man and python3-xdg build-deps.
+    - Bump glib-2.0 build-dep version.
+    - Add BUGS, FAQ, and the various READMES to speech-dispatcher docs.
+
+ -- Samuel Thibault <sthibault@debian.org>  Fri, 09 Nov 2018 03:02:06 +0100
+
+speech-dispatcher (0.8.8-9) unstable; urgency=medium
+
+  * cl-speech-dispatcher.{postinst,prerm}: Remove calls to
+    {,un}register-common-lisp-source.
+  * debian/control: Remove cl-speech-dispatcher's dependency on
+    common-lisp-controller for real (Closes: Bug#911526).
+
+ -- Samuel Thibault <sthibault@debian.org>  Tue, 15 Jan 2019 12:42:41 +0100
+
+speech-dispatcher (0.8.8-8) unstable; urgency=medium
+
+  * debian/speech-dispatcher-festival.README.Debian: Mention that
+    /etc/init.d/festival has to be created, to run festival as a server
+    (Closes: #774009).
+  * debian/control: Make cl-speech-dispatcher depend on
+    common-lisp-controller to get {,un}register-common-lisp-source.
+
+ -- Samuel Thibault <sthibault@debian.org>  Fri, 04 Jan 2019 01:16:21 +0100
+
+speech-dispatcher (0.8.8-7) unstable; urgency=medium
+
+  * debian/speech-dispatcher.postinst: Do not try to remove
+    /etc/default/speech-dispatcher when upgrading from version 0.8.8-4, it's
+    already gone there.
+  * debian/speech-dispatcher.maintscript: Fix version from which to remove
+    /etc/speech-dispatcher/clients/gnome-speech.conf conffile. 0.8.7-1's
+    upload missed versions 0.8.6-3 and 0.8.6-4 (Closes: #885598).
+  * control: Bump Standards-Version to 4.2.0 (no changes).
+  * control: Remove cl-speech-dispatcher's dependency on common-lisp-controller.
+    (Closes: Bug#911526).
+
+ -- Samuel Thibault <sthibault@debian.org>  Fri, 09 Nov 2018 01:01:31 +0100
+
+speech-dispatcher (0.8.8-6) unstable; urgency=medium
+
+  * control: Bump Standards-Version to 4.1.5 (no changes).
+  * patches/pico-fallback: Make pico fallback to english when chosen voice is
+    unavailable.
+  * control: Mark libspeechd-dev Multi-Arch: same and speech-dispatcher-doc-cs
+    Multi-Arch: foreign.
+  * rules: Move back speech-dispatcher-contrib to contrib.
+  * debian/speech-dispatcher.postinst: Do not call deb-systemd-helper on
+    non-Linux where the service file is not installed (Closes: Bug#904860).
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 29 Jul 2018 16:53:50 +0200
+
+speech-dispatcher (0.8.8-5) unstable; urgency=low
+
+  * speech-dispatcher.postinst: disable/enable speech-dispatcher after
+    configuring defaults, for first-time installations (Closes: Bug#901960).
+
+ -- Samuel Thibault <sthibault@debian.org>  Wed, 20 Jun 2018 21:08:50 +0200
+
+speech-dispatcher (0.8.8-4) unstable; urgency=medium
+
+  * Fix build on non-Linux ports by processing speech-dispatcher.install
+    through dh-exec.
+  * debian/speech-dispatcher.logrotate: Avoid reloading speech-dispatcher if
+    it is not running.
+  * Remove defaults file to control daemon startup, update-rc.d must be used
+    instead.  Bump debhelper and init-system-helpers dependencies accordingly.
+  * Bump Standards-Version to 4.1.4.
+  * control: Suggest espeak + mbrola for the espeak-mbrola-generic
+    configuration.
+  * control: Move dh-python to Build-Depends (Closes: Bug#901697).
+  * speech-dispatcher.postinst: Do not chown -R /var/run/speech-dispatcher. Do
+    not recurse for /var/log/speech-dispatcher.
+  * speech-dispatcher.lintian-overrides: Silence warning about the two calls
+    to update-rc.d.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 17 Jun 2018 14:51:14 +0200
+
+speech-dispatcher (0.8.8-3) experimental; urgency=medium
+
+  * Add systemd service file (Closes: Bug#890899).
+    - control: Add systemd dependency
+    - patches/systemd: Upstream patch.
+    - patches/systemd-debian: Debian tweaks.
+    - rules: Do not enable daemon by default.
+    - speech-dispatcher.postinst: If daemon was previously enabled, enable
+    the new systemd unit.
+    - speech-dispatcher.tmpfile: Add /var/run links in systemd case.
+    - speech-dispatcher.links: Make speech-dispatcher alias for service, so we
+    don't generate sysv service any more.
+  * speech-dispatcher.init: Also redirect .cache/speech-dispatcher/log to
+    /var/log.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 11 Mar 2018 19:04:02 +0100
+
+speech-dispatcher (0.8.8-2) unstable; urgency=medium
+
+  * Move speech-dispatcher-contrib to non-free so that it can be auto
+    build. Philosophical this is not idea, but better than manually
+    building. As the binary package already has a dependency on non-free,
+    it doesn't change anything for the user.
+
+ -- Paul Gevers <elbrus@debian.org>  Fri, 22 Dec 2017 11:20:53 +0100
+
+speech-dispatcher (0.8.8-1) unstable; urgency=medium
+
+  [ Samuel Thibault ]
+  * speech-dispatcher.logrotate: Use invoke-rc.d instead of /etc/init.d path.
+  * control: Migrate priority to optional.
+  * control: Make speech-dispatcher recommend sound-icons.
+
+  [ Paul Gevers ]
+  * New upstream release
+  * control: Bump Standards-Version to 4.1.2
+  * Bump debhelper compat level to 10
+
+ -- Paul Gevers <elbrus@debian.org>  Fri, 15 Dec 2017 09:56:04 +0100
+
+speech-dispatcher (0.8.7-1) unstable; urgency=medium
+
+  [ Samuel Thibault ]
+  * Make sure to drop obsolete /etc/speech-dispatcher/clients/gnome-speech.conf
+    conffile. (Closes: Bug#803536)
+  * patches/spd-conf: Fix spd-conf (Closes: Bug#860898)
+  * Use canonical anonscm vcs URL.
+  * debian/speech-dispatcher.1: fix debugging output path (Closes: Bug#860889)
+
+  [ Helmut Grohne ]
+  * Demote python3 from Build-Depends to Build-Depends-Indep (Closes: #842674)
+
+  [ Luke Yelavich ]
+  * debian/speech-dispatcher-pico.install: Ship the configuration files
+  * New upstream release
+    patches/spd-conf: Dropped, applied upstream
+
+  [ Paul Gevers ]
+  * Team upload
+  * patches/flite-strip-silence: Dropped, applied upstream
+  * Build with dh_python3 to fix paths
+  * Enable hardening
+  * Fix syntax errors in d/copyright
+  * Add fix-spelling-mistakes.patch
+  * Add add-german-translation.patch (Closes: #863306) Thanks to Chris Leick
+
+ -- Paul Gevers <elbrus@debian.org>  Fri, 14 Jul 2017 18:36:44 +0200
+
+speech-dispatcher (0.8.6-4) unstable; urgency=medium
+
+  * Fix stripped audio output of flite module (Closes: #856895).
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 05 Mar 2017 23:13:08 +0100
+
+speech-dispatcher (0.8.6-3) unstable; urgency=medium
+
+  [ Samuel Thibault ]
+  * Relax dependency between speech-dispatcher and speech-dispatcher-contrib a
+    bit: Require only same upstream version.  Avoids installability issues
+    with binNMU (Closes: #854091).
+
+  [ Luke Yelavich ]
+  * Set the default output module to espeak-ng (Closes: #854106).
+
+ -- Samuel Thibault <sthibault@debian.org>  Sat, 04 Feb 2017 10:59:22 +0100
+
+speech-dispatcher (0.8.6-1) unstable; urgency=medium
+
+  [ Luke Yelavich ]
+  * New upstream release
+
+ -- Samuel Thibault <sthibault@debian.org>  Tue, 10 Jan 2017 00:32:44 +0100
+
+speech-dispatcher (0.8.5-6) unstable; urgency=medium
+
+  * contrib: Make speech-dispatcher module packages depend on same version of
+    speech-dispatcher, and replace old speech-dispatcher package. Fix
+    speech-dispatcher-pico content.
+
+ -- Samuel Thibault <sthibault@debian.org>  Mon, 05 Dec 2016 23:44:12 +0100
+
+speech-dispatcher (0.8.5-5) unstable; urgency=medium
+
+  [ Luke Yelavich ]
+  * Split out cicero, espeak, espeak-ng, and flite modules into separate
+    packages
+  * Add speech-dispatcher-espeak-ng to the speech-dispatcher package
+    recommends, and add all other synth module packages to suggests
+
+  [ Samuel Thibault ]
+  * Rename speech-dispatcher-contrib package into speech-dispatcher-pico.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 04 Dec 2016 23:41:58 +0100
+
+speech-dispatcher (0.8.5-4) unstable; urgency=medium
+
+  * Fix installing the espeak-ng module.
+
+ -- Samuel Thibault <sthibault@debian.org>  Thu, 17 Nov 2016 01:20:03 +0100
+
+speech-dispatcher (0.8.5-3) unstable; urgency=medium
+
+  * Add espeak-ng support.
+
+ -- Samuel Thibault <sthibault@debian.org>  Thu, 10 Nov 2016 00:42:55 +0100
+
+speech-dispatcher (0.8.5-2) unstable; urgency=medium
+
+  * Restore recommandation of pulseaudio to fix speech after default
+    installation.
+  * speech-dispatcher.docs: Install documentation figures.
+  * patches/doc-figures: Patch texinfo paths to figures into our doc path.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 09 Oct 2016 18:37:29 +0200
+
+speech-dispatcher (0.8.5-1) unstable; urgency=medium
+
+  [ Luke Yelavich ]
+  * New upstream release
+  * debian/speech-dispatcher.postinst: Make sure /var/log/speech-dispatcher
+    exists before changing the owner, just to be safe
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 04 Sep 2016 22:55:57 +0200
+
+speech-dispatcher (0.8.4-2) unstable; urgency=medium
+
+  * Update set of compatibility symlinks (Closes: #827687)
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 19 Jun 2016 19:14:35 +0200
+
+speech-dispatcher (0.8.4-1) unstable; urgency=medium
+
+  [ Samuel Thibault ]
+  * rules: Clear.
+  * rules: Set ddeb-migration.
+  * control: Depend on debhelper 9.20150628 for ddeb-migration.
+  * rules: Use dpkg-parsechangelog
+  * control: Bump Standards-Version to 3.9.8 (no change).
+  * patches/API-Try-to-find-libspeechd_version.h-in-the-include-.patch,
+    build-Adjust-the-includedir-variable-to-point-to-the.patch: Drop, merged.
+
+  [ Luke Yelavich ]
+  * New upstream release
+  * Patch from Santiago Vila to fix FTBFS when using dpkg-buildpackage -A
+    (Closes: #806109)
+  * Make sure the speech dispatcher user doesn't have a shell set for existing
+    installations as well, thanks to Nicolas LE CAM for the suggestion
+    (Closes: #678951)
+
+ -- Samuel Thibault <sthibault@debian.org>  Mon, 23 May 2016 00:01:43 +0200
+
+speech-dispatcher (0.8.3-1) experimental; urgency=medium
+
+  [ Samuel Thibault ]
+  * control: Add myself as uploader, drop multiarch pre-depend.
+  * Bump Standards-Version to 3.9.6 (no changes).
+
+  [ Luke Yelavich ]
+  * The speech-dispatcher user should not have a shell set (Closes: #678951)
+  * New upstream release
+  * Dropped patches, applied upstream:
+    - configurable-module-dir.patch
+    - cs-docs.patch
+    - espeak-mbrola-generic.conf.patch
+    - fdl.patch
+    - fix_spelling_errors_reported_by_lintian.patch
+    - infinite-loop.patch
+    - pico-generic.patch
+    - spd_audio-Expose-dlopened-library-s-symbols-to-libs-.patch
+    - update_documentation_with_xdg_path.patch
+  * Update copyright file
+  * Add libsndfile1-dev build dependency
+  * Update symbols
+  * Cherry-pick some patches from upstream to fix pkg-config includedir issues
+    and finding libspeechd_version.h
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 25 Oct 2015 11:50:20 +0100
+
+speech-dispatcher (0.8-9) unstable; urgency=medium
+
+  * Do not make speech-dispatcher-contrib depend on pulseaudio, as libao works
+    fine.
+
+ -- Samuel Thibault <sthibault@debian.org>  Tue, 28 Jul 2015 00:57:42 +0200
+
+speech-dispatcher (0.8-8) unstable; urgency=medium
+
+  * Team upload
+  * Contrib upload, to introduce the speech-dispatcher-contrib binary package.
+
+ -- Samuel Thibault <sthibault@debian.org>  Mon, 06 Jul 2015 12:38:27 +0200
+
+speech-dispatcher (0.8-7) unstable; urgency=medium
+
+  * Team upload
+  * Cherry-pick patches from upstream git to fix CVE-2014-1724
+    (Closes: #745808)
+
+ -- Luke Yelavich <themuso@ubuntu.com>  Fri, 05 Dec 2014 09:06:54 +1100
+
+speech-dispatcher (0.8-6) unstable; urgency=low
+
+  * Remove dotconf 1.3 workaround as it is now available in sid
+
+ -- Paul Gevers <elbrus@debian.org>  Mon, 17 Mar 2014 20:09:21 +0100
+
+speech-dispatcher (0.8-5) unstable; urgency=low
+
+  * Upload to unstable
+  * Work around dotconf 1.3 requirement as it takes too long now
+
+ -- Paul Gevers <elbrus@debian.org>  Sat, 15 Feb 2014 21:23:37 +0100
+
+speech-dispatcher (0.8-4) experimental; urgency=low
+
+  * Fix maintainer address again (Closes: #736469)
+  * Update d/copyright and convert to machine readable format (Closes:
+    #734302)
+  * Add upstream commit link to spelling error patch
+
+ -- Paul Gevers <elbrus@debian.org>  Tue, 11 Feb 2014 21:57:06 +0100
+
+speech-dispatcher (0.8-3) experimental; urgency=low
+
+  * Add symlinks from old /usr/include/* to /usr/include/speech-dispatcher/*
+    to ease the transition of the new location (works for all current Debian
+    reverse dependencies)
+  * Fix links to user config/cache directories in the documentation
+
+ -- Paul Gevers <elbrus@debian.org>  Sun, 19 Jan 2014 16:17:29 +0100
+
+speech-dispatcher (0.8-2) experimental; urgency=low
+
+  * Update init script to use log_action_msg i.s.o. echo (Closes: #679162)
+  * Add Replaces/Breaks to python3-speechd and speech-dispatcher-festival
+    (Closes: #734778, #734899)
+  * Minor tweaks:
+    - wrap-and-sort on d/control
+    - Add patch descriptions to the ones missing them
+    - Update link in copyright to versioned LGPL file
+    - Remove override_dh_auto_install target as it only changed *.la files
+      that aren't installed
+    - Update speech-dispatcher.post* scripts to "set -e" (thanks Lintian)
+    - Remove pycompat and XB-Python-Version (obsolete)
+  * Fixed the wrong maintainer address
+  * Add python3-xdg to python3-speechd dependencies
+  * Update *README.Debian with updated configuration location and mention
+    the default is to not run as server
+  * Fix several spelling errors (thanks Lintian)
+
+ -- Paul Gevers <elbrus@debian.org>  Fri, 17 Jan 2014 21:07:49 +0100
+
+speech-dispatcher (0.8-1) experimental; urgency=low
+
+  [ Samuel Thibault ]
+  * debian/control: Set libspeechd2 multi-arch: same.
+  * debian/rules: Set multiarch libdir.
+  * debian/libspeechd-dev.install,libspeechd2.install,
+    speech-dispatcher.install: Use multiarch libdir.
+  * Do not depend on dpkg | install-info, now that we use the install-info
+    trigger.
+  * Bump Standards-Version to 3.9.5.
+  * Bump dotconf dependency to >= 1.3.
+  * debian/control: Move VCS to tts team.
+
+  [ Luke Yelavich ]
+  * New upstream release
+  * debian/patches/infinite-loop.patch: Refreshed
+  * Dropped patches:
+    - debian/patches/build-doc.patch
+    - debian/patches/procname.patch
+    - debian/patches/paths+files.patch
+    - debian/patches/pthread.patch
+  * Add libltdl-dev and intltool to build-depends
+  * Update packaging for speech-dispatcher python 3 bindings.
+  * Move speech-dispatcher modules to an architecture independent dir, since
+    modules can be written in any language, and i386 only modules can be
+    used on amd64 systems
+  * Create separate audio plugins package
+  * Convert to debhelper 7+ packaging.
+  * Use dh-autoreconf to handle autotools file rebuilds.
+  * Update standards version to 3.9.3.
+  * Add X-Python-Version related fields to debian/control.
+  * Patch in the speech-dispatcher-cs.texi file since it was forgotten in the
+    0.8 tarball
+  * Add translations to speech-dispatcher
+
+  [ Jason White ]
+  * Raise level of subsection in fdl.texi to correct document structure.
+
+  [ David Henningsson ]
+  * debian/patches/pulse-default-latency.patch:
+    Default to 20 ms latency instead of 1 ms latency (LP: #1208826)
+    (Closes: #697637)
+
+  [ Luke Yelavich ]
+  * spd_audio: Expose dlopened library's symbols to libs it loads. Thanks to
+    Christopher Brannon <chris@the-brannons.com> for the patch, taken from
+    the speech-dispatcher mailing list.
+
+  [ Paul Gevers ]
+  * New maintainer (Closes: #730983)
+  * Acknowledge NMU's
+  * libsdaudio.* is not build and installed anymore
+    - Drop break/replace in libspeechd-dev
+    - Closes: #715119
+  * Add source lintian overrides for gfdl/gpl documentation
+  * Change speech-dispatcher-festival to Arch: any now it contains a binary
+  * Strip all binaries into -dbg package
+  * Add d/watch file (Thanks Bart Martens)
+  * Raise compat level to 9 to get auto-hardening (was a Wheezy release goal)
+
+ -- Paul Gevers <elbrus@debian.org>  Thu, 02 Jan 2014 20:31:48 +0100
+
+speech-dispatcher (0.7.1-6.3) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix texinfo error (Closes: #713310)
+
+ -- Hilko Bengen <bengen@debian.org>  Sat, 23 Nov 2013 19:26:30 +0100
+
+speech-dispatcher (0.7.1-6.2) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * control: Add break/replace for move of libsdaudio.{a,so} from
+    speech-dispatcher to libspeechd-dev, thanks Andreas Beckmann for the
+    report & patch; closes: #694295.
+  * patches/espeak-mbrola-generic.conf.patch: Add patch from Mau to fix mbrola
+    generic output; closes: #665382.
+
+ -- Samuel Thibault <sthibault@debian.org>  Fri, 07 Dec 2012 01:28:18 +0100
+
+speech-dispatcher (0.7.1-6.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix "FTBFS due to locally changed files without patch", inspirations taken
+    from Ubuntu / Luke Yelavich:
+    - don't run ./configure in the clean target
+    - drop automatically generated patch debian-changes-0.7.1-6
+    - use dh-autoreconf for handling autotools files
+    (Closes: #646388)
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 17 Feb 2012 16:16:34 +0100
+
+speech-dispatcher (0.7.1-6) unstable; urgency=low
+
+  [ Boris Dušek ]
+  * Fix description of libspeechd-dev package.
+  * Add manpages for spd-conf, spd-say and speech-dispatcher; closes: #598569.
+  * Correctly use execlp to specify module image name; closes: #579283.
+
+  [ Samuel Thibault ]
+  * Bump Standards-Version to 3.9.2 (no change needed)
+
+  [ Boris Dušek ]
+  * Use debhelper files as much as possible.  This should make merges between
+    Debian and Ubuntu packages easier.
+  * Do not ship documentation changelog as the main changelog.
+  * Move libsdaudio.{a,so} files to the development package.
+  * Add support for pico using generic module; closes: #601395.
+  * Add Vcs-* information to debian/control.
+  * Update upstream homepage.
+  * Transition to dh_python2; closes: #617070.
+  * Remove explicit libspeechd2 maintainer scripts; dh_makeshlibs
+    generates them
+
+ -- Boris Dušek <dusek@brailcom.org>  Mon, 25 Apr 2011 19:20:55 +0200
+
+speech-dispatcher (0.7.1-5) unstable; urgency=low
+
+  * Add speech-dispatcher-dbg package with debugging symbols.
+
+ -- Boris Dušek <dusek@brailcom.org>  Fri, 04 Mar 2011 11:30:12 +0100
+
+speech-dispatcher (0.7.1-4) unstable; urgency=low
+
+  * New maintainer.
+  * Fix logrotate script breaking logrotate configuration of other
+    packages.
+
+ -- Boris Dušek <dusek@brailcom.org>  Tue, 01 Mar 2011 23:31:59 +0100
+
+speech-dispatcher (0.7.1-3) experimental; urgency=low
+
+  * debian/rules: Run make in src/python/; closes: #604542.
+  * Upload to experimental because squeeze is in freeze.
+
+ -- Milan Zamazal <pdm@debian.org>  Mon, 22 Nov 2010 19:55:19 +0100
+
+speech-dispatcher (0.7.1-2) experimental; urgency=low
+
+  * Squeeze NMU by Samuel Thibault incorporated.
+  * libao-dev added to build dependencies; closes: #597964.
+  * Patch by Samuel Thibault <sthibault@debian.org> to prevent infinite
+    loop on some backend failures.
+  * Upload to experimental because squeeze is in freeze.
+
+ -- Milan Zamazal <pdm@debian.org>  Fri, 01 Oct 2010 16:29:38 +0200
+
+speech-dispatcher (0.7.1-1) experimental; urgency=low
+
+  * New upstream version.
+  * *.la file removed from libspeechd-dev.
+  * Standards 3.9.1.
+  * Upload to experimental because squeeze is in freeze.
+
+ -- Milan Zamazal <pdm@debian.org>  Mon, 13 Sep 2010 16:48:58 +0200
+
+speech-dispatcher (0.7-6.1) unstable; urgency=high
+
+  * Non-maintainer upload.
+
+  [ Milan Zamazal ]
+  * Fix logrotate script breaking logrotate configuration of other
+    packages; closes: #611711.
+
+ -- Samuel Thibault <sthibault@debian.org>  Wed, 02 Feb 2011 18:52:50 +0100
+
+speech-dispatcher (0.7-6) unstable; urgency=low
+
+  * Make flite output working again; thanks to Samuel Thibault
+    <sthibault@debian.org>; closes: #603897.
+
+ -- Milan Zamazal <pdm@debian.org>  Fri, 26 Nov 2010 13:27:07 +0100
+
+speech-dispatcher (0.7-5.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * debian/patches/debian-changes-0.7-5: Leave -lpthread in the
+    libspeech-dispatcher link line, drop it from tests; closes: #597947.
+  * debian/control: Make speech-dispatcher recommend pulseaudio as this is now
+    the default configuration; closes: #593968.
+  * debian/README.Debian: Mention that the SPEECHD_SOCKET variable also needs
+    to be set to revert to system-wide behavior.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 26 Sep 2010 16:17:19 +0200
+
+speech-dispatcher (0.7-5) unstable; urgency=low
+
+  * Move Python build dependencies from Build-Depends-Indep to Build-Depends;
+    closes: #588107.
+  * Standards 3.9.0 (no real change).
+
+ -- Milan Zamazal <pdm@debian.org>  Wed, 07 Jul 2010 13:12:13 +0200
+
+speech-dispatcher (0.7-4) unstable; urgency=low
+
+  * Default AudioOutputMethod changed to "pulse" to prevent blocking audio
+    output; information to README.Debian added.
+
+ -- Milan Zamazal <pdm@debian.org>  Fri, 02 Jul 2010 18:55:49 +0200
+
+speech-dispatcher (0.7-3) unstable; urgency=low
+
+  * Paths in python-speechd adjusted to match Debian installation.
+  * Package priorities set to match override entries.
+
+ -- Milan Zamazal <pdm@debian.org>  Tue, 22 Jun 2010 14:01:03 +0200
+
+speech-dispatcher (0.7-2) unstable; urgency=low
+
+  * Link speech-dispatcher log location to /var/log/speech-dispatcher/, if
+    it doesn't exist yet.
+  * Permit access to speech-dispatcher socket to `audio' group.
+
+ -- Milan Zamazal <pdm@debian.org>  Tue, 22 Jun 2010 12:11:16 +0200
+
+speech-dispatcher (0.7-1) unstable; urgency=low
+
+  * New upstream version.
+  * Switch to dpkg-source 3.0 (quilt) format.
+  * Versioned build dependency on flite-dev.
+  * Don't start Speech Dispatcher by default; closes: #577217.
+  * Standards 3.8.4 (no real change).
+
+ -- Milan Zamazal <pdm@debian.org>  Sat, 19 Jun 2010 09:08:43 +0200
+
+speech-dispatcher (0.6.7-9) unstable; urgency=low
+
+  * Fix init.d dependencies, thanks to Petter Reinholdtsen <pere@hungry.com>;
+    closes: #582167.
+  * Fix FTBFS on flite.c, thanks to Andres Mejia <mcitadel@gmail.com>;
+    closes: #577896.
+
+ -- Milan Zamazal <pdm@debian.org>  Sun, 30 May 2010 19:33:21 +0200
+
+speech-dispatcher (0.6.7-8) unstable; urgency=low
+
+  * Link spd-say to libpthread; closes: #556369.
+
+ -- Milan Zamazal <pdm@debian.org>  Mon, 23 Nov 2009 13:33:58 +0100
+
+speech-dispatcher (0.6.7-7) unstable; urgency=low
+
+  * Move cl-speech-dispatcher to section lisp.
+
+ -- Milan Zamazal <pdm@debian.org>  Mon, 09 Nov 2009 10:50:24 +0100
+
+speech-dispatcher (0.6.7-6) unstable; urgency=low
+
+  * Change priority back to optional as optional mumble package depends on
+    libspeechd2.
+  * postinst: Don't call adduser with --no-create-home; closes: #554851.
+  * postrm: Force removal of /var/run/speech-dispatcher.
+
+ -- Milan Zamazal <pdm@debian.org>  Mon, 09 Nov 2009 09:56:39 +0100
+
+speech-dispatcher (0.6.7-5) unstable; urgency=low
+
+  * Apply getline conflict patch from Luke Yelavich's unofficial
+    repository; closes: #552889.
+  * init script: Create /var/run/speech-dispatcher/ directory if it
+    doesn't exist.
+  * init script: Call `start-stop-daemon --start' with --oknodo.
+  * postinst: Don't create speech-dispatcher home directory.
+  * README.source added.
+  * debian/rules: Actually pass MAKEFLAGS and other variables to make
+    invocations.
+  * debian/rules: Don't override prefix on install, use DESTDIR instead.
+  * Standards 3.8.3.
+  * Updated to debhelper 7.
+  * debian/control: Add ${misc:Depends}.
+  * Don't use full paths in the maintainer scripts.
+  * Move the memory leak fix patch to dpatch.
+
+ -- Milan Zamazal <pdm@debian.org>  Mon, 02 Nov 2009 14:12:08 +0100
+
+speech-dispatcher (0.6.7-4) unstable; urgency=low
+
+  * Upload to unstable.
+
+ -- Milan Zamazal <pdm@debian.org>  Sat, 07 Mar 2009 14:25:29 +0100
+
+speech-dispatcher (0.6.7-3) experimental; urgency=low
+
+  * Fix memory leak on connection error in libspeechd.  Thanks to Mario
+    Lang <mlang@debian.org>.  Closes: #509533.
+
+ -- Milan Zamazal <pdm@debian.org>  Tue, 23 Dec 2008 10:21:16 +0100
+
+speech-dispatcher (0.6.7-2) experimental; urgency=low
+
+  * Main log file name changed back to `speech-dispatcher.log' everywhere.
+  * Upload to experimental because lenny is frozen.
+
+ -- Milan Zamazal <pdm@debian.org>  Fri, 24 Oct 2008 20:38:30 +0200
+
+speech-dispatcher (0.6.7-1) experimental; urgency=low
+
+  * New upstream version.
+  * Upload to experimental because lenny is frozen.
+
+ -- Milan Zamazal <pdm@debian.org>  Mon, 04 Aug 2008 21:27:14 +0200
+
+speech-dispatcher (0.6.7~rc1-1) unstable; urgency=low
+
+  * New upstream version (pre-release).
+  * DEB_BUILD_OPTIONS setup updated as described in the current policy.
+  * `Homepage' control field added.
+  * Standards 3.8.0.
+
+ -- Milan Zamazal <pdm@brailcom.org>  Sun, 13 Jul 2008 16:58:37 +0200
+
+speech-dispatcher (0.6.6-2) unstable; urgency=low
+
+  * Don't rmdir python-speechd/usr/lib, build depend on
+    python-central >= 0.6 instead; closes: #472029.
+  * config.{guess,sub} updated.
+
+ -- Milan Zamazal <pdm@debian.org>  Fri, 21 Mar 2008 21:39:17 +0100
+
+speech-dispatcher (0.6.6-1) unstable; urgency=low
+
+  * New upstream version.
+  * Standards 3.7.3 (no real change).
+  * Remove trailing stars in debian/patches/00list.
+  * Don't create /usr/lib/speech-dispatcher in libspeechd2.
+  * Don't create /usr/share/festival in speech-dispatcher.
+  * speech-dispatcher.7 man page formal fixes.
+  * Descriptions added to Debian patches.
+  * config.* files synced with current autotools-dev.
+
+ -- Milan Zamazal <pdm@debian.org>  Wed, 13 Feb 2008 22:59:11 +0100
+
+speech-dispatcher (0.6.5-1) unstable; urgency=low
+
+  * New upstream version.
+  * Use dpatch for upstream patches.
+
+ -- Milan Zamazal <pdm@debian.org>  Fri, 30 Nov 2007 19:18:46 +0100
+
+speech-dispatcher (0.6.4-2) unstable; urgency=low
+
+  * Build-depend on libespeak-dev.
+
+ -- Milan Zamazal <pdm@debian.org>  Fri, 31 Aug 2007 09:30:15 +0200
+
+speech-dispatcher (0.6.4-1) unstable; urgency=low
+
+  * New upstream version.
+  * debian/rules: Don't `make distclean' result.
+  * debian/control: Use ${*:Version} instead of ${Source-Version}.
+
+ -- Milan Zamazal <pdm@debian.org>  Wed, 29 Aug 2007 14:38:54 +0200
+
+speech-dispatcher (0.6.2-3) unstable; urgency=low
+
+  * Add missing upstream cleanup actions.
+
+ -- Milan Zamazal <pdm@debian.org>  Tue,  1 May 2007 10:37:42 +0200
+
+speech-dispatcher (0.6.2-2) experimental; urgency=low
+
+  * debian/rules: Don't fail when building arch-dep target without Python;
+    closes: #412995.
+  * Upload to experimental because etch is in freeze.
+
+ -- Milan Zamazal <pdm@debian.org>  Thu,  1 Mar 2007 18:38:08 +0100
+
+speech-dispatcher (0.6.2-1) experimental; urgency=low
+
+  * New upstream version.
+  * Upload to experimental because etch is in freeze.
+  * LSB section added to the init script, use LSB functions for printing
+    messages.
+  * Don't call dh_python in rules.
+
+ -- Milan Zamazal <pdm@debian.org>  Wed, 28 Feb 2007 12:27:31 +0100
+
+speech-dispatcher (0.6.1-3) unstable; urgency=low
+
+  * debian/rules: Actually use the CFLAGS variable.
+
+ -- Milan Zamazal <pdm@debian.org>  Mon,  6 Nov 2006 09:58:02 +0100
+
+speech-dispatcher (0.6.1-2) unstable; urgency=low
+
+  * python-speechd updated to the new Python policy; closes: #380959.
+
+ -- Milan Zamazal <pdm@debian.org>  Tue,  1 Aug 2006 13:03:45 +0200
+
+speech-dispatcher (0.6.1-1) unstable; urgency=low
+
+  * New upstream version.
+  * New binary package python-speechd.
+
+ -- Milan Zamazal <pdm@debian.org>  Tue, 25 Jul 2006 17:42:29 +0200
+
+speech-dispatcher (0.6-6) unstable; urgency=low
+
+  * Build-depend on libasound2-dev only on Linux architectures;
+    closes: #377889.
+
+ -- Milan Zamazal <pdm@debian.org>  Wed, 12 Jul 2006 09:14:06 +0200
+
+speech-dispatcher (0.6-5) unstable; urgency=low
+
+  * Don't fail in postinst when speech-dispatcher doesn't start.
+  * Standards 3.7.2 (no real change).
+
+ -- Milan Zamazal <pdm@debian.org>  Mon, 10 Jul 2006 14:39:31 +0200
+
+speech-dispatcher (0.6-4) unstable; urgency=low
+
+  * Libraries required for NAS support added to build dependencies.
+
+ -- Milan Zamazal <pdm@debian.org>  Mon, 27 Mar 2006 13:04:13 +0200
+
+speech-dispatcher (0.6-3) unstable; urgency=low
+
+  * libasound2-dev added to build-dependencies.
+
+ -- Milan Zamazal <pdm@debian.org>  Sun, 26 Mar 2006 22:38:42 +0200
+
+speech-dispatcher (0.6-2) unstable; urgency=low
+
+  * Added missing declaration in the upstream sources to make the package
+    compile on 64-bit architectures, thanks to
+    Samuel Thibault <samuel.thibault@ens-lyon.org>; closes: #356134.
+  * Standards 3.6.2 (no real change).
+
+ -- Milan Zamazal <pdm@debian.org>  Fri, 10 Mar 2006 12:14:17 +0100
+
+speech-dispatcher (0.6-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Milan Zamazal <pdm@debian.org>  Fri, 17 Feb 2006 10:40:25 +0100
+
+speech-dispatcher (0.5-4) unstable; urgency=low
+
+  * Typo in Festival use instructions fixed; closes: #326992.
+  * Remove speech-dispatcher user on `remove' instead of `purge'.  Remove
+    its home directory with `rm -r' instead of `deluser --remove-home'.
+    Change owner of the home directory in postinst.  Change owner of the
+    log directory recursively.  Closes: #348241.
+
+ -- Milan Zamazal <pdm@debian.org>  Mon, 16 Jan 2006 12:07:23 +0100
+
+speech-dispatcher (0.5-3) unstable; urgency=low
+
+  * Patch by Andreas Jochens to compile on amd64 applied; closes: #298420.
+
+ -- Milan Zamazal <pdm@debian.org>  Mon,  7 Mar 2005 15:28:31 +0100
+
+speech-dispatcher (0.5-2) unstable; urgency=low
+
+  * speech-dispatcher: Conflict with older libspeechd1.
+
+ -- Milan Zamazal <pdm@debian.org>  Tue,  9 Nov 2004 08:38:55 +0100
+
+speech-dispatcher (0.5-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Milan Zamazal <pdm@debian.org>  Tue, 19 Oct 2004 18:58:53 +0200
+
+speech-dispatcher (0.4.1-3) unstable; urgency=low
+
+  * speech-dispatcher: Depend on adduser; closes: #272215.
+
+ -- Milan Zamazal <pdm@debian.org>  Sat, 18 Sep 2004 20:29:46 +0200
+
+speech-dispatcher (0.4.1-2) unstable; urgency=low
+
+  * libsdaudio.so moved to speech-dispatcher.
+  * Don't build-depend on automake1.7.
+
+ -- Milan Zamazal <pdm@debian.org>  Wed, 30 Jun 2004 10:56:29 +0200
+
+speech-dispatcher (0.4.1-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Milan Zamazal <pdm@debian.org>  Sun, 30 May 2004 12:55:54 +0200
+
+speech-dispatcher (0.4-1) unstable; urgency=low
+
+  * New upstream version.
+  * Standards 3.6.1 (no change).
+
+ -- Milan Zamazal <pdm@debian.org>  Fri, 28 May 2004 16:07:05 +0200
+
+speech-dispatcher (0.3-6) unstable; urgency=low
+
+  * Upstream ltmain.sh removed and all auto* files rebuilt;
+    closes: #248536.
+
+ -- Milan Zamazal <pdm@debian.org>  Sun, 23 May 2004 13:54:32 +0200
+
+speech-dispatcher (0.3-5) unstable; urgency=low
+
+  * Default module log file directory changed to
+    /var/log/speech-dispatcher/.
+  * `texinfo' added to build dependencies; closes: #247788.
+
+ -- Milan Zamazal <pdm@debian.org>  Fri,  7 May 2004 07:26:35 +0200
+
+speech-dispatcher (0.3-4) unstable; urgency=low
+
+  * speech-dispatcher-festival: This is an architecture independent
+    package.
+  * debian/rules: Don't build binary-indep packages in binary-dep;
+    closes: #244389.
+  * debian/rules: Install the libraries correctly even with the newer
+    libtool versions that generate library files without the .so extension
+    (for some mysterious unexplained reason); closes: #244386.
+  * speech-dispatcher: The lintian override file updated.
+
+ -- Milan Zamazal <pdm@debian.org>  Sun, 18 Apr 2004 17:39:53 +0200
+
+speech-dispatcher (0.3-3) unstable; urgency=low
+
+  * libspeechd1: Conflict with libspeechd0 (>= 0.3).
+  * Use --oknodo in start-stop-daemon on reloading; closes: #242362.
+  * cl-speech-dispatcher: Depend on cl-regex; closes: #243368.
+
+ -- Milan Zamazal <pdm@debian.org>  Tue, 13 Apr 2004 09:35:59 +0200
+
+speech-dispatcher (0.3-2) unstable; urgency=low
+
+  * libspeechd0 renamed to libspeechd1.
+
+ -- Milan Zamazal <pdm@debian.org>  Mon,  5 Apr 2004 12:12:42 +0200
+
+speech-dispatcher (0.3-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Milan Zamazal <pdm@debian.org>  Mon,  5 Apr 2004 08:58:05 +0200
+
+speech-dispatcher (0.2-8) unstable; urgency=low
+
+  * Priority changed back to extra.
+  * Don't install upstream changelog to all binary packages.
+
+ -- Milan Zamazal <pdm@debian.org>  Thu, 19 Feb 2004 10:16:18 +0100
+
+speech-dispatcher (0.2-7) unstable; urgency=low
+
+  * Typo in speech-dispatcher dependencies fixed; closes: #233639.
+  * New package speech-dispatcher-festival.
+  * Package priority changed to optional.
+  * Require at least current libspeechd0 version in shlibs.
+
+ -- Milan Zamazal <pdm@debian.org>  Thu, 19 Feb 2004 09:57:57 +0100
+
+speech-dispatcher (0.2-6) unstable; urgency=low
+
+  * Don't install festival-interface.
+  * Suggest festival-freebsoft-utils.
+
+ -- Milan Zamazal <pdm@debian.org>  Mon,  2 Feb 2004 16:04:20 +0100
+
+speech-dispatcher (0.2-5) unstable; urgency=low
+
+  * Some upstream fixes incorporated.
+  * Typo in `Recommends' field name fixed.
+
+ -- Milan Zamazal <pdm@debian.org>  Tue, 27 Jan 2004 12:03:57 +0100
+
+speech-dispatcher (0.2-4) unstable; urgency=low
+
+  * Common Lisp support added from the CVS version.
+  * New binary package cl-speech-dispatcher.
+  * Use debian/compat and Debhelper 4.
+
+ -- Milan Zamazal <pdm@debian.org>  Tue, 20 Jan 2004 19:31:06 +0100
+
+speech-dispatcher (0.2-3) unstable; urgency=low
+
+  * Commented out log file locations in config files moved to
+    /var/log/speech-dispatcher/ and logrotate entries added for them.
+
+ -- Milan Zamazal <pdm@debian.org>  Tue,  6 Jan 2004 18:10:58 +0100
+
+speech-dispatcher (0.2-2) unstable; urgency=low
+
+  * AUTHORS file added.
+  * Info entry for ssip.info added.
+
+ -- Milan Zamazal <pdm@debian.org>  Tue, 30 Dec 2003 09:46:09 +0100
+
+speech-dispatcher (0.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/rules: Call `make distclean' instead of `make maintainer-clean'.
+  * debian/rules: Update config.{sub,guess}.
+  * Build-depend on autotools-dev; don't build-depend on librecode-dev.
+
+ -- Milan Zamazal <pdm@debian.org>  Mon, 29 Dec 2003 14:33:16 +0100
+
+speech-dispatcher (0.1-3) unstable; urgency=low
+
+  * Don't recommend `flite'; closes: #221889.
+  * Suggest `festival', don't recommend it.
+  * Package sections changed to be in correspondence with the override
+    file.
+  * Information about server_access_list added to README.Debian.
+
+ -- Milan Zamazal <pdm@debian.org>  Wed, 26 Nov 2003 12:42:11 +0100
+
+speech-dispatcher (0.1-2) unstable; urgency=low
+
+  * Recommend `flite | festival'.
+  * Recommend `sound-icons'.
+  * Don't run automake etc. explicitly.
+  * Build-depend on libtool; closes: #221006.
+  * Log file permissions explained in README.Debian; closes: #221102.
+
+ -- Milan Zamazal <pdm@debian.org>  Tue, 18 Nov 2003 14:54:40 +0100
+
+speech-dispatcher (0.1-1) unstable; urgency=low
+
+  * Initial packaging.
+
+ -- Milan Zamazal <pdm@debian.org>  Fri,  7 Nov 2003 10:28:54 +0100

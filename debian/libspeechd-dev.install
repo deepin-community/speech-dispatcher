@@ -1,0 +1,4 @@
+usr/lib/*/libspeechd.so
+usr/lib/*/libspeechd.a
+usr/lib/*/pkgconfig
+usr/include

@@ -1,0 +1,13 @@
+# They are maintained together
+version-substvar-for-external-package speech-dispatcher-baratinoo -> speech-dispatcher
+version-substvar-for-external-package speech-dispatcher-ibmtts -> speech-dispatcher
+version-substvar-for-external-package speech-dispatcher-ibmtts -> speech-dispatcher-audio-plugins
+version-substvar-for-external-package speech-dispatcher-voxin -> speech-dispatcher
+version-substvar-for-external-package speech-dispatcher-voxin -> speech-dispatcher-audio-plugins
+version-substvar-for-external-package speech-dispatcher-kali -> speech-dispatcher
+version-substvar-for-external-package speech-dispatcher-pico -> speech-dispatcher
+version-substvar-for-external-package speech-dispatcher-ivona -> speech-dispatcher
+version-substvar-for-external-package speech-dispatcher-ivona -> speech-dispatcher-audio-plugins
+
+# That is for main
+build-depends-indep-without-arch-indep

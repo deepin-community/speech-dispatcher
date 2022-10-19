@@ -1,0 +1,2 @@
+# Yes, but that is really where it will find it
+speech-dispatcher-ibmtts: custom-library-search-path usr/lib/speech-dispatcher-modules/sd_ibmtts /opt/IBM/ibmtts/lib

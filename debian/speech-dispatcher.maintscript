@@ -1,0 +1,4 @@
+rm_conffile /etc/speech-dispatcher/modules/mary-generic.conf 0.10.1-2~ speech-dispatcher
+rm_conffile /etc/speech-dispatcher/modules/espeak-generic.conf 0.10.2-1~ speech-dispatcher
+rm_conffile /etc/speech-dispatcher/modules/pico-generic.conf 0.10.2-1~ speech-dispatcher
+rm_conffile /etc/speech-dispatcher/modules/ivona.conf 0.10.2-3~ speech-dispatcher

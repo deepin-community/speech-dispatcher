@@ -1,0 +1,32 @@
+#!/bin/sh
+set -e
+
+#DEBHELPER#
+
+if [ -z "$(dpkg-query -f '${Version}' -W speech-dispatcher-baratinoo 2> /dev/null)" ]
+then
+	dpkg-maintscript-helper rm_conffile /etc/speech-dispatcher/modules/baratinoo.conf 0.10.2-1\~ speech-dispatcher -- "$@"
+fi
+
+if [ -z "$(dpkg-query -f '${Version}' -W speech-dispatcher-ibmtts 2> /dev/null)" ]
+then
+	dpkg-maintscript-helper rm_conffile /etc/speech-dispatcher/modules/ibmtts.conf 0.10.2-1\~ speech-dispatcher -- "$@"
+fi
+
+if [ -z "$(dpkg-query -f '${Version}' -W speech-dispatcher-kali 2> /dev/null)" ]
+then
+	dpkg-maintscript-helper rm_conffile /etc/speech-dispatcher/modules/kali.conf 0.10.2-1\~ speech-dispatcher -- "$@"
+fi
+
+USER_NAME=speech-dispatcher
+
+if test "$1" = "remove"; then
+  if id -u $USER_NAME >/dev/null 2>&1; then
+    deluser --quiet $USER_NAME
+  fi
+  rm -rf /run/speech-dispatcher
+fi
+
+if test "$1" = "purge"; then
+  rm -rf /var/log/speech-dispatcher  
+fi

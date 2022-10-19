@@ -1,0 +1,2 @@
+src/api/cl/ssip.asd usr/share/common-lisp/source/ssip
+src/api/cl/*.lisp usr/share/common-lisp/source/ssip

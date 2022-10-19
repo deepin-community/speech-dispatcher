@@ -1,0 +1,7 @@
+speech-dispatcher (0.8.8-4) unstable; urgency=medium
+
+    A systemd service file was added.  Daemon startup is not controlled by
+    /etc/default/speech-dispatcher any more, update-rc.d now has to be used
+    instead.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 17 Jun 2018 14:51:14 +0200

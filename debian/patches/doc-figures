@@ -1,0 +1,57 @@
+diff --git a/doc/speech-dispatcher-cs.texi b/doc/speech-dispatcher-cs.texi
+index 2d8264b..e093042 100644
+--- a/doc/speech-dispatcher-cs.texi
++++ b/doc/speech-dispatcher-cs.texi
+@@ -169,7 +169,7 @@ syntetiz
+ zpracovávány výstupními moduly (pluginy) pro rùzné hardwarové a softwarové
+ syntetizéry a pøeøíkány nahlas.
+ 
+-@image{figures/architecture,155mm,,Architektura Speech Dispatchera}
++@image{/usr/share/doc/speech-dispatcher/architecture,155mm,,Architektura Speech Dispatchera}
+ 
+ Detailní popis programování klientù i serveru je k dispozici v anglickém
+ manuálu.
+@@ -328,7 +328,7 @@ p
+ @node Diagram priorit, Pøíklady vyu¾ití priorit, Typy priorit, Model priorit zpráv
+ @subsubsection Diagram priorit
+ 
+-@image{figures/priorities,,,Speech Dispatcher architecture}
++@image{/usr/share/doc/speech-dispatcher/priorities,,,Speech Dispatcher architecture}
+ @c TODO: Generate a pdf version. (Why? -- Hynek Hanke)
+ 
+ @node Pøíklady vyu¾ití priorit,  , Diagram priorit, Model priorit zpráv
+diff --git a/doc/speech-dispatcher.texi b/doc/speech-dispatcher.texi
+index 0d249b1..efefbee 100755
+--- a/doc/speech-dispatcher.texi
++++ b/doc/speech-dispatcher.texi
+@@ -191,7 +191,7 @@ synthesizer it will say the message. These requests are handled by the
+ output plug-ins (output modules) for different hardware and software
+ synthesizers and then said aloud.
+ 
+-@image{figures/architecture,155mm,,Speech Dispatcher architecture}
++@image{/usr/share/doc/speech-dispatcher/architecture,155mm,,Speech Dispatcher architecture}
+ 
+ See also the detailed description @ref{Client Programming} interfaces, and
+ @ref{Server Programming} documentation.
+@@ -231,7 +231,7 @@ existent in the form of BrlAPI, the API for speech is now under
+ developement. Please see another architecture diagram showing how we
+ imagine Message Dispatcher in the future.
+ 
+-@image{figures/architecture-future,155mm,,Speech Dispatcher architecture}
++@image{/usr/share/doc/speech-dispatcher/architecture-future,155mm,,Speech Dispatcher architecture}
+ 
+ References:
+ @uref{http://www.freebsoft.org/tts-api/}
+diff --git a/doc/ssip.texi b/doc/ssip.texi
+index eaf6e4e..7b9bc0a 100644
+--- a/doc/ssip.texi
++++ b/doc/ssip.texi
+@@ -658,7 +658,7 @@ end of the @code{progress} sequences will be said.
+ @node Priority Diagram, Priority Setting Commands, Priority Categories, Message Priority Commands
+ @subsection Priority Diagram
+ 
+-@image{figures/priorities,,,Speech Synthesis Interface Protocol Priorities}
++@image{/usr/share/doc/speech-dispatcher/priorities,,,Speech Synthesis Interface Protocol Priorities}
+ 
+ @node Priority Setting Commands, Examples of Using Priorities, Priority Diagram, Message Priority Commands
+ @subsection Priority Setting Commands

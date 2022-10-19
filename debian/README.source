@@ -1,0 +1,6 @@
+StarPU for Debian
+-----------------
+
+The source is the same for the main and the contrib package. The only difference
+is that the contrib package build-depends on libttspico-dev. To switch to main
+rules, run ./debian/rules main, and the same for contrib.

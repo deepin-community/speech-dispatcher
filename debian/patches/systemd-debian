@@ -1,0 +1,17 @@
+---
+ speech-dispatcherd.service.in |    4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+--- a/speech-dispatcherd.service.in
++++ b/speech-dispatcherd.service.in
+@@ -3,7 +3,9 @@ Description=Speech-Dispatcher, common in
+ 
+ [Service]
+ Type=forking
+-ExecStart=@bindir@/speech-dispatcher -d
++User=speech-dispatcher
++PIDFile=/run/speech-dispatcher/speech-dispatcher.pid
++ExecStart=@bindir@/speech-dispatcher -d --pid-file /run/speech-dispatcher/speech-dispatcher.pid
+ ExecReload=/bin/kill -HUP $MAINPID
+ 
+ [Install]

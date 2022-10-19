@@ -1,0 +1,3 @@
+usr/lib/*/*.la
+usr/lib/*/speech-dispatcher/*.a
+usr/lib/*/speech-dispatcher/*.la

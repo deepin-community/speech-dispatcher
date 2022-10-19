@@ -1,0 +1,13 @@
+#! /usr/bin/dh-exec
+usr/bin/speech-dispatcher
+usr/bin/spd-say
+usr/bin/spdsend
+usr/lib/speech-dispatcher-modules/sd_dummy
+usr/lib/speech-dispatcher-modules/sd_generic
+usr/share/sounds/speech-dispatcher/dummy-message.wav
+usr/share/locale
+usr/share/speech-dispatcher
+etc/speech-dispatcher
+[linux-any] lib/systemd/system/speech-dispatcherd.service
+usr/share/man/man1/speech-dispatcher.1
+usr/share/man/man1/spd-say.1
