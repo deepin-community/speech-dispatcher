@@ -1,4 +1,4 @@
 version=3
-opts=uversionmangle=s/-(rc|beta)/~$1/ \
-https://github.com/brailcom/speechd/releases \
-(?:|.*/)speech-dispatcher(?:[_\-]v?|)@ANY_VERSION@@ARCHIVE_EXT@
+opts=searchmode=plain,uversionmangle=s/-(rc|beta)/~$1/ \
+https://api.github.com/repos/brailcom/speechd/releases \
+https://github.com/brailcom/speechd/releases/download/\d[\.\d]*/speech-dispatcher(?:[_\-]v?|)@ANY_VERSION@@ARCHIVE_EXT@

@@ -3,6 +3,8 @@
 export DEB_BUILD_MAINT_OPTIONS=hardening=+all
 include /usr/share/dpkg/pkg-info.mk
 
+export deb_systemdsystemunitdir = $(shell pkgconf --variable=systemdsystemunitdir systemd | sed s,^/,,)
+
 # NAS is in universe in Ubuntu
 ifeq ($(shell dpkg-vendor --derives-from Ubuntu && echo yes),yes)
 	NAS = --with-nas=no
@@ -13,23 +15,31 @@ endif
 endif
 endif
 
-source=$(shell dpkg-parsechangelog -S Source)
-ifeq ($(source),speech-dispatcher)
+CONFIGURE=--with-module-bindir=\$${prefix}/lib/speech-dispatcher-modules \
+		pidpath=/run/speech-dispatcher/ $(NAS)
+
+ifeq ($(DEB_SOURCE),speech-dispatcher)
 # disable non-free syntheses
-CONFIGURE=--with-baratinoo=no --with-ibmtts=no --with-voxin=no --with-kali=no --with-ivona=no
+CONFIGURE += --with-baratinoo=no --with-ibmtts=no --with-voxin=no --with-kali=no --with-ivona=no
 endif
 
-%:
-	dh $@ --with python3
+# Disable python discovery in binary-arch builds, so we can cross-compile
+CONFIGURE_ARCH=--disable-python
 
-override_dh_auto_configure:
+%:
+	dh $@
+
+config/modules/espeak-ng-mbrola-generic.conf:
 	for i in espeak-ng-mbrola-generic.conf \
 	         espeak-mbrola-generic.conf ; do \
 		sed < config/modules/$$i.in > config/modules/$$i -e "s/\$$DEB_HOST_MULTIARCH/$(DEB_HOST_MULTIARCH)/" ; \
 	done
-	dh_auto_configure -- --with-module-bindir=\$${prefix}/lib/speech-dispatcher-modules \
-			     $(CONFIGURE) \
-	                     pidpath=/run/speech-dispatcher/ $(NAS)
+
+override_dh_auto_configure-arch: config/modules/espeak-ng-mbrola-generic.conf
+	dh_auto_configure -- $(CONFIGURE) $(CONFIGURE_ARCH)
+
+override_dh_auto_configure-indep: config/modules/espeak-ng-mbrola-generic.conf
+	dh_auto_configure -- $(CONFIGURE)
 
 override_dh_auto_install:
 	# Bug#950793
@@ -61,8 +71,8 @@ override_dh_installsystemd:
 main:
 	sed -i 's/^speech-dispatcher-contrib /speech-dispatcher /' debian/changelog
 	sed -i '1s/^Source: speech-dispatcher-contrib$$/Source: speech-dispatcher/' debian/control
-	sed -i 's/^ libdumbtts-dev/# libdumbtts-dev/' debian/control
 	sed -i 's/^ libttspico-dev/# libttspico-dev/' debian/control
+	sed -i 's/^# help2man/ help2man/' debian/control
 	sed -i '/^#start-contrib$$/,/^#end-contrib$$/s/^/#/' debian/control
 	sed -i '/Package: speech-dispatcher$$/,$$s/^#*//' debian/control
 	sed -i '1,/^$$/s_^Section: contrib/_Section: _' debian/control
@@ -71,8 +81,8 @@ main:
 contrib:
 	sed -i 's/^speech-dispatcher /speech-dispatcher-contrib /' debian/changelog
 	sed -i '1s/^Source: speech-dispatcher$$/Source: speech-dispatcher-contrib/' debian/control
-	sed -i 's/^#* libdumbtts-dev/ libdumbtts-dev/' debian/control
 	sed -i 's/^#* libttspico-dev/ libttspico-dev/' debian/control
+	sed -i 's/^ help2man/# help2man/' debian/control
 	sed -i '/^##start-contrib$$/,/^##end-contrib$$/s/^#//' debian/control
 	sed -i '/Package: speech-dispatcher$$/,$$s/^/#/' debian/control
 	sed -i '1,/^$$/s_^Section: \([^/]*\)$$_Section: contrib/\1_' debian/control

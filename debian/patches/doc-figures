@@ -1,30 +1,32 @@
-diff --git a/doc/speech-dispatcher-cs.texi b/doc/speech-dispatcher-cs.texi
-index 2d8264b..e093042 100644
+---
+ doc/speech-dispatcher-cs.texi |    4 ++--
+ doc/speech-dispatcher.texi    |    4 ++--
+ doc/ssip.texi                 |    2 +-
+ 3 files changed, 5 insertions(+), 5 deletions(-)
+
 --- a/doc/speech-dispatcher-cs.texi
 +++ b/doc/speech-dispatcher-cs.texi
-@@ -169,7 +169,7 @@ syntetiz
- zpracovávány výstupními moduly (pluginy) pro rùzné hardwarové a softwarové
- syntetizéry a pøeøíkány nahlas.
+@@ -173,7 +173,7 @@ syntetizï¿½ru zprï¿½vu nechï¿½ pï¿½emluv
+ zpracovï¿½vï¿½ny vï¿½stupnï¿½mi moduly (pluginy) pro rï¿½znï¿½ hardwarovï¿½ a softwarovï¿½
+ syntetizï¿½ry a pï¿½eï¿½ï¿½kï¿½ny nahlas.
  
 -@image{figures/architecture,155mm,,Architektura Speech Dispatchera}
 +@image{/usr/share/doc/speech-dispatcher/architecture,155mm,,Architektura Speech Dispatchera}
  
- Detailní popis programování klientù i serveru je k dispozici v anglickém
- manuálu.
-@@ -328,7 +328,7 @@ p
- @node Diagram priorit, Pøíklady vyu¾ití priorit, Typy priorit, Model priorit zpráv
+ Detailnï¿½ popis programovï¿½nï¿½ klientï¿½ i serveru je k dispozici v anglickï¿½m
+ manuï¿½lu.
+@@ -332,7 +332,7 @@ pï¿½eï¿½ï¿½kï¿½na, je jejï¿½ pï¿½eï¿½ï¿½
+ @node Diagram priorit, Pï¿½ï¿½klady vyuï¿½itï¿½ priorit, Typy priorit, Model priorit zprï¿½v
  @subsubsection Diagram priorit
  
 -@image{figures/priorities,,,Speech Dispatcher architecture}
 +@image{/usr/share/doc/speech-dispatcher/priorities,,,Speech Dispatcher architecture}
  @c TODO: Generate a pdf version. (Why? -- Hynek Hanke)
  
- @node Pøíklady vyu¾ití priorit,  , Diagram priorit, Model priorit zpráv
-diff --git a/doc/speech-dispatcher.texi b/doc/speech-dispatcher.texi
-index 0d249b1..efefbee 100755
+ @node Pï¿½ï¿½klady vyuï¿½itï¿½ priorit,  , Diagram priorit, Model priorit zprï¿½v
 --- a/doc/speech-dispatcher.texi
 +++ b/doc/speech-dispatcher.texi
-@@ -191,7 +191,7 @@ synthesizer it will say the message. These requests are handled by the
+@@ -195,7 +195,7 @@ synthesizer it will say the message. The
  output plug-ins (output modules) for different hardware and software
  synthesizers and then said aloud.
  
@@ -33,8 +35,8 @@ index 0d249b1..efefbee 100755
  
  See also the detailed description @ref{Client Programming} interfaces, and
  @ref{Server Programming} documentation.
-@@ -231,7 +231,7 @@ existent in the form of BrlAPI, the API for speech is now under
- developement. Please see another architecture diagram showing how we
+@@ -235,7 +235,7 @@ existent in the form of BrlAPI, the API
+ development. Please see another architecture diagram showing how we
  imagine Message Dispatcher in the future.
  
 -@image{figures/architecture-future,155mm,,Speech Dispatcher architecture}
@@ -42,11 +44,9 @@ index 0d249b1..efefbee 100755
  
  References:
  @uref{http://www.freebsoft.org/tts-api/}
-diff --git a/doc/ssip.texi b/doc/ssip.texi
-index eaf6e4e..7b9bc0a 100644
 --- a/doc/ssip.texi
 +++ b/doc/ssip.texi
-@@ -658,7 +658,7 @@ end of the @code{progress} sequences will be said.
+@@ -658,7 +658,7 @@ end of the @code{progress} sequences wil
  @node Priority Diagram, Priority Setting Commands, Priority Categories, Message Priority Commands
  @subsection Priority Diagram
  

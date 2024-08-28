@@ -8,41 +8,262 @@ symbols:
 🏽	pell morena	none
 🏾	pell fosca	none
 🏿	pell molt fosca	none
-–	guió mitjà	none
-—	guió llarg	none
-·	punt volat	none
-«	cometa llatina esquerra	none
-»	cometa llatina dreta	none
-§	secció	none
-†	signe d’obelisc	none
-‡	signe d’obelisc de dos braços	none
-•	punt de llista	none
-°	grau	none
 ℗	enregistrament de so amb copyright	none
 ←	fletxa que apunta cap a l’esquerra	none
+↚	fletxa cap a l’esquerra amb traç	none
 →	fletxa que apunta cap a la dreta	none
+↛	fletxa cap a la dreta amb barra inclinada	none
 ↑	fletxa que apunta cap amunt	none
 ↓	fletxa que apunta cap avall	none
+↜	fletxa ondulada cap a l’esquerra	none
+↝	fletxa ondulada cap a la dreta	none
+↞	fletxa cap a l’esquerra amb dues puntes	none
+↟	fletxa cap amunt amb dues puntes	none
+↠	fletxa cap a la dreta amb dues puntes	none
+↡	fletxa cap avall amb dues puntes	none
+↢	fletxa cap a l’esquerra amb cua	none
+↣	fletxa cap a la dreta amb cua	none
+↤	fletxa des d’una barra cap a l’esquerra	none
+↥	fletxa des d’una barra cap amunt	none
+↦	fletxa des d’una barra cap a la dreta	none
+↧	fletxa des d’una barra cap avall	none
+↨	fletxa amunt i avall amb una base	none
+↫	fletxa cap a l’esquerra amb bucle	none
+↬	fletxa cap a la dreta amb bucle	none
+↭	fletxa esquerra i dreta ondulada	none
+↯	fletxa cap avall en zig-zag	none
+↰	fletxa cap amunt amb punta cap a l’esquerra	none
+↱	fletxa cap amunt amb punta cap a la dreta	none
+↲	fletxa cap avall amb punta cap a l’esquerra	none
+↳	fletxa cap avall amb punta cap a la dreta	none
+↴	fletxa curta a la dreta amb punta cap avall	none
+↵	fletxa curta avall amb punta a l’esquerra	none
+↶	fletxa semicircular superior antihorària	none
+↷	fletxa semicircular superior en sentit horari	none
+↸	fletxa cap al nord-oest amb barra llarga	none
+↹	fletxa esquerra sobre dreta amb barra	none
+↺	fletxa circular oberta en sentit antihorari	none
+↻	fletxa circular oberta en sentit horari	none
+↼	arpó cap a l’esquerra amb dent a sobre	none
+↽	arpó cap a l’esquerra amb dent a sota	none
+↾	arpó cap amunt amb dent a la dreta	none
+↿	arpó cap amunt amb dent a l’esquerra	none
+⇀	arpó cap a la dreta amb dent a sobre	none
+⇁	arpó cap a la dreta amb dent a sota	none
+⇂	arpó cap avall amb dent a la dreta	none
+⇃	arpó cap avall amb dent a l’esquerra	none
+⇄	fletxa dreta per sobre d’una fletxa esquerra	none
 ⇅	fletxes que apunten cap amunt i cap avall	none
 ⇆	fletxes cap a l’esquerra i la dreta	none
+⇇	dues fletxes cap a l’esquerra	none
+⇈	dues fletxes cap amunt	none
+⇉	dues fletxes cap a la dreta	none
+⇊	dues fletxes cap avall	none
+⇋	arpó esquerre per sobre d’un arpó dret	none
+⇌	arpó dret per sobre d’un arpó esquerre	none
+⇐	fletxa doble cap a l’esquerra	none
+⇍	fletxa doble cap a l’esquerra amb traç	none
+⇑	fletxa doble cap amunt	none
+⇒	fletxa doble cap a la dreta	none
+⇏	fletxa doble cap a la dreta amb traç	none
+⇓	fletxa doble cap avall	none
+⇔	fletxa doble cap a l’esquerra i la dreta	none
+⇎	fletxa doble esquerra i dreta amb traç	none
+⇖	fletxa doble cap al nord-oest	none
+⇗	fletxa doble cap al nord-est	none
+⇘	fletxa doble cap al sud-est	none
+⇙	fletxa doble cap al sud-oest	none
+⇚	fletxa triple cap a l’esquerra	none
+⇛	fletxa triple cap a la dreta	none
+⇜	fletxa en ziga-zaga cap a l’esquerra	none
+⇝	fletxa en ziga-zaga cap a la dreta	none
+⇞	fletxa cap amunt amb doble traç	none
+⇟	fletxa cap avall amb doble traç	none
+⇠	fletxa puntejada cap a l’esquerra	none
+⇡	fletxa puntejada cap amunt	none
+⇢	fletxa puntejada cap a la dreta	none
+⇣	fletxa puntejada cap avall	none
+⇤	fletxa cap a l’esquerra amb barra	none
+⇥	fletxa cap a la dreta amb barra	none
+⇦	fletxa buida cap a l’esquerra	none
+⇧	fletxa buida cap amunt	none
+⇨	fletxa buida cap a la dreta	none
+⇩	fletxa buida cap avall	none
+⇪	fletxa buida cap amunt des d’una barra	none
+⇵	fletxa esquerra cap avall i dreta cap amunt	none
+∀	per a tot	none
+∂	derivada parcial	none
+∃	existeix	none
+∅	conjunt buit	none
 ∆	increment	none
 ∇	nabla	none
 ∈	element de	none
-÷	signe de divisió	none
-×	signe de multiplicació	none
+∉	no és un element	none
+∋	conté com a membre	none
+∎	final de prova	none
+∏	producte d’operador n	none
+∑	sumatòria d’operador n	none
+≮	no menor que	none
+≠	no és igual que	none
+≯	no major que	none
+−	signe menys	none
 ⁻	superíndex resta	none
+∓	més menys	none
+∕	barra de divisió	none
+∗	operador asterisc	none
+∘	operador anell	none
+∙	operador vinyeta	none
 √	arrel quadrada	none
+∝	proporcional	none
 ∞	signe d’infinit	none
+∟	angle recte	none
+∠	angle	none
+∣	divideix	none
+∥	paral·lel	none
+∧	I lògic	none
 ∩	intersecció	none
 ∪	unió	none
+∫	integral	none
+∬	integral doble	none
+∮	integral de contorn	none
+∴	per tant	none
+∵	perquè	none
+∶	relació	none
+∷	proporció	none
+∼	operador titlla	none
+∽	titlla invertida	none
+∾	s inclinada invertida	none
+≃	igual asimptòtic	none
+≅	igual aproximat	none
+≈	aproximació	none
+≌	tot igual a	none
+≒	aproximadament igual que la imatge	none
+≖	anell dintre del signe d’igual	none
 ≡	idèntic a	none
+≣	estrictament equivalent	none
+≤	menor o igual a	none
+≥	major o igual a	none
+≦	menor que a sobre del signe d’igual	none
+≧	major que a sobre del signe d’igual	none
+≪	molt menor que	none
+≫	molt major que	none
+≬	entre	none
+≳	major que equivalent	none
+≺	precedeix	none
+≻	succeeix	none
+⊁	no succeeix	none
 ⊂	subconjunt de	none
+⊃	supraconjunt	none
+⊆	subconjunt igual	none
+⊇	supraconjunt igual	none
+⊕	signe més encerclat	none
+⊖	signe menys encerclat	none
+⊗	signe de multiplicació encerclat	none
+⊘	barra de divisió encerclada	none
+⊙	operador punt encerclat	none
+⊚	operador anell encerclat	none
+⊛	operador asterisc encerclat	none
+⊞	signe més en un quadrat	none
+⊟	signe menys en un quadrat	none
+⊥	tatxa cap amunt	none
+⊮	no força	none
+⊰	precedeix en la relació	none
+⊱	succeeix en la relació	none
+⋭	no conté com un subgrup normal igual	none
+⊶	original	none
+⊹	matriu hermítica conjugada	none
+⊿	triangle rectangle	none
+⋁	O lògic d’operador n	none
+⋂	intersecció d’operador n	none
+⋃	unió d’operador n	none
+⋅	operador punt	none
+⋆	operador estrella	none
+⋈	unió natural	none
+⋒	intersecció doble	none
+⋘	considerablement menor que	none
+⋙	considerablement major que	none
+⋮	el·lipsi vertical	none
+⋯	el·lipsi horitzontal volada	none
+⋰	el·lipsi diagonal cap amunt a la dreta	none
+⋱	el·lipsi diagonal cap avall a la dreta	none
+■	quadrat ple	none
+□	quadrat buit	none
+▢	quadrat buit amb els angles arrodonits	none
+▣	quadrat buit amb un quadrat ple a l’interior	none
+▤	quadrat amb ratlles horitzontals	none
+▥	quadrat amb ratlles verticals	none
+▦	quadrat quadriculat perpendicularment	none
+▧	quadrat ratllat de dalt esquerra a baix dreta	none
+▨	quadrat ratllat de baix esquerra a dalt dreta	none
+▩	quadrat quadriculat diagonalment	none
+▬	rectangle ple	none
+▭	rectangle buit	none
+▮	rectangle vertical ple	none
+▰	paral·lelogram ple	none
 ▲	triangle ple que apunta cap amunt	none
+△	triangle buit cap amunt	none
+▴	triangle petit ple cap amunt	none
+▵	triangle petit buit cap amunt	none
+▷	triangle buit cap a la dreta	none
+▸	triangle petit ple cap a la dreta	none
+▹	triangle petit buit cap a la dreta	none
+►	punter ple cap a la dreta	none
+▻	punter buit cap a la dreta	none
 ▼	triangle ple que apunta cap avall	none
+▽	triangle buit cap avall	none
+▾	triangle petit ple cap avall	none
+▿	triangle petit buit cap avall	none
+◁	triangle buit cap a l’esquerra	none
+◂	triangle petit ple cap a l’esquerra	none
+◃	triangle petit buit cap a l’esquerra	none
+◄	punter ple cap a l’esquerra	none
+◅	punter buit cap a l’esquerra	none
+◆	rombe ple	none
+◇	rombe buit	none
+◈	rombe buit amb un rombe ple a l’interior	none
+◉	cercle buit amb un cercle ple a l’interior	none
 ◊	rombe	none
 ○	cercle buit	none
+◌	cercle puntejat	none
+◍	cercle amb ratlles verticals	none
+◎	cercles concèntrics	none
 ●	cercle ple	none
+◐	cercle amb la meitat esquerra plena	none
+◑	cercle amb la meitat dreta plena	none
+◒	cercle amb la meitat inferior plena	none
+◓	cercle amb la meitat superior plena	none
+◔	cercle amb el quadrant superior dret ple	none
+◕	cercle amb quadrat superior esquerre buit	none
+◖	semicercle esquerre ple	none
+◗	semicercle dret ple	none
+◘	vinyeta invertida	none
+◙	quadrat ple amb un cercle buit a l’interior	none
+◜	arc circular en quadrant superior esquerre	none
+◝	arc circular en el quadrant superior dret	none
+◞	arc circular en el quadrant inferior dret	none
+◟	arc circular en el quadrant inferior esquerre	none
+◠	semicercle superior	none
+◡	semicercle inferior	none
+◢	triangle inferior dret ple	none
+◣	triangle inferior esquerre ple	none
+◤	triangle superior esquerre ple	none
+◥	triangle superior dret ple	none
+◦	vinyeta buida	none
 ◯	cercle buit gran	none
+◳	quadrat buit amb quadrant superior dret	none
+◷	cercle buit amb quadrant superior dret	none
+◿	triangle inferior dret	none
+♪	corxera	none
+⨧	signe més amb el nombre dos en subíndex	none
+⨯	producte creuat vector	none
+⨼	producte interior	none
+⩣	O lògic amb barra inferior doble	none
+⩽	menor que o igual inclinat	none
+⪍	menor que sobre igual similar	none
+⪚	major que o igual de doble línia	none
+⪺	succeeix a sobre de no gairebé igual a	none
+♭	bemoll	none
+♯	sostingut	none
 😀	cara molt somrient	none
 😃	cara molt somrient amb els ulls ben oberts	none
 😄	cara amb rialla i els ulls somrients	none
@@ -53,6 +274,7 @@ symbols:
 😂	cara amb llàgrimes d’alegria	none
 🙂	cara que somriu una mica	none
 🙃	cara de cap per avall	none
+🫠	cara que es desfà	none
 😉	cara que pica l’ullet	none
 😊	cara somrient amb els ulls alegres	none
 😇	cara somrient amb aurèola	none
@@ -65,7 +287,7 @@ symbols:
 😚	cara que fa un petó amb els ulls tancats	none
 😙	cara que fa un petó amb els ulls alegres	none
 🥲	cara somrient amb una llàgrima	none
-😋	cara d’assaborir un menjar deliciós	none
+😋	cara que assaboreix menjar	none
 😛	cara que fa llengotes	none
 😜	cara que fa llengotes i pica l’ullet	none
 🤪	cara de bogeria	none
@@ -73,18 +295,25 @@ symbols:
 🤑	cara de diners	none
 🤗	cara amb abraçada	none
 🤭	cara amb la mà sobre la boca	none
+🫢	cara amb ulls oberts i mà sobre la boca	none
+🫣	cara tapada que espia amb un ull	none
 🤫	cara que demana silenci	none
 🤔	cara pensativa	none
+🫡	cara que saluda	none
 🤐	cara amb cremallera a la boca	none
 🤨	cara amb una cella aixecada	none
 😐	cara neutra	none
 😑	cara inexpressiva	none
 😶	cara sense boca	none
+🫥	cara amb línia de punts	none
+😶‍🌫	cara entre núvols	none
 😏	cara somrient amb superioritat	none
 😒	cara de desaprovació	none
 🙄	cara amb els ulls en blanc	none
 😬	cara que fa una ganyota amb les dents	none
+😮‍💨	cara que exhala	none
 🤥	cara de mentider	none
+🫨	cara que tremola	none
 😌	cara d’alleujament	none
 😔	cara desanimada	none
 😪	cara de son	none
@@ -100,6 +329,7 @@ symbols:
 🥶	cara de fred	none
 🥴	cara de mareig	none
 😵	cara marejada	none
+😵‍💫	cara amb ulls d’espiral	none
 🤯	cap que explota	none
 🤠	cara amb barret de vaquer	none
 🥳	cara festiva	none
@@ -108,6 +338,7 @@ symbols:
 🤓	cara de setciències	none
 🧐	cara amb monocle	none
 😕	cara de confusió	none
+🫤	cara amb la boca en diagonal	none
 😟	cara de preocupació	none
 🙁	cara una mica arrufada	none
 ☹	cara arrufada	none
@@ -116,6 +347,7 @@ symbols:
 😲	cara estupefacta	none
 😳	cara enrojolada	none
 🥺	cara de súplica	none
+🥹	cara que s’aguanta les llàgrimes	none
 😦	cara emmurriada amb la boca oberta	none
 😧	cara d’angoixa	none
 😨	cara de por	none
@@ -159,7 +391,6 @@ symbols:
 🙈	mona que no mira	none
 🙉	mona que no escolta	none
 🙊	mona que no parla	none
-💋	marca de petó	none
 💌	carta d’amor	none
 💘	cor amb fletxa	none
 💝	cor amb un llaç	none
@@ -171,15 +402,21 @@ symbols:
 💟	cor decoratiu	none
 ❣	exclamació en forma de cor	none
 💔	cor trencat	none
+❤‍🔥	cor en flames	none
+❤‍🩹	cor embenat	none
 ❤	cor vermell	none
+🩷	cor rosa	none
 🧡	cor taronja	none
 💛	cor groc	none
 💚	cor verd	none
 💙	cor blau	none
+🩵	cor blau cel	none
 💜	cor lila	none
 🤎	cor marró	none
 🖤	cor negre	none
+🩶	cor gris	none
 🤍	cor blanc	none
+💋	marca de petó	none
 💯	100 punts	none
 💢	símbol d’enuig	none
 💥	col·lisió	none
@@ -187,7 +424,6 @@ symbols:
 💦	gotes de suor	none
 💨	sortir corrent	none
 🕳	forat	none
-💣	bomba	none
 💬	bafarada de parlar	none
 👁‍🗨	ull dins d’una bafarada	none
 🗨	bafarada de parlar cap a l’esquerra	none
@@ -199,11 +435,18 @@ symbols:
 🖐	mà oberta	none
 ✋	mà aixecada	none
 🖖	salutació vulcaniana	none
+🫱	mà cap a la dreta	none
+🫲	mà cap a l’esquerra	none
+🫳	mà amb el palmell cap avall	none
+🫴	mà amb el palmell cap amunt	none
+🫷	mà que empeny cap a l’esquerra	none
+🫸	mà que empeny cap a la dreta	none
 👌	senyal d’aprovació amb la mà	none
 🤌	dits junts	none
 🤏	mà que pessiga	none
 ✌	senyal de la victòria	none
 🤞	dits creuats	none
+🫰	mà amb el dit índex i el polze creuats	none
 🤟	gest de t’estimo	none
 🤘	dits en forma de banyes	none
 🤙	mà que representa una trucada	none
@@ -213,6 +456,7 @@ symbols:
 🖕	dit del cor	none
 👇	dit índex que apunta cap avall	none
 ☝	índex que apunta cap amunt	none
+🫵	índex que assenyala l’espectador	none
 👍	polze cap amunt	none
 👎	polze cap avall	none
 ✊	puny alçat	none
@@ -221,16 +465,17 @@ symbols:
 🤜	puny esquerre	none
 👏	mans que aplaudeixen	none
 🙌	mans enlaire	none
+🫶	mans que formen un cor	none
 👐	mans obertes	none
 🤲	mans juntes amb els palmells cap amunt	none
 🤝	encaixada de mans	none
-🙏	mans en oració	none
+🙏	mans ajuntades	none
 ✍	mà que escriu	none
 💅	esmalt d’ungles	none
 🤳	autofoto	none
 💪	bíceps tensat	none
 🦾	pròtesi de braç	none
-🦿	pr`òtesi de cama	none
+🦿	pròtesi de cama	none
 🦵	cama	none
 🦶	peu	none
 👂	orella	none
@@ -245,6 +490,7 @@ symbols:
 👁	ull	none
 👅	llengua	none
 👄	boca	none
+🫦	boca que es mossega el llavi	none
 👶	nadó	none
 🧒	criatura	none
 👦	noi	none
@@ -252,9 +498,11 @@ symbols:
 🧑	persona	none
 👱	persona cabells rossos	none
 👨	home	none
-🧔	home barba	none
+🧔	persona barba	none
+🧔‍♂	home barba	none
 👱‍♂	home cabell ros	none
 👩	dona	none
+🧔‍♀	dona barba	none
 👱‍♀	dona cabell ros	none
 🧓	persona gran	none
 👴	home gran	none
@@ -350,6 +598,7 @@ symbols:
 👷	treballador de la construcció	none
 👷‍♂	home paleta	none
 👷‍♀	dona paleta	none
+🫅	persona amb corona	none
 🤴	príncep	none
 👸	princesa	none
 👳	persona amb turbant	none
@@ -363,7 +612,9 @@ symbols:
 👰	persona amb vel	none
 👰‍♂	home amb vel	none
 👰‍♀	dona amb vel	none
-🤰	embarassada	none
+🤰	dona embarassada	none
+🫃	home embarassat	none
+🫄	persona embarassada	none
 🤱	dona que alleta	none
 👩‍🍼	dona que alleta un bebè	none
 👨‍🍼	home que alleta un bebè	none
@@ -399,7 +650,8 @@ symbols:
 🧟	zombi	none
 🧟‍♂	home zombi	none
 🧟‍♀	dona zombi	none
-💆	persona que rep un massatge facial	none
+🧌	trol	none
+💆	persona que rep un massatge al cap	none
 💆‍♂	massatge facial a un home	none
 💆‍♀	massatge facial a una dona	none
 💇	persona que es talla els cabells	none
@@ -522,6 +774,8 @@ symbols:
 🐅	tigre	none
 🐆	lleopard	none
 🐴	cara de cavall	none
+🫎	ant	none
+🫏	ase	none
 🐎	cavall	none
 🦄	unicorn	none
 🦓	zebra	none
@@ -584,6 +838,8 @@ symbols:
 🦩	flamenc	none
 🦚	paó	none
 🦜	lloro	none
+🪽	ala	none
+🪿	oca	none
 🐸	granota	none
 🐊	cocodril	none
 🐢	tortuga	none
@@ -603,6 +859,8 @@ symbols:
 🦈	tauró	none
 🐙	pop	none
 🐚	cargol de mar	none
+🪸	corall	none
+🪼	medusa	none
 🐌	cargol	none
 🦋	papallona	none
 🐛	eruga	none
@@ -622,6 +880,7 @@ symbols:
 💐	ram de flors	none
 🌸	flor de cirerer	none
 💮	flor blanca	none
+🪷	lotus	none
 🏵	roseta	none
 🌹	rosa	none
 🥀	rosa pansida	none
@@ -629,6 +888,7 @@ symbols:
 🌻	gira-sol	none
 🌼	flor	none
 🌷	tulipa	none
+🪻	jacint	none
 🌱	brot	none
 🪴	planta amb test	none
 🌲	arbre de fulla perenne	none
@@ -642,6 +902,9 @@ symbols:
 🍁	fulla d’auró	none
 🍂	fulla seca	none
 🍃	fulla que vola amb el vent	none
+🪹	niu buit	none
+🪺	niu amb ous	none
+🍄	bolet	none
 🍇	raïm	none
 🍈	meló	none
 🍉	síndria	none
@@ -673,9 +936,11 @@ symbols:
 🥦	bròcoli	none
 🧄	all	none
 🧅	ceba	none
-🍄	bolet	none
 🥜	cacauets	none
+🫘	fesols	none
 🌰	castanya	none
+🫚	arrel de gingebre	none
+🫛	beina de pèsol	none
 🍞	pa	none
 🥐	croissant	none
 🥖	baguet	none
@@ -760,6 +1025,7 @@ symbols:
 🍻	brindis amb gerra de cervesa	none
 🥂	brindis	none
 🥃	got de licor	none
+🫗	got que aboca un líquid	none
 🥤	got amb canya	none
 🧋	te amb bombolles	none
 🧃	bric	none
@@ -770,6 +1036,7 @@ symbols:
 🍴	forquilla i ganivet	none
 🥄	cullera	none
 🔪	ganivet de cuina	none
+🫙	pot	none
 🏺	àmfora	none
 🌍	globus terraqüi amb Europa i Àfrica	none
 🌎	globus terraqüi amb Amèrica	none
@@ -832,6 +1099,7 @@ symbols:
 🌉	pont de nit	none
 ♨	fonts termals	none
 🎠	cavallets	none
+🛝	togoban	none
 🎡	roda de fira	none
 🎢	muntanya russa	none
 💈	barberia	none
@@ -880,12 +1148,14 @@ symbols:
 🛤	via de tren	none
 🛢	bidó de petroli	none
 ⛽	assortidor de gasolina	none
+🛞	roda	none
 🚨	llum de cotxe de policia	none
 🚥	semàfor horitzontal	none
 🚦	semàfor vertical	none
 🛑	senyal d’estop	none
 🚧	obres	none
 ⚓	àncora	none
+🛟	salvavides	none
 ⛵	veler	none
 🛶	canoa	none
 🚤	llanxa ràpida	none
@@ -1043,10 +1313,10 @@ symbols:
 🎯	dards	none
 🪀	io-io	none
 🪁	estel	none
+🔫	pistola d’aigua	none
 🎱	bola de billar	none
 🔮	bola de vidre	none
 🪄	vareta màgica	none
-🧿	nazar	none
 🎮	videojoc	none
 🕹	palanca de control	none
 🎰	màquina escurabutxaques	none
@@ -1054,6 +1324,7 @@ symbols:
 🧩	peces de trencaclosques	none
 🧸	os de peluix	none
 🪅	pinyata	none
+🪩	bola de miralls	none
 🪆	nines russes	none
 ♠	pal de piques	none
 ♥	pal de cors	none
@@ -1064,7 +1335,7 @@ symbols:
 🀄	drac vermell de mahjong	none
 🎴	cartes de les flors	none
 🎭	arts interpretatives	none
-🖼	marc amb quadre	none
+🖼	quadre emmarcat	none
 🎨	paleta d’artista	none
 🧵	fil	none
 🪡	agulla de cosir	none
@@ -1090,6 +1361,7 @@ symbols:
 🩳	pantalons curts	none
 👙	biquini	none
 👚	roba de dona	none
+🪭	ventall	none
 👛	moneder	none
 👜	bossa de mà	none
 👝	bossa	none
@@ -1104,6 +1376,7 @@ symbols:
 👡	sandàlia de dona	none
 🩰	sabatilles de ballet	none
 👢	bota de dona	none
+🪮	pinta	none
 👑	corona	none
 👒	barret de dona	none
 🎩	barret de copa	none
@@ -1142,6 +1415,8 @@ symbols:
 🪕	banjo	none
 🥁	tambor	none
 🪘	conga	none
+🪇	maraques	none
+🪈	flauta	none
 📱	telèfon mòbil	none
 📲	telèfon mòbil amb fletxa	none
 ☎	telèfon	none
@@ -1149,6 +1424,7 @@ symbols:
 📟	buscapersones	none
 📠	fax	none
 🔋	bateria	none
+🪫	bateria baixa	none
 🔌	endoll	none
 💻	ordinador portàtil	none
 🖥	ordinador d’escriptori	none
@@ -1213,7 +1489,7 @@ symbols:
 📦	paquet	none
 📫	bústia tancada amb la bandera aixecada	none
 📪	bústia tancada amb la bandera abaixada	none
-📬	bústia oberta amb la bandera aixecada	none
+📬	bústia plena amb la bandera aixecada	none
 📭	bústia oberta amb la bandera abaixada	none
 📮	bústia	none
 🗳	urna amb vot	none
@@ -1260,7 +1536,7 @@ symbols:
 🛠	martell i clau anglesa	none
 🗡	daga	none
 ⚔	espases creuades	none
-🔫	pistola	none
+💣	bomba	none
 🪃	bumerang	none
 🏹	arc i fletxa	none
 🛡	escut	none
@@ -1289,7 +1565,9 @@ symbols:
 🩸	gota de sang	none
 💊	píndola	none
 🩹	tireta	none
+🩼	crossa	none
 🩺	estetoscopi	none
+🩻	radiografia	none
 🚪	porta	none
 🛗	ascensor	none
 🪞	mirall	none
@@ -1310,6 +1588,7 @@ symbols:
 🧻	rotlle de paper	none
 🪣	cubell	none
 🧼	sabó	none
+🫧	bombolles	none
 🪥	raspall de dents	none
 🧽	esponja	none
 🧯	extintor	none
@@ -1318,8 +1597,11 @@ symbols:
 ⚰	taüt	none
 🪦	làpida	none
 ⚱	urna funerària	none
+🧿	nazar	none
+🪬	mà de Fàtima	none
 🗿	moai	none
 🪧	pancarta	none
+🪪	targeta d’identificació	none
 🏧	signe de caixer automàtic	none
 🚮	signe de paperera	none
 🚰	aigua potable	none
@@ -1356,6 +1638,7 @@ symbols:
 ↖	fletxa cap amunt a l’esquerra	none
 ↕	fletxa cap amunt i cap avall	none
 ↔	fletxa cap a l’esquerra i cap a la dreta	none
+↮	fletxa esquerra i dreta amb traç	none
 ↩	fletxa dreta que gira cap a l’esquerra	none
 ↪	fletxa esquerra que gira cap a la dreta	none
 ⤴	fletxa dreta que gira cap amunt	none
@@ -1379,6 +1662,7 @@ symbols:
 ☮	símbol de la pau	none
 🕎	canelobre de set braços	none
 🔯	estrella de sis puntes amb punt	none
+🪯	khanda	none
 ♈	Àries	none
 ♉	Taure	none
 ♊	Bessons	none
@@ -1414,6 +1698,7 @@ symbols:
 🔅	botó d’atenuar la brillantor	none
 🔆	botó d’augmentar la brillantor	none
 📶	barres de cobertura	none
+🛜	sense fil	none
 📳	mode de vibració	none
 📴	telèfon mòbil desactivat	none
 ♀	símbol femení	none
@@ -1423,14 +1708,12 @@ symbols:
 ➕	signe de sumar	none
 ➖	signe de restar	none
 ➗	signe de dividir	none
+🟰	signe d’igual gran	none
 ♾	infinit	none
-‼	signe d’exclamació doble	none
-⁉	signe d’exclamació i d’interrogació	none
-❓	signe d’interrogació	none
+❓	signe d’interrogació vermell	none
 ❔	signe d’interrogació blanc	none
 ❕	signe d’exclamació blanc	none
-❗	signe d’exclamació	none
-〰	guió ondulat	none
+❗	signe d’exclamació vermell	none
 💱	canvi de divisa	none
 💲	signe de dòlar gran	none
 ⚕	símbol mèdic	none
@@ -1447,12 +1730,9 @@ symbols:
 ❎	botó de creu	none
 ➰	llaç arrissat	none
 ➿	bucle doble	none
-〽	signe d’alternança	none
 ✳	asterisc de vuit radis	none
 ✴	estrella de vuit puntes	none
 ❇	espurna	none
-©	drets d’autor	none
-®	marca registrada	none
 ™	marca comercial	none
 🔠	botó de lletres llatines en majúscules	none
 🔡	botó de lletres llatines en minúscules	none
@@ -1476,23 +1756,6 @@ symbols:
 🆘	botó SOS	none
 🆙	botó amb la paraula Up!	none
 🆚	botó VS	none
-🈁	botó japonès "aquí"	none
-🈂	botó japonès "càrrec per servei"	none
-🈷	botó japonès "import mensual"	none
-🈶	botó japonès "de pagament"	none
-🈯	botó japonès "reservat"	none
-🉐	botó japonès "ganga"	none
-🈹	botó japonès "descompte"	none
-🈚	botó japonès "gratis"	none
-🈲	botó japonès "prohibit"	none
-🉑	botó japonès "acceptable"	none
-🈸	botó japonès "aplicació"	none
-🈴	botó japonès "qualificació d’aprovat"	none
-🈳	botó japonès "plaça lliure"	none
-㊗	botó japonès "enhorabona"	none
-㊙	botó japonès "secret"	none
-🈺	botó japonès "negoci obert"	none
-🈵	botó japonès "cap plaça lliure"	none
 🔴	cercle vermell	none
 🟠	cercle taronja	none
 🟡	cercle groc	none
@@ -1535,15 +1798,21 @@ symbols:
 🏳‍🌈	bandera de l’arc de Sant Martí	none
 🏳‍⚧	bandera transgènere	none
 🏴‍☠	bandera pirata	none
-£	lliura	none
-¥	ien	none
+₢	cruzeiro	none
+₣	franc francès	none
+₤	lira	none
+₥	milió	none
+₩	won	none
 €	euro	none
+₰	penic alemany	none
+₱	peso	none
+₳	austral	none
+₶	lliura tornesa	none
+₷	spesmilo	none
 ₹	rupia índia	none
 ₽	ruble	none
-¹	superíndex u	none
-²	superíndex dos	none
-³	superíndex tres	none
-µ	signe de micró	none
+₿	bitcoin	none
+₨	rupia	none
 👋🏻	mà que saluda pell molt clara	none
 👋🏼	mà que saluda pell bastant clara	none
 👋🏽	mà que saluda pell morena	none
@@ -1569,6 +1838,56 @@ symbols:
 🖖🏽	salutació vulcaniana pell morena	none
 🖖🏾	salutació vulcaniana pell fosca	none
 🖖🏿	salutació vulcaniana pell molt fosca	none
+🫱🏻	mà cap a la dreta pell molt clara	none
+🫱🏼	mà cap a la dreta pell bastant clara	none
+🫱🏽	mà cap a la dreta pell morena	none
+🫱🏾	mà cap a la dreta pell fosca	none
+🫱🏿	mà cap a la dreta pell molt fosca	none
+🫱🏻‍🫲🏼	encaixada de mans pell molt clara i pell bastant clara	none
+🫱🏻‍🫲🏽	encaixada de mans pell molt clara i pell morena	none
+🫱🏻‍🫲🏾	encaixada de mans pell molt clara i pell fosca	none
+🫱🏻‍🫲🏿	encaixada de mans pell molt clara i pell molt fosca	none
+🫱🏼‍🫲🏻	encaixada de mans pell bastant clara i pell molt clara	none
+🫱🏼‍🫲🏽	encaixada de mans pell bastant clara i pell morena	none
+🫱🏼‍🫲🏾	encaixada de mans pell bastant clara i pell fosca	none
+🫱🏼‍🫲🏿	encaixada de mans pell bastant clara i pell molt fosca	none
+🫱🏽‍🫲🏻	encaixada de mans pell morena i pell molt clara	none
+🫱🏽‍🫲🏼	encaixada de mans pell morena i pell bastant clara	none
+🫱🏽‍🫲🏾	encaixada de mans pell morena i pell fosca	none
+🫱🏽‍🫲🏿	encaixada de mans pell morena i pell molt fosca	none
+🫱🏾‍🫲🏻	encaixada de mans pell fosca i pell molt clara	none
+🫱🏾‍🫲🏼	encaixada de mans pell fosca i pell bastant clara	none
+🫱🏾‍🫲🏽	encaixada de mans pell fosca i pell morena	none
+🫱🏾‍🫲🏿	encaixada de mans pell fosca i pell molt fosca	none
+🫱🏿‍🫲🏻	encaixada de mans pell molt fosca i pell molt clara	none
+🫱🏿‍🫲🏼	encaixada de mans pell molt fosca i pell bastant clara	none
+🫱🏿‍🫲🏽	encaixada de mans pell molt fosca i pell morena	none
+🫱🏿‍🫲🏾	encaixada de mans pell molt fosca i pell fosca	none
+🫲🏻	mà cap a l’esquerra pell molt clara	none
+🫲🏼	mà cap a l’esquerra pell bastant clara	none
+🫲🏽	mà cap a l’esquerra pell morena	none
+🫲🏾	mà cap a l’esquerra pell fosca	none
+🫲🏿	mà cap a l’esquerra pell molt fosca	none
+🫳🏻	mà amb el palmell cap avall pell molt clara	none
+🫳🏼	mà amb el palmell cap avall pell bastant clara	none
+🫳🏽	mà amb el palmell cap avall pell morena	none
+🫳🏾	mà amb el palmell cap avall pell fosca	none
+🫳🏿	mà amb el palmell cap avall pell molt fosca	none
+🫴🏻	mà amb el palmell cap amunt pell molt clara	none
+🫴🏼	mà amb el palmell cap amunt pell bastant clara	none
+🫴🏽	mà amb el palmell cap amunt pell morena	none
+🫴🏾	mà amb el palmell cap amunt pell fosca	none
+🫴🏿	mà amb el palmell cap amunt pell molt fosca	none
+🫷🏻	mà que empeny cap a l’esquerra pell molt clara	none
+🫷🏼	mà que empeny cap a l’esquerra pell bastant clara	none
+🫷🏽	mà que empeny cap a l’esquerra pell morena	none
+🫷🏾	mà que empeny cap a l’esquerra pell fosca	none
+🫷🏿	mà que empeny cap a l’esquerra pell molt fosca	none
+🫸🏻	mà que empeny cap a la dreta pell molt clara	none
+🫸🏼	mà que empeny cap a la dreta pell bastant clara	none
+🫸🏽	mà que empeny cap a la dreta pell morena	none
+🫸🏾	mà que empeny cap a la dreta pell fosca	none
+🫸🏿	mà que empeny cap a la dreta pell molt fosca	none
 👌🏻	senyal d’aprovació amb la mà pell molt clara	none
 👌🏼	senyal d’aprovació amb la mà pell bastant clara	none
 👌🏽	senyal d’aprovació amb la mà pell morena	none
@@ -1594,6 +1913,11 @@ symbols:
 🤞🏽	dits creuats pell morena	none
 🤞🏾	dits creuats pell fosca	none
 🤞🏿	dits creuats pell molt fosca	none
+🫰🏻	mà amb el dit índex i el polze creuats pell molt clara	none
+🫰🏼	mà amb el dit índex i el polze creuats pell bastant clara	none
+🫰🏽	mà amb el dit índex i el polze creuats pell morena	none
+🫰🏾	mà amb el dit índex i el polze creuats pell fosca	none
+🫰🏿	mà amb el dit índex i el polze creuats pell molt fosca	none
 🤟🏻	gest de t’estimo pell molt clara	none
 🤟🏼	gest de t’estimo pell bastant clara	none
 🤟🏽	gest de t’estimo pell morena	none
@@ -1639,6 +1963,11 @@ symbols:
 ☝🏽	índex que apunta cap amunt pell morena	none
 ☝🏾	índex que apunta cap amunt pell fosca	none
 ☝🏿	índex que apunta cap amunt pell molt fosca	none
+🫵🏻	índex que assenyala l’espectador pell molt clara	none
+🫵🏼	índex que assenyala l’espectador pell bastant clara	none
+🫵🏽	índex que assenyala l’espectador pell morena	none
+🫵🏾	índex que assenyala l’espectador pell fosca	none
+🫵🏿	índex que assenyala l’espectador pell molt fosca	none
 👍🏻	polze cap amunt pell molt clara	none
 👍🏼	polze cap amunt pell bastant clara	none
 👍🏽	polze cap amunt pell morena	none
@@ -1679,6 +2008,11 @@ symbols:
 🙌🏽	mans enlaire pell morena	none
 🙌🏾	mans enlaire pell fosca	none
 🙌🏿	mans enlaire pell molt fosca	none
+🫶🏻	mans que formen un cor pell molt clara	none
+🫶🏼	mans que formen un cor pell bastant clara	none
+🫶🏽	mans que formen un cor pell morena	none
+🫶🏾	mans que formen un cor pell fosca	none
+🫶🏿	mans que formen un cor pell molt fosca	none
 👐🏻	mans obertes pell molt clara	none
 👐🏼	mans obertes pell bastant clara	none
 👐🏽	mans obertes pell morena	none
@@ -1689,11 +2023,16 @@ symbols:
 🤲🏽	mans juntes amb els palmells cap amunt pell morena	none
 🤲🏾	mans juntes amb els palmells cap amunt pell fosca	none
 🤲🏿	mans juntes amb els palmells cap amunt pell molt fosca	none
-🙏🏻	mans en oració pell molt clara	none
-🙏🏼	mans en oració pell bastant clara	none
-🙏🏽	mans en oració pell morena	none
-🙏🏾	mans en oració pell fosca	none
-🙏🏿	mans en oració pell molt fosca	none
+🤝🏻	encaixada de mans pell molt clara	none
+🤝🏼	encaixada de mans pell bastant clara	none
+🤝🏽	encaixada de mans pell morena	none
+🤝🏾	encaixada de mans pell fosca	none
+🤝🏿	encaixada de mans pell molt fosca	none
+🙏🏻	mans ajuntades pell molt clara	none
+🙏🏼	mans ajuntades pell bastant clara	none
+🙏🏽	mans ajuntades pell morena	none
+🙏🏾	mans ajuntades pell fosca	none
+🙏🏿	mans ajuntades pell molt fosca	none
 ✍🏻	mà que escriu pell molt clara	none
 ✍🏼	mà que escriu pell bastant clara	none
 ✍🏽	mà que escriu pell morena	none
@@ -1769,6 +2108,46 @@ symbols:
 👱🏽	persona pell morena i cabells rossos	none
 👱🏾	persona pell fosca i cabells rossos	none
 👱🏿	persona pell molt fosca i cabells rossos	none
+🧑🏻‍❤‍💋‍🧑🏼	petó persona, persona, pell molt clara i pell bastant clara	none
+🧑🏻‍❤‍💋‍🧑🏽	petó persona, persona, pell molt clara i pell morena	none
+🧑🏻‍❤‍💋‍🧑🏾	petó persona, persona, pell molt clara i pell fosca	none
+🧑🏻‍❤‍💋‍🧑🏿	petó persona, persona, pell molt clara i pell molt fosca	none
+🧑🏼‍❤‍💋‍🧑🏻	petó persona, persona, pell bastant clara i pell molt clara	none
+🧑🏼‍❤‍💋‍🧑🏽	petó persona, persona, pell bastant clara i pell morena	none
+🧑🏼‍❤‍💋‍🧑🏾	petó persona, persona, pell bastant clara i pell fosca	none
+🧑🏼‍❤‍💋‍🧑🏿	petó persona, persona, pell bastant clara i pell molt fosca	none
+🧑🏽‍❤‍💋‍🧑🏻	petó persona, persona, pell morena i pell molt clara	none
+🧑🏽‍❤‍💋‍🧑🏼	petó persona, persona, pell morena i pell bastant clara	none
+🧑🏽‍❤‍💋‍🧑🏾	petó persona, persona, pell morena i pell fosca	none
+🧑🏽‍❤‍💋‍🧑🏿	petó persona, persona, pell morena i pell molt fosca	none
+🧑🏾‍❤‍💋‍🧑🏻	petó persona, persona, pell fosca i pell molt clara	none
+🧑🏾‍❤‍💋‍🧑🏼	petó persona, persona, pell fosca i pell bastant clara	none
+🧑🏾‍❤‍💋‍🧑🏽	petó persona, persona, pell fosca i pell morena	none
+🧑🏾‍❤‍💋‍🧑🏿	petó persona, persona, pell fosca i pell molt fosca	none
+🧑🏿‍❤‍💋‍🧑🏻	petó persona, persona, pell molt fosca i pell molt clara	none
+🧑🏿‍❤‍💋‍🧑🏼	petó persona, persona, pell molt fosca i pell bastant clara	none
+🧑🏿‍❤‍💋‍🧑🏽	petó persona, persona, pell molt fosca i pell morena	none
+🧑🏿‍❤‍💋‍🧑🏾	petó persona, persona, pell molt fosca i pell fosca	none
+🧑🏻‍❤‍🧑🏼	parella amb un cor persona, persona, pell molt clara i pell bastant clara	none
+🧑🏻‍❤‍🧑🏽	parella amb un cor persona, persona, pell molt clara i pell morena	none
+🧑🏻‍❤‍🧑🏾	parella amb un cor persona, persona, pell molt clara i pell fosca	none
+🧑🏻‍❤‍🧑🏿	parella amb un cor persona, persona, pell molt clara i pell molt fosca	none
+🧑🏼‍❤‍🧑🏻	parella amb un cor persona, persona, pell bastant clara i pell molt clara	none
+🧑🏼‍❤‍🧑🏽	parella amb un cor persona, persona, pell bastant clara i pell morena	none
+🧑🏼‍❤‍🧑🏾	parella amb un cor persona, persona, pell bastant clara i pell fosca	none
+🧑🏼‍❤‍🧑🏿	parella amb un cor persona, persona, pell bastant clara i pell molt fosca	none
+🧑🏽‍❤‍🧑🏻	parella amb un cor persona, persona, pell morena i pell molt clara	none
+🧑🏽‍❤‍🧑🏼	parella amb un cor persona, persona, pell morena i pell bastant clara	none
+🧑🏽‍❤‍🧑🏾	parella amb un cor persona, persona, pell morena i pell fosca	none
+🧑🏽‍❤‍🧑🏿	parella amb un cor persona, persona, pell morena i pell molt fosca	none
+🧑🏾‍❤‍🧑🏻	parella amb un cor persona, persona, pell fosca i pell molt clara	none
+🧑🏾‍❤‍🧑🏼	parella amb un cor persona, persona, pell fosca i pell bastant clara	none
+🧑🏾‍❤‍🧑🏽	parella amb un cor persona, persona, pell fosca i pell morena	none
+🧑🏾‍❤‍🧑🏿	parella amb un cor persona, persona, pell fosca i pell molt fosca	none
+🧑🏿‍❤‍🧑🏻	parella amb un cor persona, persona, pell molt fosca i pell molt clara	none
+🧑🏿‍❤‍🧑🏼	parella amb un cor persona, persona, pell molt fosca i pell bastant clara	none
+🧑🏿‍❤‍🧑🏽	parella amb un cor persona, persona, pell molt fosca i pell morena	none
+🧑🏿‍❤‍🧑🏾	parella amb un cor persona, persona, pell molt fosca i pell fosca	none
 🧑‍🦰	persona cabells vermells	none
 🧑🏻‍🦰	persona pell molt clara i cabells vermells	none
 🧑🏼‍🦰	persona pell bastant clara i cabells vermells	none
@@ -1798,16 +2177,71 @@ symbols:
 👨🏽	home pell morena	none
 👨🏾	home pell fosca	none
 👨🏿	home pell molt fosca	none
-🧔🏻	home pell molt clara i barba	none
-🧔🏼	home pell bastant clara i barba	none
-🧔🏽	home pell morena i barba	none
-🧔🏾	home pell fosca i barba	none
-🧔🏿	home pell molt fosca i barba	none
+🧔🏻	persona pell molt clara i barba	none
+🧔🏼	persona pell bastant clara i barba	none
+🧔🏽	persona pell morena i barba	none
+🧔🏾	persona pell fosca i barba	none
+🧔🏿	persona pell molt fosca i barba	none
+🧔🏻‍♂	home pell molt clara i barba	none
+🧔🏼‍♂	home pell bastant clara i barba	none
+🧔🏽‍♂	home pell morena i barba	none
+🧔🏾‍♂	home pell fosca i barba	none
+🧔🏿‍♂	home pell molt fosca i barba	none
 👱🏻‍♂	home pell molt clara i cabell ros	none
 👱🏼‍♂	home pell bastant clara i cabell ros	none
 👱🏽‍♂	home pell morena i cabell ros	none
 👱🏾‍♂	home pell fosca i cabell ros	none
 👱🏿‍♂	home pell molt fosca i cabell ros	none
+👨🏻‍❤‍💋‍👨🏻	petó home, home i pell molt clara	none
+👨🏻‍❤‍💋‍👨🏼	petó home, home, pell molt clara i pell bastant clara	none
+👨🏻‍❤‍💋‍👨🏽	petó home, home, pell molt clara i pell morena	none
+👨🏻‍❤‍💋‍👨🏾	petó home, home, pell molt clara i pell fosca	none
+👨🏻‍❤‍💋‍👨🏿	petó home, home, pell molt clara i pell molt fosca	none
+👨🏼‍❤‍💋‍👨🏻	petó home, home, pell bastant clara i pell molt clara	none
+👨🏼‍❤‍💋‍👨🏼	petó home, home i pell bastant clara	none
+👨🏼‍❤‍💋‍👨🏽	petó home, home, pell bastant clara i pell morena	none
+👨🏼‍❤‍💋‍👨🏾	petó home, home, pell bastant clara i pell fosca	none
+👨🏼‍❤‍💋‍👨🏿	petó home, home, pell bastant clara i pell molt fosca	none
+👨🏽‍❤‍💋‍👨🏻	petó home, home, pell morena i pell molt clara	none
+👨🏽‍❤‍💋‍👨🏼	petó home, home, pell morena i pell bastant clara	none
+👨🏽‍❤‍💋‍👨🏽	petó home, home i pell morena	none
+👨🏽‍❤‍💋‍👨🏾	petó home, home, pell morena i pell fosca	none
+👨🏽‍❤‍💋‍👨🏿	petó home, home, pell morena i pell molt fosca	none
+👨🏾‍❤‍💋‍👨🏻	petó home, home, pell fosca i pell molt clara	none
+👨🏾‍❤‍💋‍👨🏼	petó home, home, pell fosca i pell bastant clara	none
+👨🏾‍❤‍💋‍👨🏽	petó home, home, pell fosca i pell morena	none
+👨🏾‍❤‍💋‍👨🏾	petó home, home i pell fosca	none
+👨🏾‍❤‍💋‍👨🏿	petó home, home, pell fosca i pell molt fosca	none
+👨🏿‍❤‍💋‍👨🏻	petó home, home, pell molt fosca i pell molt clara	none
+👨🏿‍❤‍💋‍👨🏼	petó home, home, pell molt fosca i pell bastant clara	none
+👨🏿‍❤‍💋‍👨🏽	petó home, home, pell molt fosca i pell morena	none
+👨🏿‍❤‍💋‍👨🏾	petó home, home, pell molt fosca i pell fosca	none
+👨🏿‍❤‍💋‍👨🏿	petó home, home i pell molt fosca	none
+👨🏻‍❤‍👨🏻	parella amb un cor home, home i pell molt clara	none
+👨🏻‍❤‍👨🏼	parella amb un cor home, home, pell molt clara i pell bastant clara	none
+👨🏻‍❤‍👨🏽	parella amb un cor home, home, pell molt clara i pell morena	none
+👨🏻‍❤‍👨🏾	parella amb un cor home, home, pell molt clara i pell fosca	none
+👨🏻‍❤‍👨🏿	parella amb un cor home, home, pell molt clara i pell molt fosca	none
+👨🏼‍❤‍👨🏻	parella amb un cor home, home, pell bastant clara i pell molt clara	none
+👨🏼‍❤‍👨🏼	parella amb un cor home, home i pell bastant clara	none
+👨🏼‍❤‍👨🏽	parella amb un cor home, home, pell bastant clara i pell morena	none
+👨🏼‍❤‍👨🏾	parella amb un cor home, home, pell bastant clara i pell fosca	none
+👨🏼‍❤‍👨🏿	parella amb un cor home, home, pell bastant clara i pell molt fosca	none
+👨🏽‍❤‍👨🏻	parella amb un cor home, home, pell morena i pell molt clara	none
+👨🏽‍❤‍👨🏼	parella amb un cor home, home, pell morena i pell bastant clara	none
+👨🏽‍❤‍👨🏽	parella amb un cor home, home i pell morena	none
+👨🏽‍❤‍👨🏾	parella amb un cor home, home, pell morena i pell fosca	none
+👨🏽‍❤‍👨🏿	parella amb un cor home, home, pell morena i pell molt fosca	none
+👨🏾‍❤‍👨🏻	parella amb un cor home, home, pell fosca i pell molt clara	none
+👨🏾‍❤‍👨🏼	parella amb un cor home, home, pell fosca i pell bastant clara	none
+👨🏾‍❤‍👨🏽	parella amb un cor home, home, pell fosca i pell morena	none
+👨🏾‍❤‍👨🏾	parella amb un cor home, home i pell fosca	none
+👨🏾‍❤‍👨🏿	parella amb un cor home, home, pell fosca i pell molt fosca	none
+👨🏿‍❤‍👨🏻	parella amb un cor home, home, pell molt fosca i pell molt clara	none
+👨🏿‍❤‍👨🏼	parella amb un cor home, home, pell molt fosca i pell bastant clara	none
+👨🏿‍❤‍👨🏽	parella amb un cor home, home, pell molt fosca i pell morena	none
+👨🏿‍❤‍👨🏾	parella amb un cor home, home, pell molt fosca i pell fosca	none
+👨🏿‍❤‍👨🏿	parella amb un cor home, home i pell molt fosca	none
 👨‍🦰	home cabells vermells	none
 👨🏻‍🦰	home pell molt clara i cabells vermells	none
 👨🏼‍🦰	home pell bastant clara i cabells vermells	none
@@ -1837,11 +2271,116 @@ symbols:
 👩🏽	dona pell morena	none
 👩🏾	dona pell fosca	none
 👩🏿	dona pell molt fosca	none
+🧔🏻‍♀	dona pell molt clara i barba	none
+🧔🏼‍♀	dona pell bastant clara i barba	none
+🧔🏽‍♀	dona pell morena i barba	none
+🧔🏾‍♀	dona pell fosca i barba	none
+🧔🏿‍♀	dona pell molt fosca i barba	none
 👱🏻‍♀	dona pell molt clara i cabell ros	none
 👱🏼‍♀	dona pell bastant clara i cabell ros	none
 👱🏽‍♀	dona pell morena i cabell ros	none
 👱🏾‍♀	dona pell fosca i cabell ros	none
 👱🏿‍♀	dona pell molt fosca i cabell ros	none
+👩🏻‍❤‍💋‍👨🏻	petó dona, home i pell molt clara	none
+👩🏻‍❤‍💋‍👨🏼	petó dona, home, pell molt clara i pell bastant clara	none
+👩🏻‍❤‍💋‍👨🏽	petó dona, home, pell molt clara i pell morena	none
+👩🏻‍❤‍💋‍👨🏾	petó dona, home, pell molt clara i pell fosca	none
+👩🏻‍❤‍💋‍👨🏿	petó dona, home, pell molt clara i pell molt fosca	none
+👩🏼‍❤‍💋‍👨🏻	petó dona, home, pell bastant clara i pell molt clara	none
+👩🏼‍❤‍💋‍👨🏼	petó dona, home i pell bastant clara	none
+👩🏼‍❤‍💋‍👨🏽	petó dona, home, pell bastant clara i pell morena	none
+👩🏼‍❤‍💋‍👨🏾	petó dona, home, pell bastant clara i pell fosca	none
+👩🏼‍❤‍💋‍👨🏿	petó dona, home, pell bastant clara i pell molt fosca	none
+👩🏽‍❤‍💋‍👨🏻	petó dona, home, pell morena i pell molt clara	none
+👩🏽‍❤‍💋‍👨🏼	petó dona, home, pell morena i pell bastant clara	none
+👩🏽‍❤‍💋‍👨🏽	petó dona, home i pell morena	none
+👩🏽‍❤‍💋‍👨🏾	petó dona, home, pell morena i pell fosca	none
+👩🏽‍❤‍💋‍👨🏿	petó dona, home, pell morena i pell molt fosca	none
+👩🏾‍❤‍💋‍👨🏻	petó dona, home, pell fosca i pell molt clara	none
+👩🏾‍❤‍💋‍👨🏼	petó dona, home, pell fosca i pell bastant clara	none
+👩🏾‍❤‍💋‍👨🏽	petó dona, home, pell fosca i pell morena	none
+👩🏾‍❤‍💋‍👨🏾	petó dona, home i pell fosca	none
+👩🏾‍❤‍💋‍👨🏿	petó dona, home, pell fosca i pell molt fosca	none
+👩🏿‍❤‍💋‍👨🏻	petó dona, home, pell molt fosca i pell molt clara	none
+👩🏿‍❤‍💋‍👨🏼	petó dona, home, pell molt fosca i pell bastant clara	none
+👩🏿‍❤‍💋‍👨🏽	petó dona, home, pell molt fosca i pell morena	none
+👩🏿‍❤‍💋‍👨🏾	petó dona, home, pell molt fosca i pell fosca	none
+👩🏿‍❤‍💋‍👨🏿	petó dona, home i pell molt fosca	none
+👩🏻‍❤‍💋‍👩🏻	petó dona, dona i pell molt clara	none
+👩🏻‍❤‍💋‍👩🏼	petó dona, dona, pell molt clara i pell bastant clara	none
+👩🏻‍❤‍💋‍👩🏽	petó dona, dona, pell molt clara i pell morena	none
+👩🏻‍❤‍💋‍👩🏾	petó dona, dona, pell molt clara i pell fosca	none
+👩🏻‍❤‍💋‍👩🏿	petó dona, dona, pell molt clara i pell molt fosca	none
+👩🏼‍❤‍💋‍👩🏻	petó dona, dona, pell bastant clara i pell molt clara	none
+👩🏼‍❤‍💋‍👩🏼	petó dona, dona i pell bastant clara	none
+👩🏼‍❤‍💋‍👩🏽	petó dona, dona, pell bastant clara i pell morena	none
+👩🏼‍❤‍💋‍👩🏾	petó dona, dona, pell bastant clara i pell fosca	none
+👩🏼‍❤‍💋‍👩🏿	petó dona, dona, pell bastant clara i pell molt fosca	none
+👩🏽‍❤‍💋‍👩🏻	petó dona, dona, pell morena i pell molt clara	none
+👩🏽‍❤‍💋‍👩🏼	petó dona, dona, pell morena i pell bastant clara	none
+👩🏽‍❤‍💋‍👩🏽	petó dona, dona i pell morena	none
+👩🏽‍❤‍💋‍👩🏾	petó dona, dona, pell morena i pell fosca	none
+👩🏽‍❤‍💋‍👩🏿	petó dona, dona, pell morena i pell molt fosca	none
+👩🏾‍❤‍💋‍👩🏻	petó dona, dona, pell fosca i pell molt clara	none
+👩🏾‍❤‍💋‍👩🏼	petó dona, dona, pell fosca i pell bastant clara	none
+👩🏾‍❤‍💋‍👩🏽	petó dona, dona, pell fosca i pell morena	none
+👩🏾‍❤‍💋‍👩🏾	petó dona, dona i pell fosca	none
+👩🏾‍❤‍💋‍👩🏿	petó dona, dona, pell fosca i pell molt fosca	none
+👩🏿‍❤‍💋‍👩🏻	petó dona, dona, pell molt fosca i pell molt clara	none
+👩🏿‍❤‍💋‍👩🏼	petó dona, dona, pell molt fosca i pell bastant clara	none
+👩🏿‍❤‍💋‍👩🏽	petó dona, dona, pell molt fosca i pell morena	none
+👩🏿‍❤‍💋‍👩🏾	petó dona, dona, pell molt fosca i pell fosca	none
+👩🏿‍❤‍💋‍👩🏿	petó dona, dona i pell molt fosca	none
+👩🏻‍❤‍👨🏻	parella amb un cor dona, home i pell molt clara	none
+👩🏻‍❤‍👨🏼	parella amb un cor dona, home, pell molt clara i pell bastant clara	none
+👩🏻‍❤‍👨🏽	parella amb un cor dona, home, pell molt clara i pell morena	none
+👩🏻‍❤‍👨🏾	parella amb un cor dona, home, pell molt clara i pell fosca	none
+👩🏻‍❤‍👨🏿	parella amb un cor dona, home, pell molt clara i pell molt fosca	none
+👩🏼‍❤‍👨🏻	parella amb un cor dona, home, pell bastant clara i pell molt clara	none
+👩🏼‍❤‍👨🏼	parella amb un cor dona, home i pell bastant clara	none
+👩🏼‍❤‍👨🏽	parella amb un cor dona, home, pell bastant clara i pell morena	none
+👩🏼‍❤‍👨🏾	parella amb un cor dona, home, pell bastant clara i pell fosca	none
+👩🏼‍❤‍👨🏿	parella amb un cor dona, home, pell bastant clara i pell molt fosca	none
+👩🏽‍❤‍👨🏻	parella amb un cor dona, home, pell morena i pell molt clara	none
+👩🏽‍❤‍👨🏼	parella amb un cor dona, home, pell morena i pell bastant clara	none
+👩🏽‍❤‍👨🏽	parella amb un cor dona, home i pell morena	none
+👩🏽‍❤‍👨🏾	parella amb un cor dona, home, pell morena i pell fosca	none
+👩🏽‍❤‍👨🏿	parella amb un cor dona, home, pell morena i pell molt fosca	none
+👩🏾‍❤‍👨🏻	parella amb un cor dona, home, pell fosca i pell molt clara	none
+👩🏾‍❤‍👨🏼	parella amb un cor dona, home, pell fosca i pell bastant clara	none
+👩🏾‍❤‍👨🏽	parella amb un cor dona, home, pell fosca i pell morena	none
+👩🏾‍❤‍👨🏾	parella amb un cor dona, home i pell fosca	none
+👩🏾‍❤‍👨🏿	parella amb un cor dona, home, pell fosca i pell molt fosca	none
+👩🏿‍❤‍👨🏻	parella amb un cor dona, home, pell molt fosca i pell molt clara	none
+👩🏿‍❤‍👨🏼	parella amb un cor dona, home, pell molt fosca i pell bastant clara	none
+👩🏿‍❤‍👨🏽	parella amb un cor dona, home, pell molt fosca i pell morena	none
+👩🏿‍❤‍👨🏾	parella amb un cor dona, home, pell molt fosca i pell fosca	none
+👩🏿‍❤‍👨🏿	parella amb un cor dona, home i pell molt fosca	none
+👩🏻‍❤‍👩🏻	parella amb un cor dona, dona i pell molt clara	none
+👩🏻‍❤‍👩🏼	parella amb un cor dona, dona, pell molt clara i pell bastant clara	none
+👩🏻‍❤‍👩🏽	parella amb un cor dona, dona, pell molt clara i pell morena	none
+👩🏻‍❤‍👩🏾	parella amb un cor dona, dona, pell molt clara i pell fosca	none
+👩🏻‍❤‍👩🏿	parella amb un cor dona, dona, pell molt clara i pell molt fosca	none
+👩🏼‍❤‍👩🏻	parella amb un cor dona, dona, pell bastant clara i pell molt clara	none
+👩🏼‍❤‍👩🏼	parella amb un cor dona, dona i pell bastant clara	none
+👩🏼‍❤‍👩🏽	parella amb un cor dona, dona, pell bastant clara i pell morena	none
+👩🏼‍❤‍👩🏾	parella amb un cor dona, dona, pell bastant clara i pell fosca	none
+👩🏼‍❤‍👩🏿	parella amb un cor dona, dona, pell bastant clara i pell molt fosca	none
+👩🏽‍❤‍👩🏻	parella amb un cor dona, dona, pell morena i pell molt clara	none
+👩🏽‍❤‍👩🏼	parella amb un cor dona, dona, pell morena i pell bastant clara	none
+👩🏽‍❤‍👩🏽	parella amb un cor dona, dona i pell morena	none
+👩🏽‍❤‍👩🏾	parella amb un cor dona, dona, pell morena i pell fosca	none
+👩🏽‍❤‍👩🏿	parella amb un cor dona, dona, pell morena i pell molt fosca	none
+👩🏾‍❤‍👩🏻	parella amb un cor dona, dona, pell fosca i pell molt clara	none
+👩🏾‍❤‍👩🏼	parella amb un cor dona, dona, pell fosca i pell bastant clara	none
+👩🏾‍❤‍👩🏽	parella amb un cor dona, dona, pell fosca i pell morena	none
+👩🏾‍❤‍👩🏾	parella amb un cor dona, dona i pell fosca	none
+👩🏾‍❤‍👩🏿	parella amb un cor dona, dona, pell fosca i pell molt fosca	none
+👩🏿‍❤‍👩🏻	parella amb un cor dona, dona, pell molt fosca i pell molt clara	none
+👩🏿‍❤‍👩🏼	parella amb un cor dona, dona, pell molt fosca i pell bastant clara	none
+👩🏿‍❤‍👩🏽	parella amb un cor dona, dona, pell molt fosca i pell morena	none
+👩🏿‍❤‍👩🏾	parella amb un cor dona, dona, pell molt fosca i pell fosca	none
+👩🏿‍❤‍👩🏿	parella amb un cor dona, dona i pell molt fosca	none
 👩‍🦰	dona cabells vermells	none
 👩🏻‍🦰	dona pell molt clara i cabells vermells	none
 👩🏼‍🦰	dona pell bastant clara i cabells vermells	none
@@ -2336,6 +2875,11 @@ symbols:
 👷🏽‍♀	dona paleta pell morena	none
 👷🏾‍♀	dona paleta pell fosca	none
 👷🏿‍♀	dona paleta pell molt fosca	none
+🫅🏻	persona amb corona pell molt clara	none
+🫅🏼	persona amb corona pell bastant clara	none
+🫅🏽	persona amb corona pell morena	none
+🫅🏾	persona amb corona pell fosca	none
+🫅🏿	persona amb corona pell molt fosca	none
 🤴🏻	príncep pell molt clara	none
 🤴🏼	príncep pell bastant clara	none
 🤴🏽	príncep pell morena	none
@@ -2401,11 +2945,21 @@ symbols:
 👰🏽‍♀	dona amb vel pell morena	none
 👰🏾‍♀	dona amb vel pell fosca	none
 👰🏿‍♀	dona amb vel pell molt fosca	none
-🤰🏻	embarassada pell molt clara	none
-🤰🏼	embarassada pell bastant clara	none
-🤰🏽	embarassada pell morena	none
-🤰🏾	embarassada pell fosca	none
-🤰🏿	embarassada pell molt fosca	none
+🤰🏻	dona embarassada pell molt clara	none
+🤰🏼	dona embarassada pell bastant clara	none
+🤰🏽	dona embarassada pell morena	none
+🤰🏾	dona embarassada pell fosca	none
+🤰🏿	dona embarassada pell molt fosca	none
+🫃🏻	home embarassat pell molt clara	none
+🫃🏼	home embarassat pell bastant clara	none
+🫃🏽	home embarassat pell morena	none
+🫃🏾	home embarassat pell fosca	none
+🫃🏿	home embarassat pell molt fosca	none
+🫄🏻	persona embarassada pell molt clara	none
+🫄🏼	persona embarassada pell bastant clara	none
+🫄🏽	persona embarassada pell morena	none
+🫄🏾	persona embarassada pell fosca	none
+🫄🏿	persona embarassada pell molt fosca	none
 🤱🏻	dona que alleta pell molt clara	none
 🤱🏼	dona que alleta pell bastant clara	none
 🤱🏽	dona que alleta pell morena	none
@@ -2551,11 +3105,11 @@ symbols:
 🧝🏽‍♀	dona elfa pell morena	none
 🧝🏾‍♀	dona elfa pell fosca	none
 🧝🏿‍♀	dona elfa pell molt fosca	none
-💆🏻	persona que rep un massatge facial pell molt clara	none
-💆🏼	persona que rep un massatge facial pell bastant clara	none
-💆🏽	persona que rep un massatge facial pell morena	none
-💆🏾	persona que rep un massatge facial pell fosca	none
-💆🏿	persona que rep un massatge facial pell molt fosca	none
+💆🏻	persona que rep un massatge al cap pell molt clara	none
+💆🏼	persona que rep un massatge al cap pell bastant clara	none
+💆🏽	persona que rep un massatge al cap pell morena	none
+💆🏾	persona que rep un massatge al cap pell fosca	none
+💆🏿	persona que rep un massatge al cap pell molt fosca	none
 💆🏻‍♂	massatge facial a un home pell molt clara	none
 💆🏼‍♂	massatge facial a un home pell bastant clara	none
 💆🏽‍♂	massatge facial a un home pell morena	none
@@ -3046,9 +3600,19 @@ symbols:
 👨🏿‍🤝‍👨🏽	homes que s’agafen de la mà pell molt fosca i pell morena	none
 👨🏿‍🤝‍👨🏾	homes que s’agafen de la mà pell molt fosca i pell fosca	none
 👬🏿	homes que s’agafen de la mà pell molt fosca	none
+💏🏻	petó pell molt clara	none
+💏🏼	petó pell bastant clara	none
+💏🏽	petó pell morena	none
+💏🏾	petó pell fosca	none
+💏🏿	petó pell molt fosca	none
 👩‍❤‍💋‍👨	petó dona i home	none
 👨‍❤‍💋‍👨	petó home i home	none
 👩‍❤‍💋‍👩	petó dona i dona	none
+💑🏻	parella amb un cor pell molt clara	none
+💑🏼	parella amb un cor pell bastant clara	none
+💑🏽	parella amb un cor pell morena	none
+💑🏾	parella amb un cor pell fosca	none
+💑🏿	parella amb un cor pell molt fosca	none
 👩‍❤‍👨	parella amb un cor dona i home	none
 👨‍❤‍👨	parella amb un cor home i home	none
 👩‍❤‍👩	parella amb un cor dona i dona	none
@@ -3077,8 +3641,6 @@ symbols:
 👩‍👧	família dona i noia	none
 👩‍👧‍👦	família dona, noia i noi	none
 👩‍👧‍👧	família dona, noia i noia	none
-#⃣	tecla #	none
-*⃣	tecla *	none
 🔟	tecla 10	none
 🇦🇨	bandera Illa de l’Ascensió	none
 🇦🇩	bandera Andorra	none
@@ -3106,7 +3668,7 @@ symbols:
 🇧🇭	bandera Bahrain	none
 🇧🇮	bandera Burundi	none
 🇧🇯	bandera Benín	none
-🇧🇱	bandera Saint Barthélemy	none
+🇧🇱	bandera Saint-Barthélemy	none
 🇧🇲	bandera Bermudes	none
 🇧🇳	bandera Brunei	none
 🇧🇴	bandera Bolívia	none
@@ -3171,7 +3733,7 @@ symbols:
 🇬🇱	bandera Groenlàndia	none
 🇬🇲	bandera Gàmbia	none
 🇬🇳	bandera Guinea	none
-🇬🇵	bandera Guadeloupe	none
+🇬🇵	bandera Guadalupe	none
 🇬🇶	bandera Guinea Equatorial	none
 🇬🇷	bandera Grècia	none
 🇬🇸	bandera Illes Geòrgia del Sud i Sandwich del Sud	none
@@ -3201,11 +3763,11 @@ symbols:
 🇯🇴	bandera Jordània	none
 🇯🇵	bandera Japó	none
 🇰🇪	bandera Kenya	none
-🇰🇬	bandera Kirguizistan	none
+🇰🇬	bandera Kirguizstan	none
 🇰🇭	bandera Cambodja	none
 🇰🇮	bandera Kiribati	none
 🇰🇲	bandera Comores	none
-🇰🇳	bandera Saint Christopher i Nevis	none
+🇰🇳	bandera Saint Kitts i Nevis	none
 🇰🇵	bandera Corea del Nord	none
 🇰🇷	bandera Corea del Sud	none
 🇰🇼	bandera Kuwait	none
@@ -3234,7 +3796,7 @@ symbols:
 🇲🇲	bandera Myanmar (Birmània)	none
 🇲🇳	bandera Mongòlia	none
 🇲🇴	bandera Macau (RAE Xina)	none
-🇲🇵	bandera Illes Mariannes del Nord	none
+🇲🇵	bandera Illes Mariannes Septentrionals	none
 🇲🇶	bandera Martinica	none
 🇲🇷	bandera Mauritània	none
 🇲🇸	bandera Montserrat	none
@@ -3284,7 +3846,7 @@ symbols:
 🇸🇩	bandera Sudan	none
 🇸🇪	bandera Suècia	none
 🇸🇬	bandera Singapur	none
-🇸🇭	bandera Saint Helena	none
+🇸🇭	bandera Santa Helena	none
 🇸🇮	bandera Eslovènia	none
 🇸🇯	bandera Svalbard i Jan Mayen	none
 🇸🇰	bandera Eslovàquia	none
@@ -3298,7 +3860,7 @@ symbols:
 🇸🇻	bandera El Salvador	none
 🇸🇽	bandera Sint Maarten	none
 🇸🇾	bandera Síria	none
-🇸🇿	bandera eSwatini	none
+🇸🇿	bandera Eswatini	none
 🇹🇦	bandera Tristan da Cunha	none
 🇹🇨	bandera Illes Turks i Caicos	none
 🇹🇩	bandera Txad	none
@@ -3307,7 +3869,7 @@ symbols:
 🇹🇭	bandera Tailàndia	none
 🇹🇯	bandera Tadjikistan	none
 🇹🇰	bandera Tokelau	none
-🇹🇱	bandera Timor Oriental	none
+🇹🇱	bandera Timor-Leste	none
 🇹🇲	bandera Turkmenistan	none
 🇹🇳	bandera Tunísia	none
 🇹🇴	bandera Tonga	none
@@ -3326,8 +3888,8 @@ symbols:
 🇻🇦	bandera Ciutat del Vaticà	none
 🇻🇨	bandera Saint Vincent i les Grenadines	none
 🇻🇪	bandera Veneçuela	none
-🇻🇬	bandera Illes Verges Britàniques	none
-🇻🇮	bandera Illes Verges Nord-americanes	none
+🇻🇬	bandera Illes Verges britàniques	none
+🇻🇮	bandera Illes Verges nord-americanes	none
 🇻🇳	bandera Vietnam	none
 🇻🇺	bandera Vanuatu	none
 🇼🇫	bandera Wallis i Futuna	none
@@ -3341,13 +3903,17 @@ symbols:
 🏴󠁧󠁢󠁥󠁮󠁧󠁿	bandera Anglaterra	none
 🏴󠁧󠁢󠁳󠁣󠁴󠁿	bandera Escòcia	none
 🏴󠁧󠁢󠁷󠁬󠁳󠁿	bandera Gal·les	none
-0⃣	tecla 0	none
-1⃣	tecla 1	none
-2⃣	tecla 2	none
-3⃣	tecla 3	none
-4⃣	tecla 4	none
-5⃣	tecla 5	none
-6⃣	tecla 6	none
-7⃣	tecla 7	none
-8⃣	tecla 8	none
-9⃣	tecla 9	none
+₡	colon costa-riqueny	none
+₦	naira nigerià	none
+₧	pesseta espanyola	none
+₪	nou xéquel israelià	none
+₫	dong vietnamita	none
+₭	kip laosià	none
+₮	tögrög mongol	none
+₲	guaraní	none
+₴	hrívnia	none
+₵	cedi ghanès	none
+₸	tenge	none
+₺	lira turca	none
+₼	manat azerbaidjanès	none
+₾	lari	none

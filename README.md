@@ -26,9 +26,9 @@ and the SSIP protocol documentation: doc/ssip.html.
 Read [doc/README](doc/README) for more information.
 
 This documentation is also available online:
-the [speech dispatcher documentation](http://htmlpreview.github.com/?https://github.com/brailcom/speechd/blob/master/doc/speech-dispatcher.html),
-the [spd-say documentation](http://htmlpreview.github.com/?https://github.com/brailcom/speechd/blob/master/doc/spd-say.html),
-and the [SSIP protocol documentation](http://htmlpreview.github.com/?https://github.com/brailcom/speechd/blob/master/doc/ssip.html).
+the [speech dispatcher documentation](http://htmlpreview.github.io/?https://github.com/brailcom/speechd/blob/master/doc/speech-dispatcher.html),
+the [spd-say documentation](http://htmlpreview.github.io/?https://github.com/brailcom/speechd/blob/master/doc/spd-say.html),
+and the [SSIP protocol documentation](http://htmlpreview.github.io/?https://github.com/brailcom/speechd/blob/master/doc/ssip.html).
 
 The key features and the supported TTS engines, output subsystems, client
 interfaces and client applications known to work with Speech Dispatcher are
@@ -61,6 +61,12 @@ the [GitHub web interface](https://github.com/brailcom/speechd) or clone the
 repository from:
 
     https://github.com/brailcom/speechd.git
+
+Rust bindings are currently developed separately. You can use the [GitLab web
+interface](https://gitlab.com/ndarilek/speech-dispatcher-rs) or clone the
+repository from:
+
+    https://gitlab.com/ndarilek/speech-dispatcher-rs.git
 
 A Java library is currently developed separately. You can use the [GitHub web
 interface](https://github.com/brailcom/speechd-java) or clone the repository
@@ -103,7 +109,7 @@ License
 -------
 
 Copyright (C) 2001-2009 Brailcom, o.p.s
-Copyright (C) 2018-2020 Samuel Thibault <samuel.thibault@ens-lyon.org>
+Copyright (C) 2018-2020, 2022 Samuel Thibault <samuel.thibault@ens-lyon.org>
 Copyright (C) 2018 Didier Spaier <didier@slint.fr>
 
 This program is free software; you can redistribute it and/or modify it under

@@ -8,41 +8,174 @@ symbols:
 🏽	millihúðlitur	none
 🏾	meðaldökkur húðlitur	none
 🏿	dökkur húðlitur	none
-–	tilstrik	none
-—	þankastrik	none
-·	miðjudepill	none
-«	franskar gæsalappir vinstri	none
-»	franskar gæsalappir hægri	none
-§	kaflamerki	none
-†	úreldingarmerki	none
-‡	tvöfalt úreldingarmerki	none
-•	merkill	none
-°	gráða	none
 ℗	höfundarréttur hljóðupptöku	none
 ←	ör sem vísar til vinstri	none
 →	ör sem vísar til hægri	none
 ↑	ör sem vísar upp	none
 ↓	ör sem vísar niður	none
+↜	bylgjuör til vinstri	none
+↝	bylgjuör til hægri	none
+↞	tvihöfða ör til vinstri	none
+↟	tvíhöfða ör upp á við	none
+↠	tvíhöfða ör til hægri	none
+↡	tvíhöfða ör niður á við	none
+↢	örvarendi til vinstri	none
+↣	örvarendi til hægri	none
+↭	bylgjuör vinstri hægri	none
+↯	sikksakk ör niður á við	none
+↰	örvaroddur upp á við til vinstri	none
+↱	örvaroddur upp á við til hægri	none
+↲	örvaroddur niður á við til vinstri	none
+↳	örvaroddur niður á við til hægri	none
+↺	opin hringör rangsælis	none
+↻	opin hringör réttsælis	none
+↼	skutull til vinstri með brodd upp á við	none
+↽	skutull til vinstri með brodd niður á við	none
+↾	skutull upp á við með brodd til hægri	none
+↿	skutull upp á við með brodd til vinstri	none
+⇀	skutull til hægri með brodd upp á við	none
+⇁	skutull til hægri með brodd niður á við	none
+⇂	skutull niður á við með brodd til hægri	none
+⇃	skutull niður á við með brodd til vinstri	none
+⇄	ör til hægri yfir ör til vinstri	none
 ⇅	ör sem vísar upp og ör sem vísar niður	none
 ⇆	vinstriör yfir hægriör	none
+⇇	örvapar til vinstri	none
+⇈	örvarpar upp á við	none
+⇉	örvarpar til hægri	none
+⇊	örvapar niður á við	none
+⇋	skutull til vinstri yfir skutli til hægri	none
+⇌	skutull til hægri yfir skutli til vinstri	none
+⇐	tvöföld ör til vinstri	none
+⇑	tvöföld ör upp á við	none
+⇒	tvöföld ör til hægri	none
+⇓	tvöföld ör niður á við	none
+⇔	tvöföld ör vinstri hægri	none
+⇖	tvöföld ör í norðvestur	none
+⇗	tvöföld ör í norðaustur	none
+⇘	tvöföld ör í suðaustur	none
+⇙	tvöföld ör í suðvestur	none
+⇚	þreföld ör til vinstri	none
+⇛	þreföld ör til hægri	none
+⇜	hlykkjótt ör til vinstri	none
+⇝	hlykkjótt ör til hægri	none
+⇞	tvístrikuð ör upp á við	none
+⇟	tvístrikuð ör niður á við	none
+⇦	hol ör til vinstri	none
+⇧	hol ör upp á við	none
+⇨	hol ör til hægri	none
+⇩	hol ör niður á við	none
+⇵	ör niður á við vinstra megin við ör upp á við	none
+∅	tómamengi	none
 ∆	aukning	none
 ∇	nafla	none
 ∈	stak í	none
-÷	deilingarmerki	none
-×	margföldunarmerki	none
+∉	ekki stak	none
+∏	n-unda-margfeldi	none
+∑	n-unda-summun	none
+≮	ekki minna en	none
+≠	ekki jafnt	none
+≯	ekki stærra en	none
+−	mínusmerki	none
 ⁻	brjóstletur mínus	none
+∓	mínus-eða-plús	none
+∕	deilingarskástrik	none
 √	kvaðratrót	none
 ∞	óendanlegt-merki	none
+∟	rétt horn	none
+∠	horn	none
+∥	samsíða	none
 ∩	sniðmengi	none
 ∪	sammengi	none
+∫	heildi	none
+∬	tvöfalt heildi	none
+∮	lykkjuheildi	none
+∴	þar af leiðandi	none
+∵	vegna þess	none
+∶	hlutfall	none
+∼	tilduvirkir	none
+∽	öfug tilda	none
+≈	næstum jafnt	none
 ≡	nákvæmlega eins og	none
+≤	minna en eða jafnt	none
+≥	stærra en eða jafnt	none
+≦	minna en yfir jafngildi	none
+≧	stærra en yfir jafngildi	none
+≪	miklu minna en	none
+≫	miklu stærra en	none
+≬	á milli	none
+≳	stærra en jafngildi	none
+≺	kemur á undan	none
+≻	kemur á eftir	none
+⊁	kemur ekki á eftir	none
 ⊂	hlutmengi í	none
+⊕	plús í hring	none
+⊖	mínus í hring	none
+⊿	réttur þríhyrningur	none
+⋂	n-unda-sniðmengi	none
+⋅	punktavirkir	none
+⋆	stjörnuvirkir	none
+⋘	mjög miklu minna en	none
+⋙	mjög miklu stærra en	none
+⋮	lóðrétt úrfellingarmerki	none
+■	fylltur ferningur	none
+□	holur ferningur	none
+▢	holur ferningur með rúnnuðum hornum	none
+▣	fylltur ferningur í holum ferningi	none
+▤	ferningur með láréttri fyllingu	none
+▥	ferningur með lóðréttri fyllingu	none
+▬	fylltur rétthyrningur	none
+▭	holur rétthyrningur	none
+▮	fylltur lóðréttur rétthyrningur	none
+▰	fylltur sams´íðungur	none
 ▲	fylltur þríhyrningur sem vísar upp	none
+△	holur þríhyrningur sem vísar upp	none
+▴	fylltur lítill þríhyrningur sem vísar upp	none
+▵	holur lítill þríhyrningur sem vísar upp	none
+▷	holur þríhyrningur sem vísar til hægri	none
+▸	fylltur lítill þríhyrningur sem vísar til hægri	none
+▹	holur lítill þríhyrningur sem vísar til hægri	none
+►	fylltur bendir sem vísar til hægri	none
+▻	holur bendir sem vísar til hægri	none
 ▼	fylltur þríhyrningur sem vísar niður	none
+▽	holur þríhyrningur sem vísar niður	none
+▾	fylltur lítill þríhyrningur sem vísar niður	none
+▿	holur lítill þríhyrningur sem vísar niður	none
+◁	holur þríhyrningur sem vísar til vinstri	none
+◂	fylltur lítill þríhyrningur sem vísar til vinstri	none
+◃	holur lítill þríhyrningur sem vísar til vinstri	none
+◄	fylltur bendir sem vísar til vinstri	none
+◅	holur bendir sem vísar til vinstri	none
+◆	fylltur tígull	none
+◇	holur tígull	none
+◈	fylltur tígull í holum tígli	none
+◉	fylltur hringur í holum hring	none
 ◊	tígullaga	none
 ○	holur hringflötur	none
+◌	hringur úr punktum	none
+◍	hringur með lóðréttri fyllingu	none
 ●	fylltur hringflötur	none
+◐	hringur hálffylltur til vinstri	none
+◑	hringur hálffylltur til hægri	none
+◒	fylltur neðri helmingur hrings	none
+◓	fylltur efri helmingur hrings	none
+◔	fylltur efri fjórðungsbogi hrings til hægri	none
+◖	fylltur vinstri helmingur hrings	none
+◗	fylltur hægri helmingur hrings	none
+◠	efri helmingur hrings	none
+◡	neðri helmingur hrings	none
+◢	fylltur neðri þríhyrningur til hægri	none
+◣	fylltur neðri þríhyrningur til vinstri	none
+◤	fylltur efri þríhyrningur til vinstri	none
+◥	fylltur efri þríhyrningur til hægri	none
+◦	holt áherslumerki	none
 ◯	stór holur hringflötur	none
+◳	holur ferningur með efri fjórðungsgeira til hægri	none
+◷	holur hringur með efri fjórðungsboga til hægri	none
+◿	neðri þríhyrningur til hægri	none
+♪	áttundapartsnóta	none
+♭	lækkaður tónn	none
+♯	hækkaður tónn	none
 😀	glottandi andlit	none
 😃	brosandi andlit með opinn munn	none
 😄	hlæjandi andlit	none
@@ -53,6 +186,7 @@ symbols:
 😂	andlit tárast af gleði	none
 🙂	milt bros	none
 🙃	andlit á hvolfi	none
+🫠	andlit að bráðna	none
 😉	blikkandi andlit	none
 😊	bros	none
 😇	brosandi andlit með geislabaug	none
@@ -73,18 +207,25 @@ symbols:
 🤑	andlit með peningaseðil í munninum	none
 🤗	faðmandi andlit	none
 🤭	andlit með hendi fyrir munn	none
-🤫	andilt að segja uss	none
+🫢	andlit með opin augu og hendi yfir munni	none
+🫣	andlit með auga að kíkja	none
+🤫	andlit að segja uss	none
 🤔	hugsandi andlit	none
+🫡	andlit að heilsa	none
 🤐	andlit með rennilás fyrir munninum	none
 🤨	andlit með yppta brún	none
 😐	hlutlaust andlit	none
 😑	svipbrigðalaust andlit	none
 😶	andlit án munns	none
+🫥	punktalínuandlit	none
+😶‍🌫	andlit í skýjum	none
 😏	sjálfsánægt andlit	none
 😒	engin gleði	none
 🙄	ranghvolfir augum	none
 😬	gretta	none
+😮‍💨	andlit að anda frá sér	none
 🤥	lygari	none
+🫨	skjálfandi andlit	none
 😌	andlit sem er létt	none
 😔	íbyggið andlit	none
 😪	syfjað andlit	none
@@ -100,6 +241,7 @@ symbols:
 🥶	kalt	none
 🥴	ringlað andlit	none
 😵	svimi	none
+😵‍💫	andlit með gormaugu	none
 🤯	splundrað höfuð	none
 🤠	kúreki	none
 🥳	partíandlit	none
@@ -108,6 +250,7 @@ symbols:
 🤓	nördaandlit	none
 🧐	andlit með einglyrni	none
 😕	ruglingslegt andlit	none
+🫤	andlit með skáhallan munn	none
 😟	áhyggjufullt andlit	none
 🙁	andlit með litla skeifu	none
 ☹	andlit með stóra skeifu	none
@@ -116,6 +259,7 @@ symbols:
 😲	stórundrandi andlit	none
 😳	andlit að roðna	none
 🥺	biðjandi andlit	none
+🥹	andlit að berjast við tárin	none
 😦	leitt andlit	none
 😧	angistarfullt andlit	none
 😨	hrætt andlit	none
@@ -159,7 +303,6 @@ symbols:
 🙈	api heldur fyrir augu	none
 🙉	api heldur fyrir eyru	none
 🙊	api heldur fyrir munn	none
-💋	kossafar	none
 💌	ástarbréf	none
 💘	hjarta með ör	none
 💝	hjarta með slaufu	none
@@ -171,15 +314,21 @@ symbols:
 💟	skraut með hjarta	none
 ❣	hjarta sem upphrópunarmerki	none
 💔	brostið hjarta	none
+❤‍🔥	logandi hjarta	none
+❤‍🩹	hjarta að gróa	none
 ❤	rautt hjarta	none
+🩷	bleikt hjarta	none
 🧡	appelsínugult hjarta	none
 💛	gult hjarta	none
 💚	grænt hjarta	none
 💙	blátt hjarta	none
+🩵	ljósblátt hjarta	none
 💜	fjólublátt hjarta	none
 🤎	brúnt hjarta	none
 🖤	svart hjarta	none
+🩶	grátt hjarta	none
 🤍	hvítt hjarta	none
+💋	kossafar	none
 💯	fullt hús	none
 💢	reiði	none
 💥	árekstur	none
@@ -187,7 +336,6 @@ symbols:
 💦	svitadropar	none
 💨	hraðferð	none
 🕳	hola	none
-💣	sprengja	none
 💬	talblaðra	none
 👁‍🗨	auga í talblöðru	none
 🗨	vinstri talblaðra	none
@@ -199,11 +347,18 @@ symbols:
 🖐	upprétt hönd með glennta fingur	none
 ✋	lófi	none
 🖖	vulcan-kveðja	none
+🫱	hendi hægra megin	none
+🫲	hendi vinstra megin	none
+🫳	hendi með lófa niður	none
+🫴	hendi með lófa upp	none
+🫷	hönd ýtt til vinstri	none
+🫸	hönd ýtt til hægri	none
 👌	Í lagi	none
 🤌	klípandi fingur	none
 🤏	klípandi hönd	none
 ✌	friðarmerki	none
 🤞	krosslagðir fingur	none
+🫰	hendi með vísifingur og þumal í kross	none
 🤟	elska-þig merki	none
 🤘	rokkmerki	none
 🤙	hringdu	none
@@ -213,6 +368,7 @@ symbols:
 🖕	langatöng	none
 👇	fingur bendir niður	none
 ☝	vísifingur bendir upp	none
+🫵	vísifingur bendir á áhorfandann	none
 👍	þumall upp	none
 👎	þumall niður	none
 ✊	hnefi	none
@@ -221,6 +377,7 @@ symbols:
 🤜	vinstri hnefi	none
 👏	lófaklapp	none
 🙌	húrra	none
+🫶	hjartahendur	none
 👐	opinn lófi	none
 🤲	lófar saman	none
 🤝	handaband	none
@@ -245,6 +402,7 @@ symbols:
 👁	auga	none
 👅	tunga	none
 👄	munnur	none
+🫦	bítur í vör	none
 👶	ungbarn	none
 🧒	barn	none
 👦	drengur	none
@@ -253,8 +411,10 @@ symbols:
 👱	ljóshærð manneskja	none
 👨	karl	none
 🧔	maður með skegg	none
+🧔‍♂	karl skegg	none
 👱‍♂	ljóshærður maður	none
 👩	kona	none
+🧔‍♀	kona skegg	none
 👱‍♀	ljóshærð kona	none
 🧓	eldri fullorðinn	none
 👴	eldri maður	none
@@ -350,6 +510,7 @@ symbols:
 👷	verkamaður	none
 👷‍♂	karlkyns byggingarstarfsmaður	none
 👷‍♀	kvenkyns byggingarstarfsmaður	none
+🫅	manneskja með kórónu	none
 🤴	prins	none
 👸	prinsessa	none
 👳	maður með túrban	none
@@ -364,6 +525,8 @@ symbols:
 👰‍♂	karl með slör	none
 👰‍♀	kona með slör	none
 🤰	ólétt kona	none
+🫃	barnshafandi maður	none
+🫄	barnshafandi manneskja	none
 🤱	brjóstagjöf	none
 👩‍🍼	kona að gefa barni	none
 👨‍🍼	karl að gefa barni	none
@@ -399,6 +562,7 @@ symbols:
 🧟	uppvakningur	none
 🧟‍♂	karlkyns uppvakningur	none
 🧟‍♀	kvenkyns uppvakningur	none
+🧌	jarðálfur	none
 💆	andlitsnudd	none
 💆‍♂	maður fær andlitsnudd	none
 💆‍♀	kona fær andlitsnudd	none
@@ -460,13 +624,13 @@ symbols:
 🏋	kraftlyftingamaður	none
 🏋‍♂	maður í kraftlyftingum	none
 🏋‍♀	kona í kraftlyftingum	none
-🚴	hjól	none
+🚴	manneskja á hjóli	none
 🚴‍♂	maður á hjóli	none
 🚴‍♀	kona á hjóli	none
 🚵	fjallahjól	none
 🚵‍♂	maður á fjallahjóli	none
 🚵‍♀	kona á fjallahjóli	none
-🤸	handalaup	none
+🤸	handahlaup	none
 🤸‍♂	maður á handahlaupum	none
 🤸‍♀	kona á handahlaupum	none
 🤼	glíma	none
@@ -522,10 +686,12 @@ symbols:
 🐅	tígrisdýr	none
 🐆	hlébarði	none
 🐴	hestshöfuð	none
+🫎	elgur	none
+🫏	asni	none
 🐎	hestur	none
 🦄	einhyrningur	none
 🦓	sebrahestur	none
-🦌	´hjartardýr	none
+🦌	hjartardýr	none
 🦬	vísundur	none
 🐮	kýrhöfuð	none
 🐂	uxi	none
@@ -584,6 +750,8 @@ symbols:
 🦩	flamingói	none
 🦚	páfugl	none
 🦜	páfagaukur	none
+🪽	vængur	none
+🪿	gæs	none
 🐸	froskur	none
 🐊	krókódíll	none
 🐢	skjaldbaka	none
@@ -603,6 +771,8 @@ symbols:
 🦈	hákarl	none
 🐙	kolkrabbi	none
 🐚	kuðungur	none
+🪸	kórall	none
+🪼	marglytta	none
 🐌	snigill	none
 🦋	fiðrildi	none
 🐛	skordýr	none
@@ -622,6 +792,7 @@ symbols:
 💐	blómvöndur	none
 🌸	kirsuberjablóm	none
 💮	hvítt blóm	none
+🪷	lótus	none
 🏵	rósarmynstur	none
 🌹	rós	none
 🥀	sölnað blóm	none
@@ -629,6 +800,7 @@ symbols:
 🌻	sólblóm	none
 🌼	blóm	none
 🌷	túlípani	none
+🪻	hýasinta	none
 🌱	græðlingur	none
 🪴	pottaplanta	none
 🌲	sígrænt tré	none
@@ -642,6 +814,9 @@ symbols:
 🍁	hlynslauf	none
 🍂	fallandi lauf	none
 🍃	lauf í vindi	none
+🪹	tómt hreiður	none
+🪺	hreiður með eggjum	none
+🍄	sveppur	none
 🍇	vínber	none
 🍈	melóna	none
 🍉	vatnsmelóna	none
@@ -673,13 +848,15 @@ symbols:
 🥦	brokkólí	none
 🧄	hvítlaukur	none
 🧅	laukur	none
-🍄	sveppur	none
 🥜	jarðhneta	none
+🫘	baunir	none
 🌰	kastanía	none
+🫚	engiferrót	none
+🫛	baunabelgur	none
 🍞	brauð	none
-🥐	horn	none
+🥐	Croissant	none
 🥖	fransbrauð	none
-🫓	flakaka	none
+🫓	flatkaka	none
 🥨	saltkringla	none
 🥯	beygla	none
 🥞	pönnukökur	none
@@ -760,6 +937,7 @@ symbols:
 🍻	bjórglös	none
 🥂	skál	none
 🥃	viskíglas	none
+🫗	hellir vökva	none
 🥤	glas og rör	none
 🧋	kúlute	none
 🧃	ferna	none
@@ -770,6 +948,7 @@ symbols:
 🍴	hnífur og gaffall	none
 🥄	skeið	none
 🔪	hnífur	none
+🫙	krukka	none
 🏺	leirkrukka	none
 🌍	hnöttur sem sýnir Evrópu-Afríku	none
 🌎	hnöttur sem sýnir Ameríku	none
@@ -819,7 +998,7 @@ symbols:
 🛕	hindúahof	none
 🕍	sýnagóga	none
 ⛩	sjintó-hof	none
-🕋	kaaba-bygging	none
+🕋	kaaba-byggingin	none
 ⛲	gosbrunnur	none
 ⛺	tjald	none
 🌁	þokukennt	none
@@ -830,8 +1009,9 @@ symbols:
 🌆	borg um kvöld	none
 🌇	sólarlag	none
 🌉	brú um nótt	none
-♨	heitar laugar	none
+♨	hverir	none
 🎠	hringekjuhestur	none
+🛝	rennibraut	none
 🎡	parísarhjól	none
 🎢	rússíbani	none
 💈	rakarastofa	none
@@ -869,23 +1049,25 @@ symbols:
 🏍	mótorhjól	none
 🛵	vespa	none
 🦽	hjólastóll	none
-🦼	vélknúinn hj´ólastóll	none
+🦼	vélknúinn hjólastóll	none
 🛺	vélknúinn léttvagn	none
 🚲	hjólreiðar	none
-🛴	sparkhjól	none
-🛹	hlaupabretti	none
+🛴	hlaupahjól	none
+🛹	hjólabretti	none
 🛼	hjólaskautar	none
 🚏	rúta	none
 🛣	hraðbraut	none
 🛤	járnbrautarteinar	none
 🛢	olíutunna	none
 ⛽	bensíndæla	none
+🛞	hjól	none
 🚨	sírena	none
 🚥	lárétt umferðarljós	none
 🚦	lóðrétt umferðarljós	none
 🛑	stöðvunarskylda	none
 🚧	vegavinna	none
 ⚓	akkeri	none
+🛟	björgunarhringur	none
 ⛵	seglskúta	none
 🛶	kanó	none
 🚤	hraðbátur	none
@@ -956,7 +1138,7 @@ symbols:
 🌝	fullt tungl með andliti	none
 🌞	sól með andliti	none
 🪐	pláneta með hringi	none
-⭐	hvít stjarna	none
+⭐	gul stjarna	none
 🌟	skínandi stjarna	none
 🌠	stjörnuhrap	none
 🌌	vetrarbrautin	none
@@ -977,14 +1159,14 @@ symbols:
 🌂	lokuð regnhlíf	none
 ☂	regnhlíf	none
 ☔	regnhlíf með regndropum	none
-⛱	regnhlíf á jörðinni	none
+⛱	sólhlíf á jörðinni	none
 ⚡	háspenna	none
 ❄	snjókorn	none
 ☃	snjókarl í snjókomu	none
 ⛄	snjókarl	none
 ☄	halastjarna	none
 🔥	eldur	none
-💧	smádropi	none
+💧	dropi	none
 🌊	alda	none
 🎃	hrekkjavökugrasker	none
 🎄	jólatré	none
@@ -1005,7 +1187,7 @@ symbols:
 🎀	borði	none
 🎁	gjöf	none
 🎗	minnisvarðaborði	none
-🎟	aðgöngumiði	none
+🎟	aðgöngumiðar	none
 🎫	miði	none
 🎖	hermedalía	none
 🏆	verðlaunabikar	none
@@ -1034,7 +1216,7 @@ symbols:
 🥅	mark	none
 ⛳	golf	none
 ⛸	skauti	none
-🎣	stangveiði	none
+🎣	veiðistöng	none
 🤿	köfunargríma	none
 🎽	hlaupabolur	none
 🎿	skíði	none
@@ -1043,10 +1225,10 @@ symbols:
 🎯	skotmark	none
 🪀	jójó	none
 🪁	flugdreki	none
+🔫	byssa	none
 🎱	billjard	none
 🔮	kristalskúla	none
 🪄	töfrasproti	none
-🧿	nazar verndargripur	none
 🎮	tölvuleikur	none
 🕹	stýripinni	none
 🎰	spilakassi	none
@@ -1054,6 +1236,7 @@ symbols:
 🧩	púsl	none
 🧸	bangsi	none
 🪅	piñata	none
+🪩	diskókúla	none
 🪆	babúskur	none
 ♠	spaði	none
 ♥	hjarta	none
@@ -1090,6 +1273,7 @@ symbols:
 🩳	stuttbuxur	none
 👙	bikíní	none
 👚	kvenföt	none
+🪭	blævængur	none
 👛	budda	none
 👜	handtaska	none
 👝	smáveski	none
@@ -1104,6 +1288,7 @@ symbols:
 👡	kvensandali	none
 🩰	balletskór	none
 👢	kvenstígvél	none
+🪮	hárkambur	none
 👑	kóróna	none
 👒	kvenhattur	none
 🎩	pípuhattur	none
@@ -1142,6 +1327,8 @@ symbols:
 🪕	banjó	none
 🥁	tromma	none
 🪘	handtromma	none
+🪇	hristur	none
+🪈	flauta	none
 📱	farsími	none
 📲	farsími með ör	none
 ☎	sími	none
@@ -1149,6 +1336,7 @@ symbols:
 📟	símboði	none
 📠	fax	none
 🔋	rafhlaða	none
+🪫	raflítil rafhlaða	none
 🔌	innstunga	none
 💻	tölva	none
 🖥	heimilistölva	none
@@ -1191,7 +1379,7 @@ symbols:
 📄	skjal snýr upp	none
 📰	dagblað	none
 🗞	samanrúllað dagblað	none
-📑	bókamerki í tölvu	none
+📑	merkiflipar	none
 🔖	bókamerki	none
 🏷	merkimiði	none
 💰	peningapoki	none
@@ -1260,7 +1448,7 @@ symbols:
 🛠	hamar og skiptilykill	none
 🗡	rýtingur	none
 ⚔	krosslögð sverð	none
-🔫	byssa	none
+💣	sprengja	none
 🪃	búmerang	none
 🏹	bogi og ör	none
 🛡	skjöldur	none
@@ -1280,7 +1468,7 @@ symbols:
 🪜	stigi	none
 ⚗	eimingarflaska	none
 🧪	tilraunaglas	none
-🧫	petrílskál	none
+🧫	petrískál	none
 🧬	dna	none
 🔬	smásjá	none
 🔭	sjónauki	none
@@ -1289,7 +1477,9 @@ symbols:
 🩸	blóðdropi	none
 💊	pilla	none
 🩹	plástur	none
+🩼	hækja	none
 🩺	hlustunarpípa	none
+🩻	röntgengeisli	none
 🚪	dyr	none
 🛗	lyfta	none
 🪞	spegill	none
@@ -1310,6 +1500,7 @@ symbols:
 🧻	pappírsrúlla	none
 🪣	fata	none
 🧼	sápa	none
+🫧	loftbólur	none
 🪥	tannbursti	none
 🧽	svampur	none
 🧯	slökkvitæki	none
@@ -1318,8 +1509,11 @@ symbols:
 ⚰	líkkista	none
 🪦	legsteinn	none
 ⚱	duftker	none
+🧿	nazar verndargripur	none
+🪬	hamsa	none
 🗿	moyai-stytta	none
 🪧	skilti	none
+🪪	persónuskilríki	none
 🏧	hraðbanki	none
 🚮	merki, rusl í ruslatunnu	none
 🚰	drykkjarvatn	none
@@ -1358,7 +1552,7 @@ symbols:
 ↔	ör til vinstri og hægri	none
 ↩	sveigð ör til vinstri	none
 ↪	sveigð ör til hægri	none
-⤴	sveig ör upp	none
+⤴	sveigð ör upp	none
 ⤵	sveigð ör niður	none
 🔃	endurhlaða	none
 🔄	rangsælis örvar	none
@@ -1379,6 +1573,7 @@ symbols:
 ☮	friðartákn	none
 🕎	menorah-ljósastika	none
 🔯	sexhyrnd stjarna	none
+🪯	khanda	none
 ♈	hrúturinn	none
 ♉	nautið	none
 ♊	tvíburar	none
@@ -1414,6 +1609,7 @@ symbols:
 🔅	lítil birta	none
 🔆	mikil birta	none
 📶	farsímasamband	none
+🛜	þráðlaust	none
 📳	titringur	none
 📴	slökkt á síma	none
 ♀	kvenkyns merki	none
@@ -1423,14 +1619,12 @@ symbols:
 ➕	plús	none
 ➖	mínus	none
 ➗	deiling	none
+🟰	þungt jafnaðarmerki	none
 ♾	óendanleiki	none
-‼	tvöfalt upphrópunarmerki	none
-⁉	upphrópunarmerki og spurningarmerki	none
-❓	spurningarmerki	none
+❓	rautt spurningarmerki	none
 ❔	hvítt spurningarmerki	none
 ❕	hvítt upphrópunarmerki	none
-❗	upphrópunarmerki	none
-〰	bugðustrik	none
+❗	rautt upphrópunarmerki	none
 💱	gjaldmiðlar	none
 💲	dollaramerki	none
 ⚕	lækningamerki	none
@@ -1447,12 +1641,9 @@ symbols:
 ❎	krosshnappur	none
 ➰	lykkja	none
 ➿	tvöföld lykkja	none
-〽	japanskt upphafsmerki söngs	none
 ✳	áttarma stjörnumerki	none
 ✴	áttarma stjarna	none
 ❇	leiftur	none
-©	höfundarréttarmerki	none
-®	skráð	none
 ™	skrásett vörumerki	none
 🔠	hástafir	none
 🔡	lágstafir	none
@@ -1476,23 +1667,6 @@ symbols:
 🆘	SOS	none
 🆙	UP!	none
 🆚	VS	none
-🈁	katakana koko, kassi	none
-🈂	katakana sa, kassi	none
-🈷	mánaðarleg upphæð, kassi	none
-🈶	„Ekki ókeypis“ á japönsku	none
-🈯	„Frátekið“ á japönsku	none
-🉐	„Kjarakaup“ á japönsku	none
-🈹	„Afsláttur“ á japönsku	none
-🈚	„Ókeypis“ á japönsku	none
-🈲	„Bannað“ á japönsku	none
-🉑	„Viðunandi“ á japönsku	none
-🈸	„Umsókn“ á japönsku	none
-🈴	„Viðunandi einkunn“ á japönsku	none
-🈳	„Laust pláss“ á japönsku	none
-㊗	„Til hamingju“ ´a japönsku	none
-㊙	„Leyndarmál“ á japönsku	none
-🈺	„Opið“ á japönsku	none
-🈵	„Allt fullt“ á japönsku	none
 🔴	stór rauður hringur	none
 🟠	appelsínugulur hringur	none
 🟡	gulur hringur	none
@@ -1535,15 +1709,17 @@ symbols:
 🏳‍🌈	regnbogafáni	none
 🏳‍⚧	transfáni	none
 🏴‍☠	sjóræningjafáni	none
-£	pund	none
-¥	jen	none
+₣	franskur franki	none
+₤	líra	none
+₥	millidalur	none
+₩	vonn	none
 €	evra	none
+₱	pesi	none
+₳	suðlægur	none
 ₹	indversk rúpía	none
 ₽	rúbla	none
-¹	brjóstletur einn	none
-²	brjóstletur tveir	none
-³	brjóstletur þrír	none
-µ	míkró-merki	none
+₿	bitcoin	none
+₨	rúpía	none
 👋🏻	hönd veifar ljós húðlitur	none
 👋🏼	hönd veifar meðalljós húðlitur	none
 👋🏽	hönd veifar millihúðlitur	none
@@ -1569,6 +1745,56 @@ symbols:
 🖖🏽	vulcan-kveðja millihúðlitur	none
 🖖🏾	vulcan-kveðja meðaldökkur húðlitur	none
 🖖🏿	vulcan-kveðja dökkur húðlitur	none
+🫱🏻	hendi hægra megin ljós húðlitur	none
+🫱🏼	hendi hægra megin meðalljós húðlitur	none
+🫱🏽	hendi hægra megin millihúðlitur	none
+🫱🏾	hendi hægra megin meðaldökkur húðlitur	none
+🫱🏿	hendi hægra megin dökkur húðlitur	none
+🫱🏻‍🫲🏼	handaband ljós húðlitur og meðalljós húðlitur	none
+🫱🏻‍🫲🏽	handaband ljós húðlitur og millihúðlitur	none
+🫱🏻‍🫲🏾	handaband ljós húðlitur og meðaldökkur húðlitur	none
+🫱🏻‍🫲🏿	handaband ljós húðlitur og dökkur húðlitur	none
+🫱🏼‍🫲🏻	handaband meðalljós húðlitur og ljós húðlitur	none
+🫱🏼‍🫲🏽	handaband meðalljós húðlitur og millihúðlitur	none
+🫱🏼‍🫲🏾	handaband meðalljós húðlitur og meðaldökkur húðlitur	none
+🫱🏼‍🫲🏿	handaband meðalljós húðlitur og dökkur húðlitur	none
+🫱🏽‍🫲🏻	handaband millihúðlitur og ljós húðlitur	none
+🫱🏽‍🫲🏼	handaband millihúðlitur og meðalljós húðlitur	none
+🫱🏽‍🫲🏾	handaband millihúðlitur og meðaldökkur húðlitur	none
+🫱🏽‍🫲🏿	handaband millihúðlitur og dökkur húðlitur	none
+🫱🏾‍🫲🏻	handaband meðaldökkur húðlitur og ljós húðlitur	none
+🫱🏾‍🫲🏼	handaband meðaldökkur húðlitur og meðalljós húðlitur	none
+🫱🏾‍🫲🏽	handaband meðaldökkur húðlitur og millihúðlitur	none
+🫱🏾‍🫲🏿	handaband meðaldökkur húðlitur og dökkur húðlitur	none
+🫱🏿‍🫲🏻	handaband dökkur húðlitur og ljós húðlitur	none
+🫱🏿‍🫲🏼	handaband dökkur húðlitur og meðalljós húðlitur	none
+🫱🏿‍🫲🏽	handaband dökkur húðlitur og millihúðlitur	none
+🫱🏿‍🫲🏾	handaband dökkur húðlitur og meðaldökkur húðlitur	none
+🫲🏻	hendi vinstra megin ljós húðlitur	none
+🫲🏼	hendi vinstra megin meðalljós húðlitur	none
+🫲🏽	hendi vinstra megin millihúðlitur	none
+🫲🏾	hendi vinstra megin meðaldökkur húðlitur	none
+🫲🏿	hendi vinstra megin dökkur húðlitur	none
+🫳🏻	hendi með lófa niður ljós húðlitur	none
+🫳🏼	hendi með lófa niður meðalljós húðlitur	none
+🫳🏽	hendi með lófa niður millihúðlitur	none
+🫳🏾	hendi með lófa niður meðaldökkur húðlitur	none
+🫳🏿	hendi með lófa niður dökkur húðlitur	none
+🫴🏻	hendi með lófa upp ljós húðlitur	none
+🫴🏼	hendi með lófa upp meðalljós húðlitur	none
+🫴🏽	hendi með lófa upp millihúðlitur	none
+🫴🏾	hendi með lófa upp meðaldökkur húðlitur	none
+🫴🏿	hendi með lófa upp dökkur húðlitur	none
+🫷🏻	hönd ýtt til vinstri ljós húðlitur	none
+🫷🏼	hönd ýtt til vinstri meðalljós húðlitur	none
+🫷🏽	hönd ýtt til vinstri millihúðlitur	none
+🫷🏾	hönd ýtt til vinstri meðaldökkur húðlitur	none
+🫷🏿	hönd ýtt til vinstri dökkur húðlitur	none
+🫸🏻	hönd ýtt til hægri ljós húðlitur	none
+🫸🏼	hönd ýtt til hægri meðalljós húðlitur	none
+🫸🏽	hönd ýtt til hægri millihúðlitur	none
+🫸🏾	hönd ýtt til hægri meðaldökkur húðlitur	none
+🫸🏿	hönd ýtt til hægri dökkur húðlitur	none
 👌🏻	Í lagi ljós húðlitur	none
 👌🏼	Í lagi meðalljós húðlitur	none
 👌🏽	Í lagi millihúðlitur	none
@@ -1594,6 +1820,11 @@ symbols:
 🤞🏽	krosslagðir fingur millihúðlitur	none
 🤞🏾	krosslagðir fingur meðaldökkur húðlitur	none
 🤞🏿	krosslagðir fingur dökkur húðlitur	none
+🫰🏻	hendi með vísifingur og þumal í kross ljós húðlitur	none
+🫰🏼	hendi með vísifingur og þumal í kross meðalljós húðlitur	none
+🫰🏽	hendi með vísifingur og þumal í kross millihúðlitur	none
+🫰🏾	hendi með vísifingur og þumal í kross meðaldökkur húðlitur	none
+🫰🏿	hendi með vísifingur og þumal í kross dökkur húðlitur	none
 🤟🏻	elska-þig merki ljós húðlitur	none
 🤟🏼	elska-þig merki meðalljós húðlitur	none
 🤟🏽	elska-þig merki millihúðlitur	none
@@ -1639,6 +1870,11 @@ symbols:
 ☝🏽	vísifingur bendir upp millihúðlitur	none
 ☝🏾	vísifingur bendir upp meðaldökkur húðlitur	none
 ☝🏿	vísifingur bendir upp dökkur húðlitur	none
+🫵🏻	vísifingur bendir á áhorfandann ljós húðlitur	none
+🫵🏼	vísifingur bendir á áhorfandann meðalljós húðlitur	none
+🫵🏽	vísifingur bendir á áhorfandann millihúðlitur	none
+🫵🏾	vísifingur bendir á áhorfandann meðaldökkur húðlitur	none
+🫵🏿	vísifingur bendir á áhorfandann dökkur húðlitur	none
 👍🏻	þumall upp ljós húðlitur	none
 👍🏼	þumall upp meðalljós húðlitur	none
 👍🏽	þumall upp millihúðlitur	none
@@ -1679,6 +1915,11 @@ symbols:
 🙌🏽	húrra millihúðlitur	none
 🙌🏾	húrra meðaldökkur húðlitur	none
 🙌🏿	húrra dökkur húðlitur	none
+🫶🏻	hjartahendur ljós húðlitur	none
+🫶🏼	hjartahendur meðalljós húðlitur	none
+🫶🏽	hjartahendur millihúðlitur	none
+🫶🏾	hjartahendur meðaldökkur húðlitur	none
+🫶🏿	hjartahendur dökkur húðlitur	none
 👐🏻	opinn lófi ljós húðlitur	none
 👐🏼	opinn lófi meðalljós húðlitur	none
 👐🏽	opinn lófi millihúðlitur	none
@@ -1689,6 +1930,11 @@ symbols:
 🤲🏽	lófar saman millihúðlitur	none
 🤲🏾	lófar saman meðaldökkur húðlitur	none
 🤲🏿	lófar saman dökkur húðlitur	none
+🤝🏻	handaband ljós húðlitur	none
+🤝🏼	handaband meðalljós húðlitur	none
+🤝🏽	handaband millihúðlitur	none
+🤝🏾	handaband meðaldökkur húðlitur	none
+🤝🏿	handaband dökkur húðlitur	none
 🙏🏻	bæn ljós húðlitur	none
 🙏🏼	bæn meðalljós húðlitur	none
 🙏🏽	bæn millihúðlitur	none
@@ -1769,6 +2015,46 @@ symbols:
 👱🏽	ljóshærð manneskja millihúðlitur	none
 👱🏾	ljóshærð manneskja meðaldökkur húðlitur	none
 👱🏿	ljóshærð manneskja dökkur húðlitur	none
+🧑🏻‍❤‍💋‍🧑🏼	koss manneskja, manneskja, ljós húðlitur og meðalljós húðlitur	none
+🧑🏻‍❤‍💋‍🧑🏽	koss manneskja, manneskja, ljós húðlitur og millihúðlitur	none
+🧑🏻‍❤‍💋‍🧑🏾	koss manneskja, manneskja, ljós húðlitur og meðaldökkur húðlitur	none
+🧑🏻‍❤‍💋‍🧑🏿	koss manneskja, manneskja, ljós húðlitur og dökkur húðlitur	none
+🧑🏼‍❤‍💋‍🧑🏻	koss manneskja, manneskja, meðalljós húðlitur og ljós húðlitur	none
+🧑🏼‍❤‍💋‍🧑🏽	koss manneskja, manneskja, meðalljós húðlitur og millihúðlitur	none
+🧑🏼‍❤‍💋‍🧑🏾	koss manneskja, manneskja, meðalljós húðlitur og meðaldökkur húðlitur	none
+🧑🏼‍❤‍💋‍🧑🏿	koss manneskja, manneskja, meðalljós húðlitur og dökkur húðlitur	none
+🧑🏽‍❤‍💋‍🧑🏻	koss manneskja, manneskja, millihúðlitur og ljós húðlitur	none
+🧑🏽‍❤‍💋‍🧑🏼	koss manneskja, manneskja, millihúðlitur og meðalljós húðlitur	none
+🧑🏽‍❤‍💋‍🧑🏾	koss manneskja, manneskja, millihúðlitur og meðaldökkur húðlitur	none
+🧑🏽‍❤‍💋‍🧑🏿	koss manneskja, manneskja, millihúðlitur og dökkur húðlitur	none
+🧑🏾‍❤‍💋‍🧑🏻	koss manneskja, manneskja, meðaldökkur húðlitur og ljós húðlitur	none
+🧑🏾‍❤‍💋‍🧑🏼	koss manneskja, manneskja, meðaldökkur húðlitur og meðalljós húðlitur	none
+🧑🏾‍❤‍💋‍🧑🏽	koss manneskja, manneskja, meðaldökkur húðlitur og millihúðlitur	none
+🧑🏾‍❤‍💋‍🧑🏿	koss manneskja, manneskja, meðaldökkur húðlitur og dökkur húðlitur	none
+🧑🏿‍❤‍💋‍🧑🏻	koss manneskja, manneskja, dökkur húðlitur og ljós húðlitur	none
+🧑🏿‍❤‍💋‍🧑🏼	koss manneskja, manneskja, dökkur húðlitur og meðalljós húðlitur	none
+🧑🏿‍❤‍💋‍🧑🏽	koss manneskja, manneskja, dökkur húðlitur og millihúðlitur	none
+🧑🏿‍❤‍💋‍🧑🏾	koss manneskja, manneskja, dökkur húðlitur og meðaldökkur húðlitur	none
+🧑🏻‍❤‍🧑🏼	par manneskja, manneskja, ljós húðlitur og meðalljós húðlitur	none
+🧑🏻‍❤‍🧑🏽	par manneskja, manneskja, ljós húðlitur og millihúðlitur	none
+🧑🏻‍❤‍🧑🏾	par manneskja, manneskja, ljós húðlitur og meðaldökkur húðlitur	none
+🧑🏻‍❤‍🧑🏿	par manneskja, manneskja, ljós húðlitur og dökkur húðlitur	none
+🧑🏼‍❤‍🧑🏻	par manneskja, manneskja, meðalljós húðlitur og ljós húðlitur	none
+🧑🏼‍❤‍🧑🏽	par manneskja, manneskja, meðalljós húðlitur og millihúðlitur	none
+🧑🏼‍❤‍🧑🏾	par manneskja, manneskja, meðalljós húðlitur og meðaldökkur húðlitur	none
+🧑🏼‍❤‍🧑🏿	par manneskja, manneskja, meðalljós húðlitur og dökkur húðlitur	none
+🧑🏽‍❤‍🧑🏻	par manneskja, manneskja, millihúðlitur og ljós húðlitur	none
+🧑🏽‍❤‍🧑🏼	par manneskja, manneskja, millihúðlitur og meðalljós húðlitur	none
+🧑🏽‍❤‍🧑🏾	par manneskja, manneskja, millihúðlitur og meðaldökkur húðlitur	none
+🧑🏽‍❤‍🧑🏿	par manneskja, manneskja, millihúðlitur og dökkur húðlitur	none
+🧑🏾‍❤‍🧑🏻	par manneskja, manneskja, meðaldökkur húðlitur og ljós húðlitur	none
+🧑🏾‍❤‍🧑🏼	par manneskja, manneskja, meðaldökkur húðlitur og meðalljós húðlitur	none
+🧑🏾‍❤‍🧑🏽	par manneskja, manneskja, meðaldökkur húðlitur og millihúðlitur	none
+🧑🏾‍❤‍🧑🏿	par manneskja, manneskja, meðaldökkur húðlitur og dökkur húðlitur	none
+🧑🏿‍❤‍🧑🏻	par manneskja, manneskja, dökkur húðlitur og ljós húðlitur	none
+🧑🏿‍❤‍🧑🏼	par manneskja, manneskja, dökkur húðlitur og meðalljós húðlitur	none
+🧑🏿‍❤‍🧑🏽	par manneskja, manneskja, dökkur húðlitur og millihúðlitur	none
+🧑🏿‍❤‍🧑🏾	par manneskja, manneskja, dökkur húðlitur og meðaldökkur húðlitur	none
 🧑‍🦰	manneskja rautt hár	none
 🧑🏻‍🦰	manneskja ljós húðlitur og rautt hár	none
 🧑🏼‍🦰	manneskja meðalljós húðlitur og rautt hár	none
@@ -1803,11 +2089,66 @@ symbols:
 🧔🏽	maður með skegg millihúðlitur	none
 🧔🏾	maður með skegg meðaldökkur húðlitur	none
 🧔🏿	maður með skegg dökkur húðlitur	none
+🧔🏻‍♂	karl ljós húðlitur og skegg	none
+🧔🏼‍♂	karl meðalljós húðlitur og skegg	none
+🧔🏽‍♂	karl millihúðlitur og skegg	none
+🧔🏾‍♂	karl meðaldökkur húðlitur og skegg	none
+🧔🏿‍♂	karl dökkur húðlitur og skegg	none
 👱🏻‍♂	ljóshærður maður ljós húðlitur	none
 👱🏼‍♂	ljóshærður maður meðalljós húðlitur	none
 👱🏽‍♂	ljóshærður maður millihúðlitur	none
 👱🏾‍♂	ljóshærður maður meðaldökkur húðlitur	none
 👱🏿‍♂	ljóshærður maður dökkur húðlitur	none
+👨🏻‍❤‍💋‍👨🏻	koss karl, karl og ljós húðlitur	none
+👨🏻‍❤‍💋‍👨🏼	koss karl, karl, ljós húðlitur og meðalljós húðlitur	none
+👨🏻‍❤‍💋‍👨🏽	koss karl, karl, ljós húðlitur og millihúðlitur	none
+👨🏻‍❤‍💋‍👨🏾	koss karl, karl, ljós húðlitur og meðaldökkur húðlitur	none
+👨🏻‍❤‍💋‍👨🏿	koss karl, karl, ljós húðlitur og dökkur húðlitur	none
+👨🏼‍❤‍💋‍👨🏻	koss karl, karl, meðalljós húðlitur og ljós húðlitur	none
+👨🏼‍❤‍💋‍👨🏼	koss karl, karl og meðalljós húðlitur	none
+👨🏼‍❤‍💋‍👨🏽	koss karl, karl, meðalljós húðlitur og millihúðlitur	none
+👨🏼‍❤‍💋‍👨🏾	koss karl, karl, meðalljós húðlitur og meðaldökkur húðlitur	none
+👨🏼‍❤‍💋‍👨🏿	koss karl, karl, meðalljós húðlitur og dökkur húðlitur	none
+👨🏽‍❤‍💋‍👨🏻	koss karl, karl, millihúðlitur og ljós húðlitur	none
+👨🏽‍❤‍💋‍👨🏼	koss karl, karl, millihúðlitur og meðalljós húðlitur	none
+👨🏽‍❤‍💋‍👨🏽	koss karl, karl og millihúðlitur	none
+👨🏽‍❤‍💋‍👨🏾	koss karl, karl, millihúðlitur og meðaldökkur húðlitur	none
+👨🏽‍❤‍💋‍👨🏿	koss karl, karl, millihúðlitur og dökkur húðlitur	none
+👨🏾‍❤‍💋‍👨🏻	koss karl, karl, meðaldökkur húðlitur og ljós húðlitur	none
+👨🏾‍❤‍💋‍👨🏼	koss karl, karl, meðaldökkur húðlitur og meðalljós húðlitur	none
+👨🏾‍❤‍💋‍👨🏽	koss karl, karl, meðaldökkur húðlitur og millihúðlitur	none
+👨🏾‍❤‍💋‍👨🏾	koss karl, karl og meðaldökkur húðlitur	none
+👨🏾‍❤‍💋‍👨🏿	koss karl, karl, meðaldökkur húðlitur og dökkur húðlitur	none
+👨🏿‍❤‍💋‍👨🏻	koss karl, karl, dökkur húðlitur og ljós húðlitur	none
+👨🏿‍❤‍💋‍👨🏼	koss karl, karl, dökkur húðlitur og meðalljós húðlitur	none
+👨🏿‍❤‍💋‍👨🏽	koss karl, karl, dökkur húðlitur og millihúðlitur	none
+👨🏿‍❤‍💋‍👨🏾	koss karl, karl, dökkur húðlitur og meðaldökkur húðlitur	none
+👨🏿‍❤‍💋‍👨🏿	koss karl, karl og dökkur húðlitur	none
+👨🏻‍❤‍👨🏻	par karl, karl og ljós húðlitur	none
+👨🏻‍❤‍👨🏼	par karl, karl, ljós húðlitur og meðalljós húðlitur	none
+👨🏻‍❤‍👨🏽	par karl, karl, ljós húðlitur og millihúðlitur	none
+👨🏻‍❤‍👨🏾	par karl, karl, ljós húðlitur og meðaldökkur húðlitur	none
+👨🏻‍❤‍👨🏿	par karl, karl, ljós húðlitur og dökkur húðlitur	none
+👨🏼‍❤‍👨🏻	par karl, karl, meðalljós húðlitur og ljós húðlitur	none
+👨🏼‍❤‍👨🏼	par karl, karl og meðalljós húðlitur	none
+👨🏼‍❤‍👨🏽	par karl, karl, meðalljós húðlitur og millihúðlitur	none
+👨🏼‍❤‍👨🏾	par karl, karl, meðalljós húðlitur og meðaldökkur húðlitur	none
+👨🏼‍❤‍👨🏿	par karl, karl, meðalljós húðlitur og dökkur húðlitur	none
+👨🏽‍❤‍👨🏻	par karl, karl, millihúðlitur og ljós húðlitur	none
+👨🏽‍❤‍👨🏼	par karl, karl, millihúðlitur og meðalljós húðlitur	none
+👨🏽‍❤‍👨🏽	par karl, karl og millihúðlitur	none
+👨🏽‍❤‍👨🏾	par karl, karl, millihúðlitur og meðaldökkur húðlitur	none
+👨🏽‍❤‍👨🏿	par karl, karl, millihúðlitur og dökkur húðlitur	none
+👨🏾‍❤‍👨🏻	par karl, karl, meðaldökkur húðlitur og ljós húðlitur	none
+👨🏾‍❤‍👨🏼	par karl, karl, meðaldökkur húðlitur og meðalljós húðlitur	none
+👨🏾‍❤‍👨🏽	par karl, karl, meðaldökkur húðlitur og millihúðlitur	none
+👨🏾‍❤‍👨🏾	par karl, karl og meðaldökkur húðlitur	none
+👨🏾‍❤‍👨🏿	par karl, karl, meðaldökkur húðlitur og dökkur húðlitur	none
+👨🏿‍❤‍👨🏻	par karl, karl, dökkur húðlitur og ljós húðlitur	none
+👨🏿‍❤‍👨🏼	par karl, karl, dökkur húðlitur og meðalljós húðlitur	none
+👨🏿‍❤‍👨🏽	par karl, karl, dökkur húðlitur og millihúðlitur	none
+👨🏿‍❤‍👨🏾	par karl, karl, dökkur húðlitur og meðaldökkur húðlitur	none
+👨🏿‍❤‍👨🏿	par karl, karl og dökkur húðlitur	none
 👨‍🦰	karl rautt hár	none
 👨🏻‍🦰	karl ljós húðlitur og rautt hár	none
 👨🏼‍🦰	karl meðalljós húðlitur og rautt hár	none
@@ -1837,11 +2178,116 @@ symbols:
 👩🏽	kona millihúðlitur	none
 👩🏾	kona meðaldökkur húðlitur	none
 👩🏿	kona dökkur húðlitur	none
+🧔🏻‍♀	kona ljós húðlitur og skegg	none
+🧔🏼‍♀	kona meðalljós húðlitur og skegg	none
+🧔🏽‍♀	kona millihúðlitur og skegg	none
+🧔🏾‍♀	kona meðaldökkur húðlitur og skegg	none
+🧔🏿‍♀	kona dökkur húðlitur og skegg	none
 👱🏻‍♀	ljóshærð kona ljós húðlitur	none
 👱🏼‍♀	ljóshærð kona meðalljós húðlitur	none
 👱🏽‍♀	ljóshærð kona millihúðlitur	none
 👱🏾‍♀	ljóshærð kona meðaldökkur húðlitur	none
 👱🏿‍♀	ljóshærð kona dökkur húðlitur	none
+👩🏻‍❤‍💋‍👨🏻	koss kona, karl og ljós húðlitur	none
+👩🏻‍❤‍💋‍👨🏼	koss kona, karl, ljós húðlitur og meðalljós húðlitur	none
+👩🏻‍❤‍💋‍👨🏽	koss kona, karl, ljós húðlitur og millihúðlitur	none
+👩🏻‍❤‍💋‍👨🏾	koss kona, karl, ljós húðlitur og meðaldökkur húðlitur	none
+👩🏻‍❤‍💋‍👨🏿	koss kona, karl, ljós húðlitur og dökkur húðlitur	none
+👩🏼‍❤‍💋‍👨🏻	koss kona, karl, meðalljós húðlitur og ljós húðlitur	none
+👩🏼‍❤‍💋‍👨🏼	koss kona, karl og meðalljós húðlitur	none
+👩🏼‍❤‍💋‍👨🏽	koss kona, karl, meðalljós húðlitur og millihúðlitur	none
+👩🏼‍❤‍💋‍👨🏾	koss kona, karl, meðalljós húðlitur og meðaldökkur húðlitur	none
+👩🏼‍❤‍💋‍👨🏿	koss kona, karl, meðalljós húðlitur og dökkur húðlitur	none
+👩🏽‍❤‍💋‍👨🏻	koss kona, karl, millihúðlitur og ljós húðlitur	none
+👩🏽‍❤‍💋‍👨🏼	koss kona, karl, millihúðlitur og meðalljós húðlitur	none
+👩🏽‍❤‍💋‍👨🏽	koss kona, karl og millihúðlitur	none
+👩🏽‍❤‍💋‍👨🏾	koss kona, karl, millihúðlitur og meðaldökkur húðlitur	none
+👩🏽‍❤‍💋‍👨🏿	koss kona, karl, millihúðlitur og dökkur húðlitur	none
+👩🏾‍❤‍💋‍👨🏻	koss kona, karl, meðaldökkur húðlitur og ljós húðlitur	none
+👩🏾‍❤‍💋‍👨🏼	koss kona, karl, meðaldökkur húðlitur og meðalljós húðlitur	none
+👩🏾‍❤‍💋‍👨🏽	koss kona, karl, meðaldökkur húðlitur og millihúðlitur	none
+👩🏾‍❤‍💋‍👨🏾	koss kona, karl og meðaldökkur húðlitur	none
+👩🏾‍❤‍💋‍👨🏿	koss kona, karl, meðaldökkur húðlitur og dökkur húðlitur	none
+👩🏿‍❤‍💋‍👨🏻	koss kona, karl, dökkur húðlitur og ljós húðlitur	none
+👩🏿‍❤‍💋‍👨🏼	koss kona, karl, dökkur húðlitur og meðalljós húðlitur	none
+👩🏿‍❤‍💋‍👨🏽	koss kona, karl, dökkur húðlitur og millihúðlitur	none
+👩🏿‍❤‍💋‍👨🏾	koss kona, karl, dökkur húðlitur og meðaldökkur húðlitur	none
+👩🏿‍❤‍💋‍👨🏿	koss kona, karl og dökkur húðlitur	none
+👩🏻‍❤‍💋‍👩🏻	koss kona, kona og ljós húðlitur	none
+👩🏻‍❤‍💋‍👩🏼	koss kona, kona, ljós húðlitur og meðalljós húðlitur	none
+👩🏻‍❤‍💋‍👩🏽	koss kona, kona, ljós húðlitur og millihúðlitur	none
+👩🏻‍❤‍💋‍👩🏾	koss kona, kona, ljós húðlitur og meðaldökkur húðlitur	none
+👩🏻‍❤‍💋‍👩🏿	koss kona, kona, ljós húðlitur og dökkur húðlitur	none
+👩🏼‍❤‍💋‍👩🏻	koss kona, kona, meðalljós húðlitur og ljós húðlitur	none
+👩🏼‍❤‍💋‍👩🏼	koss kona, kona og meðalljós húðlitur	none
+👩🏼‍❤‍💋‍👩🏽	koss kona, kona, meðalljós húðlitur og millihúðlitur	none
+👩🏼‍❤‍💋‍👩🏾	koss kona, kona, meðalljós húðlitur og meðaldökkur húðlitur	none
+👩🏼‍❤‍💋‍👩🏿	koss kona, kona, meðalljós húðlitur og dökkur húðlitur	none
+👩🏽‍❤‍💋‍👩🏻	koss kona, kona, millihúðlitur og ljós húðlitur	none
+👩🏽‍❤‍💋‍👩🏼	koss kona, kona, millihúðlitur og meðalljós húðlitur	none
+👩🏽‍❤‍💋‍👩🏽	koss kona, kona og millihúðlitur	none
+👩🏽‍❤‍💋‍👩🏾	koss kona, kona, millihúðlitur og meðaldökkur húðlitur	none
+👩🏽‍❤‍💋‍👩🏿	koss kona, kona, millihúðlitur og dökkur húðlitur	none
+👩🏾‍❤‍💋‍👩🏻	koss kona, kona, meðaldökkur húðlitur og ljós húðlitur	none
+👩🏾‍❤‍💋‍👩🏼	koss kona, kona, meðaldökkur húðlitur og meðalljós húðlitur	none
+👩🏾‍❤‍💋‍👩🏽	koss kona, kona, meðaldökkur húðlitur og millihúðlitur	none
+👩🏾‍❤‍💋‍👩🏾	koss kona, kona og meðaldökkur húðlitur	none
+👩🏾‍❤‍💋‍👩🏿	koss kona, kona, meðaldökkur húðlitur og dökkur húðlitur	none
+👩🏿‍❤‍💋‍👩🏻	koss kona, kona, dökkur húðlitur og ljós húðlitur	none
+👩🏿‍❤‍💋‍👩🏼	koss kona, kona, dökkur húðlitur og meðalljós húðlitur	none
+👩🏿‍❤‍💋‍👩🏽	koss kona, kona, dökkur húðlitur og millihúðlitur	none
+👩🏿‍❤‍💋‍👩🏾	koss kona, kona, dökkur húðlitur og meðaldökkur húðlitur	none
+👩🏿‍❤‍💋‍👩🏿	koss kona, kona og dökkur húðlitur	none
+👩🏻‍❤‍👨🏻	par kona, karl og ljós húðlitur	none
+👩🏻‍❤‍👨🏼	par kona, karl, ljós húðlitur og meðalljós húðlitur	none
+👩🏻‍❤‍👨🏽	par kona, karl, ljós húðlitur og millihúðlitur	none
+👩🏻‍❤‍👨🏾	par kona, karl, ljós húðlitur og meðaldökkur húðlitur	none
+👩🏻‍❤‍👨🏿	par kona, karl, ljós húðlitur og dökkur húðlitur	none
+👩🏼‍❤‍👨🏻	par kona, karl, meðalljós húðlitur og ljós húðlitur	none
+👩🏼‍❤‍👨🏼	par kona, karl og meðalljós húðlitur	none
+👩🏼‍❤‍👨🏽	par kona, karl, meðalljós húðlitur og millihúðlitur	none
+👩🏼‍❤‍👨🏾	par kona, karl, meðalljós húðlitur og meðaldökkur húðlitur	none
+👩🏼‍❤‍👨🏿	par kona, karl, meðalljós húðlitur og dökkur húðlitur	none
+👩🏽‍❤‍👨🏻	par kona, karl, millihúðlitur og ljós húðlitur	none
+👩🏽‍❤‍👨🏼	par kona, karl, millihúðlitur og meðalljós húðlitur	none
+👩🏽‍❤‍👨🏽	par kona, karl og millihúðlitur	none
+👩🏽‍❤‍👨🏾	par kona, karl, millihúðlitur og meðaldökkur húðlitur	none
+👩🏽‍❤‍👨🏿	par kona, karl, millihúðlitur og dökkur húðlitur	none
+👩🏾‍❤‍👨🏻	par kona, karl, meðaldökkur húðlitur og ljós húðlitur	none
+👩🏾‍❤‍👨🏼	par kona, karl, meðaldökkur húðlitur og meðalljós húðlitur	none
+👩🏾‍❤‍👨🏽	par kona, karl, meðaldökkur húðlitur og millihúðlitur	none
+👩🏾‍❤‍👨🏾	par kona, karl og meðaldökkur húðlitur	none
+👩🏾‍❤‍👨🏿	par kona, karl, meðaldökkur húðlitur og dökkur húðlitur	none
+👩🏿‍❤‍👨🏻	par kona, karl, dökkur húðlitur og ljós húðlitur	none
+👩🏿‍❤‍👨🏼	par kona, karl, dökkur húðlitur og meðalljós húðlitur	none
+👩🏿‍❤‍👨🏽	par kona, karl, dökkur húðlitur og millihúðlitur	none
+👩🏿‍❤‍👨🏾	par kona, karl, dökkur húðlitur og meðaldökkur húðlitur	none
+👩🏿‍❤‍👨🏿	par kona, karl og dökkur húðlitur	none
+👩🏻‍❤‍👩🏻	par kona, kona og ljós húðlitur	none
+👩🏻‍❤‍👩🏼	par kona, kona, ljós húðlitur og meðalljós húðlitur	none
+👩🏻‍❤‍👩🏽	par kona, kona, ljós húðlitur og millihúðlitur	none
+👩🏻‍❤‍👩🏾	par kona, kona, ljós húðlitur og meðaldökkur húðlitur	none
+👩🏻‍❤‍👩🏿	par kona, kona, ljós húðlitur og dökkur húðlitur	none
+👩🏼‍❤‍👩🏻	par kona, kona, meðalljós húðlitur og ljós húðlitur	none
+👩🏼‍❤‍👩🏼	par kona, kona og meðalljós húðlitur	none
+👩🏼‍❤‍👩🏽	par kona, kona, meðalljós húðlitur og millihúðlitur	none
+👩🏼‍❤‍👩🏾	par kona, kona, meðalljós húðlitur og meðaldökkur húðlitur	none
+👩🏼‍❤‍👩🏿	par kona, kona, meðalljós húðlitur og dökkur húðlitur	none
+👩🏽‍❤‍👩🏻	par kona, kona, millihúðlitur og ljós húðlitur	none
+👩🏽‍❤‍👩🏼	par kona, kona, millihúðlitur og meðalljós húðlitur	none
+👩🏽‍❤‍👩🏽	par kona, kona og millihúðlitur	none
+👩🏽‍❤‍👩🏾	par kona, kona, millihúðlitur og meðaldökkur húðlitur	none
+👩🏽‍❤‍👩🏿	par kona, kona, millihúðlitur og dökkur húðlitur	none
+👩🏾‍❤‍👩🏻	par kona, kona, meðaldökkur húðlitur og ljós húðlitur	none
+👩🏾‍❤‍👩🏼	par kona, kona, meðaldökkur húðlitur og meðalljós húðlitur	none
+👩🏾‍❤‍👩🏽	par kona, kona, meðaldökkur húðlitur og millihúðlitur	none
+👩🏾‍❤‍👩🏾	par kona, kona og meðaldökkur húðlitur	none
+👩🏾‍❤‍👩🏿	par kona, kona, meðaldökkur húðlitur og dökkur húðlitur	none
+👩🏿‍❤‍👩🏻	par kona, kona, dökkur húðlitur og ljós húðlitur	none
+👩🏿‍❤‍👩🏼	par kona, kona, dökkur húðlitur og meðalljós húðlitur	none
+👩🏿‍❤‍👩🏽	par kona, kona, dökkur húðlitur og millihúðlitur	none
+👩🏿‍❤‍👩🏾	par kona, kona, dökkur húðlitur og meðaldökkur húðlitur	none
+👩🏿‍❤‍👩🏿	par kona, kona og dökkur húðlitur	none
 👩‍🦰	kona rautt hár	none
 👩🏻‍🦰	kona ljós húðlitur og rautt hár	none
 👩🏼‍🦰	kona meðalljós húðlitur og rautt hár	none
@@ -2336,6 +2782,11 @@ symbols:
 👷🏽‍♀	kvenkyns byggingarstarfsmaður millihúðlitur	none
 👷🏾‍♀	kvenkyns byggingarstarfsmaður meðaldökkur húðlitur	none
 👷🏿‍♀	kvenkyns byggingarstarfsmaður dökkur húðlitur	none
+🫅🏻	manneskja með kórónu ljós húðlitur	none
+🫅🏼	manneskja með kórónu meðalljós húðlitur	none
+🫅🏽	manneskja með kórónu millihúðlitur	none
+🫅🏾	manneskja með kórónu meðaldökkur húðlitur	none
+🫅🏿	manneskja með kórónu dökkur húðlitur	none
 🤴🏻	prins ljós húðlitur	none
 🤴🏼	prins meðalljós húðlitur	none
 🤴🏽	prins millihúðlitur	none
@@ -2406,6 +2857,16 @@ symbols:
 🤰🏽	ólétt kona millihúðlitur	none
 🤰🏾	ólétt kona meðaldökkur húðlitur	none
 🤰🏿	ólétt kona dökkur húðlitur	none
+🫃🏻	barnshafandi maður ljós húðlitur	none
+🫃🏼	barnshafandi maður meðalljós húðlitur	none
+🫃🏽	barnshafandi maður millihúðlitur	none
+🫃🏾	barnshafandi maður meðaldökkur húðlitur	none
+🫃🏿	barnshafandi maður dökkur húðlitur	none
+🫄🏻	barnshafandi manneskja ljós húðlitur	none
+🫄🏼	barnshafandi manneskja meðalljós húðlitur	none
+🫄🏽	barnshafandi manneskja millihúðlitur	none
+🫄🏾	barnshafandi manneskja meðaldökkur húðlitur	none
+🫄🏿	barnshafandi manneskja dökkur húðlitur	none
 🤱🏻	brjóstagjöf ljós húðlitur	none
 🤱🏼	brjóstagjöf meðalljós húðlitur	none
 🤱🏽	brjóstagjöf millihúðlitur	none
@@ -2831,11 +3292,11 @@ symbols:
 🏋🏽‍♀	kona í kraftlyftingum millihúðlitur	none
 🏋🏾‍♀	kona í kraftlyftingum meðaldökkur húðlitur	none
 🏋🏿‍♀	kona í kraftlyftingum dökkur húðlitur	none
-🚴🏻	hjól ljós húðlitur	none
-🚴🏼	hjól meðalljós húðlitur	none
-🚴🏽	hjól millihúðlitur	none
-🚴🏾	hjól meðaldökkur húðlitur	none
-🚴🏿	hjól dökkur húðlitur	none
+🚴🏻	manneskja á hjóli ljós húðlitur	none
+🚴🏼	manneskja á hjóli meðalljós húðlitur	none
+🚴🏽	manneskja á hjóli millihúðlitur	none
+🚴🏾	manneskja á hjóli meðaldökkur húðlitur	none
+🚴🏿	manneskja á hjóli dökkur húðlitur	none
 🚴🏻‍♂	maður á hjóli ljós húðlitur	none
 🚴🏼‍♂	maður á hjóli meðalljós húðlitur	none
 🚴🏽‍♂	maður á hjóli millihúðlitur	none
@@ -2861,11 +3322,11 @@ symbols:
 🚵🏽‍♀	kona á fjallahjóli millihúðlitur	none
 🚵🏾‍♀	kona á fjallahjóli meðaldökkur húðlitur	none
 🚵🏿‍♀	kona á fjallahjóli dökkur húðlitur	none
-🤸🏻	handalaup ljós húðlitur	none
-🤸🏼	handalaup meðalljós húðlitur	none
-🤸🏽	handalaup millihúðlitur	none
-🤸🏾	handalaup meðaldökkur húðlitur	none
-🤸🏿	handalaup dökkur húðlitur	none
+🤸🏻	handahlaup ljós húðlitur	none
+🤸🏼	handahlaup meðalljós húðlitur	none
+🤸🏽	handahlaup millihúðlitur	none
+🤸🏾	handahlaup meðaldökkur húðlitur	none
+🤸🏿	handahlaup dökkur húðlitur	none
 🤸🏻‍♂	maður á handahlaupum ljós húðlitur	none
 🤸🏼‍♂	maður á handahlaupum meðalljós húðlitur	none
 🤸🏽‍♂	maður á handahlaupum millihúðlitur	none
@@ -3046,9 +3507,19 @@ symbols:
 👨🏿‍🤝‍👨🏽	karlar sem leiðast dökkur húðlitur og millihúðlitur	none
 👨🏿‍🤝‍👨🏾	karlar sem leiðast dökkur húðlitur og meðaldökkur húðlitur	none
 👬🏿	karlar sem leiðast dökkur húðlitur	none
+💏🏻	koss ljós húðlitur	none
+💏🏼	koss meðalljós húðlitur	none
+💏🏽	koss millihúðlitur	none
+💏🏾	koss meðaldökkur húðlitur	none
+💏🏿	koss dökkur húðlitur	none
 👩‍❤‍💋‍👨	koss kona og karl	none
 👨‍❤‍💋‍👨	koss karl og karl	none
 👩‍❤‍💋‍👩	koss kona og kona	none
+💑🏻	par ljós húðlitur	none
+💑🏼	par meðalljós húðlitur	none
+💑🏽	par millihúðlitur	none
+💑🏾	par meðaldökkur húðlitur	none
+💑🏿	par dökkur húðlitur	none
 👩‍❤‍👨	par kona og karl	none
 👨‍❤‍👨	par karl og karl	none
 👩‍❤‍👩	par kona og kona	none
@@ -3077,8 +3548,6 @@ symbols:
 👩‍👧	fjölskylda kona og stúlka	none
 👩‍👧‍👦	fjölskylda kona, stúlka og drengur	none
 👩‍👧‍👧	fjölskylda kona, stúlka og stúlka	none
-#⃣	takki #	none
-*⃣	takki *	none
 🔟	takki 10	none
 🇦🇨	fáni Ascension-eyja	none
 🇦🇩	fáni Andorra	none
@@ -3296,7 +3765,7 @@ symbols:
 🇸🇸	fáni Suður-Súdan	none
 🇸🇹	fáni Saó Tóme og Prinsípe	none
 🇸🇻	fáni El Salvador	none
-🇸🇽	fáni Sankti Martin	none
+🇸🇽	fáni Sint Maarten	none
 🇸🇾	fáni Sýrland	none
 🇸🇿	fáni Svasíland	none
 🇹🇦	fáni Tristan da Cunha	none
@@ -3305,7 +3774,7 @@ symbols:
 🇹🇫	fáni Frönsku suðlægu landsvæðin	none
 🇹🇬	fáni Tógó	none
 🇹🇭	fáni Taíland	none
-🇹🇯	fáni Tadsjikistan	none
+🇹🇯	fáni Tadsíkistan	none
 🇹🇰	fáni Tókelá	none
 🇹🇱	fáni Tímor-Leste	none
 🇹🇲	fáni Túrkmenistan	none
@@ -3341,13 +3810,17 @@ symbols:
 🏴󠁧󠁢󠁥󠁮󠁧󠁿	fáni England	none
 🏴󠁧󠁢󠁳󠁣󠁴󠁿	fáni Skotland	none
 🏴󠁧󠁢󠁷󠁬󠁳󠁿	fáni Wales	none
-0⃣	takki 0	none
-1⃣	takki 1	none
-2⃣	takki 2	none
-3⃣	takki 3	none
-4⃣	takki 4	none
-5⃣	takki 5	none
-6⃣	takki 6	none
-7⃣	takki 7	none
-8⃣	takki 8	none
-9⃣	takki 9	none
+₡	kostarískt kólon	none
+₦	nígerísk næra	none
+₧	Spænskur peseti	none
+₪	nýr ísraelskur sikill	none
+₫	víetnamskt dong	none
+₭	laoskt kip	none
+₮	mongólskur túríkur	none
+₲	paragvæskt gvaraní	none
+₴	úkraínsk hrinja	none
+₵	ganverskur sedi	none
+₸	kasakst tengi	none
+₺	tyrknesk líra	none
+₼	aserskt manat	none
+₾	georgískur lari	none

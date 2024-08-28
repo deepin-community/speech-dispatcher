@@ -15,7 +15,9 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 
+if BUILD_HTML_DOC
 all: html
+endif
 
 MAKEINFOHTML = $(MAKEINFO) --html --no-split
 
@@ -34,6 +36,18 @@ CLEANFILES = spd-say.info \
 	stamp-vti \
 	version-2.texi \
 	version.texi
+
+DISTCLEANFILES = \
+	spd-say.html \
+	spd-say.dvi \
+	speech-dispatcher-cs.html \
+	speech-dispatcher-cs.dvi \
+	speech-dispatcher.html \
+	speech-dispatcher.dvi \
+	ssip.html \
+	ssip.dvi \
+	mdate-sh \
+	texinfo.tex
 
 # Keep .html versions in the public web repository
 clean-aminfo:

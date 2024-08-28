@@ -5,41 +5,38 @@ Maintainer: Debian TTS Team <tts-project@alioth-lists.debian.net>
 Uploaders:
  Paul Gevers <elbrus@debian.org>, Samuel Thibault <sthibault@debian.org>
 Build-Depends:
- automake,
  debhelper-compat (= 12), dh-exec,
- dh-python,
- python3-xdg,
- flite1-dev (>= 1.4),
- gettext,
+ automake, libtool, gawk,
+ flite1-dev (>= 1.4), flite,
+ libespeak-dev, libespeak-ng-dev,
+ libdumbtts-dev,
+# libttspico-dev,
  libao-dev,
  libasound2-dev [linux-any],
  libaudio-dev,
- libdotconf-dev (>= 1.3),
- libespeak-dev, libespeak-ng-dev,
- libglib2.0-dev (>= 2.36),
- libltdl-dev,
  libpulse-dev,
- libtool,
  libxau-dev,
  libsndfile1-dev,
-# libdumbtts-dev,
-# libttspico-dev,
- texinfo,
- systemd [linux-any],
- help2man
+ libdotconf-dev (>= 1.3),
+ libglib2.0-dev (>= 2.36),
+ libltdl-dev,
+ pkgconf,
+ systemd-dev [linux-any],
+ gettext, texinfo,
+ help2man <!cross>
 Build-Depends-Indep:
- python3
+ python3:any, python3-xdg, dh-sequence-python3,
 Rules-Requires-Root: no
 Vcs-Browser: https://salsa.debian.org/tts-team/speech-dispatcher
 Vcs-Git: https://salsa.debian.org/tts-team/speech-dispatcher.git
 Homepage: http://devel.freebsoft.org/speechd
 XS-Autobuild: yes
-Standards-Version: 4.5.0
+Standards-Version: 4.6.0
 
 ##start-contrib
 #Package: speech-dispatcher-pico
 #Architecture: any
-#Multi-arch: foreign
+#Multi-Arch: foreign
 #Depends:
 # ${shlibs:Depends},
 # ${misc:Depends},
@@ -66,7 +63,7 @@ Standards-Version: 4.5.0
 #
 #Package: speech-dispatcher-baratinoo
 #Architecture: any
-#Multi-arch: foreign
+#Multi-Arch: foreign
 #Section: contrib/sound
 #Depends:
 # ${shlibs:Depends},
@@ -93,7 +90,7 @@ Standards-Version: 4.5.0
 #
 #Package: speech-dispatcher-kali
 #Architecture: any
-#Multi-arch: foreign
+#Multi-Arch: foreign
 #Section: contrib/sound
 #Depends:
 # ${shlibs:Depends},
@@ -119,8 +116,8 @@ Standards-Version: 4.5.0
 # which needs to be installed separately.
 #
 #Package: speech-dispatcher-ibmtts
-#Architecture: amd64 i386
-#Multi-arch: foreign
+#Architecture: i386
+#Multi-Arch: foreign
 #Section: contrib/sound
 #Depends:
 # ${shlibs:Depends},
@@ -146,8 +143,8 @@ Standards-Version: 4.5.0
 # which needs to be installed separately.
 #
 #Package: speech-dispatcher-voxin
-#Architecture: amd64 i386
-#Multi-arch: foreign
+#Architecture: arm64 armhf amd64 i386
+#Multi-Arch: foreign
 #Section: contrib/sound
 #Depends:
 # ${shlibs:Depends},
@@ -175,13 +172,11 @@ Standards-Version: 4.5.0
 #
 #Package: speech-dispatcher-ivona
 #Architecture: any
-#Multi-arch: foreign
+#Multi-Arch: foreign
 #Section: contrib/sound
 #Depends:
 # ${shlibs:Depends},
 # ${misc:Depends},
-# speech-dispatcher-audio-plugins (>= ${source:Upstream-Version}),
-# speech-dispatcher-audio-plugins (<< ${source:Upstream-Version}.0~),
 # speech-dispatcher (>= ${source:Upstream-Version}),
 # speech-dispatcher (<< ${source:Upstream-Version}.0~)
 #Breaks: speech-dispatcher (<< 0.10.2-3)
@@ -197,21 +192,20 @@ Standards-Version: 4.5.0
 # independent way, therefore freeing the application programmer from
 # having to yet again reinvent the wheel.
 # .
-# This package contains the output module for the Ivona speech synthesizer.
+# This package contains the output module for the Ivona speech synthesizer,
+# which needs to be installed separately.
 ##end-contrib
 
 Package: speech-dispatcher
 Architecture: any
-Multi-arch: foreign
+Multi-Arch: foreign
 Depends:
  adduser,
- lsb-base (>= 3.0-10),
  speech-dispatcher-audio-plugins (= ${binary:Version}),
  init-system-helpers (>= 1.51),
  ${misc:Depends},
  ${shlibs:Depends}
 Recommends:
- pulseaudio,
  speech-dispatcher-espeak-ng,
  sound-icons
 Suggests:
@@ -246,7 +240,7 @@ Description: Common interface to speech synthesizers
 
 Package: libspeechd2
 Architecture: any
-Multi-arch: same
+Multi-Arch: same
 Section: libs
 Depends:
  ${misc:Depends},
@@ -291,6 +285,7 @@ Description: Speech Dispatcher: Development libraries and header files
 
 Package: cl-speech-dispatcher
 Architecture: all
+Multi-Arch: foreign
 Section: lisp
 Depends:
  cl-regex,
@@ -311,6 +306,7 @@ Description: Common Lisp interface to Speech Dispatcher
 
 Package: python3-speechd
 Architecture: all
+Multi-Arch: foreign
 Section: python
 Breaks:
  python-speechd
@@ -336,7 +332,7 @@ Description: Python interface to Speech Dispatcher
 
 Package: speech-dispatcher-festival
 Architecture: any
-Multi-arch: foreign
+Multi-Arch: foreign
 Depends:
  festival,
  festival-freebsoft-utils,
@@ -382,7 +378,7 @@ Description: Speech Dispatcher documentation in Czech
 
 Package: speech-dispatcher-audio-plugins
 Architecture: any
-Multi-arch: same
+Multi-Arch: same
 Depends:
  ${misc:Depends},
  ${shlibs:Depends}
@@ -403,7 +399,7 @@ Description: Speech Dispatcher: Audio output plugins
 
 Package: speech-dispatcher-flite
 Architecture: any
-Multi-arch: foreign
+Multi-Arch: foreign
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
@@ -423,7 +419,7 @@ Description: Speech Dispatcher: Flite output module
 
 Package: speech-dispatcher-cicero
 Architecture: any
-Multi-arch: foreign
+Multi-Arch: foreign
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
@@ -443,7 +439,7 @@ Description: Speech Dispatcher: Cicero output module
 
 Package: speech-dispatcher-espeak
 Architecture: any
-Multi-arch: foreign
+Multi-Arch: foreign
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
@@ -463,7 +459,7 @@ Description: Speech Dispatcher: Espeak output module
 
 Package: speech-dispatcher-espeak-ng
 Architecture: any
-Multi-arch: foreign
+Multi-Arch: foreign
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},

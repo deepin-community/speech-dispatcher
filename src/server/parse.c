@@ -138,7 +138,7 @@ char *parse(const char *buf, const int bytes, const int fd)
 		return g_strdup(ERR_INVALID_COMMAND);
 
 		/* The other case is that we are in awaiting_data mode and
-		 * we are waiting for text that is comming through the chanel */
+		 * we are waiting for text that is coming through the chanel */
 	} else {
 enddata:
 		/* In the end of the data flow we got a "\r\n." NEWLINE command. */
@@ -265,7 +265,7 @@ enddata:
 	CHECK_PARAM(name);
 
 /* Tests if cmd is the same as str AND deallocates cmd if
-   the test is succesful */
+   the test is successful */
 #define TEST_CMD(cmd, str) \
 	(!strcmp(cmd, str) ? g_free(cmd), 1 : 0 )
 
@@ -366,11 +366,9 @@ char *parse_history(const char *buf, const int bytes, const int fd,
 	} else if (TEST_CMD(cmd_main, "sort")) {
 		// TODO: everything :)
 		return g_strdup(ERR_NOT_IMPLEMENTED);
-	} else {
-		g_free(cmd_main);
-		return g_strdup(ERR_MISSING_PARAMETER);
 	}
 
+	g_free(cmd_main);
 	return g_strdup(ERR_INVALID_COMMAND);
 }
 
@@ -653,50 +651,47 @@ char *parse_set(const char *buf, const int bytes, const int fd,
 		SSIP_ON_OFF_PARAM(spelling,
 				  OK_SPELLING_SET, ERR_COULDNT_SET_SPELLING,
 				  NOT_ALLOWED_INSIDE_BLOCK())
-		    else
+	else
 		SSIP_ON_OFF_PARAM(ssml_mode,
 				  OK_SSML_MODE_SET, ERR_COULDNT_SET_SSML_MODE,
 				  ALLOWED_INSIDE_BLOCK())
-		    else
+	else
 		SSIP_ON_OFF_PARAM(debug,
 				  g_strdup_printf("262-%s" NEWLINE OK_DEBUGGING,
 						  SpeechdOptions.
 						  debug_destination),
 				  ERR_COULDNT_SET_DEBUGGING,;
 	    )
-	    else
-if (TEST_CMD(set_sub, "notification")) {
-	char *scope;
-	char *par_s;
-	int par;
+	else if (TEST_CMD(set_sub, "notification")) {
+		char *scope;
+		char *par_s;
+		int par;
 
-	if (who != 0)
-		return g_strdup(ERR_PARAMETER_INVALID);
+		if (who != 0)
+			return g_strdup(ERR_PARAMETER_INVALID);
 
-	GET_PARAM_STR(scope, 3, CONV_DOWN);
-	GET_PARAM_STR(par_s, 4, CONV_DOWN);
+		GET_PARAM_STR(scope, 3, CONV_DOWN);
+		GET_PARAM_STR(par_s, 4, CONV_DOWN);
 
-	if (TEST_CMD(par_s, "on"))
-		par = 1;
-	else if (TEST_CMD(par_s, "off"))
-		par = 0;
-	else {
-		g_free(par_s);
-		return g_strdup(ERR_PARAMETER_INVALID);
+		if (TEST_CMD(par_s, "on"))
+			par = 1;
+		else if (TEST_CMD(par_s, "off"))
+			par = 0;
+		else {
+			g_free(par_s);
+			return g_strdup(ERR_PARAMETER_INVALID);
+		}
+
+		ret = set_notification_self(fd, scope, par);
+		g_free(scope);
+
+		if (ret)
+			return g_strdup(ERR_COULDNT_SET_NOTIFICATION);
+		return g_strdup(OK_NOTIFICATION_SET);
 	}
 
-	ret = set_notification_self(fd, scope, par);
-	g_free(scope);
-
-	if (ret)
-		return g_strdup(ERR_COULDNT_SET_NOTIFICATION);
-	return g_strdup(OK_NOTIFICATION_SET);
-} else {
 	g_free(set_sub);
-	return g_strdup(ERR_PARAMETER_INVALID);
-}
-
-return g_strdup(ERR_INVALID_COMMAND);
+	return g_strdup(ERR_INVALID_COMMAND);
 }
 
 #undef SSIP_SET_COMMAND
@@ -865,7 +860,15 @@ char *parse_general_event(const char *buf, const int bytes, const int fd,
 		MSG(4,
 		    "ERROR: Invalid character encoding on event input (failed UTF-8 validation)");
 		MSG(4, "Rejecting this event (char/key/sound_icon).");
+		g_free(param);
 		return g_strdup(ERR_INVALID_ENCODING);
+	}
+
+	if ((type == SPD_MSGTYPE_CHAR || type == SPD_MSGTYPE_KEY)
+		&& !strcmp(param, "space"))
+	{
+		g_free(param);
+		param = g_strdup(" ");
 	}
 
 	msg = (TSpeechDMessage *) g_malloc(sizeof(TSpeechDMessage));
@@ -948,7 +951,6 @@ char *parse_list(const char *buf, const int bytes, const int fd,
 
 		return helper;
 	} else if (TEST_CMD(list_type, "synthesis_voices")) {
-		char *module_name;
 		int uid;
 		TFDSetElement *settings;
 		SPDVoice **voices;
@@ -960,10 +962,7 @@ char *parse_list(const char *buf, const int bytes, const int fd,
 		settings = get_client_settings_by_uid(uid);
 		if (settings == NULL)
 			return g_strdup(ERR_INTERNAL);
-		module_name = settings->output_module;
-		if (module_name == NULL)
-			return g_strdup(ERR_NO_OUTPUT_MODULE);
-		voices = output_list_voices(module_name);
+		voices = output_list_voices(settings->output_module);
 		if (voices == NULL)
 			return g_strdup(ERR_CANT_REPORT_VOICES);
 
@@ -1005,8 +1004,9 @@ char *parse_get(const char *buf, const int bytes, const int fd,
 	if (settings == NULL)
 		return g_strdup(ERR_INTERNAL);
 
-	result = g_string_new("");
 	GET_PARAM_STR(get_type, 1, CONV_DOWN);
+
+	result = g_string_new("");
 	if (TEST_CMD(get_type, "voice_type")) {
 		switch (settings->msg_settings.voice_type) {
 		case SPD_MALE1:
@@ -1255,7 +1255,7 @@ char *get_param(const char *buf, const int n, const int bytes,
  * at least  7 bytes (6 bytes character + 1 byte trailing 0). This
  * function doesn't validate if the string is valid UTF-8.
  */
-int spd_utf8_read_char(char *pointer, char *character)
+int spd_utf8_read_char(const char *pointer, char *character)
 {
 	int bytes;
 	gunichar u_char;

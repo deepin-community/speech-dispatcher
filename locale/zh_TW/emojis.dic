@@ -8,41 +8,262 @@ symbols:
 🏽	淺褐皮膚	none
 🏾	褐皮膚	none
 🏿	黑皮膚	none
-–	連接號	none
-—	破折號	none
-·	間隔號	none
-«	左書名號	none
-»	右書名號	none
-§	分節符號	none
-†	劍標	none
-‡	雙劍標	none
-•	項目號	none
-°	度	none
 ℗	錄音著作權	none
 ←	朝左箭頭	none
+↚	帶有刪除線的向左箭頭	none
 →	朝右箭頭	none
+↛	帶有刪除線的向右箭頭	none
 ↑	朝上箭頭	none
 ↓	朝下箭頭	none
+↜	向左波浪箭頭	none
+↝	向右波浪箭頭	none
+↞	向左雙頭箭頭	none
+↟	向上雙頭箭頭	none
+↠	向右雙頭箭頭	none
+↡	向下雙頭箭頭	none
+↢	帶有尾巴的向左箭頭	none
+↣	帶有尾巴的向右箭頭	none
+↤	尾部帶槓的向左箭頭	none
+↥	尾部帶槓的向上箭頭	none
+↦	尾部帶槓的向右箭頭	none
+↧	尾部帶槓的向下箭頭	none
+↨	處於基線的上下箭頭	none
+↫	尾部帶環的向左箭頭	none
+↬	尾部帶環的向右箭頭	none
+↭	左右波浪箭頭	none
+↯	向下鋸齒形箭頭	none
+↰	頭朝左的向上箭頭	none
+↱	頭朝右的向上箭頭	none
+↲	頭朝左的向下箭頭	none
+↳	頭朝右的向下箭頭	none
+↴	角朝下的向右箭頭	none
+↵	角朝左的向下箭頭	none
+↶	逆時針上半圓箭頭	none
+↷	順時針上半圓箭頭	none
+↸	指向長槓的西北箭頭	none
+↹	頭部帶槓的向左箭頭在上，頭部帶槓的向右箭頭在下	none
+↺	逆時針開口循環箭頭	none
+↻	順時針開口循環箭頭	none
+↼	倒鉤在上的向左魚叉	none
+↽	倒鉤在下的向左魚叉	none
+↾	倒鉤在右的向上魚叉	none
+↿	倒鉤在左的向上魚叉	none
+⇀	倒鉤在上的向右魚叉	none
+⇁	倒鉤在下的向右魚叉	none
+⇂	倒鉤在右的向下魚叉	none
+⇃	倒鉤在左的向下魚叉	none
+⇄	向右箭頭在上，向左箭頭在下	none
 ⇅	上下並列箭頭	none
 ⇆	左右相疊箭頭	none
+⇇	兩個向左箭頭	none
+⇈	兩個向上箭頭	none
+⇉	兩個向右箭頭	none
+⇊	兩個向下箭頭	none
+⇋	向左魚叉在上，向右魚叉在下	none
+⇌	向右魚叉在上，向左魚叉在下	none
+⇐	向左雙箭頭	none
+⇍	帶有刪除線的向左雙箭頭	none
+⇑	向上雙箭頭	none
+⇒	向右雙箭頭	none
+⇏	帶有刪除線的向右雙箭頭	none
+⇓	向下雙箭頭	none
+⇔	左右雙箭頭	none
+⇎	帶有刪除線的左右雙箭頭	none
+⇖	西北雙箭頭	none
+⇗	東北雙箭頭	none
+⇘	東南雙箭頭	none
+⇙	西南雙箭頭	none
+⇚	向左三箭頭	none
+⇛	向右三箭頭	none
+⇜	向左曲線箭頭	none
+⇝	向右曲線箭頭	none
+⇞	帶有雙刪除線的向上箭頭	none
+⇟	帶有雙刪除線的向下箭頭	none
+⇠	向左虛線箭頭	none
+⇡	向上虛線箭頭	none
+⇢	向右虛線箭頭	none
+⇣	向下虛線箭頭	none
+⇤	頭部帶槓的向左箭頭	none
+⇥	頭部帶槓的向右箭頭	none
+⇦	向左空心箭頭	none
+⇧	向上空心箭頭	none
+⇨	向右空心箭頭	none
+⇩	向下空心箭頭	none
+⇪	尾部帶槓的向上空心箭頭	none
+⇵	向下箭頭在左，向上箭頭在右	none
+∀	全稱量詞符號	none
+∂	偏導數符號	none
+∃	存在量詞符號	none
+∅	空集	none
 ∆	遞增	none
 ∇	遞減	none
 ∈	屬於	none
-÷	除法符號	none
-×	乘號	none
+∉	不屬於	none
+∋	包含	none
+∎	證明完畢	none
+∏	n 元求積	none
+∑	n 元求和	none
+≮	不小於	none
+≠	不等號	none
+≯	不大於	none
+−	減號	none
 ⁻	上標負數	none
+∓	負正號	none
+∕	除法斜線	none
+∗	星號運算子	none
+∘	環運算子	none
+∙	項目符號運算子	none
 √	平方根	none
+∝	正比	none
 ∞	無限符號	none
+∟	直角	none
+∠	銳角	none
+∣	整除	none
+∥	平行	none
+∧	邏輯且	none
 ∩	交集	none
 ∪	聯集	none
+∫	積分	none
+∬	雙重積分	none
+∮	路徑積分	none
+∴	所以	none
+∵	因為	none
+∶	比率	none
+∷	比例	none
+∼	波浪號	none
+∽	反向波浪號	none
+∾	逆向橫躺式 S	none
+≃	漸近相等	none
+≅	約等於	none
+≈	約略等於	none
+≌	全等於	none
+≒	大約等於	none
+≖	有環的等號	none
 ≡	全等	none
+≣	完全相等	none
+≤	小於或等於	none
+≥	大於或等於	none
+≦	小於在等於上	none
+≧	大於在等於上	none
+≪	遠小於	none
+≫	遠大於	none
+≬	之間	none
+≳	大於等於	none
+≺	先行於	none
+≻	後接於	none
+⊁	不後接於	none
 ⊂	子集	none
+⊃	母集	none
+⊆	子集等於	none
+⊇	母集等於	none
+⊕	帶圓圈的加號	none
+⊖	帶圓圈的減號	none
+⊗	帶圓圈的乘號	none
+⊘	帶圓圈的除號	none
+⊙	帶圓圈的句點運算子	none
+⊚	帶圓圈的環運算子	none
+⊛	帶圓圈的星號運算子	none
+⊞	帶方框加號	none
+⊟	帶方框減號	none
+⊥	倒 T	none
+⊮	不強制	none
+⊰	關係下先行於	none
+⊱	關係下後接於	none
+⋭	不包含為正規子群或等於	none
+⊶	原點	none
+⊹	赫密特共軛矩陣	none
+⊿	直角三角形	none
+⋁	n 元邏輯或	none
+⋂	n 元交集	none
+⋃	n 元聯集	none
+⋅	句點運算子	none
+⋆	星運算子	none
+⋈	自然合併	none
+⋒	雙交集	none
+⋘	遠遠小於	none
+⋙	遠遠大於	none
+⋮	垂直省略號	none
+⋯	中線水平省略號	none
+⋰	右上對角省略號	none
+⋱	右下對角省略號	none
+■	實心方塊	none
+□	空心方塊	none
+▢	空心圓角方塊	none
+▣	空心方塊內有實心方塊	none
+▤	方塊內填滿水平線	none
+▥	方塊內填滿垂直線	none
+▦	方塊內填滿交叉線	none
+▧	方塊內填滿左上右下斜線	none
+▨	方塊內填滿右上左下斜線	none
+▩	方塊內填滿對角交叉線	none
+▬	實心矩形	none
+▭	空心矩形	none
+▮	實心垂直矩形	none
+▰	實心平行四邊形	none
 ▲	實心正三角形	none
+△	空心正三角形	none
+▴	小實心正三角形	none
+▵	小空心正三角形	none
+▷	空心右指三角形	none
+▸	實心右指小三角形	none
+▹	空心右指小三角形	none
+►	實心右指指標	none
+▻	空心右指指標	none
 ▼	實心倒三角形	none
+▽	空心倒三角形	none
+▾	小實心倒三角形	none
+▿	小空心倒三角形	none
+◁	空心左指三角形	none
+◂	實心左指小三角形	none
+◃	空心左指小三角形	none
+◄	實心左指指標	none
+◅	空心左指指標	none
+◆	實心菱形	none
+◇	空心菱形	none
+◈	空心菱形內有實心菱形	none
+◉	空心圓內有實心圓	none
 ◊	菱形	none
 ○	空心圓	none
+◌	點線圓形	none
+◍	圓形內填滿垂直線	none
+◎	同心圓	none
 ●	實心圓	none
+◐	圓形左半填滿	none
+◑	圓形右半填滿	none
+◒	圓形下半填滿	none
+◓	圓形上半填滿	none
+◔	圓形右上象限填滿	none
+◕	圓形左上象限未填滿	none
+◖	實心左半圓	none
+◗	實心右半圓	none
+◘	反白項目符號	none
+◙	實心方塊內有空心圓	none
+◜	左上象限圓弧	none
+◝	右上象限圓弧	none
+◞	右下象限圓弧	none
+◟	左下象限圓弧	none
+◠	上半圓	none
+◡	下半圓	none
+◢	實心右下三角形	none
+◣	實心左下三角形	none
+◤	實心左上三角形	none
+◥	實心右上三角形	none
+◦	空心項目符號	none
 ◯	大空心圓	none
+◳	空心方塊右上象限	none
+◷	空心圓右上象限	none
+◿	右下三角形	none
+♪	八分音符	none
+⨧	加號下標 2	none
+⨯	向量外積	none
+⨼	內積	none
+⩣	邏輯或雙下横線	none
+⩽	小於斜等號	none
+⪍	小於在相似等上方	none
+⪚	雙線等號大於	none
+⪺	後接於在幾乎不等於上	none
+♭	降記號	none
+♯	升記號	none
 😀	笑臉	none
 😃	大笑	none
 😄	呵呵	none
@@ -53,6 +274,7 @@ symbols:
 😂	感動	none
 🙂	呆呆笑	none
 🙃	顛倒臉	none
+🫠	融化的臉	none
 😉	眨眼	none
 😊	微笑	none
 😇	天使笑臉	none
@@ -73,18 +295,25 @@ symbols:
 🤑	發財	none
 🤗	抱抱	none
 🤭	手蓋住嘴巴	none
+🫢	張眼摀嘴的臉	none
+🫣	一眼偷看的臉	none
 🤫	噓	none
 🤔	思考	none
+🫡	敬禮的臉	none
 🤐	閉嘴	none
 🤨	挑眉驚訝	none
 😐	無語	none
 😑	面無表情	none
 😶	沉默	none
+🫥	虛線的臉	none
+😶‍🌫	茫茫然	none
 😏	冷笑	none
 😒	不高興	none
 🙄	翻白眼	none
 😬	咬牙	none
+😮‍💨	鬆一口氣	none
 🤥	鼻子變長了	none
+🫨	動搖的表情	none
 😌	鬆了口氣	none
 😔	沉思	none
 😪	睏	none
@@ -100,6 +329,7 @@ symbols:
 🥶	冷臉	none
 🥴	頭昏眼花	none
 😵	頭暈目眩	none
+😵‍💫	目眩頭暈	none
 🤯	一個頭兩個大	none
 🤠	牛仔	none
 🥳	慶祝的表情	none
@@ -108,6 +338,7 @@ symbols:
 🤓	搞怪	none
 🧐	單片眼鏡	none
 😕	困擾	none
+🫤	歪嘴的臉	none
 😟	擔心	none
 🙁	不開心	none
 ☹	不滿意	none
@@ -116,6 +347,7 @@ symbols:
 😲	震驚	none
 😳	愛慕	none
 🥺	請求的臉	none
+🥹	強忍淚水的臉	none
 😦	啊	none
 😧	痛	none
 😨	可怕	none
@@ -159,7 +391,6 @@ symbols:
 🙈	非禮勿視	none
 🙉	非禮勿聽	none
 🙊	非禮勿言	none
-💋	唇印	none
 💌	情書	none
 💘	丘比特	none
 💝	愛的禮物	none
@@ -171,15 +402,21 @@ symbols:
 💟	心在框框裡	none
 ❣	心嘆號	none
 💔	心碎	none
+❤‍🔥	火熱的心	none
+❤‍🩹	療心	none
 ❤	愛心	none
+🩷	粉紅心	none
 🧡	橘心	none
 💛	黃心	none
 💚	綠心	none
 💙	藍心	none
+🩵	淺藍心	none
 💜	紫心	none
 🤎	褐心	none
 🖤	黑心	none
+🩶	灰色愛心	none
 🤍	白心	none
+💋	唇印	none
 💯	滿分	none
 💢	怒	none
 💥	碰撞	none
@@ -187,7 +424,6 @@ symbols:
 💦	出汗	none
 💨	揚塵而去	none
 🕳	洞	none
-💣	炸彈	none
 💬	對話框	none
 👁‍🗨	眼睛對話框	none
 🗨	黑色對話框	none
@@ -199,11 +435,18 @@ symbols:
 🖐	停止	none
 ✋	舉手	none
 🖖	你好	none
+🫱	向右的手	none
+🫲	向左的手	none
+🫳	手掌向下	none
+🫴	手掌向上	none
+🫷	手向左推	none
+🫸	手向右推	none
 👌	OK 手勢	none
 🤌	捏手指	none
 🤏	捏	none
 ✌	勝利	none
 🤞	祝好運	none
+🫰	食指和拇指交叉的手	none
 🤟	愛你手勢	none
 🤘	ROCK	none
 🤙	打給我	none
@@ -213,6 +456,7 @@ symbols:
 🖕	中指	none
 👇	下	none
 ☝	注意	none
+🫵	食指朝向觀眾	none
 👍	讚	none
 👎	遜	none
 ✊	拳頭	none
@@ -221,6 +465,7 @@ symbols:
 🤜	握左拳	none
 👏	鼓掌	none
 🙌	歡呼	none
+🫶	雙手心形	none
 👐	攤開手	none
 🤲	雙手掌朝上	none
 🤝	握手	none
@@ -245,6 +490,7 @@ symbols:
 👁	眼睛	none
 👅	舌頭	none
 👄	嘴巴	none
+🫦	咬唇	none
 👶	小寶寶	none
 🧒	小孩	none
 👦	男孩	none
@@ -253,8 +499,10 @@ symbols:
 👱	金髮人	none
 👨	男人	none
 🧔	蓄鬍的人	none
+🧔‍♂	男人 蓄鬍的人	none
 👱‍♂	金髮男	none
 👩	女人	none
+🧔‍♀	女人 蓄鬍的人	none
 👱‍♀	金髮女	none
 🧓	長者	none
 👴	老爺爺	none
@@ -350,6 +598,7 @@ symbols:
 👷	建築工人	none
 👷‍♂	男建築工人	none
 👷‍♀	女建築工人	none
+🫅	戴皇冠的人	none
 🤴	王子	none
 👸	公主	none
 👳	戴頭巾的人	none
@@ -364,6 +613,8 @@ symbols:
 👰‍♂	披著頭紗的男人	none
 👰‍♀	披著頭紗的女子	none
 🤰	孕婦	none
+🫃	懷孕的男人	none
+🫄	懷孕的人	none
 🤱	哺乳	none
 👩‍🍼	正在哺乳的媽媽	none
 👨‍🍼	正在餵奶的爸爸	none
@@ -399,6 +650,7 @@ symbols:
 🧟	殭屍	none
 🧟‍♂	男殭屍	none
 🧟‍♀	女殭屍	none
+🧌	巨人	none
 💆	按摩	none
 💆‍♂	男生按摩	none
 💆‍♀	女生按摩	none
@@ -522,6 +774,8 @@ symbols:
 🐅	老虎	none
 🐆	花豹	none
 🐴	馬頭	none
+🫎	麋鹿	none
+🫏	驢	none
 🐎	馬	none
 🦄	獨角獸	none
 🦓	斑馬	none
@@ -584,6 +838,8 @@ symbols:
 🦩	紅鶴	none
 🦚	孔雀	none
 🦜	鸚鵡	none
+🪽	翅膀	none
+🪿	鵝	none
 🐸	青蛙	none
 🐊	鱷魚	none
 🐢	烏龜	none
@@ -603,6 +859,8 @@ symbols:
 🦈	鯊魚	none
 🐙	章魚	none
 🐚	海螺	none
+🪸	珊瑚	none
+🪼	水母	none
 🐌	蝸牛	none
 🦋	蝴蝶	none
 🐛	毛毛蟲	none
@@ -622,6 +880,7 @@ symbols:
 💐	花束	none
 🌸	櫻花	none
 💮	白花	none
+🪷	蓮花	none
 🏵	花朵	none
 🌹	玫瑰	none
 🥀	枯萎花朵	none
@@ -629,6 +888,7 @@ symbols:
 🌻	向日葵	none
 🌼	開花	none
 🌷	鬱金香	none
+🪻	風信子	none
 🌱	苗	none
 🪴	盆景	none
 🌲	常青樹	none
@@ -642,6 +902,9 @@ symbols:
 🍁	楓葉	none
 🍂	落葉	none
 🍃	隨風飄落的葉子	none
+🪹	空巢	none
+🪺	有蛋的巢	none
+🍄	蘑菇	none
 🍇	葡萄	none
 🍈	瓜	none
 🍉	西瓜	none
@@ -673,9 +936,11 @@ symbols:
 🥦	花椰菜	none
 🧄	大蒜	none
 🧅	洋蔥	none
-🍄	蘑菇	none
 🥜	花生	none
+🫘	豆子	none
 🌰	栗子	none
+🫚	薑	none
+🫛	豌豆莢	none
 🍞	吐司	none
 🥐	可頌	none
 🥖	法國麵包	none
@@ -760,6 +1025,7 @@ symbols:
 🍻	乾杯吧	none
 🥂	乾杯	none
 🥃	威士忌杯	none
+🫗	倒出液體	none
 🥤	杯子和吸管	none
 🧋	珍珠奶茶	none
 🧃	鋁箔包	none
@@ -770,10 +1036,11 @@ symbols:
 🍴	刀叉	none
 🥄	湯匙	none
 🔪	菜刀	none
+🫙	廣口瓶	none
 🏺	陶罐	none
 🌍	歐洲及非洲	none
 🌎	美洲	none
-🌏	亞洲	none
+🌏	亞洲及澳洲	none
 🌐	子午線	none
 🗺	世界地圖	none
 🗾	日本	none
@@ -832,6 +1099,7 @@ symbols:
 🌉	夜橋	none
 ♨	溫泉	none
 🎠	旋轉木馬	none
+🛝	溜滑梯	none
 🎡	摩天輪	none
 🎢	雲霄飛車	none
 💈	理髮店	none
@@ -850,7 +1118,7 @@ symbols:
 🚋	電纜車	none
 🚌	公車	none
 🚍	公共汽車	none
-🚎	電動巴士	none
+🚎	無軌電車	none
 🚐	小型巴士	none
 🚑	救護車	none
 🚒	消防車	none
@@ -880,12 +1148,14 @@ symbols:
 🛤	鐵軌	none
 🛢	油桶	none
 ⛽	加油站	none
+🛞	輪子	none
 🚨	警車燈	none
 🚥	紅綠燈	none
 🚦	直式紅綠燈	none
 🛑	停止標誌	none
 🚧	施工	none
 ⚓	錨	none
+🛟	救生圈	none
 ⛵	帆船	none
 🛶	獨木舟	none
 🚤	快艇	none
@@ -1026,7 +1296,7 @@ symbols:
 🏏	板球	none
 🏑	曲棍球	none
 🏒	冰上曲棍球	none
-🥍	長曲棍球	none
+🥍	袋棍球	none
 🏓	桌球	none
 🏸	羽毛球	none
 🥊	拳擊手套	none
@@ -1039,14 +1309,14 @@ symbols:
 🎽	運動服	none
 🎿	滑雪	none
 🛷	雪橇	none
-🥌	石壺	none
+🥌	冰石壺	none
 🎯	命中	none
 🪀	溜溜球	none
 🪁	風箏	none
+🔫	水槍	none
 🎱	撞球	none
 🔮	水晶球	none
 🪄	魔杖	none
-🧿	邪眼	none
 🎮	電玩	none
 🕹	搖桿	none
 🎰	吃角子老虎	none
@@ -1054,6 +1324,7 @@ symbols:
 🧩	拼圖	none
 🧸	泰迪熊	none
 🪅	皮納塔	none
+🪩	鏡面球	none
 🪆	俄羅斯娃娃	none
 ♠	黑桃	none
 ♥	紅心	none
@@ -1090,6 +1361,7 @@ symbols:
 🩳	短泳褲	none
 👙	比基尼	none
 👚	女裝	none
+🪭	摺扇	none
 👛	錢包	none
 👜	手提包	none
 👝	手拿包	none
@@ -1104,6 +1376,7 @@ symbols:
 👡	涼鞋	none
 🩰	芭蕾舞鞋	none
 👢	靴子	none
+🪮	梳子	none
 👑	皇冠	none
 👒	帽子	none
 🎩	禮帽	none
@@ -1142,6 +1415,8 @@ symbols:
 🪕	斑鳩琴	none
 🥁	鼓	none
 🪘	長鼓	none
+🪇	沙鈴	none
+🪈	長笛	none
 📱	手機	none
 📲	接電話	none
 ☎	電話	none
@@ -1149,6 +1424,7 @@ symbols:
 📟	呼叫器	none
 📠	傳真機	none
 🔋	電池	none
+🪫	電量不足	none
 🔌	插頭	none
 💻	筆電	none
 🖥	電腦	none
@@ -1260,11 +1536,11 @@ symbols:
 🛠	鎚子和扳手	none
 🗡	匕首	none
 ⚔	劍	none
-🔫	槍	none
+💣	炸彈	none
 🪃	迴力鏢	none
 🏹	弓箭	none
 🛡	盾牌	none
-🪚	木工鉅	none
+🪚	木工鋸	none
 🔧	扳手	none
 🪛	螺絲起子	none
 🔩	螺絲	none
@@ -1289,7 +1565,9 @@ symbols:
 🩸	血滴	none
 💊	藥丸	none
 🩹	OK 繃	none
+🩼	拐杖	none
 🩺	聽診器	none
+🩻	X 光	none
 🚪	門	none
 🛗	電梯	none
 🪞	鏡子	none
@@ -1310,6 +1588,7 @@ symbols:
 🧻	捲筒衛生紙	none
 🪣	水桶	none
 🧼	肥皂	none
+🫧	泡泡	none
 🪥	牙刷	none
 🧽	海綿	none
 🧯	滅火器	none
@@ -1318,8 +1597,11 @@ symbols:
 ⚰	棺木	none
 🪦	墓石	none
 ⚱	骨灰罈	none
+🧿	邪眼	none
+🪬	法蒂瑪之手	none
 🗿	復活節島	none
 🪧	告示牌	none
+🪪	識別證	none
 🏧	提款機	none
 🚮	垃圾桶	none
 🚰	飲用水	none
@@ -1356,6 +1638,7 @@ symbols:
 ↖	左上箭頭	none
 ↕	上下箭頭	none
 ↔	左右箭頭	none
+↮	帶有刪除線的左右箭頭	none
 ↩	向左彎的右箭頭	none
 ↪	向右彎的左箭頭	none
 ⤴	右上旋轉箭頭	none
@@ -1379,6 +1662,7 @@ symbols:
 ☮	和平	none
 🕎	猶太燭台	none
 🔯	六芒星加圓點	none
+🪯	堪達	none
 ♈	牡羊座	none
 ♉	金牛座	none
 ♊	雙子座	none
@@ -1414,23 +1698,22 @@ symbols:
 🔅	低亮度	none
 🔆	高亮度	none
 📶	訊號強弱	none
+🛜	無線	none
 📳	震動模式	none
 📴	手機關機	none
 ♀	女	none
 ♂	男	none
 ⚧	變性符號	none
-✖	乘法號	none
-➕	加號	none
-➖	減號	none
-➗	除號	none
+✖	乘	none
+➕	加	none
+➖	減	none
+➗	除	none
+🟰	粗體等號	none
 ♾	無限大	none
-‼	雙驚嘆號	none
-⁉	驚嘆號加問號	none
-❓	問號	none
+❓	紅色問號	none
 ❔	白色問號	none
 ❕	白色驚嘆號	none
-❗	驚嘆號	none
-〰	波浪線	none
+❗	紅色驚嘆號	none
 💱	貨幣兌換	none
 💲	貨幣符號	none
 ⚕	醫療符號	none
@@ -1447,12 +1730,9 @@ symbols:
 ❎	叉叉	none
 ➰	日本單環標誌	none
 ➿	日本免費電話標誌	none
-〽	歌唱	none
 ✳	八芒星	none
 ✴	八角星	none
 ❇	火花	none
-©	版權	none
-®	註冊	none
 ™	商標	none
 🔠	大寫字母鍵	none
 🔡	小寫字母鍵	none
@@ -1476,23 +1756,6 @@ symbols:
 🆘	救命	none
 🆙	UP	none
 🆚	對戰	none
-🈁	日文KOKO	none
-🈂	日文服務區	none
-🈷	月	none
-🈶	有	none
-🈯	指	none
-🉐	得	none
-🈹	割	none
-🈚	無	none
-🈲	禁	none
-🉑	可	none
-🈸	申	none
-🈴	合	none
-🈳	空的	none
-㊗	祝	none
-㊙	秘	none
-🈺	營	none
-🈵	滿	none
 🔴	大紅色圓形	none
 🟠	橘色圓形	none
 🟡	黃色圓形	none
@@ -1535,15 +1798,21 @@ symbols:
 🏳‍🌈	彩虹旗	none
 🏳‍⚧	跨性別旗	none
 🏴‍☠	海盜旗	none
-£	英鎊符號	none
-¥	日幣符號	none
+₢	克魯塞羅	none
+₣	法國法郎	none
+₤	里拉	none
+₥	密爾	none
+₩	韓元	none
 €	歐元符號	none
+₰	德國便士	none
+₱	比索	none
+₳	奧斯特拉爾	none
+₶	圖爾里弗爾	none
+₷	斯貝斯米羅	none
 ₹	印度盧比	none
 ₽	盧布	none
-¹	上標數字 1	none
-²	上標數字 2	none
-³	上標數字 3	none
-µ	微米符號	none
+₿	比特幣	none
+₨	盧比	none
 👋🏻	揮手 白皮膚	none
 👋🏼	揮手 黃皮膚	none
 👋🏽	揮手 淺褐皮膚	none
@@ -1569,6 +1838,56 @@ symbols:
 🖖🏽	你好 淺褐皮膚	none
 🖖🏾	你好 褐皮膚	none
 🖖🏿	你好 黑皮膚	none
+🫱🏻	向右的手 白皮膚	none
+🫱🏼	向右的手 黃皮膚	none
+🫱🏽	向右的手 淺褐皮膚	none
+🫱🏾	向右的手 褐皮膚	none
+🫱🏿	向右的手 黑皮膚	none
+🫱🏻‍🫲🏼	握手 白皮膚 黃皮膚	none
+🫱🏻‍🫲🏽	握手 白皮膚 淺褐皮膚	none
+🫱🏻‍🫲🏾	握手 白皮膚 褐皮膚	none
+🫱🏻‍🫲🏿	握手 白皮膚 黑皮膚	none
+🫱🏼‍🫲🏻	握手 黃皮膚 白皮膚	none
+🫱🏼‍🫲🏽	握手 黃皮膚 淺褐皮膚	none
+🫱🏼‍🫲🏾	握手 黃皮膚 褐皮膚	none
+🫱🏼‍🫲🏿	握手 黃皮膚 黑皮膚	none
+🫱🏽‍🫲🏻	握手 淺褐皮膚 白皮膚	none
+🫱🏽‍🫲🏼	握手 淺褐皮膚 黃皮膚	none
+🫱🏽‍🫲🏾	握手 淺褐皮膚 褐皮膚	none
+🫱🏽‍🫲🏿	握手 淺褐皮膚 黑皮膚	none
+🫱🏾‍🫲🏻	握手 褐皮膚 白皮膚	none
+🫱🏾‍🫲🏼	握手 褐皮膚 黃皮膚	none
+🫱🏾‍🫲🏽	握手 褐皮膚 淺褐皮膚	none
+🫱🏾‍🫲🏿	握手 褐皮膚 黑皮膚	none
+🫱🏿‍🫲🏻	握手 黑皮膚 白皮膚	none
+🫱🏿‍🫲🏼	握手 黑皮膚 黃皮膚	none
+🫱🏿‍🫲🏽	握手 黑皮膚 淺褐皮膚	none
+🫱🏿‍🫲🏾	握手 黑皮膚 褐皮膚	none
+🫲🏻	向左的手 白皮膚	none
+🫲🏼	向左的手 黃皮膚	none
+🫲🏽	向左的手 淺褐皮膚	none
+🫲🏾	向左的手 褐皮膚	none
+🫲🏿	向左的手 黑皮膚	none
+🫳🏻	手掌向下 白皮膚	none
+🫳🏼	手掌向下 黃皮膚	none
+🫳🏽	手掌向下 淺褐皮膚	none
+🫳🏾	手掌向下 褐皮膚	none
+🫳🏿	手掌向下 黑皮膚	none
+🫴🏻	手掌向上 白皮膚	none
+🫴🏼	手掌向上 黃皮膚	none
+🫴🏽	手掌向上 淺褐皮膚	none
+🫴🏾	手掌向上 褐皮膚	none
+🫴🏿	手掌向上 黑皮膚	none
+🫷🏻	手向左推 白皮膚	none
+🫷🏼	手向左推 黃皮膚	none
+🫷🏽	手向左推 淺褐皮膚	none
+🫷🏾	手向左推 褐皮膚	none
+🫷🏿	手向左推 黑皮膚	none
+🫸🏻	手向右推 白皮膚	none
+🫸🏼	手向右推 黃皮膚	none
+🫸🏽	手向右推 淺褐皮膚	none
+🫸🏾	手向右推 褐皮膚	none
+🫸🏿	手向右推 黑皮膚	none
 👌🏻	OK 手勢 白皮膚	none
 👌🏼	OK 手勢 黃皮膚	none
 👌🏽	OK 手勢 淺褐皮膚	none
@@ -1594,6 +1913,11 @@ symbols:
 🤞🏽	祝好運 淺褐皮膚	none
 🤞🏾	祝好運 褐皮膚	none
 🤞🏿	祝好運 黑皮膚	none
+🫰🏻	食指和拇指交叉的手 白皮膚	none
+🫰🏼	食指和拇指交叉的手 黃皮膚	none
+🫰🏽	食指和拇指交叉的手 淺褐皮膚	none
+🫰🏾	食指和拇指交叉的手 褐皮膚	none
+🫰🏿	食指和拇指交叉的手 黑皮膚	none
 🤟🏻	愛你手勢 白皮膚	none
 🤟🏼	愛你手勢 黃皮膚	none
 🤟🏽	愛你手勢 淺褐皮膚	none
@@ -1639,6 +1963,11 @@ symbols:
 ☝🏽	注意 淺褐皮膚	none
 ☝🏾	注意 褐皮膚	none
 ☝🏿	注意 黑皮膚	none
+🫵🏻	食指朝向觀眾 白皮膚	none
+🫵🏼	食指朝向觀眾 黃皮膚	none
+🫵🏽	食指朝向觀眾 淺褐皮膚	none
+🫵🏾	食指朝向觀眾 褐皮膚	none
+🫵🏿	食指朝向觀眾 黑皮膚	none
 👍🏻	讚 白皮膚	none
 👍🏼	讚 黃皮膚	none
 👍🏽	讚 淺褐皮膚	none
@@ -1679,6 +2008,11 @@ symbols:
 🙌🏽	歡呼 淺褐皮膚	none
 🙌🏾	歡呼 褐皮膚	none
 🙌🏿	歡呼 黑皮膚	none
+🫶🏻	雙手心形 白皮膚	none
+🫶🏼	雙手心形 黃皮膚	none
+🫶🏽	雙手心形 淺褐皮膚	none
+🫶🏾	雙手心形 褐皮膚	none
+🫶🏿	雙手心形 黑皮膚	none
 👐🏻	攤開手 白皮膚	none
 👐🏼	攤開手 黃皮膚	none
 👐🏽	攤開手 淺褐皮膚	none
@@ -1689,6 +2023,11 @@ symbols:
 🤲🏽	雙手掌朝上 淺褐皮膚	none
 🤲🏾	雙手掌朝上 褐皮膚	none
 🤲🏿	雙手掌朝上 黑皮膚	none
+🤝🏻	握手 白皮膚	none
+🤝🏼	握手 黃皮膚	none
+🤝🏽	握手 淺褐皮膚	none
+🤝🏾	握手 褐皮膚	none
+🤝🏿	握手 黑皮膚	none
 🙏🏻	感恩 白皮膚	none
 🙏🏼	感恩 黃皮膚	none
 🙏🏽	感恩 淺褐皮膚	none
@@ -1769,6 +2108,46 @@ symbols:
 👱🏽	金髮人 淺褐皮膚	none
 👱🏾	金髮人 褐皮膚	none
 👱🏿	金髮人 黑皮膚	none
+🧑🏻‍❤‍💋‍🧑🏼	親 大人 大人 白皮膚 黃皮膚	none
+🧑🏻‍❤‍💋‍🧑🏽	親 大人 大人 白皮膚 淺褐皮膚	none
+🧑🏻‍❤‍💋‍🧑🏾	親 大人 大人 白皮膚 褐皮膚	none
+🧑🏻‍❤‍💋‍🧑🏿	親 大人 大人 白皮膚 黑皮膚	none
+🧑🏼‍❤‍💋‍🧑🏻	親 大人 大人 黃皮膚 白皮膚	none
+🧑🏼‍❤‍💋‍🧑🏽	親 大人 大人 黃皮膚 淺褐皮膚	none
+🧑🏼‍❤‍💋‍🧑🏾	親 大人 大人 黃皮膚 褐皮膚	none
+🧑🏼‍❤‍💋‍🧑🏿	親 大人 大人 黃皮膚 黑皮膚	none
+🧑🏽‍❤‍💋‍🧑🏻	親 大人 大人 淺褐皮膚 白皮膚	none
+🧑🏽‍❤‍💋‍🧑🏼	親 大人 大人 淺褐皮膚 黃皮膚	none
+🧑🏽‍❤‍💋‍🧑🏾	親 大人 大人 淺褐皮膚 褐皮膚	none
+🧑🏽‍❤‍💋‍🧑🏿	親 大人 大人 淺褐皮膚 黑皮膚	none
+🧑🏾‍❤‍💋‍🧑🏻	親 大人 大人 褐皮膚 白皮膚	none
+🧑🏾‍❤‍💋‍🧑🏼	親 大人 大人 褐皮膚 黃皮膚	none
+🧑🏾‍❤‍💋‍🧑🏽	親 大人 大人 褐皮膚 淺褐皮膚	none
+🧑🏾‍❤‍💋‍🧑🏿	親 大人 大人 褐皮膚 黑皮膚	none
+🧑🏿‍❤‍💋‍🧑🏻	親 大人 大人 黑皮膚 白皮膚	none
+🧑🏿‍❤‍💋‍🧑🏼	親 大人 大人 黑皮膚 黃皮膚	none
+🧑🏿‍❤‍💋‍🧑🏽	親 大人 大人 黑皮膚 淺褐皮膚	none
+🧑🏿‍❤‍💋‍🧑🏾	親 大人 大人 黑皮膚 褐皮膚	none
+🧑🏻‍❤‍🧑🏼	相愛 大人 大人 白皮膚 黃皮膚	none
+🧑🏻‍❤‍🧑🏽	相愛 大人 大人 白皮膚 淺褐皮膚	none
+🧑🏻‍❤‍🧑🏾	相愛 大人 大人 白皮膚 褐皮膚	none
+🧑🏻‍❤‍🧑🏿	相愛 大人 大人 白皮膚 黑皮膚	none
+🧑🏼‍❤‍🧑🏻	相愛 大人 大人 黃皮膚 白皮膚	none
+🧑🏼‍❤‍🧑🏽	相愛 大人 大人 黃皮膚 淺褐皮膚	none
+🧑🏼‍❤‍🧑🏾	相愛 大人 大人 黃皮膚 褐皮膚	none
+🧑🏼‍❤‍🧑🏿	相愛 大人 大人 黃皮膚 黑皮膚	none
+🧑🏽‍❤‍🧑🏻	相愛 大人 大人 淺褐皮膚 白皮膚	none
+🧑🏽‍❤‍🧑🏼	相愛 大人 大人 淺褐皮膚 黃皮膚	none
+🧑🏽‍❤‍🧑🏾	相愛 大人 大人 淺褐皮膚 褐皮膚	none
+🧑🏽‍❤‍🧑🏿	相愛 大人 大人 淺褐皮膚 黑皮膚	none
+🧑🏾‍❤‍🧑🏻	相愛 大人 大人 褐皮膚 白皮膚	none
+🧑🏾‍❤‍🧑🏼	相愛 大人 大人 褐皮膚 黃皮膚	none
+🧑🏾‍❤‍🧑🏽	相愛 大人 大人 褐皮膚 淺褐皮膚	none
+🧑🏾‍❤‍🧑🏿	相愛 大人 大人 褐皮膚 黑皮膚	none
+🧑🏿‍❤‍🧑🏻	相愛 大人 大人 黑皮膚 白皮膚	none
+🧑🏿‍❤‍🧑🏼	相愛 大人 大人 黑皮膚 黃皮膚	none
+🧑🏿‍❤‍🧑🏽	相愛 大人 大人 黑皮膚 淺褐皮膚	none
+🧑🏿‍❤‍🧑🏾	相愛 大人 大人 黑皮膚 褐皮膚	none
 🧑‍🦰	大人 紅髮	none
 🧑🏻‍🦰	大人 白皮膚 紅髮	none
 🧑🏼‍🦰	大人 黃皮膚 紅髮	none
@@ -1803,11 +2182,66 @@ symbols:
 🧔🏽	蓄鬍的人 淺褐皮膚	none
 🧔🏾	蓄鬍的人 褐皮膚	none
 🧔🏿	蓄鬍的人 黑皮膚	none
+🧔🏻‍♂	男人 白皮膚 蓄鬍的人	none
+🧔🏼‍♂	男人 黃皮膚 蓄鬍的人	none
+🧔🏽‍♂	男人 淺褐皮膚 蓄鬍的人	none
+🧔🏾‍♂	男人 褐皮膚 蓄鬍的人	none
+🧔🏿‍♂	男人 黑皮膚 蓄鬍的人	none
 👱🏻‍♂	金髮男 白皮膚	none
 👱🏼‍♂	金髮男 黃皮膚	none
 👱🏽‍♂	金髮男 淺褐皮膚	none
 👱🏾‍♂	金髮男 褐皮膚	none
 👱🏿‍♂	金髮男 黑皮膚	none
+👨🏻‍❤‍💋‍👨🏻	親 男人 男人 白皮膚	none
+👨🏻‍❤‍💋‍👨🏼	親 男人 男人 白皮膚 黃皮膚	none
+👨🏻‍❤‍💋‍👨🏽	親 男人 男人 白皮膚 淺褐皮膚	none
+👨🏻‍❤‍💋‍👨🏾	親 男人 男人 白皮膚 褐皮膚	none
+👨🏻‍❤‍💋‍👨🏿	親 男人 男人 白皮膚 黑皮膚	none
+👨🏼‍❤‍💋‍👨🏻	親 男人 男人 黃皮膚 白皮膚	none
+👨🏼‍❤‍💋‍👨🏼	親 男人 男人 黃皮膚	none
+👨🏼‍❤‍💋‍👨🏽	親 男人 男人 黃皮膚 淺褐皮膚	none
+👨🏼‍❤‍💋‍👨🏾	親 男人 男人 黃皮膚 褐皮膚	none
+👨🏼‍❤‍💋‍👨🏿	親 男人 男人 黃皮膚 黑皮膚	none
+👨🏽‍❤‍💋‍👨🏻	親 男人 男人 淺褐皮膚 白皮膚	none
+👨🏽‍❤‍💋‍👨🏼	親 男人 男人 淺褐皮膚 黃皮膚	none
+👨🏽‍❤‍💋‍👨🏽	親 男人 男人 淺褐皮膚	none
+👨🏽‍❤‍💋‍👨🏾	親 男人 男人 淺褐皮膚 褐皮膚	none
+👨🏽‍❤‍💋‍👨🏿	親 男人 男人 淺褐皮膚 黑皮膚	none
+👨🏾‍❤‍💋‍👨🏻	親 男人 男人 褐皮膚 白皮膚	none
+👨🏾‍❤‍💋‍👨🏼	親 男人 男人 褐皮膚 黃皮膚	none
+👨🏾‍❤‍💋‍👨🏽	親 男人 男人 褐皮膚 淺褐皮膚	none
+👨🏾‍❤‍💋‍👨🏾	親 男人 男人 褐皮膚	none
+👨🏾‍❤‍💋‍👨🏿	親 男人 男人 褐皮膚 黑皮膚	none
+👨🏿‍❤‍💋‍👨🏻	親 男人 男人 黑皮膚 白皮膚	none
+👨🏿‍❤‍💋‍👨🏼	親 男人 男人 黑皮膚 黃皮膚	none
+👨🏿‍❤‍💋‍👨🏽	親 男人 男人 黑皮膚 淺褐皮膚	none
+👨🏿‍❤‍💋‍👨🏾	親 男人 男人 黑皮膚 褐皮膚	none
+👨🏿‍❤‍💋‍👨🏿	親 男人 男人 黑皮膚	none
+👨🏻‍❤‍👨🏻	相愛 男人 男人 白皮膚	none
+👨🏻‍❤‍👨🏼	相愛 男人 男人 白皮膚 黃皮膚	none
+👨🏻‍❤‍👨🏽	相愛 男人 男人 白皮膚 淺褐皮膚	none
+👨🏻‍❤‍👨🏾	相愛 男人 男人 白皮膚 褐皮膚	none
+👨🏻‍❤‍👨🏿	相愛 男人 男人 白皮膚 黑皮膚	none
+👨🏼‍❤‍👨🏻	相愛 男人 男人 黃皮膚 白皮膚	none
+👨🏼‍❤‍👨🏼	相愛 男人 男人 黃皮膚	none
+👨🏼‍❤‍👨🏽	相愛 男人 男人 黃皮膚 淺褐皮膚	none
+👨🏼‍❤‍👨🏾	相愛 男人 男人 黃皮膚 褐皮膚	none
+👨🏼‍❤‍👨🏿	相愛 男人 男人 黃皮膚 黑皮膚	none
+👨🏽‍❤‍👨🏻	相愛 男人 男人 淺褐皮膚 白皮膚	none
+👨🏽‍❤‍👨🏼	相愛 男人 男人 淺褐皮膚 黃皮膚	none
+👨🏽‍❤‍👨🏽	相愛 男人 男人 淺褐皮膚	none
+👨🏽‍❤‍👨🏾	相愛 男人 男人 淺褐皮膚 褐皮膚	none
+👨🏽‍❤‍👨🏿	相愛 男人 男人 淺褐皮膚 黑皮膚	none
+👨🏾‍❤‍👨🏻	相愛 男人 男人 褐皮膚 白皮膚	none
+👨🏾‍❤‍👨🏼	相愛 男人 男人 褐皮膚 黃皮膚	none
+👨🏾‍❤‍👨🏽	相愛 男人 男人 褐皮膚 淺褐皮膚	none
+👨🏾‍❤‍👨🏾	相愛 男人 男人 褐皮膚	none
+👨🏾‍❤‍👨🏿	相愛 男人 男人 褐皮膚 黑皮膚	none
+👨🏿‍❤‍👨🏻	相愛 男人 男人 黑皮膚 白皮膚	none
+👨🏿‍❤‍👨🏼	相愛 男人 男人 黑皮膚 黃皮膚	none
+👨🏿‍❤‍👨🏽	相愛 男人 男人 黑皮膚 淺褐皮膚	none
+👨🏿‍❤‍👨🏾	相愛 男人 男人 黑皮膚 褐皮膚	none
+👨🏿‍❤‍👨🏿	相愛 男人 男人 黑皮膚	none
 👨‍🦰	男人 紅髮	none
 👨🏻‍🦰	男人 白皮膚 紅髮	none
 👨🏼‍🦰	男人 黃皮膚 紅髮	none
@@ -1837,11 +2271,116 @@ symbols:
 👩🏽	女人 淺褐皮膚	none
 👩🏾	女人 褐皮膚	none
 👩🏿	女人 黑皮膚	none
+🧔🏻‍♀	女人 白皮膚 蓄鬍的人	none
+🧔🏼‍♀	女人 黃皮膚 蓄鬍的人	none
+🧔🏽‍♀	女人 淺褐皮膚 蓄鬍的人	none
+🧔🏾‍♀	女人 褐皮膚 蓄鬍的人	none
+🧔🏿‍♀	女人 黑皮膚 蓄鬍的人	none
 👱🏻‍♀	金髮女 白皮膚	none
 👱🏼‍♀	金髮女 黃皮膚	none
 👱🏽‍♀	金髮女 淺褐皮膚	none
 👱🏾‍♀	金髮女 褐皮膚	none
 👱🏿‍♀	金髮女 黑皮膚	none
+👩🏻‍❤‍💋‍👨🏻	親 女人 男人 白皮膚	none
+👩🏻‍❤‍💋‍👨🏼	親 女人 男人 白皮膚 黃皮膚	none
+👩🏻‍❤‍💋‍👨🏽	親 女人 男人 白皮膚 淺褐皮膚	none
+👩🏻‍❤‍💋‍👨🏾	親 女人 男人 白皮膚 褐皮膚	none
+👩🏻‍❤‍💋‍👨🏿	親 女人 男人 白皮膚 黑皮膚	none
+👩🏼‍❤‍💋‍👨🏻	親 女人 男人 黃皮膚 白皮膚	none
+👩🏼‍❤‍💋‍👨🏼	親 女人 男人 黃皮膚	none
+👩🏼‍❤‍💋‍👨🏽	親 女人 男人 黃皮膚 淺褐皮膚	none
+👩🏼‍❤‍💋‍👨🏾	親 女人 男人 黃皮膚 褐皮膚	none
+👩🏼‍❤‍💋‍👨🏿	親 女人 男人 黃皮膚 黑皮膚	none
+👩🏽‍❤‍💋‍👨🏻	親 女人 男人 淺褐皮膚 白皮膚	none
+👩🏽‍❤‍💋‍👨🏼	親 女人 男人 淺褐皮膚 黃皮膚	none
+👩🏽‍❤‍💋‍👨🏽	親 女人 男人 淺褐皮膚	none
+👩🏽‍❤‍💋‍👨🏾	親 女人 男人 淺褐皮膚 褐皮膚	none
+👩🏽‍❤‍💋‍👨🏿	親 女人 男人 淺褐皮膚 黑皮膚	none
+👩🏾‍❤‍💋‍👨🏻	親 女人 男人 褐皮膚 白皮膚	none
+👩🏾‍❤‍💋‍👨🏼	親 女人 男人 褐皮膚 黃皮膚	none
+👩🏾‍❤‍💋‍👨🏽	親 女人 男人 褐皮膚 淺褐皮膚	none
+👩🏾‍❤‍💋‍👨🏾	親 女人 男人 褐皮膚	none
+👩🏾‍❤‍💋‍👨🏿	親 女人 男人 褐皮膚 黑皮膚	none
+👩🏿‍❤‍💋‍👨🏻	親 女人 男人 黑皮膚 白皮膚	none
+👩🏿‍❤‍💋‍👨🏼	親 女人 男人 黑皮膚 黃皮膚	none
+👩🏿‍❤‍💋‍👨🏽	親 女人 男人 黑皮膚 淺褐皮膚	none
+👩🏿‍❤‍💋‍👨🏾	親 女人 男人 黑皮膚 褐皮膚	none
+👩🏿‍❤‍💋‍👨🏿	親 女人 男人 黑皮膚	none
+👩🏻‍❤‍💋‍👩🏻	親 女人 女人 白皮膚	none
+👩🏻‍❤‍💋‍👩🏼	親 女人 女人 白皮膚 黃皮膚	none
+👩🏻‍❤‍💋‍👩🏽	親 女人 女人 白皮膚 淺褐皮膚	none
+👩🏻‍❤‍💋‍👩🏾	親 女人 女人 白皮膚 褐皮膚	none
+👩🏻‍❤‍💋‍👩🏿	親 女人 女人 白皮膚 黑皮膚	none
+👩🏼‍❤‍💋‍👩🏻	親 女人 女人 黃皮膚 白皮膚	none
+👩🏼‍❤‍💋‍👩🏼	親 女人 女人 黃皮膚	none
+👩🏼‍❤‍💋‍👩🏽	親 女人 女人 黃皮膚 淺褐皮膚	none
+👩🏼‍❤‍💋‍👩🏾	親 女人 女人 黃皮膚 褐皮膚	none
+👩🏼‍❤‍💋‍👩🏿	親 女人 女人 黃皮膚 黑皮膚	none
+👩🏽‍❤‍💋‍👩🏻	親 女人 女人 淺褐皮膚 白皮膚	none
+👩🏽‍❤‍💋‍👩🏼	親 女人 女人 淺褐皮膚 黃皮膚	none
+👩🏽‍❤‍💋‍👩🏽	親 女人 女人 淺褐皮膚	none
+👩🏽‍❤‍💋‍👩🏾	親 女人 女人 淺褐皮膚 褐皮膚	none
+👩🏽‍❤‍💋‍👩🏿	親 女人 女人 淺褐皮膚 黑皮膚	none
+👩🏾‍❤‍💋‍👩🏻	親 女人 女人 褐皮膚 白皮膚	none
+👩🏾‍❤‍💋‍👩🏼	親 女人 女人 褐皮膚 黃皮膚	none
+👩🏾‍❤‍💋‍👩🏽	親 女人 女人 褐皮膚 淺褐皮膚	none
+👩🏾‍❤‍💋‍👩🏾	親 女人 女人 褐皮膚	none
+👩🏾‍❤‍💋‍👩🏿	親 女人 女人 褐皮膚 黑皮膚	none
+👩🏿‍❤‍💋‍👩🏻	親 女人 女人 黑皮膚 白皮膚	none
+👩🏿‍❤‍💋‍👩🏼	親 女人 女人 黑皮膚 黃皮膚	none
+👩🏿‍❤‍💋‍👩🏽	親 女人 女人 黑皮膚 淺褐皮膚	none
+👩🏿‍❤‍💋‍👩🏾	親 女人 女人 黑皮膚 褐皮膚	none
+👩🏿‍❤‍💋‍👩🏿	親 女人 女人 黑皮膚	none
+👩🏻‍❤‍👨🏻	相愛 女人 男人 白皮膚	none
+👩🏻‍❤‍👨🏼	相愛 女人 男人 白皮膚 黃皮膚	none
+👩🏻‍❤‍👨🏽	相愛 女人 男人 白皮膚 淺褐皮膚	none
+👩🏻‍❤‍👨🏾	相愛 女人 男人 白皮膚 褐皮膚	none
+👩🏻‍❤‍👨🏿	相愛 女人 男人 白皮膚 黑皮膚	none
+👩🏼‍❤‍👨🏻	相愛 女人 男人 黃皮膚 白皮膚	none
+👩🏼‍❤‍👨🏼	相愛 女人 男人 黃皮膚	none
+👩🏼‍❤‍👨🏽	相愛 女人 男人 黃皮膚 淺褐皮膚	none
+👩🏼‍❤‍👨🏾	相愛 女人 男人 黃皮膚 褐皮膚	none
+👩🏼‍❤‍👨🏿	相愛 女人 男人 黃皮膚 黑皮膚	none
+👩🏽‍❤‍👨🏻	相愛 女人 男人 淺褐皮膚 白皮膚	none
+👩🏽‍❤‍👨🏼	相愛 女人 男人 淺褐皮膚 黃皮膚	none
+👩🏽‍❤‍👨🏽	相愛 女人 男人 淺褐皮膚	none
+👩🏽‍❤‍👨🏾	相愛 女人 男人 淺褐皮膚 褐皮膚	none
+👩🏽‍❤‍👨🏿	相愛 女人 男人 淺褐皮膚 黑皮膚	none
+👩🏾‍❤‍👨🏻	相愛 女人 男人 褐皮膚 白皮膚	none
+👩🏾‍❤‍👨🏼	相愛 女人 男人 褐皮膚 黃皮膚	none
+👩🏾‍❤‍👨🏽	相愛 女人 男人 褐皮膚 淺褐皮膚	none
+👩🏾‍❤‍👨🏾	相愛 女人 男人 褐皮膚	none
+👩🏾‍❤‍👨🏿	相愛 女人 男人 褐皮膚 黑皮膚	none
+👩🏿‍❤‍👨🏻	相愛 女人 男人 黑皮膚 白皮膚	none
+👩🏿‍❤‍👨🏼	相愛 女人 男人 黑皮膚 黃皮膚	none
+👩🏿‍❤‍👨🏽	相愛 女人 男人 黑皮膚 淺褐皮膚	none
+👩🏿‍❤‍👨🏾	相愛 女人 男人 黑皮膚 褐皮膚	none
+👩🏿‍❤‍👨🏿	相愛 女人 男人 黑皮膚	none
+👩🏻‍❤‍👩🏻	相愛 女人 女人 白皮膚	none
+👩🏻‍❤‍👩🏼	相愛 女人 女人 白皮膚 黃皮膚	none
+👩🏻‍❤‍👩🏽	相愛 女人 女人 白皮膚 淺褐皮膚	none
+👩🏻‍❤‍👩🏾	相愛 女人 女人 白皮膚 褐皮膚	none
+👩🏻‍❤‍👩🏿	相愛 女人 女人 白皮膚 黑皮膚	none
+👩🏼‍❤‍👩🏻	相愛 女人 女人 黃皮膚 白皮膚	none
+👩🏼‍❤‍👩🏼	相愛 女人 女人 黃皮膚	none
+👩🏼‍❤‍👩🏽	相愛 女人 女人 黃皮膚 淺褐皮膚	none
+👩🏼‍❤‍👩🏾	相愛 女人 女人 黃皮膚 褐皮膚	none
+👩🏼‍❤‍👩🏿	相愛 女人 女人 黃皮膚 黑皮膚	none
+👩🏽‍❤‍👩🏻	相愛 女人 女人 淺褐皮膚 白皮膚	none
+👩🏽‍❤‍👩🏼	相愛 女人 女人 淺褐皮膚 黃皮膚	none
+👩🏽‍❤‍👩🏽	相愛 女人 女人 淺褐皮膚	none
+👩🏽‍❤‍👩🏾	相愛 女人 女人 淺褐皮膚 褐皮膚	none
+👩🏽‍❤‍👩🏿	相愛 女人 女人 淺褐皮膚 黑皮膚	none
+👩🏾‍❤‍👩🏻	相愛 女人 女人 褐皮膚 白皮膚	none
+👩🏾‍❤‍👩🏼	相愛 女人 女人 褐皮膚 黃皮膚	none
+👩🏾‍❤‍👩🏽	相愛 女人 女人 褐皮膚 淺褐皮膚	none
+👩🏾‍❤‍👩🏾	相愛 女人 女人 褐皮膚	none
+👩🏾‍❤‍👩🏿	相愛 女人 女人 褐皮膚 黑皮膚	none
+👩🏿‍❤‍👩🏻	相愛 女人 女人 黑皮膚 白皮膚	none
+👩🏿‍❤‍👩🏼	相愛 女人 女人 黑皮膚 黃皮膚	none
+👩🏿‍❤‍👩🏽	相愛 女人 女人 黑皮膚 淺褐皮膚	none
+👩🏿‍❤‍👩🏾	相愛 女人 女人 黑皮膚 褐皮膚	none
+👩🏿‍❤‍👩🏿	相愛 女人 女人 黑皮膚	none
 👩‍🦰	女人 紅髮	none
 👩🏻‍🦰	女人 白皮膚 紅髮	none
 👩🏼‍🦰	女人 黃皮膚 紅髮	none
@@ -2336,6 +2875,11 @@ symbols:
 👷🏽‍♀	女建築工人 淺褐皮膚	none
 👷🏾‍♀	女建築工人 褐皮膚	none
 👷🏿‍♀	女建築工人 黑皮膚	none
+🫅🏻	戴皇冠的人 白皮膚	none
+🫅🏼	戴皇冠的人 黃皮膚	none
+🫅🏽	戴皇冠的人 淺褐皮膚	none
+🫅🏾	戴皇冠的人 褐皮膚	none
+🫅🏿	戴皇冠的人 黑皮膚	none
 🤴🏻	王子 白皮膚	none
 🤴🏼	王子 黃皮膚	none
 🤴🏽	王子 淺褐皮膚	none
@@ -2406,6 +2950,16 @@ symbols:
 🤰🏽	孕婦 淺褐皮膚	none
 🤰🏾	孕婦 褐皮膚	none
 🤰🏿	孕婦 黑皮膚	none
+🫃🏻	懷孕的男人 白皮膚	none
+🫃🏼	懷孕的男人 黃皮膚	none
+🫃🏽	懷孕的男人 淺褐皮膚	none
+🫃🏾	懷孕的男人 褐皮膚	none
+🫃🏿	懷孕的男人 黑皮膚	none
+🫄🏻	懷孕的人 白皮膚	none
+🫄🏼	懷孕的人 黃皮膚	none
+🫄🏽	懷孕的人 淺褐皮膚	none
+🫄🏾	懷孕的人 褐皮膚	none
+🫄🏿	懷孕的人 黑皮膚	none
 🤱🏻	哺乳 白皮膚	none
 🤱🏼	哺乳 黃皮膚	none
 🤱🏽	哺乳 淺褐皮膚	none
@@ -3046,9 +3600,19 @@ symbols:
 👨🏿‍🤝‍👨🏽	兩個男人 黑皮膚 淺褐皮膚	none
 👨🏿‍🤝‍👨🏾	兩個男人 黑皮膚 褐皮膚	none
 👬🏿	兩個男人 黑皮膚	none
+💏🏻	親 白皮膚	none
+💏🏼	親 黃皮膚	none
+💏🏽	親 淺褐皮膚	none
+💏🏾	親 褐皮膚	none
+💏🏿	親 黑皮膚	none
 👩‍❤‍💋‍👨	親 女人 男人	none
 👨‍❤‍💋‍👨	親 男人 男人	none
 👩‍❤‍💋‍👩	親 女人 女人	none
+💑🏻	相愛 白皮膚	none
+💑🏼	相愛 黃皮膚	none
+💑🏽	相愛 淺褐皮膚	none
+💑🏾	相愛 褐皮膚	none
+💑🏿	相愛 黑皮膚	none
 👩‍❤‍👨	相愛 女人 男人	none
 👨‍❤‍👨	相愛 男人 男人	none
 👩‍❤‍👩	相愛 女人 女人	none
@@ -3077,8 +3641,6 @@ symbols:
 👩‍👧	家庭 女人 女孩	none
 👩‍👧‍👦	家庭 女人 女孩 男孩	none
 👩‍👧‍👧	家庭 女人 女孩 女孩	none
-#⃣	按鍵 #	none
-*⃣	按鍵 *	none
 🔟	按鍵 10	none
 🇦🇨	旗子 阿森松島	none
 🇦🇩	旗子 安道爾	none
@@ -3341,13 +3903,17 @@ symbols:
 🏴󠁧󠁢󠁥󠁮󠁧󠁿	旗子 英格蘭	none
 🏴󠁧󠁢󠁳󠁣󠁴󠁿	旗子 蘇格蘭	none
 🏴󠁧󠁢󠁷󠁬󠁳󠁿	旗子 威爾斯	none
-0⃣	按鍵 0	none
-1⃣	按鍵 1	none
-2⃣	按鍵 2	none
-3⃣	按鍵 3	none
-4⃣	按鍵 4	none
-5⃣	按鍵 5	none
-6⃣	按鍵 6	none
-7⃣	按鍵 7	none
-8⃣	按鍵 8	none
-9⃣	按鍵 9	none
+₡	哥斯大黎加科朗	none
+₦	奈及利亞奈拉	none
+₧	西班牙陪士特	none
+₪	以色列新謝克爾	none
+₫	越南盾	none
+₭	寮國基普	none
+₮	蒙古圖格里克	none
+₲	巴拉圭瓜拉尼	none
+₴	烏克蘭格里夫納	none
+₵	迦納塞地	none
+₸	哈薩克堅戈	none
+₺	新土耳其里拉	none
+₼	亞塞拜然馬納特	none
+₾	喬治亞拉里	none

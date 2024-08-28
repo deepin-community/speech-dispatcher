@@ -8,41 +8,262 @@ symbols:
 🏽	orta dəri tonu	none
 🏾	orta-tünd dəri tonu	none
 🏿	tünd dəri tonu	none
-–	qısa tire	none
-—	uzun tire	none
-·	orta nöqtə	none
-«	sol dırnaq işarəsi	none
-»	sağ dırnaq işarəsi	none
-§	paraqraf işarəsi	none
-†	xəncər-xaç işarəsi	none
-‡	ikixaçlı xəncər işarəsi	none
-•	böyük nöqtə	none
-°	dərəcə	none
 ℗	səs yazma üzrə müəllif hüququ	none
 ←	sola yönəlmiş ox	none
+↚	sol istiqamətdə ox xətti	none
 →	sağa yönəlmiş ox	none
+↛	sağ istiqamətində ox xətti	none
 ↑	yuxarıya yönəlmiş ox	none
 ↓	aşağı yönəlmiş ox	none
+↜	sol istiqamətində dalğalı ox	none
+↝	sağ istiqamətində dalğalı ox	none
+↞	sola doğru ikibaşlı ox	none
+↟	yuxarıya doğru ikibaşlı ox	none
+↠	sağa doğru ikibaşlı ox	none
+↡	aşağıya doğru ikibaşlı ox	none
+↢	sola doğru ox ucluğu	none
+↣	sağa doğru ox ucluğu	none
+↤	xəttdən sola ox	none
+↥	xəttdən yuxarı ox	none
+↦	xəttdən sağa ox	none
+↧	xəttdən aşağı ox	none
+↨	yuxarı-aşağı ucluqlu ox	none
+↫	halqa ilə sola doğru ox	none
+↬	halqa ilə sağa doğru ox	none
+↭	sola-sağa dalğalı ox	none
+↯	aşağıya doğru ziqzaqşəkilli ox	none
+↰	yuxarı sol istiqamətli ox ucu	none
+↱	yuxarı sağ istiqamətli ox ucu	none
+↲	aşağı sol istiqamətli ox ucu	none
+↳	aşağı sağ istiqamətli ox ucu	none
+↴	sağa doğru aşağı ox küncü	none
+↵	aşağı sola doğru ox küncü	none
+↶	saat əqrəbinin əksi istiqamətində yuxarıya doğru qövsşəkilli ox	none
+↷	saat əqrəbi istiqamətində yuxarıya doğru qövsşəkilli ox	none
+↸	şimal qərb istiqamətində uzun xəttli ox	none
+↹	sağ ox xətti üzərində sol ox xətti	none
+↺	saat əqrəbinin əksi istiqamətində açıq dairəvi ox	none
+↻	saat əqrəbi istiqamətində açıq dairəvi ox	none
+↼	sola doğru yuxarı qarmaq dişəyi	none
+↽	sola doğru aşağı qarmaq dişəyi	none
+↾	yuxarı sağa doğru qarmaq dişəyi	none
+↿	yuxarı sola doğru qarmaq dişəyi	none
+⇀	sağa doğru yuxarı qarmaq dişəyi	none
+⇁	sağa doğru aşağı qarmaq dişəyi	none
+⇂	aşağıya doğru sağa qarmaq dişəyi	none
+⇃	aşağıya doğru sola qarmaq dişəyi	none
+⇄	sola doğru olan oxun üzərində sağa doğru ox	none
 ⇅	yuxarı və aşağı yönəlmiş oxlar	none
 ⇆	sağa yönəlmiş oxlar üzəri sola yönəlmiş	none
+⇇	sola doğru cüt ox	none
+⇈	yuxarıya doğru cüt ox	none
+⇉	sağa doğru cüt ox	none
+⇊	aşağıya doğru cüt ox	none
+⇋	sağa doğru olan qarmağın üzərində sola doğru qarmaq	none
+⇌	sola doğru olan qarmağın üzərində sağa doğru qarmaq	none
+⇐	sola doğru ikili ox	none
+⇍	üzəri xəttli sola doğru ikili ox	none
+⇑	yuxarıya doğru ikili ox	none
+⇒	sağa doğru ikili ox	none
+⇏	üzəri xəttli sağa doğru ikili ox	none
+⇓	aşağıya doğru ikili ox	none
+⇔	sol-sağ istiqamətli ikili ox	none
+⇎	üzəri xəttli sol-sağ istiqamətli ikili ox	none
+⇖	şimal qərb istiqamətli ikili ox	none
+⇗	şimal şərq istiqamətli ikili ox	none
+⇘	cənub şərq istiqamətli ikili ox	none
+⇙	cənub qərb istiqamətli ikili ox	none
+⇚	sola doğru üçlü ox	none
+⇛	sağa doğru üçlü ox	none
+⇜	sola doğru kərtikli ox	none
+⇝	sağa doğru kərtikli ox	none
+⇞	yuxarı ox üzərində ikili xətt	none
+⇟	aşağı ox üzərində ikili xətt	none
+⇠	sola doğru tireli ox	none
+⇡	yuxarıya doğru tireli ox	none
+⇢	sağa doğru tireli ox	none
+⇣	aşağıya doğru tireli ox	none
+⇤	soldakı xəttə doğru ox	none
+⇥	sağdakı xəttə doğru ox	none
+⇦	sola doğru içiboş ox	none
+⇧	yuxarıya doğru içiboş ox	none
+⇨	sağa doğru içiboş ox	none
+⇩	aşağıya doğru içiboş ox	none
+⇪	xəttdən yuxarıya doğru içiboş ox	none
+⇵	yuxarı oxun solunda aşağı ox	none
+∀	çevrilmiş A	none
+∂	qismən differensial	none
+∃	çevrilmiş E	none
+∅	boş çoxluq	none
 ∆	delta	none
 ∇	nabla	none
 ∈	elementi	none
-÷	bölmə işarəsi	none
-×	vurma işarəsi	none
-⁻	üstdə minus	none
+∉	çoxluğa daxil deyil	none
+∋	çoxluğa daxildir	none
+∎	son sübut	none
+∏	n-ar məhsul	none
+∑	n-ar cəm	none
+≮	kiçik deyil	none
+≠	qeyri-bərabər	none
+≯	böyük deyil	none
+−	çıxma işarəsi	none
+⁻	üstdə çıxma	none
+∓	çıx-yaxud-üstəgəl	none
+∕	bölmə sleşi	none
+∗	ulduz operatoru	none
+∘	dərəcə operatoru	none
+∙	böyük nöqtə operatoru	none
 √	kökaltı	none
+∝	mütənasib	none
 ∞	sonsuzluq işarəsi	none
+∟	sağ bucaq	none
+∠	bucaq	none
+∣	bölür	none
+∥	paralel	none
+∧	məntiqi və	none
 ∩	kəsişmə	none
 ∪	birləşmə	none
+∫	inteqral	none
+∬	ikiqat inteqral	none
+∮	kontur inteqralı	none
+∴	buna görə də	none
+∵	çünki	none
+∶	əmsal	none
+∷	nisbət	none
+∼	tilda operatoru	none
+∽	tərs tilda	none
+∾	çevrilmiş tənbəl s	none
+≃	asimptotik bərabər	none
+≅	təqribən bərabər	none
+≈	təxminən bərabər	none
+≌	tamamilə bərabər	none
+≒	təqribən şəklə bərabər	none
+≖	bərabər çevrəyə al	none
 ≡	bərabərdir	none
+≣	tam ekvivalent	none
+≤	kiçik və ya bərabər	none
+≥	böyük və ya bərabər	none
+≦	bərabərdən kiçik	none
+≧	bərabərdən böyük	none
+≪	...çox az	none
+≫	...çox artıq	none
+≬	arasında	none
+≳	ekvivalentindən böyükdür	none
+≺	qabaqlayır	none
+≻	dalınca gəlir	none
+⊁	dalınca gəlmir	none
 ⊂	altçoxluğu	none
+⊃	üst çoxluq	none
+⊆	alt çoxluğa bərabər	none
+⊇	üst çoxluğa bərabər	none
+⊕	çevrələnmiş üstəgəl	none
+⊖	çevrələnmiş çıxma	none
+⊗	birbaşa cəm	none
+⊘	çevrələnmiş bölmə sleşi	none
+⊙	çevrələnmiş nöqtə operatoru	none
+⊚	çevrələnmiş halqa operatoru	none
+⊛	çevrələnmiş ulduzcuq operatoru	none
+⊞	kvadrat içində üstəgəl	none
+⊟	kvadrat içində çıxma	none
+⊥	yanlış element	none
+⊮	məcbur etmir	none
+⊰	ondan əvvəl dayanır	none
+⊱	ondan sonra dayanır	none
+⋭	normal qrupaltı bərabəri kimi ehtiva etmir	none
+⊶	orijinal	none
+⊹	kvadrat konyuqat matris	none
+⊿	düzbucaqlı üçbucaq	none
+⋁	n-ar məntiqi və ya	none
+⋂	n-ar kəsişmə	none
+⋃	n-ar birləşmə	none
+⋅	nöqtə operatoru	none
+⋆	ulduz-operator	none
+⋈	təbii qoşulma	none
+⋒	ikiqat kəsişmə	none
+⋘	çox-çox az	none
+⋙	çox-çox artıq	none
+⋮	şaquli üç nöqtə	none
+⋯	üfüqi orta xətt üç nöqtəsi	none
+⋰	diaqonal üzrə yuxarıya üç nöqtə	none
+⋱	diaqonal üzrə aşağıya üç nöqtə	none
+■	dolu kvadrat	none
+□	boş kvadrat	none
+▢	küncləri girdə boş kvadrat	none
+▣	içində dolu kvadrat olan boş kvadrat	none
+▤	üfüqi doldurulan kvadrat	none
+▥	şaquli doldurulan kvadrat	none
+▦	ortoqonal çarpaz doldurulan kvadrat	none
+▧	yuxarı solu aşağı sağı doldurulan kvadrat	none
+▨	yuxarı sağı aşağı solu doldurulan kvadrat	none
+▩	diaqonal üzrə çarpaz doldurulan kvadrat	none
+▬	dolu düzbucaqlı	none
+▭	boş düzbucaqlı	none
+▮	dolu şaquli düzbucaqlı	none
+▰	dolu paraleloqram	none
 ▲	yuxarı yönəlmiş dolu üçbucaq	none
+△	ucu yuxarı boş üçbucaq	none
+▴	ucu yuxarı dolu kiçik üçbucaq	none
+▵	ucu yuxarı boş kiçik üçbucaq	none
+▷	ucu sağa boş üçbucaq	none
+▸	ucu sağa dolu kiçik üçbucaq	none
+▹	ucu sağa boş kiçik üçbucaq	none
+►	ucu sağa dolu istiqamətləndirici	none
+▻	ucu sağa boş istiqamətləndirici	none
 ▼	aşağı yönəlmiş dolu üçbucaq	none
+▽	ucu aşağı boş üçbucaq	none
+▾	ucu aşağı dolu kiçik üçbucaq	none
+▿	ucu aşağı boş kiçik üçbucaq	none
+◁	ucu sola boş üçbucaq	none
+◂	ucu sola dolu kiçik üçbucaq	none
+◃	ucu sola boş kiçik üçbucaq	none
+◄	ucu sola dolu istiqamətləndirici	none
+◅	ucu sola boş istiqamətləndirici	none
+◆	dolu romb	none
+◇	boş romb	none
+◈	içində dolu romb olan boş romb	none
+◉	içində dolu dairə olan boş dairə	none
 ◊	rombşəkilli fiqur	none
 ○	boş dairə	none
+◌	nöqtələrdən ibarət çevrə	none
+◍	şaquli doldurulan dairə	none
+◎	konsentrik dairələr	none
 ●	dolu dairə	none
+◐	sol yarısı dolu dairə	none
+◑	sağ yarısı dolu dairə	none
+◒	aşağı yarısı dolu dairə	none
+◓	yuxarı yarısı dolu dairə	none
+◔	yuxarı sağ kvadrantı dolu dairə	none
+◕	yuxarı sol kvadrantı xaric tamamilə dolu dairə	none
+◖	sol yarısı dolmuş dairə	none
+◗	sağ yarısı dolmuş dairə	none
+◘	tərsinə marker	none
+◙	içində boş dairə olan dolu kvadrat	none
+◜	yuxarı sol kvadrant qövsü	none
+◝	yuxarı sağ kvadrant qövsü	none
+◞	aşağı sağ kvadrant qövsü	none
+◟	aşağı sol kvadrant qövsü	none
+◠	yuxarı yarımdairə	none
+◡	aşağı yarımdairə	none
+◢	aşağı sağa yönəlmiş dolu üçbucaq	none
+◣	aşağı sola yönəlmiş dolu üçbucaq	none
+◤	yuxarı sola yönəlmiş dolu üçbucaq	none
+◥	yuxarı sağa yönəlmiş dolu üçbucaq	none
+◦	boş marker	none
 ◯	böyük boş dairə	none
+◳	boş kvadratın yuxarı sağ kvadrantı	none
+◷	yuxarı sağ kvadrantı olan boş dairə	none
+◿	aşağı sağa yönəlmiş üçbucaq	none
+♪	səkkizinci not	none
+⨧	üstəgəl altında iki	none
+⨯	vektorların kəsişmə məhsulu	none
+⨼	daxili məhsul	none
+⩣	məntiqi və ya qoşa alt xətt	none
+⩽	maili bərabərdən kiçik	none
+⪍	təqribən bərabərdən kiçik	none
+⪚	qoşa xəttli bərabərdən böyük	none
+⪺	təqribən bərabərdən geri qalır	none
+♭	bemol	none
+♯	diez	none
 😀	gülən üz	none
 😃	açıq ağızla gülən üz	none
 😄	açıq ağız və gülən gözlərlə gülən üz	none
@@ -53,6 +274,7 @@ symbols:
 😂	sevinc göz yaşları olan üz	none
 🙂	yüngülcə gülümsəyən üz	none
 🙃	başı-aşağı üz	none
+🫠	əriyən üz	none
 😉	göz vuran üz	none
 😊	gülən gözlərlə gülümsəyən üz	none
 😇	başında halə gülmsəyən üz	none
@@ -73,18 +295,25 @@ symbols:
 🤑	ağzı pul olan üz	none
 🤗	qucaqlayan üz	none
 🤭	ağzını əli ilə örtmüş üz	none
+🫢	açıq gözlü üz və ağzı tutmuş əl	none
+🫣	baxan gözlə üz	none
 🤫	tərpənən sifət	none
 🤔	düşünən üz	none
+🫡	salamlayan üz	none
 🤐	ağzı bağlanmış üz	none
 🤨	qaşları qalxmış üz	none
 😐	neytral üz	none
 😑	ifadəsiz üz	none
 😶	ağızsız üz	none
+🫥	nöqtəli xətli üz	none
+😶‍🌫	buludlu üz	none
 😏	özündən razı gülümsəyən üz	none
 😒	kefsiz üz	none
 🙄	gözlərini fırladan üz	none
 😬	üz-gözünü turşudan üz	none
+😮‍💨	nəfəs alan üz	none
 🤥	yalançı adam üzü	none
+🫨	silkələnən üz	none
 😌	rahat üz	none
 😔	fikirli üz	none
 😪	yuxulu üz	none
@@ -100,6 +329,7 @@ symbols:
 🥶	donmuş üz	none
 🥴	gicəllənən üz	none
 😵	başıgicəllənən üz	none
+😵‍💫	spiral gözlü üz	none
 🤯	partlayan baş	none
 🤠	papaqlı qaqaş üzü	none
 🥳	parti edən üz	none
@@ -108,6 +338,7 @@ symbols:
 🤓	axmaq üz	none
 🧐	monokllu üz	none
 😕	çaşqın üz	none
+🫤	diaqonal ağızlı üz	none
 😟	narahat üz	none
 🙁	bir az qaşqabaqlı üz	none
 ☹	qaşqabaqlı üz	none
@@ -116,6 +347,7 @@ symbols:
 😲	təəccüblənmiş üz	none
 😳	qızarmış üz	none
 🥺	yalvaran üz	none
+🥹	dolmuş gözləri olan üz	none
 😦	ağzı açıq qaşqabaqlı üz	none
 😧	kədərli üz	none
 😨	qorxmuş üz	none
@@ -159,7 +391,6 @@ symbols:
 🙈	pisliyi görümürəm	none
 🙉	pisliyi eşitmirəm	none
 🙊	pis danışmıram	none
-💋	öpüş işarəsi	none
 💌	sevgi məktubu	none
 💘	oxlu ürək	none
 💝	lentli ürək	none
@@ -171,15 +402,21 @@ symbols:
 💟	ürək bəzəyi	none
 ❣	ürək nida işarəsi ornamenti	none
 💔	sınmış ürək	none
+❤‍🔥	alovlu ürək	none
+❤‍🩹	yara bandlı ürək	none
 ❤	qırmızı ürək	none
+🩷	çəhrayı ürək	none
 🧡	narıncı ürək	none
 💛	sarı ürək	none
 💚	yaşıl ürək	none
 💙	mavi ürək	none
+🩵	açıq mavi ürək	none
 💜	bənövşəyi ürək	none
 🤎	qəhvəyi ürək	none
 🖤	qara-ürək adam	none
+🩶	boz ürək	none
 🤍	ağ ürək	none
+💋	öpüş işarəsi	none
 💯	100 xal	none
 💢	qəzəb simvolu	none
 💥	toqquşma	none
@@ -187,7 +424,6 @@ symbols:
 💦	tər damcıları	none
 💨	sürətli hərəkət	none
 🕳	deşik	none
-💣	bomba	none
 💬	nitq şarı	none
 👁‍🗨	tanıq işarəsi	none
 🗨	boş nitq şarı	none
@@ -199,11 +435,18 @@ symbols:
 🖐	barmaqları aralı şəkildə qaldırılmış əl	none
 ✋	qaldırımış əl	none
 🖖	vulkan salamı	none
+🫱	sağ əl	none
+🫲	sol əl	none
+🫳	aşağı əl	none
+🫴	yuxarı əl	none
+🫷	sola itələyən əl	none
+🫸	sağa basan əl	none
 👌	ok işarəsi	none
 🤌	çimdik	none
 🤏	sıxan əl	none
 ✌	qələbə işarəsi	none
 🤞	ümid edirəm	none
+🫰	əl barmağı və baş barmağı çarpazlanmış vəziyyətdə	none
 🤟	sevgi jesti	none
 🤘	buynuz işarəsi	none
 🤙	mənə zəng et	none
@@ -213,6 +456,7 @@ symbols:
 🖕	orta barmaq	none
 👇	aşağını göstərən sol əlin işarə barmağı	none
 ☝	işarə barmağı	none
+🫵	tamaşaçıya işarə edən barmaq	none
 👍	baş barmaq yuxarı	none
 👎	baş barmaq aşağı	none
 ✊	qaldırılmış yumruq	none
@@ -221,6 +465,7 @@ symbols:
 🤜	sağa yönələn yumruq	none
 👏	əl çalan əllər	none
 🙌	əllərini qaldıran adam	none
+🫶	əldən ürək	none
 👐	açıq əllər	none
 🤲	əllər yuxarı	none
 🤝	salamlaşmaq	none
@@ -245,6 +490,7 @@ symbols:
 👁	göz	none
 👅	dil	none
 👄	ağız	none
+🫦	dişlənən dodaq	none
 👶	körpə	none
 🧒	uşaq	none
 👦	oğlan	none
@@ -253,8 +499,10 @@ symbols:
 👱	sarı saçlı adam	none
 👨	kişi	none
 🧔	saqqallı şəxs	none
+🧔‍♂	kişi; saqqal	none
 👱‍♂	sarışın kişi	none
 👩	qadın	none
+🧔‍♀	qadın saqqal	none
 👱‍♀	sarışın qadın	none
 🧓	yaşlı böyük	none
 👴	yaşlı kişi	none
@@ -350,6 +598,7 @@ symbols:
 👷	tikinti işçisi	none
 👷‍♂	kişi bənna	none
 👷‍♀	qadın bənna	none
+🫅	taclı adam	none
 🤴	oğlan şahzadə	none
 👸	qız şahzadə	none
 👳	çalmalı kişi	none
@@ -364,6 +613,8 @@ symbols:
 👰‍♂	duvaqlı adam	none
 👰‍♀	duvaqlı qadın	none
 🤰	hamilə qadın	none
+🫃	hamilə kişi	none
+🫄	hamilə adam	none
 🤱	uşaq əmizdirmə	none
 👩‍🍼	körpə əmizdirən qadın	none
 👨‍🍼	körpə əmizdirən kişi	none
@@ -399,6 +650,7 @@ symbols:
 🧟	zombi	none
 🧟‍♂	kişi zombi	none
 🧟‍♀	qadın zombi	none
+🧌	troll	none
 💆	üz masajı	none
 💆‍♂	üzünə masaj edən kişi	none
 💆‍♀	üzünə masaj edən qadın	none
@@ -522,6 +774,8 @@ symbols:
 🐅	pələng	none
 🐆	bəbir	none
 🐴	at üzü	none
+🫎	sığın	none
+🫏	eşşək	none
 🐎	at	none
 🦄	təkbuynuz	none
 🦓	zebra	none
@@ -584,6 +838,8 @@ symbols:
 🦩	flaminqo	none
 🦚	tovuz	none
 🦜	tutuquşu	none
+🪽	qanad	none
+🪿	qaz	none
 🐸	qurbağa üzü	none
 🐊	timsah	none
 🐢	tısbağa	none
@@ -603,6 +859,8 @@ symbols:
 🦈	akula	none
 🐙	osminoq	none
 🐚	spiral balıqqulağı	none
+🪸	mərcan	none
+🪼	meduza	none
 🐌	ilbiz	none
 🦋	kəpənək	none
 🐛	böcək	none
@@ -622,6 +880,7 @@ symbols:
 💐	buket	none
 🌸	albalı çiçəyi	none
 💮	ağ gül	none
+🪷	lotus	none
 🏵	rozetka	none
 🌹	qızılgül	none
 🥀	solmuş gül	none
@@ -629,6 +888,7 @@ symbols:
 🌻	günəbaxan	none
 🌼	çiçək	none
 🌷	liliya	none
+🪻	sümbül	none
 🌱	şitil	none
 🪴	dibçək bitkisi	none
 🌲	həmişəyaşıl	none
@@ -642,6 +902,9 @@ symbols:
 🍁	ağcaqayın yarpağı	none
 🍂	tökülən yarpaq	none
 🍃	küləkdə əsən yarpaq	none
+🪹	boş yuva	none
+🪺	yumurtalı yuva	none
+🍄	göbələk	none
 🍇	üzüm	none
 🍈	yemiş	none
 🍉	qarpız	none
@@ -673,9 +936,11 @@ symbols:
 🥦	brokkoli	none
 🧄	sarımsaq	none
 🧅	soğan	none
-🍄	göbələk	none
 🥜	yer fındığı	none
+🫘	lobya	none
 🌰	şabalıd	none
+🫚	zəncəfil kökü	none
+🫛	noxud qabığı	none
 🍞	çörək	none
 🥐	kruasan	none
 🥖	kərpic çörək	none
@@ -760,6 +1025,7 @@ symbols:
 🍻	pivə krujkalarını toqquşdurmaq	none
 🥂	badələri qaldırmaq	none
 🥃	viski stəkanı	none
+🫗	maye süzülməsi	none
 🥤	borucuqlu stəkan	none
 🧋	köpüklü çay	none
 🧃	içki qutusu	none
@@ -770,6 +1036,7 @@ symbols:
 🍴	çəngəl və bıçaq	none
 🥄	qaşıq	none
 🔪	mətbəx bıçağı	none
+🫙	banka	none
 🏺	amfora	none
 🌍	Avropa-Afrikanı göstərən qlobus	none
 🌎	amerika-qitələrini göstərən qlobus	none
@@ -832,6 +1099,7 @@ symbols:
 🌉	gecə körpü	none
 ♨	qaynar bulaqlar	none
 🎠	karusel at	none
+🛝	oyun slaydı	none
 🎡	şeytan çarxı	none
 🎢	maneəli dəmir yolu attraksionu	none
 💈	şlaqbaum	none
@@ -880,12 +1148,14 @@ symbols:
 🛤	dəmir yolu	none
 🛢	neft silindiri	none
 ⛽	yanacaq borusu	none
+🛞	təkər	none
 🚨	polis maşının işığı	none
 🚥	üfüqi işıqfor	none
 🚦	şaquli işıqfor	none
 🛑	dayanmaq işarəsi	none
 🚧	tikinti	none
 ⚓	lövbər	none
+🛟	üzük buy	none
 ⛵	yelkənli qayıq	none
 🛶	qayıq	none
 🚤	sürətli qayıq	none
@@ -1043,10 +1313,10 @@ symbols:
 🎯	birbaşa atış	none
 🪀	yo-yo	none
 🪁	çərpələng	none
+🔫	tapança	none
 🎱	bilyard	none
 🔮	kristal kürə	none
 🪄	sehrli çubuq	none
-🧿	gözmüncuğu	none
 🎮	video oyun	none
 🕹	coystik	none
 🎰	avtomat maşın	none
@@ -1054,6 +1324,7 @@ symbols:
 🧩	pazl	none
 🧸	plüş ayı	none
 🪅	pinyata	none
+🪩	güzgü top	none
 🪆	matryoşkalar	none
 ♠	qaratoxmaq dəsti	none
 ♥	ürək dəsti	none
@@ -1090,6 +1361,7 @@ symbols:
 🩳	şort	none
 👙	bikini	none
 👚	qadın paltarı	none
+🪭	yığılan yelpik	none
 👛	pul kisəsi	none
 👜	əl çantası	none
 👝	torba	none
@@ -1104,6 +1376,7 @@ symbols:
 👡	qadın səndəli	none
 🩰	balet ayaqqabıları	none
 👢	qadın çəkməsi	none
+🪮	saç düzümü	none
 👑	tac	none
 👒	qadın şlyapası	none
 🎩	silindr şlyapa	none
@@ -1142,6 +1415,8 @@ symbols:
 🪕	banco	none
 🥁	davul	none
 🪘	uzun baraban	none
+🪇	marakas	none
+🪈	fleyta	none
 📱	mobil telefon	none
 📲	oxlu mobil telefon	none
 ☎	telefon	none
@@ -1149,6 +1424,7 @@ symbols:
 📟	peycer	none
 📠	faks aparatı	none
 🔋	batareya	none
+🪫	bitən enerji	none
 🔌	elektrik ştepseli	none
 💻	kompüter	none
 🖥	masaüstü kompüter	none
@@ -1260,7 +1536,7 @@ symbols:
 🛠	çəkic və açar	none
 🗡	xəncər	none
 ⚔	kəsişən qılınclar	none
-🔫	tapança	none
+💣	bomba	none
 🪃	bumeranq	none
 🏹	ox və kaman	none
 🛡	qalxan	none
@@ -1289,7 +1565,9 @@ symbols:
 🩸	qan damlası	none
 💊	həb	none
 🩹	yapışan bandaj	none
+🩼	qoltuqağacı	none
 🩺	stetoskop	none
+🩻	rentgen	none
 🚪	qapı	none
 🛗	lift	none
 🪞	güzgü	none
@@ -1310,6 +1588,7 @@ symbols:
 🧻	kağız rulonu	none
 🪣	vedrə	none
 🧼	sabun	none
+🫧	köpüklər	none
 🪥	diş fırçası	none
 🧽	süngər	none
 🧯	alov söndürən	none
@@ -1318,12 +1597,15 @@ symbols:
 ⚰	tabut	none
 🪦	başdaşı	none
 ⚱	cənazə urnası	none
+🧿	gözmüncuğu	none
+🪬	hamsa	none
 🗿	moai	none
 🪧	plakat	none
+🪪	şəxsiyyət vəsiqəsi	none
 🏧	Bankomat işarəsi	none
 🚮	zibili qutuya atın işarəsi	none
 🚰	içməli su	none
-♿	əlil arabası	none
+♿	əlil arabası işarəsi	none
 🚹	kişi tualeti	none
 🚺	qadın tualeti	none
 🚻	ayaqyolu	none
@@ -1331,7 +1613,7 @@ symbols:
 🚾	wc	none
 🛂	pasport yoxlaması	none
 🛃	gömrük	none
-🛄	baqaj tələbi	none
+🛄	baqajın verilməsi	none
 🛅	saxlama kamerası	none
 ⚠	xəbərdarlıq	none
 🚸	uşaqlar yol keçir	none
@@ -1356,6 +1638,7 @@ symbols:
 ↖	üzüyuxarı sola yönəlmiş ox	none
 ↕	üzü aşağı-yuxarı ox	none
 ↔	sola-sağa ox	none
+↮	soldan sağa ox xətti	none
 ↩	sola dönən sağ ox	none
 ↪	sağa dönən sol ox	none
 ⤴	yuxarı dönən sağ ox	none
@@ -1379,6 +1662,7 @@ symbols:
 ☮	sülh simvolu	none
 🕎	hanukiya	none
 🔯	nöqtəli altıguşəli ulduz	none
+🪯	xanda	none
 ♈	qoç bürcü	none
 ♉	buğa	none
 ♊	əkizlər	none
@@ -1414,23 +1698,22 @@ symbols:
 🔅	tutqunluq düyməsi	none
 🔆	parlaqlıq düyməsi	none
 📶	antena siqnalları	none
+🛜	naqilsiz	none
 📳	vibrasiya rejimi	none
 📴	mobil telefonu söndürün	none
 ♀	qadın işarəsi	none
 ♂	kişi işarəsi	none
 ⚧	transgender simvolu	none
 ✖	qalın vurma x	none
-➕	qalın plus işarəsi	none
-➖	qalın minus işarəsi	none
+➕	qalın üstəgəl işarəsi	none
+➖	qalın çıxma işarəsi	none
 ➗	qalın bölmə işarəsi	none
+🟰	ağır bərabərlik işarəsi	none
 ♾	sonsuzluq	none
-‼	qoşa nida işarəsi	none
-⁉	nida və sual işarəsi	none
-❓	sual işarəsi	none
+❓	qırmızı sual işarəsi	none
 ❔	ağ sual işarəsi	none
 ❕	ağ nida işarəsi	none
-❗	nida işarəsi	none
-〰	dalğalı tire	none
+❗	qırmızı nida işarəsi	none
 💱	valyuta mübadiləsi	none
 💲	qalın dollar işarəsi	none
 ⚕	tibb işarəsi	none
@@ -1439,20 +1722,17 @@ symbols:
 🔱	üçdiş emblem	none
 📛	ad nişanı	none
 🔰	yaponların başlayan üçün simvolu	none
-⭕	qalın böyük dairə	none
-✅	ağ qalın təsdiq işarəsi	none
-☑	təsdiqlənmiş seçki qutusu	none
+⭕	qırmızı qalın dairə	none
+✅	təsdiq işarəsi	none
+☑	təsdiqlənmiş seçim düzbucaqlısı	none
 ✔	qalın təsdiq işarəsi	none
 ❌	çarpazlamaq işarəsi	none
 ❎	çarpazlamaq düyməsi	none
 ➰	spiral ilmə	none
 ➿	ikiqat spiral ilmə	none
-〽	hissələri bir-birindən ayırmaq işarəsi	none
 ✳	səkkiz tərəfli ulduz	none
 ✴	səkkiz guşəli ulduz	none
 ❇	qığılcım	none
-©	müəllif hüququ	none
-®	qeydiyyata alınmış	none
 ™	ticarət nişanı	none
 🔠	böyük hərflərlə latın daxiletməsi	none
 🔡	kiçik hərflərlə latın daxiletməsi	none
@@ -1465,41 +1745,24 @@ symbols:
 🆑	kvadrat cl düyməsi	none
 🆒	kvadrat əla düyməsi	none
 🆓	kvadrat ödənişsiz	none
-ℹ	informasiya məlumatı	none
-🆔	kvadrat kimlik	none
-Ⓜ	dairəvi m hərfi	none
-🆕	kvadrat yeni	none
-🆖	kvadrat ng	none
+ℹ	məlumat	none
+🆔	kimlik düyməsi	none
+Ⓜ	dairə içində M	none
+🆕	yeni düyməsi	none
+🆖	NG düyməsi	none
 🅾	o düyməsi	none
-🆗	kvadrat ok	none
+🆗	OK düyməsi	none
 🅿	p düyməsi	none
-🆘	kvadrat sos	none
-🆙	up! button	none
-🆚	kvadrat vs	none
-🈁	kvadrat katakana koko	none
-🈂	kvadrat katakana sa	none
-🈷	kvadrat ay ideoqramı	none
-🈶	kvadrat çıxış ideoqramı	none
-🈯	kvadrat barmaq ideoqramı	none
-🉐	dairə üstünlük ideoqramı	none
-🈹	kvadrat bölmə ideoqramı	none
-🈚	kvadrat inkar ideoqramı	none
-🈲	kvadrat qadağa ideoqramı	none
-🉑	dairə qəbul etmək ideoqramı	none
-🈸	kvadrat tətbiq ideoqramı	none
-🈴	kvadrat birlikdə ideoqramı	none
-🈳	kvadrat boş ideoqramı	none
-㊗	dairə təbrik ideoqramı	none
-㊙	dairə sirr ideoqramı	none
-🈺	kvadrat idarə ideoqramı	none
-🈵	kvadrat dolğunluq ideoqramı	none
+🆘	SOS düyməsi	none
+🆙	YUXARI! düyməsi	none
+🆚	QARŞI düyməsi	none
 🔴	qırmızı dairə	none
-🟠	narıncı çevrə	none
-🟡	sarı çevrə	none
-🟢	yaşıl çevrə	none
+🟠	narıncı dairə	none
+🟡	sarı dairə	none
+🟢	yaşıl dairə	none
 🔵	mavi dairə	none
-🟣	bənövşəyi çevrə	none
-🟤	qəhvəyi çevrə	none
+🟣	bənövşəyi dairə	none
+🟤	qəhvəyi dairə	none
 ⚫	qara dairə	none
 ⚪	ağ dairə	none
 🟥	qırmızı kvadrat	none
@@ -1513,7 +1776,7 @@ symbols:
 ⬜	ağ böyük kvadrat	none
 ◼	qara orta ölçülü kvadrat	none
 ◻	ağ orta ölçülü kvadrat	none
-◾	qara orta kiçiklikdə kvadrat	none
+◾	qara orta-kiçik kvadrat	none
 ◽	ağ orta kiçiklikdə kvadrat	none
 ▪	qara balaca kvadrat	none
 ▫	ağ balaca kvadrat	none
@@ -1530,20 +1793,26 @@ symbols:
 🏁	damalı bayraq	none
 🚩	üçbucaq bayraq	none
 🎌	kəsişən bayraqlar	none
-🏴	dalğalanan qara bayraq	none
-🏳	dalğalanan ağ bayraq	none
+🏴	qara bayraq	none
+🏳	ağ bayraq	none
 🏳‍🌈	göy qurşağı bayrağı	none
 🏳‍⚧	göy, çəhrayı və ağ bayraq	none
 🏴‍☠	quldur bayrağı	none
-£	funt	none
-¥	yen	none
+₢	kruzeyro	none
+₣	fransız frankı	none
+₤	lira	none
+₥	mill	none
+₩	von	none
 €	avro	none
+₰	alman pennisi	none
+₱	peso	none
+₳	austral	none
+₶	tur livri	none
+₷	spesmilo	none
 ₹	Hindistan rupisi	none
 ₽	rubl	none
-¹	üstdə bir	none
-²	üstdə iki	none
-³	üstdə üç	none
-µ	mikro işarəsi	none
+₿	bitkoin	none
+₨	rupi	none
 👋🏻	əl sallayan əllər açıq dəri tonu	none
 👋🏼	əl sallayan əllər orta-açıq dəri tonu	none
 👋🏽	əl sallayan əllər orta dəri tonu	none
@@ -1569,6 +1838,56 @@ symbols:
 🖖🏽	vulkan salamı orta dəri tonu	none
 🖖🏾	vulkan salamı orta-tünd dəri tonu	none
 🖖🏿	vulkan salamı tünd dəri tonu	none
+🫱🏻	sağ əl açıq dəri tonu	none
+🫱🏼	sağ əl orta-açıq dəri tonu	none
+🫱🏽	sağ əl orta dəri tonu	none
+🫱🏾	sağ əl orta-tünd dəri tonu	none
+🫱🏿	sağ əl tünd dəri tonu	none
+🫱🏻‍🫲🏼	salamlaşmaq açıq dəri tonu, orta-açıq dəri tonu	none
+🫱🏻‍🫲🏽	salamlaşmaq açıq dəri tonu, orta dəri tonu	none
+🫱🏻‍🫲🏾	salamlaşmaq açıq dəri tonu, orta-tünd dəri tonu	none
+🫱🏻‍🫲🏿	salamlaşmaq açıq dəri tonu, tünd dəri tonu	none
+🫱🏼‍🫲🏻	salamlaşmaq orta-açıq dəri tonu, açıq dəri tonu	none
+🫱🏼‍🫲🏽	salamlaşmaq orta-açıq dəri tonu, orta dəri tonu	none
+🫱🏼‍🫲🏾	salamlaşmaq orta-açıq dəri tonu, orta-tünd dəri tonu	none
+🫱🏼‍🫲🏿	salamlaşmaq orta-açıq dəri tonu, tünd dəri tonu	none
+🫱🏽‍🫲🏻	salamlaşmaq orta dəri tonu, açıq dəri tonu	none
+🫱🏽‍🫲🏼	salamlaşmaq orta dəri tonu, orta-açıq dəri tonu	none
+🫱🏽‍🫲🏾	salamlaşmaq orta dəri tonu, orta-tünd dəri tonu	none
+🫱🏽‍🫲🏿	salamlaşmaq orta dəri tonu, tünd dəri tonu	none
+🫱🏾‍🫲🏻	salamlaşmaq orta-tünd dəri tonu, açıq dəri tonu	none
+🫱🏾‍🫲🏼	salamlaşmaq orta-tünd dəri tonu, orta-açıq dəri tonu	none
+🫱🏾‍🫲🏽	salamlaşmaq orta-tünd dəri tonu, orta dəri tonu	none
+🫱🏾‍🫲🏿	salamlaşmaq orta-tünd dəri tonu, tünd dəri tonu	none
+🫱🏿‍🫲🏻	salamlaşmaq tünd dəri tonu, açıq dəri tonu	none
+🫱🏿‍🫲🏼	salamlaşmaq tünd dəri tonu, orta-açıq dəri tonu	none
+🫱🏿‍🫲🏽	salamlaşmaq tünd dəri tonu, orta dəri tonu	none
+🫱🏿‍🫲🏾	salamlaşmaq tünd dəri tonu, orta-tünd dəri tonu	none
+🫲🏻	sol əl açıq dəri tonu	none
+🫲🏼	sol əl orta-açıq dəri tonu	none
+🫲🏽	sol əl orta dəri tonu	none
+🫲🏾	sol əl orta-tünd dəri tonu	none
+🫲🏿	sol əl tünd dəri tonu	none
+🫳🏻	aşağı əl açıq dəri tonu	none
+🫳🏼	aşağı əl orta-açıq dəri tonu	none
+🫳🏽	aşağı əl orta dəri tonu	none
+🫳🏾	aşağı əl orta-tünd dəri tonu	none
+🫳🏿	aşağı əl tünd dəri tonu	none
+🫴🏻	yuxarı əl açıq dəri tonu	none
+🫴🏼	yuxarı əl orta-açıq dəri tonu	none
+🫴🏽	yuxarı əl orta dəri tonu	none
+🫴🏾	yuxarı əl orta-tünd dəri tonu	none
+🫴🏿	yuxarı əl tünd dəri tonu	none
+🫷🏻	sola itələyən əl açıq dəri tonu	none
+🫷🏼	sola itələyən əl orta-açıq dəri tonu	none
+🫷🏽	sola itələyən əl orta dəri tonu	none
+🫷🏾	sola itələyən əl orta-tünd dəri tonu	none
+🫷🏿	sola itələyən əl tünd dəri tonu	none
+🫸🏻	sağa basan əl açıq dəri tonu	none
+🫸🏼	sağa basan əl orta-açıq dəri tonu	none
+🫸🏽	sağa basan əl orta dəri tonu	none
+🫸🏾	sağa basan əl orta-tünd dəri tonu	none
+🫸🏿	sağa basan əl tünd dəri tonu	none
 👌🏻	ok işarəsi açıq dəri tonu	none
 👌🏼	ok işarəsi orta-açıq dəri tonu	none
 👌🏽	ok işarəsi orta dəri tonu	none
@@ -1594,6 +1913,11 @@ symbols:
 🤞🏽	ümid edirəm orta dəri tonu	none
 🤞🏾	ümid edirəm orta-tünd dəri tonu	none
 🤞🏿	ümid edirəm tünd dəri tonu	none
+🫰🏻	əl barmağı və baş barmağı çarpazlanmış vəziyyətdə açıq dəri tonu	none
+🫰🏼	əl barmağı və baş barmağı çarpazlanmış vəziyyətdə orta-açıq dəri tonu	none
+🫰🏽	əl barmağı və baş barmağı çarpazlanmış vəziyyətdə orta dəri tonu	none
+🫰🏾	əl barmağı və baş barmağı çarpazlanmış vəziyyətdə orta-tünd dəri tonu	none
+🫰🏿	əl barmağı və baş barmağı çarpazlanmış vəziyyətdə tünd dəri tonu	none
 🤟🏻	sevgi jesti açıq dəri tonu	none
 🤟🏼	sevgi jesti orta-açıq dəri tonu	none
 🤟🏽	sevgi jesti orta dəri tonu	none
@@ -1639,6 +1963,11 @@ symbols:
 ☝🏽	işarə barmağı orta dəri tonu	none
 ☝🏾	işarə barmağı orta-tünd dəri tonu	none
 ☝🏿	işarə barmağı tünd dəri tonu	none
+🫵🏻	tamaşaçıya işarə edən barmaq açıq dəri tonu	none
+🫵🏼	tamaşaçıya işarə edən barmaq orta-açıq dəri tonu	none
+🫵🏽	tamaşaçıya işarə edən barmaq orta dəri tonu	none
+🫵🏾	tamaşaçıya işarə edən barmaq orta-tünd dəri tonu	none
+🫵🏿	tamaşaçıya işarə edən barmaq tünd dəri tonu	none
 👍🏻	baş barmaq yuxarı açıq dəri tonu	none
 👍🏼	baş barmaq yuxarı orta-açıq dəri tonu	none
 👍🏽	baş barmaq yuxarı orta dəri tonu	none
@@ -1679,6 +2008,11 @@ symbols:
 🙌🏽	əllərini qaldıran adam orta dəri tonu	none
 🙌🏾	əllərini qaldıran adam orta-tünd dəri tonu	none
 🙌🏿	əllərini qaldıran adam tünd dəri tonu	none
+🫶🏻	əldən ürək açıq dəri tonu	none
+🫶🏼	əldən ürək orta-açıq dəri tonu	none
+🫶🏽	əldən ürək orta dəri tonu	none
+🫶🏾	əldən ürək orta-tünd dəri tonu	none
+🫶🏿	əldən ürək tünd dəri tonu	none
 👐🏻	açıq əllər açıq dəri tonu	none
 👐🏼	açıq əllər orta-açıq dəri tonu	none
 👐🏽	açıq əllər orta dəri tonu	none
@@ -1689,6 +2023,11 @@ symbols:
 🤲🏽	əllər yuxarı orta dəri tonu	none
 🤲🏾	əllər yuxarı orta-tünd dəri tonu	none
 🤲🏿	əllər yuxarı tünd dəri tonu	none
+🤝🏻	salamlaşmaq açıq dəri tonu	none
+🤝🏼	salamlaşmaq orta-açıq dəri tonu	none
+🤝🏽	salamlaşmaq orta dəri tonu	none
+🤝🏾	salamlaşmaq orta-tünd dəri tonu	none
+🤝🏿	salamlaşmaq tünd dəri tonu	none
 🙏🏻	qatlanmış əllər açıq dəri tonu	none
 🙏🏼	qatlanmış əllər orta-açıq dəri tonu	none
 🙏🏽	qatlanmış əllər orta dəri tonu	none
@@ -1769,6 +2108,46 @@ symbols:
 👱🏽	sarı saçlı adam orta dəri tonu	none
 👱🏾	sarı saçlı adam orta-tünd dəri tonu	none
 👱🏿	sarı saçlı adam tünd dəri tonu	none
+🧑🏻‍❤‍💋‍🧑🏼	öpüş böyük, böyük, açıq dəri tonu, orta-açıq dəri tonu	none
+🧑🏻‍❤‍💋‍🧑🏽	öpüş böyük, böyük, açıq dəri tonu, orta dəri tonu	none
+🧑🏻‍❤‍💋‍🧑🏾	öpüş böyük, böyük, açıq dəri tonu, orta-tünd dəri tonu	none
+🧑🏻‍❤‍💋‍🧑🏿	öpüş böyük, böyük, açıq dəri tonu, tünd dəri tonu	none
+🧑🏼‍❤‍💋‍🧑🏻	öpüş böyük, böyük, orta-açıq dəri tonu, açıq dəri tonu	none
+🧑🏼‍❤‍💋‍🧑🏽	öpüş böyük, böyük, orta-açıq dəri tonu, orta dəri tonu	none
+🧑🏼‍❤‍💋‍🧑🏾	öpüş böyük, böyük, orta-açıq dəri tonu, orta-tünd dəri tonu	none
+🧑🏼‍❤‍💋‍🧑🏿	öpüş böyük, böyük, orta-açıq dəri tonu, tünd dəri tonu	none
+🧑🏽‍❤‍💋‍🧑🏻	öpüş böyük, böyük, orta dəri tonu, açıq dəri tonu	none
+🧑🏽‍❤‍💋‍🧑🏼	öpüş böyük, böyük, orta dəri tonu, orta-açıq dəri tonu	none
+🧑🏽‍❤‍💋‍🧑🏾	öpüş böyük, böyük, orta dəri tonu, orta-tünd dəri tonu	none
+🧑🏽‍❤‍💋‍🧑🏿	öpüş böyük, böyük, orta dəri tonu, tünd dəri tonu	none
+🧑🏾‍❤‍💋‍🧑🏻	öpüş böyük, böyük, orta-tünd dəri tonu, açıq dəri tonu	none
+🧑🏾‍❤‍💋‍🧑🏼	öpüş böyük, böyük, orta-tünd dəri tonu, orta-açıq dəri tonu	none
+🧑🏾‍❤‍💋‍🧑🏽	öpüş böyük, böyük, orta-tünd dəri tonu, orta dəri tonu	none
+🧑🏾‍❤‍💋‍🧑🏿	öpüş böyük, böyük, orta-tünd dəri tonu, tünd dəri tonu	none
+🧑🏿‍❤‍💋‍🧑🏻	öpüş böyük, böyük, tünd dəri tonu, açıq dəri tonu	none
+🧑🏿‍❤‍💋‍🧑🏼	öpüş böyük, böyük, tünd dəri tonu, orta-açıq dəri tonu	none
+🧑🏿‍❤‍💋‍🧑🏽	öpüş böyük, böyük, tünd dəri tonu, orta dəri tonu	none
+🧑🏿‍❤‍💋‍🧑🏾	öpüş böyük, böyük, tünd dəri tonu, orta-tünd dəri tonu	none
+🧑🏻‍❤‍🧑🏼	ürəkli cütlük böyük, böyük, açıq dəri tonu, orta-açıq dəri tonu	none
+🧑🏻‍❤‍🧑🏽	ürəkli cütlük böyük, böyük, açıq dəri tonu, orta dəri tonu	none
+🧑🏻‍❤‍🧑🏾	ürəkli cütlük böyük, böyük, açıq dəri tonu, orta-tünd dəri tonu	none
+🧑🏻‍❤‍🧑🏿	ürəkli cütlük böyük, böyük, açıq dəri tonu, tünd dəri tonu	none
+🧑🏼‍❤‍🧑🏻	ürəkli cütlük böyük, böyük, orta-açıq dəri tonu, açıq dəri tonu	none
+🧑🏼‍❤‍🧑🏽	ürəkli cütlük böyük, böyük, orta-açıq dəri tonu, orta dəri tonu	none
+🧑🏼‍❤‍🧑🏾	ürəkli cütlük böyük, böyük, orta-açıq dəri tonu, orta-tünd dəri tonu	none
+🧑🏼‍❤‍🧑🏿	ürəkli cütlük böyük, böyük, orta-açıq dəri tonu, tünd dəri tonu	none
+🧑🏽‍❤‍🧑🏻	ürəkli cütlük böyük, böyük, orta dəri tonu, açıq dəri tonu	none
+🧑🏽‍❤‍🧑🏼	ürəkli cütlük böyük, böyük, orta dəri tonu, orta-açıq dəri tonu	none
+🧑🏽‍❤‍🧑🏾	ürəkli cütlük böyük, böyük, orta dəri tonu, orta-tünd dəri tonu	none
+🧑🏽‍❤‍🧑🏿	ürəkli cütlük böyük, böyük, orta dəri tonu, tünd dəri tonu	none
+🧑🏾‍❤‍🧑🏻	ürəkli cütlük böyük, böyük, orta-tünd dəri tonu, açıq dəri tonu	none
+🧑🏾‍❤‍🧑🏼	ürəkli cütlük böyük, böyük, orta-tünd dəri tonu, orta-açıq dəri tonu	none
+🧑🏾‍❤‍🧑🏽	ürəkli cütlük böyük, böyük, orta-tünd dəri tonu, orta dəri tonu	none
+🧑🏾‍❤‍🧑🏿	ürəkli cütlük böyük, böyük, orta-tünd dəri tonu, tünd dəri tonu	none
+🧑🏿‍❤‍🧑🏻	ürəkli cütlük böyük, böyük, tünd dəri tonu, açıq dəri tonu	none
+🧑🏿‍❤‍🧑🏼	ürəkli cütlük böyük, böyük, tünd dəri tonu, orta-açıq dəri tonu	none
+🧑🏿‍❤‍🧑🏽	ürəkli cütlük böyük, böyük, tünd dəri tonu, orta dəri tonu	none
+🧑🏿‍❤‍🧑🏾	ürəkli cütlük böyük, böyük, tünd dəri tonu, orta-tünd dəri tonu	none
 🧑‍🦰	böyük qırmızı saç	none
 🧑🏻‍🦰	böyük açıq dəri tonu, qırmızı saç	none
 🧑🏼‍🦰	böyük orta-açıq dəri tonu, qırmızı saç	none
@@ -1803,11 +2182,66 @@ symbols:
 🧔🏽	saqqallı şəxs orta dəri tonu	none
 🧔🏾	saqqallı şəxs orta-tünd dəri tonu	none
 🧔🏿	saqqallı şəxs tünd dəri tonu	none
+🧔🏻‍♂	kişi; saqqal açıq dəri tonu	none
+🧔🏼‍♂	kişi; saqqal orta-açıq dəri tonu	none
+🧔🏽‍♂	kişi; saqqal orta dəri tonu	none
+🧔🏾‍♂	kişi; saqqal orta-tünd dəri tonu	none
+🧔🏿‍♂	kişi; saqqal tünd dəri tonu	none
 👱🏻‍♂	sarışın kişi açıq dəri tonu	none
 👱🏼‍♂	sarışın kişi orta-açıq dəri tonu	none
 👱🏽‍♂	sarışın kişi orta dəri tonu	none
 👱🏾‍♂	sarışın kişi orta-tünd dəri tonu	none
 👱🏿‍♂	sarışın kişi tünd dəri tonu	none
+👨🏻‍❤‍💋‍👨🏻	öpüş kişi, kişi, açıq dəri tonu	none
+👨🏻‍❤‍💋‍👨🏼	öpüş kişi, kişi, açıq dəri tonu, orta-açıq dəri tonu	none
+👨🏻‍❤‍💋‍👨🏽	öpüş kişi, kişi, açıq dəri tonu, orta dəri tonu	none
+👨🏻‍❤‍💋‍👨🏾	öpüş kişi, kişi, açıq dəri tonu, orta-tünd dəri tonu	none
+👨🏻‍❤‍💋‍👨🏿	öpüş kişi, kişi, açıq dəri tonu, tünd dəri tonu	none
+👨🏼‍❤‍💋‍👨🏻	öpüş kişi, kişi, orta-açıq dəri tonu, açıq dəri tonu	none
+👨🏼‍❤‍💋‍👨🏼	öpüş kişi, kişi, orta-açıq dəri tonu	none
+👨🏼‍❤‍💋‍👨🏽	öpüş kişi, kişi, orta-açıq dəri tonu, orta dəri tonu	none
+👨🏼‍❤‍💋‍👨🏾	öpüş kişi, kişi, orta-açıq dəri tonu, orta-tünd dəri tonu	none
+👨🏼‍❤‍💋‍👨🏿	öpüş kişi, kişi, orta-açıq dəri tonu, tünd dəri tonu	none
+👨🏽‍❤‍💋‍👨🏻	öpüş kişi, kişi, orta dəri tonu, açıq dəri tonu	none
+👨🏽‍❤‍💋‍👨🏼	öpüş kişi, kişi, orta dəri tonu, orta-açıq dəri tonu	none
+👨🏽‍❤‍💋‍👨🏽	öpüş kişi, kişi, orta dəri tonu	none
+👨🏽‍❤‍💋‍👨🏾	öpüş kişi, kişi, orta dəri tonu, orta-tünd dəri tonu	none
+👨🏽‍❤‍💋‍👨🏿	öpüş kişi, kişi, orta dəri tonu, tünd dəri tonu	none
+👨🏾‍❤‍💋‍👨🏻	öpüş kişi, kişi, orta-tünd dəri tonu, açıq dəri tonu	none
+👨🏾‍❤‍💋‍👨🏼	öpüş kişi, kişi, orta-tünd dəri tonu, orta-açıq dəri tonu	none
+👨🏾‍❤‍💋‍👨🏽	öpüş kişi, kişi, orta-tünd dəri tonu, orta dəri tonu	none
+👨🏾‍❤‍💋‍👨🏾	öpüş kişi, kişi, orta-tünd dəri tonu	none
+👨🏾‍❤‍💋‍👨🏿	öpüş kişi, kişi, orta-tünd dəri tonu, tünd dəri tonu	none
+👨🏿‍❤‍💋‍👨🏻	öpüş kişi, kişi, tünd dəri tonu, açıq dəri tonu	none
+👨🏿‍❤‍💋‍👨🏼	öpüş kişi, kişi, tünd dəri tonu, orta-açıq dəri tonu	none
+👨🏿‍❤‍💋‍👨🏽	öpüş kişi, kişi, tünd dəri tonu, orta dəri tonu	none
+👨🏿‍❤‍💋‍👨🏾	öpüş kişi, kişi, tünd dəri tonu, orta-tünd dəri tonu	none
+👨🏿‍❤‍💋‍👨🏿	öpüş kişi, kişi, tünd dəri tonu	none
+👨🏻‍❤‍👨🏻	ürəkli cütlük kişi, kişi, açıq dəri tonu	none
+👨🏻‍❤‍👨🏼	ürəkli cütlük kişi, kişi, açıq dəri tonu, orta-açıq dəri tonu	none
+👨🏻‍❤‍👨🏽	ürəkli cütlük kişi, kişi, açıq dəri tonu, orta dəri tonu	none
+👨🏻‍❤‍👨🏾	ürəkli cütlük kişi, kişi, açıq dəri tonu, orta-tünd dəri tonu	none
+👨🏻‍❤‍👨🏿	ürəkli cütlük kişi, kişi, açıq dəri tonu, tünd dəri tonu	none
+👨🏼‍❤‍👨🏻	ürəkli cütlük kişi, kişi, orta-açıq dəri tonu, açıq dəri tonu	none
+👨🏼‍❤‍👨🏼	ürəkli cütlük kişi, kişi, orta-açıq dəri tonu	none
+👨🏼‍❤‍👨🏽	ürəkli cütlük kişi, kişi, orta-açıq dəri tonu, orta dəri tonu	none
+👨🏼‍❤‍👨🏾	ürəkli cütlük kişi, kişi, orta-açıq dəri tonu, orta-tünd dəri tonu	none
+👨🏼‍❤‍👨🏿	ürəkli cütlük kişi, kişi, orta-açıq dəri tonu, tünd dəri tonu	none
+👨🏽‍❤‍👨🏻	ürəkli cütlük kişi, kişi, orta dəri tonu, açıq dəri tonu	none
+👨🏽‍❤‍👨🏼	ürəkli cütlük kişi, kişi, orta dəri tonu, orta-açıq dəri tonu	none
+👨🏽‍❤‍👨🏽	ürəkli cütlük kişi, kişi, orta dəri tonu	none
+👨🏽‍❤‍👨🏾	ürəkli cütlük kişi, kişi, orta dəri tonu, orta-tünd dəri tonu	none
+👨🏽‍❤‍👨🏿	ürəkli cütlük kişi, kişi, orta dəri tonu, tünd dəri tonu	none
+👨🏾‍❤‍👨🏻	ürəkli cütlük kişi, kişi, orta-tünd dəri tonu, açıq dəri tonu	none
+👨🏾‍❤‍👨🏼	ürəkli cütlük kişi, kişi, orta-tünd dəri tonu, orta-açıq dəri tonu	none
+👨🏾‍❤‍👨🏽	ürəkli cütlük kişi, kişi, orta-tünd dəri tonu, orta dəri tonu	none
+👨🏾‍❤‍👨🏾	ürəkli cütlük kişi, kişi, orta-tünd dəri tonu	none
+👨🏾‍❤‍👨🏿	ürəkli cütlük kişi, kişi, orta-tünd dəri tonu, tünd dəri tonu	none
+👨🏿‍❤‍👨🏻	ürəkli cütlük kişi, kişi, tünd dəri tonu, açıq dəri tonu	none
+👨🏿‍❤‍👨🏼	ürəkli cütlük kişi, kişi, tünd dəri tonu, orta-açıq dəri tonu	none
+👨🏿‍❤‍👨🏽	ürəkli cütlük kişi, kişi, tünd dəri tonu, orta dəri tonu	none
+👨🏿‍❤‍👨🏾	ürəkli cütlük kişi, kişi, tünd dəri tonu, orta-tünd dəri tonu	none
+👨🏿‍❤‍👨🏿	ürəkli cütlük kişi, kişi, tünd dəri tonu	none
 👨‍🦰	kişi qırmızı saç	none
 👨🏻‍🦰	kişi açıq dəri tonu, qırmızı saç	none
 👨🏼‍🦰	kişi orta-açıq dəri tonu, qırmızı saç	none
@@ -1837,11 +2271,116 @@ symbols:
 👩🏽	qadın orta dəri tonu	none
 👩🏾	qadın orta-tünd dəri tonu	none
 👩🏿	qadın tünd dəri tonu	none
+🧔🏻‍♀	qadın açıq dəri tonu, saqqal	none
+🧔🏼‍♀	qadın orta-açıq dəri tonu, saqqal	none
+🧔🏽‍♀	qadın orta dəri tonu, saqqal	none
+🧔🏾‍♀	qadın orta-tünd dəri tonu, saqqal	none
+🧔🏿‍♀	qadın tünd dəri tonu, saqqal	none
 👱🏻‍♀	sarışın qadın açıq dəri tonu	none
 👱🏼‍♀	sarışın qadın orta-açıq dəri tonu	none
 👱🏽‍♀	sarışın qadın orta dəri tonu	none
 👱🏾‍♀	sarışın qadın orta-tünd dəri tonu	none
 👱🏿‍♀	sarışın qadın tünd dəri tonu	none
+👩🏻‍❤‍💋‍👨🏻	öpüş qadın, kişi, açıq dəri tonu	none
+👩🏻‍❤‍💋‍👨🏼	öpüş qadın, kişi, açıq dəri tonu, orta-açıq dəri tonu	none
+👩🏻‍❤‍💋‍👨🏽	öpüş qadın, kişi, açıq dəri tonu, orta dəri tonu	none
+👩🏻‍❤‍💋‍👨🏾	öpüş qadın, kişi, açıq dəri tonu, orta-tünd dəri tonu	none
+👩🏻‍❤‍💋‍👨🏿	öpüş qadın, kişi, açıq dəri tonu, tünd dəri tonu	none
+👩🏼‍❤‍💋‍👨🏻	öpüş qadın, kişi, orta-açıq dəri tonu, açıq dəri tonu	none
+👩🏼‍❤‍💋‍👨🏼	öpüş qadın, kişi, orta-açıq dəri tonu	none
+👩🏼‍❤‍💋‍👨🏽	öpüş qadın, kişi, orta-açıq dəri tonu, orta dəri tonu	none
+👩🏼‍❤‍💋‍👨🏾	öpüş qadın, kişi, orta-açıq dəri tonu, orta-tünd dəri tonu	none
+👩🏼‍❤‍💋‍👨🏿	öpüş qadın, kişi, orta-açıq dəri tonu, tünd dəri tonu	none
+👩🏽‍❤‍💋‍👨🏻	öpüş qadın, kişi, orta dəri tonu, açıq dəri tonu	none
+👩🏽‍❤‍💋‍👨🏼	öpüş qadın, kişi, orta dəri tonu, orta-açıq dəri tonu	none
+👩🏽‍❤‍💋‍👨🏽	öpüş qadın, kişi, orta dəri tonu	none
+👩🏽‍❤‍💋‍👨🏾	öpüş qadın, kişi, orta dəri tonu, orta-tünd dəri tonu	none
+👩🏽‍❤‍💋‍👨🏿	öpüş qadın, kişi, orta dəri tonu, tünd dəri tonu	none
+👩🏾‍❤‍💋‍👨🏻	öpüş qadın, kişi, orta-tünd dəri tonu, açıq dəri tonu	none
+👩🏾‍❤‍💋‍👨🏼	öpüş qadın, kişi, orta-tünd dəri tonu, orta-açıq dəri tonu	none
+👩🏾‍❤‍💋‍👨🏽	öpüş qadın, kişi, orta-tünd dəri tonu, orta dəri tonu	none
+👩🏾‍❤‍💋‍👨🏾	öpüş qadın, kişi, orta-tünd dəri tonu	none
+👩🏾‍❤‍💋‍👨🏿	öpüş qadın, kişi, orta-tünd dəri tonu, tünd dəri tonu	none
+👩🏿‍❤‍💋‍👨🏻	öpüş qadın, kişi, tünd dəri tonu, açıq dəri tonu	none
+👩🏿‍❤‍💋‍👨🏼	öpüş qadın, kişi, tünd dəri tonu, orta-açıq dəri tonu	none
+👩🏿‍❤‍💋‍👨🏽	öpüş qadın, kişi, tünd dəri tonu, orta dəri tonu	none
+👩🏿‍❤‍💋‍👨🏾	öpüş qadın, kişi, tünd dəri tonu, orta-tünd dəri tonu	none
+👩🏿‍❤‍💋‍👨🏿	öpüş qadın, kişi, tünd dəri tonu	none
+👩🏻‍❤‍💋‍👩🏻	öpüş qadın, qadın, açıq dəri tonu	none
+👩🏻‍❤‍💋‍👩🏼	öpüş qadın, qadın, açıq dəri tonu, orta-açıq dəri tonu	none
+👩🏻‍❤‍💋‍👩🏽	öpüş qadın, qadın, açıq dəri tonu, orta dəri tonu	none
+👩🏻‍❤‍💋‍👩🏾	öpüş qadın, qadın, açıq dəri tonu, orta-tünd dəri tonu	none
+👩🏻‍❤‍💋‍👩🏿	öpüş qadın, qadın, açıq dəri tonu, tünd dəri tonu	none
+👩🏼‍❤‍💋‍👩🏻	öpüş qadın, qadın, orta-açıq dəri tonu, açıq dəri tonu	none
+👩🏼‍❤‍💋‍👩🏼	öpüş qadın, qadın, orta-açıq dəri tonu	none
+👩🏼‍❤‍💋‍👩🏽	öpüş qadın, qadın, orta-açıq dəri tonu, orta dəri tonu	none
+👩🏼‍❤‍💋‍👩🏾	öpüş qadın, qadın, orta-açıq dəri tonu, orta-tünd dəri tonu	none
+👩🏼‍❤‍💋‍👩🏿	öpüş qadın, qadın, orta-açıq dəri tonu, tünd dəri tonu	none
+👩🏽‍❤‍💋‍👩🏻	öpüş qadın, qadın, orta dəri tonu, açıq dəri tonu	none
+👩🏽‍❤‍💋‍👩🏼	öpüş qadın, qadın, orta dəri tonu, orta-açıq dəri tonu	none
+👩🏽‍❤‍💋‍👩🏽	öpüş qadın, qadın, orta dəri tonu	none
+👩🏽‍❤‍💋‍👩🏾	öpüş qadın, qadın, orta dəri tonu, orta-tünd dəri tonu	none
+👩🏽‍❤‍💋‍👩🏿	öpüş qadın, qadın, orta dəri tonu, tünd dəri tonu	none
+👩🏾‍❤‍💋‍👩🏻	öpüş qadın, qadın, orta-tünd dəri tonu, açıq dəri tonu	none
+👩🏾‍❤‍💋‍👩🏼	öpüş qadın, qadın, orta-tünd dəri tonu, orta-açıq dəri tonu	none
+👩🏾‍❤‍💋‍👩🏽	öpüş qadın, qadın, orta-tünd dəri tonu, orta dəri tonu	none
+👩🏾‍❤‍💋‍👩🏾	öpüş qadın, qadın, orta-tünd dəri tonu	none
+👩🏾‍❤‍💋‍👩🏿	öpüş qadın, qadın, orta-tünd dəri tonu, tünd dəri tonu	none
+👩🏿‍❤‍💋‍👩🏻	öpüş qadın, qadın, tünd dəri tonu, açıq dəri tonu	none
+👩🏿‍❤‍💋‍👩🏼	öpüş qadın, qadın, tünd dəri tonu, orta-açıq dəri tonu	none
+👩🏿‍❤‍💋‍👩🏽	öpüş qadın, qadın, tünd dəri tonu, orta dəri tonu	none
+👩🏿‍❤‍💋‍👩🏾	öpüş qadın, qadın, tünd dəri tonu, orta-tünd dəri tonu	none
+👩🏿‍❤‍💋‍👩🏿	öpüş qadın, qadın, tünd dəri tonu	none
+👩🏻‍❤‍👨🏻	ürəkli cütlük qadın, kişi, açıq dəri tonu	none
+👩🏻‍❤‍👨🏼	ürəkli cütlük qadın, kişi, açıq dəri tonu, orta-açıq dəri tonu	none
+👩🏻‍❤‍👨🏽	ürəkli cütlük qadın, kişi, açıq dəri tonu, orta dəri tonu	none
+👩🏻‍❤‍👨🏾	ürəkli cütlük qadın, kişi, açıq dəri tonu, orta-tünd dəri tonu	none
+👩🏻‍❤‍👨🏿	ürəkli cütlük qadın, kişi, açıq dəri tonu, tünd dəri tonu	none
+👩🏼‍❤‍👨🏻	ürəkli cütlük qadın, kişi, orta-açıq dəri tonu, açıq dəri tonu	none
+👩🏼‍❤‍👨🏼	ürəkli cütlük qadın, kişi, orta-açıq dəri tonu	none
+👩🏼‍❤‍👨🏽	ürəkli cütlük qadın, kişi, orta-açıq dəri tonu, orta dəri tonu	none
+👩🏼‍❤‍👨🏾	ürəkli cütlük qadın, kişi, orta-açıq dəri tonu, orta-tünd dəri tonu	none
+👩🏼‍❤‍👨🏿	ürəkli cütlük qadın, kişi, orta-açıq dəri tonu, tünd dəri tonu	none
+👩🏽‍❤‍👨🏻	ürəkli cütlük qadın, kişi, orta dəri tonu, açıq dəri tonu	none
+👩🏽‍❤‍👨🏼	ürəkli cütlük qadın, kişi, orta dəri tonu, orta-açıq dəri tonu	none
+👩🏽‍❤‍👨🏽	ürəkli cütlük qadın, kişi, orta dəri tonu	none
+👩🏽‍❤‍👨🏾	ürəkli cütlük qadın, kişi, orta dəri tonu, orta-tünd dəri tonu	none
+👩🏽‍❤‍👨🏿	ürəkli cütlük qadın, kişi, orta dəri tonu, tünd dəri tonu	none
+👩🏾‍❤‍👨🏻	ürəkli cütlük qadın, kişi, orta-tünd dəri tonu, açıq dəri tonu	none
+👩🏾‍❤‍👨🏼	ürəkli cütlük qadın, kişi, orta-tünd dəri tonu, orta-açıq dəri tonu	none
+👩🏾‍❤‍👨🏽	ürəkli cütlük qadın, kişi, orta-tünd dəri tonu, orta dəri tonu	none
+👩🏾‍❤‍👨🏾	ürəkli cütlük qadın, kişi, orta-tünd dəri tonu	none
+👩🏾‍❤‍👨🏿	ürəkli cütlük qadın, kişi, orta-tünd dəri tonu, tünd dəri tonu	none
+👩🏿‍❤‍👨🏻	ürəkli cütlük qadın, kişi, tünd dəri tonu, açıq dəri tonu	none
+👩🏿‍❤‍👨🏼	ürəkli cütlük qadın, kişi, tünd dəri tonu, orta-açıq dəri tonu	none
+👩🏿‍❤‍👨🏽	ürəkli cütlük qadın, kişi, tünd dəri tonu, orta dəri tonu	none
+👩🏿‍❤‍👨🏾	ürəkli cütlük qadın, kişi, tünd dəri tonu, orta-tünd dəri tonu	none
+👩🏿‍❤‍👨🏿	ürəkli cütlük qadın, kişi, tünd dəri tonu	none
+👩🏻‍❤‍👩🏻	ürəkli cütlük qadın, qadın, açıq dəri tonu	none
+👩🏻‍❤‍👩🏼	ürəkli cütlük qadın, qadın, açıq dəri tonu, orta-açıq dəri tonu	none
+👩🏻‍❤‍👩🏽	ürəkli cütlük qadın, qadın, açıq dəri tonu, orta dəri tonu	none
+👩🏻‍❤‍👩🏾	ürəkli cütlük qadın, qadın, açıq dəri tonu, orta-tünd dəri tonu	none
+👩🏻‍❤‍👩🏿	ürəkli cütlük qadın, qadın, açıq dəri tonu, tünd dəri tonu	none
+👩🏼‍❤‍👩🏻	ürəkli cütlük qadın, qadın, orta-açıq dəri tonu, açıq dəri tonu	none
+👩🏼‍❤‍👩🏼	ürəkli cütlük qadın, qadın, orta-açıq dəri tonu	none
+👩🏼‍❤‍👩🏽	ürəkli cütlük qadın, qadın, orta-açıq dəri tonu, orta dəri tonu	none
+👩🏼‍❤‍👩🏾	ürəkli cütlük qadın, qadın, orta-açıq dəri tonu, orta-tünd dəri tonu	none
+👩🏼‍❤‍👩🏿	ürəkli cütlük qadın, qadın, orta-açıq dəri tonu, tünd dəri tonu	none
+👩🏽‍❤‍👩🏻	ürəkli cütlük qadın, qadın, orta dəri tonu, açıq dəri tonu	none
+👩🏽‍❤‍👩🏼	ürəkli cütlük qadın, qadın, orta dəri tonu, orta-açıq dəri tonu	none
+👩🏽‍❤‍👩🏽	ürəkli cütlük qadın, qadın, orta dəri tonu	none
+👩🏽‍❤‍👩🏾	ürəkli cütlük qadın, qadın, orta dəri tonu, orta-tünd dəri tonu	none
+👩🏽‍❤‍👩🏿	ürəkli cütlük qadın, qadın, orta dəri tonu, tünd dəri tonu	none
+👩🏾‍❤‍👩🏻	ürəkli cütlük qadın, qadın, orta-tünd dəri tonu, açıq dəri tonu	none
+👩🏾‍❤‍👩🏼	ürəkli cütlük qadın, qadın, orta-tünd dəri tonu, orta-açıq dəri tonu	none
+👩🏾‍❤‍👩🏽	ürəkli cütlük qadın, qadın, orta-tünd dəri tonu, orta dəri tonu	none
+👩🏾‍❤‍👩🏾	ürəkli cütlük qadın, qadın, orta-tünd dəri tonu	none
+👩🏾‍❤‍👩🏿	ürəkli cütlük qadın, qadın, orta-tünd dəri tonu, tünd dəri tonu	none
+👩🏿‍❤‍👩🏻	ürəkli cütlük qadın, qadın, tünd dəri tonu, açıq dəri tonu	none
+👩🏿‍❤‍👩🏼	ürəkli cütlük qadın, qadın, tünd dəri tonu, orta-açıq dəri tonu	none
+👩🏿‍❤‍👩🏽	ürəkli cütlük qadın, qadın, tünd dəri tonu, orta dəri tonu	none
+👩🏿‍❤‍👩🏾	ürəkli cütlük qadın, qadın, tünd dəri tonu, orta-tünd dəri tonu	none
+👩🏿‍❤‍👩🏿	ürəkli cütlük qadın, qadın, tünd dəri tonu	none
 👩‍🦰	qadın qırmızı saç	none
 👩🏻‍🦰	qadın açıq dəri tonu, qırmızı saç	none
 👩🏼‍🦰	qadın orta-açıq dəri tonu, qırmızı saç	none
@@ -2336,6 +2875,11 @@ symbols:
 👷🏽‍♀	qadın bənna orta dəri tonu	none
 👷🏾‍♀	qadın bənna orta-tünd dəri tonu	none
 👷🏿‍♀	qadın bənna tünd dəri tonu	none
+🫅🏻	taclı adam açıq dəri tonu	none
+🫅🏼	taclı adam orta-açıq dəri tonu	none
+🫅🏽	taclı adam orta dəri tonu	none
+🫅🏾	taclı adam orta-tünd dəri tonu	none
+🫅🏿	taclı adam tünd dəri tonu	none
 🤴🏻	oğlan şahzadə açıq dəri tonu	none
 🤴🏼	oğlan şahzadə orta-açıq dəri tonu	none
 🤴🏽	oğlan şahzadə orta dəri tonu	none
@@ -2406,6 +2950,16 @@ symbols:
 🤰🏽	hamilə qadın orta dəri tonu	none
 🤰🏾	hamilə qadın orta-tünd dəri tonu	none
 🤰🏿	hamilə qadın tünd dəri tonu	none
+🫃🏻	hamilə kişi açıq dəri tonu	none
+🫃🏼	hamilə kişi orta-açıq dəri tonu	none
+🫃🏽	hamilə kişi orta dəri tonu	none
+🫃🏾	hamilə kişi orta-tünd dəri tonu	none
+🫃🏿	hamilə kişi tünd dəri tonu	none
+🫄🏻	hamilə adam açıq dəri tonu	none
+🫄🏼	hamilə adam orta-açıq dəri tonu	none
+🫄🏽	hamilə adam orta dəri tonu	none
+🫄🏾	hamilə adam orta-tünd dəri tonu	none
+🫄🏿	hamilə adam tünd dəri tonu	none
 🤱🏻	uşaq əmizdirmə açıq dəri tonu	none
 🤱🏼	uşaq əmizdirmə orta-açıq dəri tonu	none
 🤱🏽	uşaq əmizdirmə orta dəri tonu	none
@@ -3046,9 +3600,19 @@ symbols:
 👨🏿‍🤝‍👨🏽	əl-ələ tutan iki kişi tünd dəri tonu, orta dəri tonu	none
 👨🏿‍🤝‍👨🏾	əl-ələ tutan iki kişi tünd dəri tonu, orta-tünd dəri tonu	none
 👬🏿	əl-ələ tutan iki kişi tünd dəri tonu	none
+💏🏻	öpüş açıq dəri tonu	none
+💏🏼	öpüş orta-açıq dəri tonu	none
+💏🏽	öpüş orta dəri tonu	none
+💏🏾	öpüş orta-tünd dəri tonu	none
+💏🏿	öpüş tünd dəri tonu	none
 👩‍❤‍💋‍👨	öpüş qadın, kişi	none
 👨‍❤‍💋‍👨	öpüş kişi, kişi	none
 👩‍❤‍💋‍👩	öpüş qadın, qadın	none
+💑🏻	ürəkli cütlük açıq dəri tonu	none
+💑🏼	ürəkli cütlük orta-açıq dəri tonu	none
+💑🏽	ürəkli cütlük orta dəri tonu	none
+💑🏾	ürəkli cütlük orta-tünd dəri tonu	none
+💑🏿	ürəkli cütlük tünd dəri tonu	none
 👩‍❤‍👨	ürəkli cütlük qadın, kişi	none
 👨‍❤‍👨	ürəkli cütlük kişi, kişi	none
 👩‍❤‍👩	ürəkli cütlük qadın, qadın	none
@@ -3077,8 +3641,6 @@ symbols:
 👩‍👧	ailə qadın, qız uşağı	none
 👩‍👧‍👦	ailə qadın, qız uşağı, oğlan	none
 👩‍👧‍👧	ailə qadın, qız uşağı, qız uşağı	none
-#⃣	klaviatura qapağı #	none
-*⃣	klaviatura qapağı *	none
 🔟	klaviatura qapağı 10	none
 🇦🇨	bayraq Askenson adası	none
 🇦🇩	bayraq Andorra	none
@@ -3341,13 +3903,17 @@ symbols:
 🏴󠁧󠁢󠁥󠁮󠁧󠁿	bayraq İngiltərə	none
 🏴󠁧󠁢󠁳󠁣󠁴󠁿	bayraq Şotlandiya	none
 🏴󠁧󠁢󠁷󠁬󠁳󠁿	bayraq Uels	none
-0⃣	klaviatura qapağı 0	none
-1⃣	klaviatura qapağı 1	none
-2⃣	klaviatura qapağı 2	none
-3⃣	klaviatura qapağı 3	none
-4⃣	klaviatura qapağı 4	none
-5⃣	klaviatura qapağı 5	none
-6⃣	klaviatura qapağı 6	none
-7⃣	klaviatura qapağı 7	none
-8⃣	klaviatura qapağı 8	none
-9⃣	klaviatura qapağı 9	none
+₡	Kosta Rika Kolonu	none
+₦	Nigeriya Nairası	none
+₧	İspan Pesetası	none
+₪	İsrail Yeni Şekeli	none
+₫	Vyetnam Donqu	none
+₭	Laos Kipi	none
+₮	Monqoliya Tuqriki	none
+₲	Paraqvay Quaranisi	none
+₴	Ukrayna Qrivnası	none
+₵	Qana Sedisi	none
+₸	Qazaxıstan Tengesi	none
+₺	Türkiyə Lirəsi	none
+₼	Azərbaycan Manatı	none
+₾	Gürcüstan Larisi	none

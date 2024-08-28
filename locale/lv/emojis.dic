@@ -8,41 +8,202 @@ symbols:
 🏽	vidējs ādas tonis	none
 🏾	vidēji tumšs ādas tonis	none
 🏿	tumšs ādas tonis	none
-–	vienotājzīme	none
-—	domuzīme	none
-·	viduspunkts	none
-«	kreisās stūra pēdiņas	none
-»	labās stūra pēdiņas	none
-§	sadaļa	none
-†	dunča zīme	none
-‡	divu dunču zīme	none
-•	aizzīme	none
-°	pakāpe	none
 ℗	skaņu ieraksta autortiesības	none
 ←	pa kreisi vērsta bultiņa	none
+↚	pārsvītrota kreisā bultiņa	none
 →	pa labi vērsta bultiņa	none
+↛	pārsvītrota labā bultiņa	none
 ↑	augšupvērsta bultiņa	none
 ↓	lejupvērsta bultiņa	none
+↜	viļņota kreisā bultiņa	none
+↝	viļņota labā bultiņa	none
+↞	kreisā bultiņa ar dubultu smaili	none
+↟	augšupvērsta bultiņa ar dubultu smaili	none
+↠	labā bultiņa ar dubultu smaili	none
+↡	lejupvērsta bultiņa ar dubultu smaili	none
+↢	kreisā bultiņa ar asti	none
+↣	labā bultiņa ar asti	none
+↤	kreisā bultiņa no svītras	none
+↥	augšupvērsta bultiņa no svītras	none
+↦	labā bultiņa no svītras	none
+↧	lejupvērsta bultiņa no svītras	none
+↨	augšupvērsta bultiņa ar pamatni	none
+↫	kreisā bultiņa ar cilpu	none
+↬	labā bultiņa ar cilpu	none
+↭	kreisā-labā viļņotā bultiņa	none
+↯	lejupvērsta zigzaga bultiņa	none
+↰	augšup un pa kreisi vērsta bultiņa	none
+↱	augšup un pa labi vērsta bultiņa	none
+↲	lejup un pa kreisi vērsta bultiņa	none
+↳	lejup un pa labi vērsta bultiņa	none
+↴	labā bultiņa norāda lejup	none
+↵	lejupvērsta bultiņa norāda pa kreisi	none
+↶	pusloka bultiņa pretēji pulksteņrādītāja kustības virzienam	none
+↷	pusloka bultiņa pulksteņrādītāja kustības virzienā	none
+↸	uz ZR vērsta bultiņa ar garu svītru	none
+↹	kreisā bultiņa ar svītru virs labās bultiņas ar svītru	none
+↺	atvērta apļa bultiņa pretēji pulksteņrādītāja kustības virzienam	none
+↻	atvērta apļa bultiņa pulksteņrādītāja kustības virzienā	none
+↼	augšupvērsta kreisā harpūna ar atkarpi	none
+↽	lejupvērsta kreisā harpūna ar atkarpi	none
+↾	augšupvērsta labā harpūna ar atkarpi	none
+↿	augšupvērsta harpūna ar atkarpi pa kreisi	none
+⇀	labā harpūna ar atkarpi uz augšu	none
+⇁	labā harpūna ar atkarpi uz leju	none
+⇂	lejupvērsta harpūna ar atkarpi pa labi	none
+⇃	lejupvērsta harpūna ar atkarpi pa kreisi	none
+⇄	labā bultiņa virs kreisās bultiņas	none
 ⇅	augšupvērsta bultiņa un lejupvērsta bultiņa	none
 ⇆	kreisā bultiņa virs labās bultiņas	none
+⇇	kreiso bultiņu pāris	none
+⇈	augšupvērsto bultiņu pāris	none
+⇉	labo bultiņu pāris	none
+⇊	lejupvērsto bultiņu pāris	none
+⇋	kreisā harpūna virs labās harpūnas	none
+⇌	labā harpūna virs kreisās harpūnas	none
+⇐	kreisā dubultbultiņa	none
+⇍	pārsvītrota kreisā dubultbultiņa	none
+⇑	augšupvērsta dubultbultiņa	none
+⇒	labā dubultbultiņa	none
+⇏	pārsvītrota labā dubultbultiņa	none
+⇓	lejupvērsta dubultbultiņa	none
+⇔	kreisā-labā dubultbultiņa	none
+⇎	pārsvītrota kreisā-labā dubultbultiņa	none
+⇖	uz ZR vērsta dubultbultiņa	none
+⇗	uz ZA vērsta dubultbultiņa	none
+⇘	uz DA vērsta dubultbultiņa	none
+⇙	uz DR vērsta dubultbultiņa	none
+⇚	kreisā trīskāršā bultiņa	none
+⇛	labā trīskāršā bultiņa	none
+⇜	kreisā salocītā bultiņa	none
+⇝	labā salocītā bultiņa	none
+⇞	augšupvērsta dubultpārsvītrota bultiņa	none
+⇟	lejupvērsta dubultpārsvītrota bultiņa	none
+⇠	kreisā svītrbultiņa	none
+⇡	augšupvērsta svītrbultiņa	none
+⇢	labā svītrbultiņa	none
+⇣	lejupvērsta svītrbultiņa	none
+⇤	kreisā bultiņa ar svītru	none
+⇥	labā bultiņa ar svītru	none
+⇦	kreisā baltā bultiņa	none
+⇧	augšupvērsta baltā bultiņa	none
+⇨	labā baltā bultiņa	none
+⇩	lejupvērsta baltā bultiņa	none
+⇪	augšupvērsta baltā bultiņa no svītras	none
+⇵	lejupvērsta bultiņa pa kreisi no augšupvērstas bultiņas	none
+∀	visiem	none
+∂	daļējs diferenciālis	none
+∃	pastāv	none
+∅	tukša kopa	none
 ∆	pieaugums	none
 ∇	nabla	none
 ∈	elements no	none
-÷	dalīšanas zīme	none
-×	reizināšanas zīme	none
+∉	nav elements	none
+∋	ietver kā locekli	none
+∎	pierādīšanas beigas	none
+∏	n-ārs produkts	none
+∑	n-āra summa	none
+≮	nav mazāks par	none
+≠	nav vienāds	none
+≯	nav lielāks par	none
+−	mīnusa zīme	none
 ⁻	mīnus augšrakstā	none
+∓	mīnus/plus	none
+∕	atdalītājslīpsvītra	none
+∗	zvaigznes operators	none
+∘	riņķa operators	none
+∙	aizzīmes operators	none
 √	kvadrātsakne	none
+∝	proporcionāli	none
 ∞	bezgalības zīme	none
+∟	labais leņķis	none
+∠	leņķis	none
+∣	dalīšana	none
+∥	paralēli	none
+∧	loģiski un	none
 ∩	šķēlums	none
 ∪	kopums	none
+∫	neatņemama sastāvdaļa	none
+∬	dubults neatņemama sastāvdaļa	none
+∮	kontūras neatņemama sastāvdaļa	none
+∴	tāpēc	none
+∵	jo	none
+∶	attiecība	none
+∷	proporcija	none
+∼	tildes operators	none
+∽	apgrieztā tilde	none
+∾	apgriezts slinks s	none
+≃	asimptotiski vienāds	none
+≅	aptuveni vienāds	none
+≈	gandrīz vienāds	none
+≌	visi vienādi	none
+≒	aptuveni vienāds ar attēlu	none
+≖	gredzens vienādi	none
 ≡	vienāds ar	none
+≣	stingri līdzvērtīgi	none
+≤	mazāks nekā vai vienāds ar	none
+≥	lielāks nekā vai vienāds ar	none
+≦	mazāk nekā vairāk par vienādu	none
+≧	lielāks nekā vienāds	none
+≪	daudz mazāk nekā	none
+≫	daudz lielāks-nekā	none
+≬	starp	none
+≳	lielāks nekā ekvivalents	none
+≺	pirms	none
+≻	seko	none
+⊁	nepaveicas	none
 ⊂	apakškopa no	none
+⊃	reālā apakškopa	none
+⊆	apakškopa	none
+⊇	pārmērība	none
+⊕	pluszīme apļveida ietvarā	none
+⊖	mīnuszīme apļveida ietvarā	none
+⊗	plus zīme lokā	none
+⊶	oriģināls	none
+⊿	taisnleņķa trīsstūris	none
+⋁	n-āri loģisks vai	none
+⋂	n-āra krustošanās	none
+⋃	n-āra apvienošana	none
+⋅	punktveida operators	none
+⋆	zvaigznītes operators	none
+⋈	dabiski pievienoties	none
+⋒	dubulta krustošanās	none
+⋘	ļoti daudz mazāk nekā	none
+⋙	ļoti daudz lielāks nekā	none
+⋮	vertikāla daudzpunkte	none
+⋯	viduslīnijas horizontālā daudzpunkte	none
+⋰	augšupvērsta diagonāla daudzpunkte	none
+⋱	lejupvērsta diagonāla daudzpunkte	none
+■	pilns kvadrāts	none
+□	balts kvadrāts	none
+▢	balts kvadrāts ar noapaļotiem stūriem	none
+▣	balts kvadrāts ietver pilnu kvadrātu	none
+▤	kvadrāts ar horizontālu aizpildījumu	none
+▬	pilns taisnstūris	none
+▭	balts taisnstūris	none
+▮	pilns vertikāls taisnstūris	none
+▰	pilns paralelograms	none
 ▲	pilns augšupvērsts trīsstūris	none
 ▼	pilns lejupvērsts trīsstūris	none
+◆	pilns rombs	none
+◇	balts rombs	none
+◈	balts rombs ietver pilnu rombu	none
+◉	balts aplis ietver pilnu apli	none
 ◊	rombs	none
 ○	tukšs riņķis	none
 ●	pilns riņķis	none
+◘	inversā aizzīme	none
+◙	pilns kvadrāts ietver baltu riņķi	none
+◠	augšējais pusaplis	none
+◡	apakšējais pusaplis	none
+◦	balta aizzīme	none
 ◯	liels tukšs riņķis	none
+◳	balts kvadrāts ar augšējo labo kvadrantu	none
+◷	balts aplis ar augšējo labo kvadrantu	none
+♪	astotdaļnots	none
+⪚	dubultlīnija ir vienāda ar lielāku par	none
+♭	bemols	none
+♯	diēzs	none
 😀	smiekli	none
 😃	plats smaids un lielas acis	none
 😄	smaidoša seja ar atvērtu muti un smaidošām acīm	none
@@ -53,6 +214,7 @@ symbols:
 😂	seja ar prieka asarām	none
 🙂	seja ar vieglu smaidu	none
 🙃	apgriezta seja	none
+🫠	kūstoša seja	none
 😉	seja ar piemiegtu aci	none
 😊	smaidoša seja ar smaidošām acīm	none
 😇	smaidoša seja ar nimbu	none
@@ -73,18 +235,25 @@ symbols:
 🤑	seja ar naudu mutē	none
 🤗	seja ar apskāvienu	none
 🤭	seja ar roku pār muti	none
+🫢	seja ar atvērtām acīm un roku pār muti	none
+🫣	seja ar lūrošu aci	none
 🤫	šušinoša seja	none
 🤔	domīga seja	none
+🫡	salutējoša seja	none
 🤐	seja ar rāvējslēdzēju mutes vietā	none
 🤨	seja ar paceltām uzacīm	none
 😐	neitrāla seja	none
 😑	seja bez izteiksmes	none
 😶	seja bez mutes	none
+🫥	punktētas līnijas seja	none
+😶‍🌫	seja mākoņos	none
 😏	smīnoša seja	none
 😒	saīgusi seja	none
 🙄	seja ar pārgrieztām acīm	none
 😬	saviebta seja	none
+😮‍💨	seja nopūšas	none
 🤥	melojoša seja	none
+🫨	trīcoša seja	none
 😌	seja ar atvieglojuma izteiksmi	none
 😔	domās iegrimusi seja	none
 😪	miegaina seja	none
@@ -100,6 +269,7 @@ symbols:
 🥶	nosalusi seja	none
 🥴	noreibusi seja	none
 😵	apreibusi seja	none
+😵‍💫	seja ar spirālēm acu vietā	none
 🤯	eksplodējoša galva	none
 🤠	seja kovboja cepurē	none
 🥳	ballīšu seja	none
@@ -108,6 +278,7 @@ symbols:
 🤓	gudrītis	none
 🧐	seja ar monokli	none
 😕	apjukusi seja	none
+🫤	seja ar diagonālu muti	none
 😟	noraizējusies seja	none
 🙁	nedaudz bēdīga seja	none
 ☹	bēdīga seja	none
@@ -116,6 +287,7 @@ symbols:
 😲	šokēta seja	none
 😳	nosarkusi seja	none
 🥺	lūdzoša seja	none
+🥹	seja ar aizturētām asarām	none
 😦	bēdīga seja ar atvērtu muti	none
 😧	sāpjpilna seja	none
 😨	nobijusies seja	none
@@ -159,7 +331,6 @@ symbols:
 🙈	neko neredzu	none
 🙉	neko nedzirdu	none
 🙊	neko nesaku	none
-💋	skūpsta nospiedums	none
 💌	mīlestības vēstule	none
 💘	sirds ar bultu	none
 💝	sirds ar lentīti	none
@@ -171,15 +342,21 @@ symbols:
 💟	sirds rotājums	none
 ❣	izsaukuma zīme sirds formā	none
 💔	salauzta sirds	none
+❤‍🔥	degoša sirds	none
+❤‍🩹	pārsieta sirds	none
 ❤	sarkana sirds	none
+🩷	rozā sirds	none
 🧡	oranža sirds	none
 💛	dzeltena sirds	none
 💚	zaļa sirds	none
 💙	zila sirds	none
+🩵	gaiši zila sirds	none
 💜	violeta sirds	none
 🤎	brūna sirds	none
 🖤	melna sirds	none
+🩶	pelēka sirds	none
 🤍	balta sirds	none
+💋	skūpsta nospiedums	none
 💯	simt punktu	none
 💢	dusmu simbols	none
 💥	sadursme	none
@@ -187,7 +364,6 @@ symbols:
 💦	sviedru lāses	none
 💨	bēgšana	none
 🕳	caurums	none
-💣	spridzeklis	none
 💬	runas burbulis	none
 👁‍🗨	liecinieka zīme	none
 🗨	pa kreisi vērsts runas burbulis	none
@@ -199,11 +375,18 @@ symbols:
 🖐	pacelta roka ar izvērstiem pirkstiem	none
 ✋	pacelta roka	none
 🖖	vulkāniešu sveiciens	none
+🫱	labā roka	none
+🫲	kreiso roku	none
+🫳	plaukstu uz leju	none
+🫴	plaukstu uz augšu	none
+🫷	pa kreisi spiedoša roka	none
+🫸	pa labi spiedoša roka	none
 👌	simbols OK	none
 🤌	pastiepti pirksti	none
 🤏	roka rāda drusciņu	none
 ✌	uzvaras simbols	none
 🤞	sakrustoti pirksti	none
+🫰	roka ar rādītājpirkstu un īkšķi sakrustota	none
 🤟	mīlas žests	none
 🤘	ragu simbols	none
 🤙	piezvani man	none
@@ -213,6 +396,7 @@ symbols:
 🖕	vidējais pirksts	none
 👇	lejup vērsts rādītājpirksts	none
 ☝	augšup vērsts rādītājpirksts	none
+🫵	rādītājpirksts pret sevi	none
 👍	augšupvērsts īkšķis	none
 👎	lejupvērsts īkšķis	none
 ✊	pacelta dūre	none
@@ -221,6 +405,7 @@ symbols:
 🤜	dūre pa labi	none
 👏	aplausi	none
 🙌	paceltas rokas	none
+🫶	sirds žests	none
 👐	atvērtas rokas	none
 🤲	plaukstas kopā	none
 🤝	rokasspiediens	none
@@ -245,6 +430,7 @@ symbols:
 👁	acs	none
 👅	mēle	none
 👄	mute	none
+🫦	košana lūpā	none
 👶	zīdainis	none
 🧒	bērns	none
 👦	zēns	none
@@ -253,8 +439,10 @@ symbols:
 👱	blonds cilvēks	none
 👨	vīrietis	none
 🧔	bārdains vīrietis	none
+🧔‍♂	vīrietis ar bārdu	none
 👱‍♂	blondīns	none
 👩	sieviete	none
+🧔‍♀	sieviete ar bārdu	none
 👱‍♀	blondīne	none
 🧓	vecāks pieaugušais	none
 👴	vecs vīrietis	none
@@ -350,6 +538,7 @@ symbols:
 👷	celtnieks	none
 👷‍♂	būvstrādnieks	none
 👷‍♀	būvstrādniece	none
+🫅	persona ar vainagu	none
 🤴	princis	none
 👸	princese	none
 👳	persona ar turbānu	none
@@ -357,13 +546,15 @@ symbols:
 👳‍♀	sieviete ar turbānu	none
 👲	vīrietis ar ķīniešu cepuri	none
 🧕	sieviete ar lakatu	none
-🤵	cilvēks smokingā	none
+🤵	persona smokingā	none
 🤵‍♂	vīrietis smokingā	none
 🤵‍♀	sieviete smokingā	none
 👰	cilvēks ar plīvuru	none
 👰‍♂	vīrietis ar plīvuru	none
 👰‍♀	sieviete ar plīvuru	none
 🤰	sieviete stāvoklī	none
+🫃	vīrietis stāvoklī	none
+🫄	cilvēks stāvoklī	none
 🤱	barošana ar krūti	none
 👩‍🍼	sieviete baro bērnu	none
 👨‍🍼	bērnu barojošs cilvēks	none
@@ -399,6 +590,7 @@ symbols:
 🧟	zombijs	none
 🧟‍♂	zombijvīrietis	none
 🧟‍♀	zombijsieviete	none
+🧌	trollis	none
 💆	sejas masāža	none
 💆‍♂	vīrietim masē seju	none
 💆‍♀	sievietei masē seju	none
@@ -522,6 +714,8 @@ symbols:
 🐅	tīģeris	none
 🐆	leopards	none
 🐴	zirga galva	none
+🫎	alnis	none
+🫏	ēzelis	none
 🐎	zirgs	none
 🦄	vienradzis	none
 🦓	zebra	none
@@ -584,6 +778,8 @@ symbols:
 🦩	flamingo	none
 🦚	pāvs	none
 🦜	papagailis	none
+🪽	spārns	none
+🪿	zoss	none
 🐸	varde	none
 🐊	krokodils	none
 🐢	bruņurupucis	none
@@ -603,6 +799,8 @@ symbols:
 🦈	haizivs	none
 🐙	astoņkājis	none
 🐚	gliemežvāks	none
+🪸	koraļļi	none
+🪼	medūza	none
 🐌	gliemezis	none
 🦋	taurenis	none
 🐛	kukainis	none
@@ -622,6 +820,7 @@ symbols:
 💐	pušķis	none
 🌸	ķiršu zieds	none
 💮	balts zieds	none
+🪷	lotoss	none
 🏵	rozete	none
 🌹	roze	none
 🥀	novītusi puķe	none
@@ -629,6 +828,7 @@ symbols:
 🌻	saulespuķe	none
 🌼	zieds	none
 🌷	tulpe	none
+🪻	hiacinte	none
 🌱	asns	none
 🪴	augs podiņā	none
 🌲	skujkoks	none
@@ -642,6 +842,9 @@ symbols:
 🍁	kļavas lapa	none
 🍂	nokritusi lapa	none
 🍃	vējā plīvojoša lapa	none
+🪹	tukša ligzda	none
+🪺	ligzda ar olām	none
+🍄	sēne	none
 🍇	vīnogas	none
 🍈	melone	none
 🍉	arbūzs	none
@@ -673,9 +876,11 @@ symbols:
 🥦	brokoļi	none
 🧄	ķiploks	none
 🧅	sīpols	none
-🍄	sēne	none
 🥜	zemesrieksti	none
+🫘	pupiņas	none
 🌰	kastanis	none
+🫚	ingvera sakne	none
+🫛	zirņu pāksts	none
 🍞	maize	none
 🥐	kruasāns	none
 🥖	bagete	none
@@ -760,6 +965,7 @@ symbols:
 🍻	saskandināti alus kausi	none
 🥂	glāžu skandināšana	none
 🥃	viskija glāze	none
+🫗	ielejot šķidrumu	none
 🥤	dzēriens ar salmiņu	none
 🧋	burbuļtēja	none
 🧃	dzēriena kārba	none
@@ -770,6 +976,7 @@ symbols:
 🍴	nazis un dakša	none
 🥄	karote	none
 🔪	virtuves nazis	none
+🫙	burka	none
 🏺	amfora	none
 🌍	globuss ar Eiropu un Āfriku	none
 🌎	globuss ar Ameriku	none
@@ -832,6 +1039,7 @@ symbols:
 🌉	tilts naktī	none
 ♨	karstie avoti	none
 🎠	karuseļa zirdziņš	none
+🛝	rotaļu laukuma slidkalniņš	none
 🎡	panorāmas rats	none
 🎢	amerikāņu kalniņi	none
 💈	friziera izkārtne	none
@@ -880,12 +1088,14 @@ symbols:
 🛤	dzelzceļa sliedes	none
 🛢	eļļas tvertne	none
 ⛽	degvielas sūknis	none
+🛞	ritenis	none
 🚨	policijas mašīnas bākuguns	none
 🚥	horizontāls luksofors	none
 🚦	vertikāls luksofors	none
 🛑	stopzīme	none
 🚧	celtniecība	none
 ⚓	enkurs	none
+🛟	gredzenu boja	none
 ⛵	buru laiva	none
 🛶	kanoe	none
 🚤	ātrlaiva	none
@@ -1043,10 +1253,10 @@ symbols:
 🎯	šautriņa mērķī	none
 🪀	jojo	none
 🪁	gaisa pūķis	none
+🔫	ūdens pistole	none
 🎱	biljarda bumbiņa	none
 🔮	kristāla lode	none
 🪄	burvju nūjiņa	none
-🧿	amulets pret ļaunu aci	none
 🎮	videospēle	none
 🕹	kursorsvira	none
 🎰	spēļu automāts	none
@@ -1054,6 +1264,7 @@ symbols:
 🧩	attēlu mīkla	none
 🧸	lāčuks	none
 🪅	pinjata	none
+🪩	spoguļa bumba	none
 🪆	matrjoškas	none
 ♠	pīķis	none
 ♥	ercens	none
@@ -1090,6 +1301,7 @@ symbols:
 🩳	šorti	none
 👙	bikini	none
 👚	sieviešu drēbes	none
+🪭	salokāms rokas vēdeklis	none
 👛	naudasmaks	none
 👜	rokassoma	none
 👝	kosmētikas maciņš	none
@@ -1104,6 +1316,7 @@ symbols:
 👡	sieviešu sandale	none
 🩰	baleta kurpes	none
 👢	sieviešu zābaks	none
+🪮	matu ķemme	none
 👑	kronis	none
 👒	sieviešu cepure	none
 🎩	cilindrs	none
@@ -1142,6 +1355,8 @@ symbols:
 🪕	bandžo	none
 🥁	bungas	none
 🪘	garās bungas	none
+🪇	marakass	none
+🪈	flauta	none
 📱	mobilais tālrunis	none
 📲	mobilais tālrunis ar bultiņu	none
 ☎	tālrunis	none
@@ -1149,6 +1364,7 @@ symbols:
 📟	peidžers	none
 📠	fakss	none
 🔋	baterija	none
+🪫	zems akumulatora līmenis	none
 🔌	kontaktdakša	none
 💻	klēpjdators	none
 🖥	galddators	none
@@ -1260,7 +1476,7 @@ symbols:
 🛠	āmurs un uzgriežņu atslēga	none
 🗡	duncis	none
 ⚔	sakrustoti zobeni	none
-🔫	pistole	none
+💣	spridzeklis	none
 🪃	bumerangs	none
 🏹	loks un bulta	none
 🛡	vairogs	none
@@ -1289,7 +1505,9 @@ symbols:
 🩸	asins pile	none
 💊	zāļu kapsula	none
 🩹	plāksteris	none
+🩼	kruķis	none
 🩺	stetoskops	none
+🩻	rentgens	none
 🚪	durvis	none
 🛗	lifts	none
 🪞	spogulis	none
@@ -1310,6 +1528,7 @@ symbols:
 🧻	papīra rullis	none
 🪣	spainis	none
 🧼	ziepes	none
+🫧	burbuļi	none
 🪥	zobu suka	none
 🧽	sūklis	none
 🧯	ugunsdzēsības aparāts	none
@@ -1318,8 +1537,11 @@ symbols:
 ⚰	zārks	none
 🪦	kapakmens	none
 ⚱	pelnu urna	none
+🧿	amulets pret ļaunu aci	none
+🪬	hamsa	none
 🗿	Lieldienu salu statuja	none
 🪧	plakāts	none
+🪪	identifikācijas karte	none
 🏧	bankomāta zīme	none
 🚮	atkritumu urnas zīme	none
 🚰	dzeramais ūdens	none
@@ -1356,6 +1578,7 @@ symbols:
 ↖	uz augšējo kreiso stūri vērsta bultiņa	none
 ↕	augšup un lejup vērsta bultiņa	none
 ↔	pa kreisi un pa labi vērsta bultiņa	none
+↮	pārsvītrota kreisā-labā bultiņa	none
 ↩	pa kreisi vērsta izliekta bultiņa	none
 ↪	pa labi vērsta izliekta bultiņa	none
 ⤴	augšup vērsta izliekta bultiņa	none
@@ -1379,6 +1602,7 @@ symbols:
 ☮	miera simbols	none
 🕎	menora	none
 🔯	sešstaru zvaigzne ar punktu vidū	none
+🪯	khanda	none
 ♈	zodiaka zīme Auns	none
 ♉	zodiaka zīme Vērsis	none
 ♊	zodiaka zīme Dvīņi	none
@@ -1414,6 +1638,7 @@ symbols:
 🔅	samazināt spilgtumu	none
 🔆	palielināt spilgtumu	none
 📶	signāla stipruma joslas	none
+🛜	bezvadu internets	none
 📳	vibrozvana režīms	none
 📴	izslēgts mobilais tālrunis	none
 ♀	sieviešu simbols	none
@@ -1423,14 +1648,12 @@ symbols:
 ➕	pluszīme	none
 ➖	mīnuss	none
 ➗	dalīt	none
+🟰	smagā vienādības zīme	none
 ♾	bezgalība	none
-‼	divas izsaukuma zīmes	none
-⁉	izsaukuma un jautājuma zīme	none
-❓	jautājuma zīme	none
+❓	sarkana jautājuma zīme	none
 ❔	balta jautājuma zīme	none
 ❕	balta izsaukuma zīme	none
-❗	izsaukuma zīme	none
-〰	viļņota domuzīme	none
+❗	sarkana izsaukuma zīme	none
 💱	valūtas maiņa	none
 💲	dolāra zīme	none
 ⚕	medicīnas simbols	none
@@ -1447,12 +1670,9 @@ symbols:
 ❎	krustiņa poga	none
 ➰	cilpiņa	none
 ➿	dubulta cilpa	none
-〽	partijas sākuma zīme	none
 ✳	astoņstaru zvaigznīte	none
 ✴	četrstaru zvaigzne	none
 ❇	dzirkstis	none
-©	autortiesības	none
-®	reģistrēta preču zīme	none
 ™	preču zīme	none
 🔠	lielie latīņu burti	none
 🔡	mazie latīņu burti	none
@@ -1476,23 +1696,6 @@ symbols:
 🆘	uzraksts SOS kvadrātveida ietvarā	none
 🆙	poga Up!	none
 🆚	uzraksts VS kvadrātveida ietvarā	none
-🈁	uzraksts Šeit katakanā kvadrātveida ietvarā	none
-🈂	uzraksts Pakalpojums katakanā kvadrātveida ietvarā	none
-🈷	ideogramma Mēness kvadrātveida ietvarā	none
-🈶	ideogramma Būt kvadrātveida ietvarā	none
-🈯	ideogramma Norāde kvadrātveida ietvarā	none
-🉐	ideogramma Izdevīgi apļveida ietvarā	none
-🈹	ideogramma Atlaide kvadrātveida ietvarā	none
-🈚	ideogramma Nebūt kvadrātveida ietvarā	none
-🈲	ideogramma Aizliegt kvadrātveida ietvarā	none
-🉑	ideogramma Piekrist apļveida ietvarā	none
-🈸	ideogramma Pieprasīt kvadrātveida ietvarā	none
-🈴	ideogramma Kopā kvadrātveida ietvarā	none
-🈳	ideogramma Brīvs kvadrātveida ietvarā	none
-㊗	ideogramma Apsveikums kvadrātveida ietvarā	none
-㊙	ideogramma Slepens kvadrātveida ietvarā	none
-🈺	ideogramma Strādā kvadrātveida ietvarā	none
-🈵	ideogramma Pilns kvadrātveida ietvarā	none
 🔴	sarkans aplis	none
 🟠	oranžs aplis	none
 🟡	dzeltens aplis	none
@@ -1535,15 +1738,19 @@ symbols:
 🏳‍🌈	varavīksnes karogs	none
 🏳‍⚧	zils, rozā un balts karogs	none
 🏴‍☠	pirātu karogs	none
-£	mārciņa	none
-¥	jena	none
+₢	cruzeiro	none
+₣	franču franks	none
+₤	lira	none
+₥	miljems	none
+₩	vona	none
 €	eiro	none
+₰	vācu penss	none
+₱	peso	none
+₳	austral	none
+₶	livre tournois	none
 ₹	Indijas rūpija	none
 ₽	rublis	none
-¹	viens augšrakstā	none
-²	divi augšrakstā	none
-³	trīs augšrakstā	none
-µ	mikrozīme	none
+₿	bitmonēta	none
 👋🏻	mājoša roka gaišs ādas tonis	none
 👋🏼	mājoša roka vidēji gaišs ādas tonis	none
 👋🏽	mājoša roka vidējs ādas tonis	none
@@ -1569,6 +1776,56 @@ symbols:
 🖖🏽	vulkāniešu sveiciens vidējs ādas tonis	none
 🖖🏾	vulkāniešu sveiciens vidēji tumšs ādas tonis	none
 🖖🏿	vulkāniešu sveiciens tumšs ādas tonis	none
+🫱🏻	labā roka gaišs ādas tonis	none
+🫱🏼	labā roka vidēji gaišs ādas tonis	none
+🫱🏽	labā roka vidējs ādas tonis	none
+🫱🏾	labā roka vidēji tumšs ādas tonis	none
+🫱🏿	labā roka tumšs ādas tonis	none
+🫱🏻‍🫲🏼	rokasspiediens gaišs ādas tonis un vidēji gaišs ādas tonis	none
+🫱🏻‍🫲🏽	rokasspiediens gaišs ādas tonis un vidējs ādas tonis	none
+🫱🏻‍🫲🏾	rokasspiediens gaišs ādas tonis un vidēji tumšs ādas tonis	none
+🫱🏻‍🫲🏿	rokasspiediens gaišs ādas tonis un tumšs ādas tonis	none
+🫱🏼‍🫲🏻	rokasspiediens vidēji gaišs ādas tonis un gaišs ādas tonis	none
+🫱🏼‍🫲🏽	rokasspiediens vidēji gaišs ādas tonis un vidējs ādas tonis	none
+🫱🏼‍🫲🏾	rokasspiediens vidēji gaišs ādas tonis un vidēji tumšs ādas tonis	none
+🫱🏼‍🫲🏿	rokasspiediens vidēji gaišs ādas tonis un tumšs ādas tonis	none
+🫱🏽‍🫲🏻	rokasspiediens vidējs ādas tonis un gaišs ādas tonis	none
+🫱🏽‍🫲🏼	rokasspiediens vidējs ādas tonis un vidēji gaišs ādas tonis	none
+🫱🏽‍🫲🏾	rokasspiediens vidējs ādas tonis un vidēji tumšs ādas tonis	none
+🫱🏽‍🫲🏿	rokasspiediens vidējs ādas tonis un tumšs ādas tonis	none
+🫱🏾‍🫲🏻	rokasspiediens vidēji tumšs ādas tonis un gaišs ādas tonis	none
+🫱🏾‍🫲🏼	rokasspiediens vidēji tumšs ādas tonis un vidēji gaišs ādas tonis	none
+🫱🏾‍🫲🏽	rokasspiediens vidēji tumšs ādas tonis un vidējs ādas tonis	none
+🫱🏾‍🫲🏿	rokasspiediens vidēji tumšs ādas tonis un tumšs ādas tonis	none
+🫱🏿‍🫲🏻	rokasspiediens tumšs ādas tonis un gaišs ādas tonis	none
+🫱🏿‍🫲🏼	rokasspiediens tumšs ādas tonis un vidēji gaišs ādas tonis	none
+🫱🏿‍🫲🏽	rokasspiediens tumšs ādas tonis un vidējs ādas tonis	none
+🫱🏿‍🫲🏾	rokasspiediens tumšs ādas tonis un vidēji tumšs ādas tonis	none
+🫲🏻	kreiso roku gaišs ādas tonis	none
+🫲🏼	kreiso roku vidēji gaišs ādas tonis	none
+🫲🏽	kreiso roku vidējs ādas tonis	none
+🫲🏾	kreiso roku vidēji tumšs ādas tonis	none
+🫲🏿	kreiso roku tumšs ādas tonis	none
+🫳🏻	plaukstu uz leju gaišs ādas tonis	none
+🫳🏼	plaukstu uz leju vidēji gaišs ādas tonis	none
+🫳🏽	plaukstu uz leju vidējs ādas tonis	none
+🫳🏾	plaukstu uz leju vidēji tumšs ādas tonis	none
+🫳🏿	plaukstu uz leju tumšs ādas tonis	none
+🫴🏻	plaukstu uz augšu gaišs ādas tonis	none
+🫴🏼	plaukstu uz augšu vidēji gaišs ādas tonis	none
+🫴🏽	plaukstu uz augšu vidējs ādas tonis	none
+🫴🏾	plaukstu uz augšu vidēji tumšs ādas tonis	none
+🫴🏿	plaukstu uz augšu tumšs ādas tonis	none
+🫷🏻	pa kreisi spiedoša roka gaišs ādas tonis	none
+🫷🏼	pa kreisi spiedoša roka vidēji gaišs ādas tonis	none
+🫷🏽	pa kreisi spiedoša roka vidējs ādas tonis	none
+🫷🏾	pa kreisi spiedoša roka vidēji tumšs ādas tonis	none
+🫷🏿	pa kreisi spiedoša roka tumšs ādas tonis	none
+🫸🏻	pa labi spiedoša roka gaišs ādas tonis	none
+🫸🏼	pa labi spiedoša roka vidēji gaišs ādas tonis	none
+🫸🏽	pa labi spiedoša roka vidējs ādas tonis	none
+🫸🏾	pa labi spiedoša roka vidēji tumšs ādas tonis	none
+🫸🏿	pa labi spiedoša roka tumšs ādas tonis	none
 👌🏻	simbols OK gaišs ādas tonis	none
 👌🏼	simbols OK vidēji gaišs ādas tonis	none
 👌🏽	simbols OK vidējs ādas tonis	none
@@ -1594,6 +1851,11 @@ symbols:
 🤞🏽	sakrustoti pirksti vidējs ādas tonis	none
 🤞🏾	sakrustoti pirksti vidēji tumšs ādas tonis	none
 🤞🏿	sakrustoti pirksti tumšs ādas tonis	none
+🫰🏻	roka ar rādītājpirkstu un īkšķi sakrustota gaišs ādas tonis	none
+🫰🏼	roka ar rādītājpirkstu un īkšķi sakrustota vidēji gaišs ādas tonis	none
+🫰🏽	roka ar rādītājpirkstu un īkšķi sakrustota vidējs ādas tonis	none
+🫰🏾	roka ar rādītājpirkstu un īkšķi sakrustota vidēji tumšs ādas tonis	none
+🫰🏿	roka ar rādītājpirkstu un īkšķi sakrustota tumšs ādas tonis	none
 🤟🏻	mīlas žests gaišs ādas tonis	none
 🤟🏼	mīlas žests vidēji gaišs ādas tonis	none
 🤟🏽	mīlas žests vidējs ādas tonis	none
@@ -1639,6 +1901,11 @@ symbols:
 ☝🏽	augšup vērsts rādītājpirksts vidējs ādas tonis	none
 ☝🏾	augšup vērsts rādītājpirksts vidēji tumšs ādas tonis	none
 ☝🏿	augšup vērsts rādītājpirksts tumšs ādas tonis	none
+🫵🏻	rādītājpirksts pret sevi gaišs ādas tonis	none
+🫵🏼	rādītājpirksts pret sevi vidēji gaišs ādas tonis	none
+🫵🏽	rādītājpirksts pret sevi vidējs ādas tonis	none
+🫵🏾	rādītājpirksts pret sevi vidēji tumšs ādas tonis	none
+🫵🏿	rādītājpirksts pret sevi tumšs ādas tonis	none
 👍🏻	augšupvērsts īkšķis gaišs ādas tonis	none
 👍🏼	augšupvērsts īkšķis vidēji gaišs ādas tonis	none
 👍🏽	augšupvērsts īkšķis vidējs ādas tonis	none
@@ -1679,6 +1946,11 @@ symbols:
 🙌🏽	paceltas rokas vidējs ādas tonis	none
 🙌🏾	paceltas rokas vidēji tumšs ādas tonis	none
 🙌🏿	paceltas rokas tumšs ādas tonis	none
+🫶🏻	sirds žests gaišs ādas tonis	none
+🫶🏼	sirds žests vidēji gaišs ādas tonis	none
+🫶🏽	sirds žests vidējs ādas tonis	none
+🫶🏾	sirds žests vidēji tumšs ādas tonis	none
+🫶🏿	sirds žests tumšs ādas tonis	none
 👐🏻	atvērtas rokas gaišs ādas tonis	none
 👐🏼	atvērtas rokas vidēji gaišs ādas tonis	none
 👐🏽	atvērtas rokas vidējs ādas tonis	none
@@ -1689,6 +1961,11 @@ symbols:
 🤲🏽	plaukstas kopā vidējs ādas tonis	none
 🤲🏾	plaukstas kopā vidēji tumšs ādas tonis	none
 🤲🏿	plaukstas kopā tumšs ādas tonis	none
+🤝🏻	rokasspiediens gaišs ādas tonis	none
+🤝🏼	rokasspiediens vidēji gaišs ādas tonis	none
+🤝🏽	rokasspiediens vidējs ādas tonis	none
+🤝🏾	rokasspiediens vidēji tumšs ādas tonis	none
+🤝🏿	rokasspiediens tumšs ādas tonis	none
 🙏🏻	lūgšanā saliktas rokas gaišs ādas tonis	none
 🙏🏼	lūgšanā saliktas rokas vidēji gaišs ādas tonis	none
 🙏🏽	lūgšanā saliktas rokas vidējs ādas tonis	none
@@ -1769,6 +2046,46 @@ symbols:
 👱🏽	blonds cilvēks vidējs ādas tonis	none
 👱🏾	blonds cilvēks vidēji tumšs ādas tonis	none
 👱🏿	blonds cilvēks tumšs ādas tonis	none
+🧑🏻‍❤‍💋‍🧑🏼	skūpsts pieaugušais, pieaugušais, gaišs ādas tonis un vidēji gaišs ādas tonis	none
+🧑🏻‍❤‍💋‍🧑🏽	skūpsts pieaugušais, pieaugušais, gaišs ādas tonis un vidējs ādas tonis	none
+🧑🏻‍❤‍💋‍🧑🏾	skūpsts pieaugušais, pieaugušais, gaišs ādas tonis un vidēji tumšs ādas tonis	none
+🧑🏻‍❤‍💋‍🧑🏿	skūpsts pieaugušais, pieaugušais, gaišs ādas tonis un tumšs ādas tonis	none
+🧑🏼‍❤‍💋‍🧑🏻	skūpsts pieaugušais, pieaugušais, vidēji gaišs ādas tonis un gaišs ādas tonis	none
+🧑🏼‍❤‍💋‍🧑🏽	skūpsts pieaugušais, pieaugušais, vidēji gaišs ādas tonis un vidējs ādas tonis	none
+🧑🏼‍❤‍💋‍🧑🏾	skūpsts pieaugušais, pieaugušais, vidēji gaišs ādas tonis un vidēji tumšs ādas tonis	none
+🧑🏼‍❤‍💋‍🧑🏿	skūpsts pieaugušais, pieaugušais, vidēji gaišs ādas tonis un tumšs ādas tonis	none
+🧑🏽‍❤‍💋‍🧑🏻	skūpsts pieaugušais, pieaugušais, vidējs ādas tonis un gaišs ādas tonis	none
+🧑🏽‍❤‍💋‍🧑🏼	skūpsts pieaugušais, pieaugušais, vidējs ādas tonis un vidēji gaišs ādas tonis	none
+🧑🏽‍❤‍💋‍🧑🏾	skūpsts pieaugušais, pieaugušais, vidējs ādas tonis un vidēji tumšs ādas tonis	none
+🧑🏽‍❤‍💋‍🧑🏿	skūpsts pieaugušais, pieaugušais, vidējs ādas tonis un tumšs ādas tonis	none
+🧑🏾‍❤‍💋‍🧑🏻	skūpsts pieaugušais, pieaugušais, vidēji tumšs ādas tonis un gaišs ādas tonis	none
+🧑🏾‍❤‍💋‍🧑🏼	skūpsts pieaugušais, pieaugušais, vidēji tumšs ādas tonis un vidēji gaišs ādas tonis	none
+🧑🏾‍❤‍💋‍🧑🏽	skūpsts pieaugušais, pieaugušais, vidēji tumšs ādas tonis un vidējs ādas tonis	none
+🧑🏾‍❤‍💋‍🧑🏿	skūpsts pieaugušais, pieaugušais, vidēji tumšs ādas tonis un tumšs ādas tonis	none
+🧑🏿‍❤‍💋‍🧑🏻	skūpsts pieaugušais, pieaugušais, tumšs ādas tonis un gaišs ādas tonis	none
+🧑🏿‍❤‍💋‍🧑🏼	skūpsts pieaugušais, pieaugušais, tumšs ādas tonis un vidēji gaišs ādas tonis	none
+🧑🏿‍❤‍💋‍🧑🏽	skūpsts pieaugušais, pieaugušais, tumšs ādas tonis un vidējs ādas tonis	none
+🧑🏿‍❤‍💋‍🧑🏾	skūpsts pieaugušais, pieaugušais, tumšs ādas tonis un vidēji tumšs ādas tonis	none
+🧑🏻‍❤‍🧑🏼	pāris ar sirdi pieaugušais, pieaugušais, gaišs ādas tonis un vidēji gaišs ādas tonis	none
+🧑🏻‍❤‍🧑🏽	pāris ar sirdi pieaugušais, pieaugušais, gaišs ādas tonis un vidējs ādas tonis	none
+🧑🏻‍❤‍🧑🏾	pāris ar sirdi pieaugušais, pieaugušais, gaišs ādas tonis un vidēji tumšs ādas tonis	none
+🧑🏻‍❤‍🧑🏿	pāris ar sirdi pieaugušais, pieaugušais, gaišs ādas tonis un tumšs ādas tonis	none
+🧑🏼‍❤‍🧑🏻	pāris ar sirdi pieaugušais, pieaugušais, vidēji gaišs ādas tonis un gaišs ādas tonis	none
+🧑🏼‍❤‍🧑🏽	pāris ar sirdi pieaugušais, pieaugušais, vidēji gaišs ādas tonis un vidējs ādas tonis	none
+🧑🏼‍❤‍🧑🏾	pāris ar sirdi pieaugušais, pieaugušais, vidēji gaišs ādas tonis un vidēji tumšs ādas tonis	none
+🧑🏼‍❤‍🧑🏿	pāris ar sirdi pieaugušais, pieaugušais, vidēji gaišs ādas tonis un tumšs ādas tonis	none
+🧑🏽‍❤‍🧑🏻	pāris ar sirdi pieaugušais, pieaugušais, vidējs ādas tonis un gaišs ādas tonis	none
+🧑🏽‍❤‍🧑🏼	pāris ar sirdi pieaugušais, pieaugušais, vidējs ādas tonis un vidēji gaišs ādas tonis	none
+🧑🏽‍❤‍🧑🏾	pāris ar sirdi pieaugušais, pieaugušais, vidējs ādas tonis un vidēji tumšs ādas tonis	none
+🧑🏽‍❤‍🧑🏿	pāris ar sirdi pieaugušais, pieaugušais, vidējs ādas tonis un tumšs ādas tonis	none
+🧑🏾‍❤‍🧑🏻	pāris ar sirdi pieaugušais, pieaugušais, vidēji tumšs ādas tonis un gaišs ādas tonis	none
+🧑🏾‍❤‍🧑🏼	pāris ar sirdi pieaugušais, pieaugušais, vidēji tumšs ādas tonis un vidēji gaišs ādas tonis	none
+🧑🏾‍❤‍🧑🏽	pāris ar sirdi pieaugušais, pieaugušais, vidēji tumšs ādas tonis un vidējs ādas tonis	none
+🧑🏾‍❤‍🧑🏿	pāris ar sirdi pieaugušais, pieaugušais, vidēji tumšs ādas tonis un tumšs ādas tonis	none
+🧑🏿‍❤‍🧑🏻	pāris ar sirdi pieaugušais, pieaugušais, tumšs ādas tonis un gaišs ādas tonis	none
+🧑🏿‍❤‍🧑🏼	pāris ar sirdi pieaugušais, pieaugušais, tumšs ādas tonis un vidēji gaišs ādas tonis	none
+🧑🏿‍❤‍🧑🏽	pāris ar sirdi pieaugušais, pieaugušais, tumšs ādas tonis un vidējs ādas tonis	none
+🧑🏿‍❤‍🧑🏾	pāris ar sirdi pieaugušais, pieaugušais, tumšs ādas tonis un vidēji tumšs ādas tonis	none
 🧑‍🦰	pieaugušais sarkani mati	none
 🧑🏻‍🦰	pieaugušais gaišs ādas tonis un sarkani mati	none
 🧑🏼‍🦰	pieaugušais vidēji gaišs ādas tonis un sarkani mati	none
@@ -1803,11 +2120,66 @@ symbols:
 🧔🏽	bārdains vīrietis vidējs ādas tonis	none
 🧔🏾	bārdains vīrietis vidēji tumšs ādas tonis	none
 🧔🏿	bārdains vīrietis tumšs ādas tonis	none
+🧔🏻‍♂	vīrietis ar bārdu gaišs ādas tonis	none
+🧔🏼‍♂	vīrietis ar bārdu vidēji gaišs ādas tonis	none
+🧔🏽‍♂	vīrietis ar bārdu vidējs ādas tonis	none
+🧔🏾‍♂	vīrietis ar bārdu vidēji tumšs ādas tonis	none
+🧔🏿‍♂	vīrietis ar bārdu tumšs ādas tonis	none
 👱🏻‍♂	blondīns gaišs ādas tonis	none
 👱🏼‍♂	blondīns vidēji gaišs ādas tonis	none
 👱🏽‍♂	blondīns vidējs ādas tonis	none
 👱🏾‍♂	blondīns vidēji tumšs ādas tonis	none
 👱🏿‍♂	blondīns tumšs ādas tonis	none
+👨🏻‍❤‍💋‍👨🏻	skūpsts vīrietis, vīrietis un gaišs ādas tonis	none
+👨🏻‍❤‍💋‍👨🏼	skūpsts vīrietis, vīrietis, gaišs ādas tonis un vidēji gaišs ādas tonis	none
+👨🏻‍❤‍💋‍👨🏽	skūpsts vīrietis, vīrietis, gaišs ādas tonis un vidējs ādas tonis	none
+👨🏻‍❤‍💋‍👨🏾	skūpsts vīrietis, vīrietis, gaišs ādas tonis un vidēji tumšs ādas tonis	none
+👨🏻‍❤‍💋‍👨🏿	skūpsts vīrietis, vīrietis, gaišs ādas tonis un tumšs ādas tonis	none
+👨🏼‍❤‍💋‍👨🏻	skūpsts vīrietis, vīrietis, vidēji gaišs ādas tonis un gaišs ādas tonis	none
+👨🏼‍❤‍💋‍👨🏼	skūpsts vīrietis, vīrietis un vidēji gaišs ādas tonis	none
+👨🏼‍❤‍💋‍👨🏽	skūpsts vīrietis, vīrietis, vidēji gaišs ādas tonis un vidējs ādas tonis	none
+👨🏼‍❤‍💋‍👨🏾	skūpsts vīrietis, vīrietis, vidēji gaišs ādas tonis un vidēji tumšs ādas tonis	none
+👨🏼‍❤‍💋‍👨🏿	skūpsts vīrietis, vīrietis, vidēji gaišs ādas tonis un tumšs ādas tonis	none
+👨🏽‍❤‍💋‍👨🏻	skūpsts vīrietis, vīrietis, vidējs ādas tonis un gaišs ādas tonis	none
+👨🏽‍❤‍💋‍👨🏼	skūpsts vīrietis, vīrietis, vidējs ādas tonis un vidēji gaišs ādas tonis	none
+👨🏽‍❤‍💋‍👨🏽	skūpsts vīrietis, vīrietis un vidējs ādas tonis	none
+👨🏽‍❤‍💋‍👨🏾	skūpsts vīrietis, vīrietis, vidējs ādas tonis un vidēji tumšs ādas tonis	none
+👨🏽‍❤‍💋‍👨🏿	skūpsts vīrietis, vīrietis, vidējs ādas tonis un tumšs ādas tonis	none
+👨🏾‍❤‍💋‍👨🏻	skūpsts vīrietis, vīrietis, vidēji tumšs ādas tonis un gaišs ādas tonis	none
+👨🏾‍❤‍💋‍👨🏼	skūpsts vīrietis, vīrietis, vidēji tumšs ādas tonis un vidēji gaišs ādas tonis	none
+👨🏾‍❤‍💋‍👨🏽	skūpsts vīrietis, vīrietis, vidēji tumšs ādas tonis un vidējs ādas tonis	none
+👨🏾‍❤‍💋‍👨🏾	skūpsts vīrietis, vīrietis un vidēji tumšs ādas tonis	none
+👨🏾‍❤‍💋‍👨🏿	skūpsts vīrietis, vīrietis, vidēji tumšs ādas tonis un tumšs ādas tonis	none
+👨🏿‍❤‍💋‍👨🏻	skūpsts vīrietis, vīrietis, tumšs ādas tonis un gaišs ādas tonis	none
+👨🏿‍❤‍💋‍👨🏼	skūpsts vīrietis, vīrietis, tumšs ādas tonis un vidēji gaišs ādas tonis	none
+👨🏿‍❤‍💋‍👨🏽	skūpsts vīrietis, vīrietis, tumšs ādas tonis un vidējs ādas tonis	none
+👨🏿‍❤‍💋‍👨🏾	skūpsts vīrietis, vīrietis, tumšs ādas tonis un vidēji tumšs ādas tonis	none
+👨🏿‍❤‍💋‍👨🏿	skūpsts vīrietis, vīrietis un tumšs ādas tonis	none
+👨🏻‍❤‍👨🏻	pāris ar sirdi vīrietis, vīrietis un gaišs ādas tonis	none
+👨🏻‍❤‍👨🏼	pāris ar sirdi vīrietis, vīrietis, gaišs ādas tonis un vidēji gaišs ādas tonis	none
+👨🏻‍❤‍👨🏽	pāris ar sirdi vīrietis, vīrietis, gaišs ādas tonis un vidējs ādas tonis	none
+👨🏻‍❤‍👨🏾	pāris ar sirdi vīrietis, vīrietis, gaišs ādas tonis un vidēji tumšs ādas tonis	none
+👨🏻‍❤‍👨🏿	pāris ar sirdi vīrietis, vīrietis, gaišs ādas tonis un tumšs ādas tonis	none
+👨🏼‍❤‍👨🏻	pāris ar sirdi vīrietis, vīrietis, vidēji gaišs ādas tonis un gaišs ādas tonis	none
+👨🏼‍❤‍👨🏼	pāris ar sirdi vīrietis, vīrietis un vidēji gaišs ādas tonis	none
+👨🏼‍❤‍👨🏽	pāris ar sirdi vīrietis, vīrietis, vidēji gaišs ādas tonis un vidējs ādas tonis	none
+👨🏼‍❤‍👨🏾	pāris ar sirdi vīrietis, vīrietis, vidēji gaišs ādas tonis un vidēji tumšs ādas tonis	none
+👨🏼‍❤‍👨🏿	pāris ar sirdi vīrietis, vīrietis, vidēji gaišs ādas tonis un tumšs ādas tonis	none
+👨🏽‍❤‍👨🏻	pāris ar sirdi vīrietis, vīrietis, vidējs ādas tonis un gaišs ādas tonis	none
+👨🏽‍❤‍👨🏼	pāris ar sirdi vīrietis, vīrietis, vidējs ādas tonis un vidēji gaišs ādas tonis	none
+👨🏽‍❤‍👨🏽	pāris ar sirdi vīrietis, vīrietis un vidējs ādas tonis	none
+👨🏽‍❤‍👨🏾	pāris ar sirdi vīrietis, vīrietis, vidējs ādas tonis un vidēji tumšs ādas tonis	none
+👨🏽‍❤‍👨🏿	pāris ar sirdi vīrietis, vīrietis, vidējs ādas tonis un tumšs ādas tonis	none
+👨🏾‍❤‍👨🏻	pāris ar sirdi vīrietis, vīrietis, vidēji tumšs ādas tonis un gaišs ādas tonis	none
+👨🏾‍❤‍👨🏼	pāris ar sirdi vīrietis, vīrietis, vidēji tumšs ādas tonis un vidēji gaišs ādas tonis	none
+👨🏾‍❤‍👨🏽	pāris ar sirdi vīrietis, vīrietis, vidēji tumšs ādas tonis un vidējs ādas tonis	none
+👨🏾‍❤‍👨🏾	pāris ar sirdi vīrietis, vīrietis un vidēji tumšs ādas tonis	none
+👨🏾‍❤‍👨🏿	pāris ar sirdi vīrietis, vīrietis, vidēji tumšs ādas tonis un tumšs ādas tonis	none
+👨🏿‍❤‍👨🏻	pāris ar sirdi vīrietis, vīrietis, tumšs ādas tonis un gaišs ādas tonis	none
+👨🏿‍❤‍👨🏼	pāris ar sirdi vīrietis, vīrietis, tumšs ādas tonis un vidēji gaišs ādas tonis	none
+👨🏿‍❤‍👨🏽	pāris ar sirdi vīrietis, vīrietis, tumšs ādas tonis un vidējs ādas tonis	none
+👨🏿‍❤‍👨🏾	pāris ar sirdi vīrietis, vīrietis, tumšs ādas tonis un vidēji tumšs ādas tonis	none
+👨🏿‍❤‍👨🏿	pāris ar sirdi vīrietis, vīrietis un tumšs ādas tonis	none
 👨‍🦰	vīrietis sarkani mati	none
 👨🏻‍🦰	vīrietis gaišs ādas tonis un sarkani mati	none
 👨🏼‍🦰	vīrietis vidēji gaišs ādas tonis un sarkani mati	none
@@ -1837,11 +2209,116 @@ symbols:
 👩🏽	sieviete vidējs ādas tonis	none
 👩🏾	sieviete vidēji tumšs ādas tonis	none
 👩🏿	sieviete tumšs ādas tonis	none
+🧔🏻‍♀	sieviete ar bārdu gaišs ādas tonis	none
+🧔🏼‍♀	sieviete ar bārdu vidēji gaišs ādas tonis	none
+🧔🏽‍♀	sieviete ar bārdu vidējs ādas tonis	none
+🧔🏾‍♀	sieviete ar bārdu vidēji tumšs ādas tonis	none
+🧔🏿‍♀	sieviete ar bārdu tumšs ādas tonis	none
 👱🏻‍♀	blondīne gaišs ādas tonis	none
 👱🏼‍♀	blondīne vidēji gaišs ādas tonis	none
 👱🏽‍♀	blondīne vidējs ādas tonis	none
 👱🏾‍♀	blondīne vidēji tumšs ādas tonis	none
 👱🏿‍♀	blondīne tumšs ādas tonis	none
+👩🏻‍❤‍💋‍👨🏻	skūpsts sieviete, vīrietis un gaišs ādas tonis	none
+👩🏻‍❤‍💋‍👨🏼	skūpsts sieviete, vīrietis, gaišs ādas tonis un vidēji gaišs ādas tonis	none
+👩🏻‍❤‍💋‍👨🏽	skūpsts sieviete, vīrietis, gaišs ādas tonis un vidējs ādas tonis	none
+👩🏻‍❤‍💋‍👨🏾	skūpsts sieviete, vīrietis, gaišs ādas tonis un vidēji tumšs ādas tonis	none
+👩🏻‍❤‍💋‍👨🏿	skūpsts sieviete, vīrietis, gaišs ādas tonis un tumšs ādas tonis	none
+👩🏼‍❤‍💋‍👨🏻	skūpsts sieviete, vīrietis, vidēji gaišs ādas tonis un gaišs ādas tonis	none
+👩🏼‍❤‍💋‍👨🏼	skūpsts sieviete, vīrietis un vidēji gaišs ādas tonis	none
+👩🏼‍❤‍💋‍👨🏽	skūpsts sieviete, vīrietis, vidēji gaišs ādas tonis un vidējs ādas tonis	none
+👩🏼‍❤‍💋‍👨🏾	skūpsts sieviete, vīrietis, vidēji gaišs ādas tonis un vidēji tumšs ādas tonis	none
+👩🏼‍❤‍💋‍👨🏿	skūpsts sieviete, vīrietis, vidēji gaišs ādas tonis un tumšs ādas tonis	none
+👩🏽‍❤‍💋‍👨🏻	skūpsts sieviete, vīrietis, vidējs ādas tonis un gaišs ādas tonis	none
+👩🏽‍❤‍💋‍👨🏼	skūpsts sieviete, vīrietis, vidējs ādas tonis un vidēji gaišs ādas tonis	none
+👩🏽‍❤‍💋‍👨🏽	skūpsts sieviete, vīrietis un vidējs ādas tonis	none
+👩🏽‍❤‍💋‍👨🏾	skūpsts sieviete, vīrietis, vidējs ādas tonis un vidēji tumšs ādas tonis	none
+👩🏽‍❤‍💋‍👨🏿	skūpsts sieviete, vīrietis, vidējs ādas tonis un tumšs ādas tonis	none
+👩🏾‍❤‍💋‍👨🏻	skūpsts sieviete, vīrietis, vidēji tumšs ādas tonis un gaišs ādas tonis	none
+👩🏾‍❤‍💋‍👨🏼	skūpsts sieviete, vīrietis, vidēji tumšs ādas tonis un vidēji gaišs ādas tonis	none
+👩🏾‍❤‍💋‍👨🏽	skūpsts sieviete, vīrietis, vidēji tumšs ādas tonis un vidējs ādas tonis	none
+👩🏾‍❤‍💋‍👨🏾	skūpsts sieviete, vīrietis un vidēji tumšs ādas tonis	none
+👩🏾‍❤‍💋‍👨🏿	skūpsts sieviete, vīrietis, vidēji tumšs ādas tonis un tumšs ādas tonis	none
+👩🏿‍❤‍💋‍👨🏻	skūpsts sieviete, vīrietis, tumšs ādas tonis un gaišs ādas tonis	none
+👩🏿‍❤‍💋‍👨🏼	skūpsts sieviete, vīrietis, tumšs ādas tonis un vidēji gaišs ādas tonis	none
+👩🏿‍❤‍💋‍👨🏽	skūpsts sieviete, vīrietis, tumšs ādas tonis un vidējs ādas tonis	none
+👩🏿‍❤‍💋‍👨🏾	skūpsts sieviete, vīrietis, tumšs ādas tonis un vidēji tumšs ādas tonis	none
+👩🏿‍❤‍💋‍👨🏿	skūpsts sieviete, vīrietis un tumšs ādas tonis	none
+👩🏻‍❤‍💋‍👩🏻	skūpsts sieviete, sieviete un gaišs ādas tonis	none
+👩🏻‍❤‍💋‍👩🏼	skūpsts sieviete, sieviete, gaišs ādas tonis un vidēji gaišs ādas tonis	none
+👩🏻‍❤‍💋‍👩🏽	skūpsts sieviete, sieviete, gaišs ādas tonis un vidējs ādas tonis	none
+👩🏻‍❤‍💋‍👩🏾	skūpsts sieviete, sieviete, gaišs ādas tonis un vidēji tumšs ādas tonis	none
+👩🏻‍❤‍💋‍👩🏿	skūpsts sieviete, sieviete, gaišs ādas tonis un tumšs ādas tonis	none
+👩🏼‍❤‍💋‍👩🏻	skūpsts sieviete, sieviete, vidēji gaišs ādas tonis un gaišs ādas tonis	none
+👩🏼‍❤‍💋‍👩🏼	skūpsts sieviete, sieviete un vidēji gaišs ādas tonis	none
+👩🏼‍❤‍💋‍👩🏽	skūpsts sieviete, sieviete, vidēji gaišs ādas tonis un vidējs ādas tonis	none
+👩🏼‍❤‍💋‍👩🏾	skūpsts sieviete, sieviete, vidēji gaišs ādas tonis un vidēji tumšs ādas tonis	none
+👩🏼‍❤‍💋‍👩🏿	skūpsts sieviete, sieviete, vidēji gaišs ādas tonis un tumšs ādas tonis	none
+👩🏽‍❤‍💋‍👩🏻	skūpsts sieviete, sieviete, vidējs ādas tonis un gaišs ādas tonis	none
+👩🏽‍❤‍💋‍👩🏼	skūpsts sieviete, sieviete, vidējs ādas tonis un vidēji gaišs ādas tonis	none
+👩🏽‍❤‍💋‍👩🏽	skūpsts sieviete, sieviete un vidējs ādas tonis	none
+👩🏽‍❤‍💋‍👩🏾	skūpsts sieviete, sieviete, vidējs ādas tonis un vidēji tumšs ādas tonis	none
+👩🏽‍❤‍💋‍👩🏿	skūpsts sieviete, sieviete, vidējs ādas tonis un tumšs ādas tonis	none
+👩🏾‍❤‍💋‍👩🏻	skūpsts sieviete, sieviete, vidēji tumšs ādas tonis un gaišs ādas tonis	none
+👩🏾‍❤‍💋‍👩🏼	skūpsts sieviete, sieviete, vidēji tumšs ādas tonis un vidēji gaišs ādas tonis	none
+👩🏾‍❤‍💋‍👩🏽	skūpsts sieviete, sieviete, vidēji tumšs ādas tonis un vidējs ādas tonis	none
+👩🏾‍❤‍💋‍👩🏾	skūpsts sieviete, sieviete un vidēji tumšs ādas tonis	none
+👩🏾‍❤‍💋‍👩🏿	skūpsts sieviete, sieviete, vidēji tumšs ādas tonis un tumšs ādas tonis	none
+👩🏿‍❤‍💋‍👩🏻	skūpsts sieviete, sieviete, tumšs ādas tonis un gaišs ādas tonis	none
+👩🏿‍❤‍💋‍👩🏼	skūpsts sieviete, sieviete, tumšs ādas tonis un vidēji gaišs ādas tonis	none
+👩🏿‍❤‍💋‍👩🏽	skūpsts sieviete, sieviete, tumšs ādas tonis un vidējs ādas tonis	none
+👩🏿‍❤‍💋‍👩🏾	skūpsts sieviete, sieviete, tumšs ādas tonis un vidēji tumšs ādas tonis	none
+👩🏿‍❤‍💋‍👩🏿	skūpsts sieviete, sieviete un tumšs ādas tonis	none
+👩🏻‍❤‍👨🏻	pāris ar sirdi sieviete, vīrietis un gaišs ādas tonis	none
+👩🏻‍❤‍👨🏼	pāris ar sirdi sieviete, vīrietis, gaišs ādas tonis un vidēji gaišs ādas tonis	none
+👩🏻‍❤‍👨🏽	pāris ar sirdi sieviete, vīrietis, gaišs ādas tonis un vidējs ādas tonis	none
+👩🏻‍❤‍👨🏾	pāris ar sirdi sieviete, vīrietis, gaišs ādas tonis un vidēji tumšs ādas tonis	none
+👩🏻‍❤‍👨🏿	pāris ar sirdi sieviete, vīrietis, gaišs ādas tonis un tumšs ādas tonis	none
+👩🏼‍❤‍👨🏻	pāris ar sirdi sieviete, vīrietis, vidēji gaišs ādas tonis un gaišs ādas tonis	none
+👩🏼‍❤‍👨🏼	pāris ar sirdi sieviete, vīrietis un vidēji gaišs ādas tonis	none
+👩🏼‍❤‍👨🏽	pāris ar sirdi sieviete, vīrietis, vidēji gaišs ādas tonis un vidējs ādas tonis	none
+👩🏼‍❤‍👨🏾	pāris ar sirdi sieviete, vīrietis, vidēji gaišs ādas tonis un vidēji tumšs ādas tonis	none
+👩🏼‍❤‍👨🏿	pāris ar sirdi sieviete, vīrietis, vidēji gaišs ādas tonis un tumšs ādas tonis	none
+👩🏽‍❤‍👨🏻	pāris ar sirdi sieviete, vīrietis, vidējs ādas tonis un gaišs ādas tonis	none
+👩🏽‍❤‍👨🏼	pāris ar sirdi sieviete, vīrietis, vidējs ādas tonis un vidēji gaišs ādas tonis	none
+👩🏽‍❤‍👨🏽	pāris ar sirdi sieviete, vīrietis un vidējs ādas tonis	none
+👩🏽‍❤‍👨🏾	pāris ar sirdi sieviete, vīrietis, vidējs ādas tonis un vidēji tumšs ādas tonis	none
+👩🏽‍❤‍👨🏿	pāris ar sirdi sieviete, vīrietis, vidējs ādas tonis un tumšs ādas tonis	none
+👩🏾‍❤‍👨🏻	pāris ar sirdi sieviete, vīrietis, vidēji tumšs ādas tonis un gaišs ādas tonis	none
+👩🏾‍❤‍👨🏼	pāris ar sirdi sieviete, vīrietis, vidēji tumšs ādas tonis un vidēji gaišs ādas tonis	none
+👩🏾‍❤‍👨🏽	pāris ar sirdi sieviete, vīrietis, vidēji tumšs ādas tonis un vidējs ādas tonis	none
+👩🏾‍❤‍👨🏾	pāris ar sirdi sieviete, vīrietis un vidēji tumšs ādas tonis	none
+👩🏾‍❤‍👨🏿	pāris ar sirdi sieviete, vīrietis, vidēji tumšs ādas tonis un tumšs ādas tonis	none
+👩🏿‍❤‍👨🏻	pāris ar sirdi sieviete, vīrietis, tumšs ādas tonis un gaišs ādas tonis	none
+👩🏿‍❤‍👨🏼	pāris ar sirdi sieviete, vīrietis, tumšs ādas tonis un vidēji gaišs ādas tonis	none
+👩🏿‍❤‍👨🏽	pāris ar sirdi sieviete, vīrietis, tumšs ādas tonis un vidējs ādas tonis	none
+👩🏿‍❤‍👨🏾	pāris ar sirdi sieviete, vīrietis, tumšs ādas tonis un vidēji tumšs ādas tonis	none
+👩🏿‍❤‍👨🏿	pāris ar sirdi sieviete, vīrietis un tumšs ādas tonis	none
+👩🏻‍❤‍👩🏻	pāris ar sirdi sieviete, sieviete un gaišs ādas tonis	none
+👩🏻‍❤‍👩🏼	pāris ar sirdi sieviete, sieviete, gaišs ādas tonis un vidēji gaišs ādas tonis	none
+👩🏻‍❤‍👩🏽	pāris ar sirdi sieviete, sieviete, gaišs ādas tonis un vidējs ādas tonis	none
+👩🏻‍❤‍👩🏾	pāris ar sirdi sieviete, sieviete, gaišs ādas tonis un vidēji tumšs ādas tonis	none
+👩🏻‍❤‍👩🏿	pāris ar sirdi sieviete, sieviete, gaišs ādas tonis un tumšs ādas tonis	none
+👩🏼‍❤‍👩🏻	pāris ar sirdi sieviete, sieviete, vidēji gaišs ādas tonis un gaišs ādas tonis	none
+👩🏼‍❤‍👩🏼	pāris ar sirdi sieviete, sieviete un vidēji gaišs ādas tonis	none
+👩🏼‍❤‍👩🏽	pāris ar sirdi sieviete, sieviete, vidēji gaišs ādas tonis un vidējs ādas tonis	none
+👩🏼‍❤‍👩🏾	pāris ar sirdi sieviete, sieviete, vidēji gaišs ādas tonis un vidēji tumšs ādas tonis	none
+👩🏼‍❤‍👩🏿	pāris ar sirdi sieviete, sieviete, vidēji gaišs ādas tonis un tumšs ādas tonis	none
+👩🏽‍❤‍👩🏻	pāris ar sirdi sieviete, sieviete, vidējs ādas tonis un gaišs ādas tonis	none
+👩🏽‍❤‍👩🏼	pāris ar sirdi sieviete, sieviete, vidējs ādas tonis un vidēji gaišs ādas tonis	none
+👩🏽‍❤‍👩🏽	pāris ar sirdi sieviete, sieviete un vidējs ādas tonis	none
+👩🏽‍❤‍👩🏾	pāris ar sirdi sieviete, sieviete, vidējs ādas tonis un vidēji tumšs ādas tonis	none
+👩🏽‍❤‍👩🏿	pāris ar sirdi sieviete, sieviete, vidējs ādas tonis un tumšs ādas tonis	none
+👩🏾‍❤‍👩🏻	pāris ar sirdi sieviete, sieviete, vidēji tumšs ādas tonis un gaišs ādas tonis	none
+👩🏾‍❤‍👩🏼	pāris ar sirdi sieviete, sieviete, vidēji tumšs ādas tonis un vidēji gaišs ādas tonis	none
+👩🏾‍❤‍👩🏽	pāris ar sirdi sieviete, sieviete, vidēji tumšs ādas tonis un vidējs ādas tonis	none
+👩🏾‍❤‍👩🏾	pāris ar sirdi sieviete, sieviete un vidēji tumšs ādas tonis	none
+👩🏾‍❤‍👩🏿	pāris ar sirdi sieviete, sieviete, vidēji tumšs ādas tonis un tumšs ādas tonis	none
+👩🏿‍❤‍👩🏻	pāris ar sirdi sieviete, sieviete, tumšs ādas tonis un gaišs ādas tonis	none
+👩🏿‍❤‍👩🏼	pāris ar sirdi sieviete, sieviete, tumšs ādas tonis un vidēji gaišs ādas tonis	none
+👩🏿‍❤‍👩🏽	pāris ar sirdi sieviete, sieviete, tumšs ādas tonis un vidējs ādas tonis	none
+👩🏿‍❤‍👩🏾	pāris ar sirdi sieviete, sieviete, tumšs ādas tonis un vidēji tumšs ādas tonis	none
+👩🏿‍❤‍👩🏿	pāris ar sirdi sieviete, sieviete un tumšs ādas tonis	none
 👩‍🦰	sieviete sarkani mati	none
 👩🏻‍🦰	sieviete gaišs ādas tonis un sarkani mati	none
 👩🏼‍🦰	sieviete vidēji gaišs ādas tonis un sarkani mati	none
@@ -2336,6 +2813,11 @@ symbols:
 👷🏽‍♀	būvstrādniece vidējs ādas tonis	none
 👷🏾‍♀	būvstrādniece vidēji tumšs ādas tonis	none
 👷🏿‍♀	būvstrādniece tumšs ādas tonis	none
+🫅🏻	persona ar vainagu gaišs ādas tonis	none
+🫅🏼	persona ar vainagu vidēji gaišs ādas tonis	none
+🫅🏽	persona ar vainagu vidējs ādas tonis	none
+🫅🏾	persona ar vainagu vidēji tumšs ādas tonis	none
+🫅🏿	persona ar vainagu tumšs ādas tonis	none
 🤴🏻	princis gaišs ādas tonis	none
 🤴🏼	princis vidēji gaišs ādas tonis	none
 🤴🏽	princis vidējs ādas tonis	none
@@ -2371,11 +2853,11 @@ symbols:
 🧕🏽	sieviete ar lakatu vidējs ādas tonis	none
 🧕🏾	sieviete ar lakatu vidēji tumšs ādas tonis	none
 🧕🏿	sieviete ar lakatu tumšs ādas tonis	none
-🤵🏻	cilvēks smokingā gaišs ādas tonis	none
-🤵🏼	cilvēks smokingā vidēji gaišs ādas tonis	none
-🤵🏽	cilvēks smokingā vidējs ādas tonis	none
-🤵🏾	cilvēks smokingā vidēji tumšs ādas tonis	none
-🤵🏿	cilvēks smokingā tumšs ādas tonis	none
+🤵🏻	persona smokingā gaišs ādas tonis	none
+🤵🏼	persona smokingā vidēji gaišs ādas tonis	none
+🤵🏽	persona smokingā vidējs ādas tonis	none
+🤵🏾	persona smokingā vidēji tumšs ādas tonis	none
+🤵🏿	persona smokingā tumšs ādas tonis	none
 🤵🏻‍♂	vīrietis smokingā gaišs ādas tonis	none
 🤵🏼‍♂	vīrietis smokingā vidēji gaišs ādas tonis	none
 🤵🏽‍♂	vīrietis smokingā vidējs ādas tonis	none
@@ -2406,6 +2888,16 @@ symbols:
 🤰🏽	sieviete stāvoklī vidējs ādas tonis	none
 🤰🏾	sieviete stāvoklī vidēji tumšs ādas tonis	none
 🤰🏿	sieviete stāvoklī tumšs ādas tonis	none
+🫃🏻	vīrietis stāvoklī gaišs ādas tonis	none
+🫃🏼	vīrietis stāvoklī vidēji gaišs ādas tonis	none
+🫃🏽	vīrietis stāvoklī vidējs ādas tonis	none
+🫃🏾	vīrietis stāvoklī vidēji tumšs ādas tonis	none
+🫃🏿	vīrietis stāvoklī tumšs ādas tonis	none
+🫄🏻	cilvēks stāvoklī gaišs ādas tonis	none
+🫄🏼	cilvēks stāvoklī vidēji gaišs ādas tonis	none
+🫄🏽	cilvēks stāvoklī vidējs ādas tonis	none
+🫄🏾	cilvēks stāvoklī vidēji tumšs ādas tonis	none
+🫄🏿	cilvēks stāvoklī tumšs ādas tonis	none
 🤱🏻	barošana ar krūti gaišs ādas tonis	none
 🤱🏼	barošana ar krūti vidēji gaišs ādas tonis	none
 🤱🏽	barošana ar krūti vidējs ādas tonis	none
@@ -3046,9 +3538,19 @@ symbols:
 👨🏿‍🤝‍👨🏽	vīrieši sadevušies rokās tumšs ādas tonis un vidējs ādas tonis	none
 👨🏿‍🤝‍👨🏾	vīrieši sadevušies rokās tumšs ādas tonis un vidēji tumšs ādas tonis	none
 👬🏿	vīrieši sadevušies rokās tumšs ādas tonis	none
+💏🏻	skūpsts gaišs ādas tonis	none
+💏🏼	skūpsts vidēji gaišs ādas tonis	none
+💏🏽	skūpsts vidējs ādas tonis	none
+💏🏾	skūpsts vidēji tumšs ādas tonis	none
+💏🏿	skūpsts tumšs ādas tonis	none
 👩‍❤‍💋‍👨	skūpsts sieviete un vīrietis	none
 👨‍❤‍💋‍👨	skūpsts vīrietis un vīrietis	none
 👩‍❤‍💋‍👩	skūpsts sieviete un sieviete	none
+💑🏻	pāris ar sirdi gaišs ādas tonis	none
+💑🏼	pāris ar sirdi vidēji gaišs ādas tonis	none
+💑🏽	pāris ar sirdi vidējs ādas tonis	none
+💑🏾	pāris ar sirdi vidēji tumšs ādas tonis	none
+💑🏿	pāris ar sirdi tumšs ādas tonis	none
 👩‍❤‍👨	pāris ar sirdi sieviete un vīrietis	none
 👨‍❤‍👨	pāris ar sirdi vīrietis un vīrietis	none
 👩‍❤‍👩	pāris ar sirdi sieviete un sieviete	none
@@ -3077,8 +3579,6 @@ symbols:
 👩‍👧	ģimene sieviete un meitene	none
 👩‍👧‍👦	ģimene sieviete, meitene un zēns	none
 👩‍👧‍👧	ģimene sieviete, meitene un meitene	none
-#⃣	taustiņš #	none
-*⃣	taustiņš *	none
 🔟	taustiņš 10	none
 🇦🇨	karogs Debesbraukšanas sala	none
 🇦🇩	karogs Andora	none
@@ -3189,7 +3689,7 @@ symbols:
 🇮🇩	karogs Indonēzija	none
 🇮🇪	karogs Īrija	none
 🇮🇱	karogs Izraēla	none
-🇮🇲	karogs Mena	none
+🇮🇲	karogs Menas sala	none
 🇮🇳	karogs Indija	none
 🇮🇴	karogs Indijas okeāna Britu teritorija	none
 🇮🇶	karogs Irāka	none
@@ -3268,7 +3768,7 @@ symbols:
 🇵🇲	karogs Senpjēra un Mikelona	none
 🇵🇳	karogs Pitkērnas salas	none
 🇵🇷	karogs Puertoriko	none
-🇵🇸	karogs Palestīna	none
+🇵🇸	karogs Palestīnas teritorijas	none
 🇵🇹	karogs Portugāle	none
 🇵🇼	karogs Palau	none
 🇵🇾	karogs Paragvaja	none
@@ -3299,7 +3799,7 @@ symbols:
 🇸🇽	karogs Sintmārtena	none
 🇸🇾	karogs Sīrija	none
 🇸🇿	karogs Svatini	none
-🇹🇦	karogs Tristana da Kuņas salas	none
+🇹🇦	karogs Tristana da Kuņjas salu teritorijas	none
 🇹🇨	karogs Tērksas un Kaikosas salas	none
 🇹🇩	karogs Čada	none
 🇹🇫	karogs Francijas Dienvidjūru teritorija	none
@@ -3341,13 +3841,17 @@ symbols:
 🏴󠁧󠁢󠁥󠁮󠁧󠁿	karogs Anglija	none
 🏴󠁧󠁢󠁳󠁣󠁴󠁿	karogs Skotija	none
 🏴󠁧󠁢󠁷󠁬󠁳󠁿	karogs Velsa	none
-0⃣	taustiņš 0	none
-1⃣	taustiņš 1	none
-2⃣	taustiņš 2	none
-3⃣	taustiņš 3	none
-4⃣	taustiņš 4	none
-5⃣	taustiņš 5	none
-6⃣	taustiņš 6	none
-7⃣	taustiņš 7	none
-8⃣	taustiņš 8	none
-9⃣	taustiņš 9	none
+₡	Kostarikas kolons	none
+₦	Nigērijas naira	none
+₧	Spānijas peseta	none
+₪	Izraēlas šekelis	none
+₫	Vjetnamas dongi	none
+₭	Laosas kips	none
+₮	Mongolijas tugriks	none
+₲	Paragvajas guarani	none
+₴	Ukrainas grivna	none
+₵	Ganas sedi	none
+₸	Kazahstānas tenge	none
+₺	Turcijas lira	none
+₼	Azerbaidžānas manats	none
+₾	Gruzijas lari	none

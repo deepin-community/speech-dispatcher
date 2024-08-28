@@ -1,5 +1,5 @@
 /*
- * libspeechd.h - Shared library for easy acces to Speech Dispatcher functions (header)
+ * libspeechd.h - Shared library for easy access to Speech Dispatcher functions (header)
  *
  * Copyright (C) 2001, 2002, 2003, 2004 Brailcom, o.p.s.
  *
@@ -42,6 +42,12 @@ extern "C" {
 #define SPD_NO_REPLY 0		/* No reply requested */
 
     /* --------------------- Public data types ------------------------ */
+
+#ifdef __GNUC__
+# define SPD_ATTRIBUTE_FORMAT(type, string, first) __attribute__((format(type, string, first)))
+#else
+# define SPD_ATTRIBUTE_FORMAT(type, string, first)
+#endif
 
 typedef enum {
 	SPD_MODE_SINGLE = 0,
@@ -99,7 +105,7 @@ SPDConnection *spd_open(const char *client_name, const char *connection_name,
 			const char *user_name, SPDConnectionMode mode);
 SPDConnection *spd_open2(const char *client_name, const char *connection_name,
 			 const char *user_name, SPDConnectionMode mode,
-			 SPDConnectionAddress * address, int autospawn,
+			 const SPDConnectionAddress * address, int autospawn,
 			 char **error_result);
 
 int spd_get_client_id(SPDConnection * connection);
@@ -109,7 +115,8 @@ void spd_close(SPDConnection * connection);
 /* Speaking */
 int spd_say(SPDConnection * connection, SPDPriority priority, const char *text);
 int spd_sayf(SPDConnection * connection, SPDPriority priority,
-	     const char *format, ...);
+	     const char *format, ...)
+	     SPD_ATTRIBUTE_FORMAT(printf, 3, 4);
 
 /* Speech flow */
 int spd_stop(SPDConnection * connection);
@@ -225,16 +232,17 @@ void free_spd_modules(char **);
 char *spd_get_output_module(SPDConnection * connection);
 
 char **spd_list_voices(SPDConnection * connection);
+void free_spd_symbolic_voices(char **voices);
 SPDVoice **spd_list_synthesis_voices(SPDConnection * connection);
 void free_spd_voices(SPDVoice ** voices);
 char **spd_execute_command_with_list_reply(SPDConnection * connection,
-					   char *command);
+					   const char *command);
 
 /* Direct SSIP communication */
-int spd_execute_command(SPDConnection * connection, char *command);
-int spd_execute_command_with_reply(SPDConnection * connection, char *command,
+int spd_execute_command(SPDConnection * connection, const char *command);
+int spd_execute_command_with_reply(SPDConnection * connection, const char *command,
 				   char **reply);
-int spd_execute_command_wo_mutex(SPDConnection * connection, char *command);
+int spd_execute_command_wo_mutex(SPDConnection * connection, const char *command);
 char *spd_send_data(SPDConnection * connection, const char *message, int wfr);
 char *spd_send_data_wo_mutex(SPDConnection * connection, const char *message,
 			     int wfr);

@@ -37,7 +37,7 @@ do_start () {
   CACHEDIR2=$CACHEDIR/speech-dispatcher
   [ -e $CACHEDIR2 ] || ln -s $SSDIR $CACHEDIR2
   start-stop-daemon --oknodo --start --quiet --chuid $USER --pidfile $PIDFILE \
-    --exec $DAEMON -- --pid-file $PIDFILE
+    --exec $DAEMON -- -t 0 --pid-file $PIDFILE
 }
 
 do_stop () {

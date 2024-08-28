@@ -1,4 +1,4 @@
-This is ssip.info, produced by makeinfo version 6.7 from ssip.texi.
+This is ssip.info, produced by makeinfo version 7.0.3 from ssip.texi.
 
 INFO-DIR-SECTION Sound
 INFO-DIR-SECTION Development
@@ -11,15 +11,15 @@ File: ssip.info,  Node: Top,  Next: Introduction,  Prev: (dir),  Up: (dir)
 
 This manual documents Speech Synthesis Interface Protocol, version 0.2.
 
-   Copyright (C) 2001, 2002, 2003 Brailcom, o.p.s.,
-http://www.brailcom.cz .
+   Copyright © 2001, 2002, 2003 Brailcom, o.p.s., http://www.brailcom.cz
+.
 
      Permission is granted to copy, distribute and/or modify this
      document under the terms of the GNU Free Documentation License,
      Version 1.2 or any later version published by the Free Software
      Foundation; with no Invariant Sections, with no Front-Cover Texts
      and no Back-Cover Texts.  A copy of the license is included in the
-     section entitled "GNU Free Documentation License."
+     section entitled “GNU Free Documentation License.”
 
    You can also (at your option) distribute this manual under the GNU
 General Public License:
@@ -29,8 +29,8 @@ General Public License:
      published by the Free Software Foundation; either version 2 of the
      License, or (at your option) any later version.
 
-     A copy of the license is included in the section entitled "GNU
-     General Public License"
+     A copy of the license is included in the section entitled “GNU
+     General Public License”
 
    Please contact us on <http://www.freebsoft.org>
 
@@ -76,17 +76,17 @@ different speech synthesizers themselves.  Speech Synthesis Interface
 Protocol (SSIP) aims to provide a totally independent abstract set of
 commands by which different applications can talk to some central Speech
 Server installed on the system that than talks to the synthesizers
-themselves.  This way, user applications don't have to care about the
+themselves.  This way, user applications don’t have to care about the
 particular synthesizers available on the system and the synthesizers
-don't have to care about the installed user applications.
+don’t have to care about the installed user applications.
 
    SSIP is not only a device independent language for speech synthesis
 related requests, but also a mechanism to coordinate the interaction and
-conflicts between different clients' needs in a central place in the
+conflicts between different clients’ needs in a central place in the
 system.  Through the priority system, the central Speech Server that
 implements SSIP can decide which messages are considered the most
-important at any particular time and say them, while possibly supressing
-others.
+important at any particular time and say them, while possibly
+suppressing others.
 
 
 File: ssip.info,  Node: Protocol Philosophy,  Next: Higher Level API,  Prev: Purpose,  Up: Introduction
@@ -117,7 +117,7 @@ request.  One client can even establish several connections to maintain
 different contexts.
 
    SSIP also solves the issue when more than one client wants to speak
-at one time or when more messages come than it's possible to say.  Each
+at one time or when more messages come than it’s possible to say.  Each
 message has an assigned priority and according to this priority, when
 multiple messages come to the server, they are directly said, postponed
 or suppressed.
@@ -160,24 +160,24 @@ File: ssip.info,  Node: Basic Terminology,  Next: General Rules,  Prev: Introduc
 2 Basic Terminology
 *******************
 
-   * _Speech Synthesis Interface Protocol_ or _SSIP_ is the
+   • _Speech Synthesis Interface Protocol_ or _SSIP_ is the
      device-independent protocol described in this document through
      which client application can send their requests for speech
      synthesis to the Speech Server.
 
-   * _Speech Server_ is the server application that implements Speech
+   • _Speech Server_ is the server application that implements Speech
      Synthesis Interface Protocol, as described in this document, and
      provides an interface for client applications.
 
-   * _Client_ or _client application_ is every application that connects
+   • _Client_ or _client application_ is every application that connects
      to Speech Server and talks to it through the Speech Synthesis
      Interface Protocol.  In other words, this is the application that
-     "wants to speak".
+     “wants to speak”.
 
-   * _Message_ is a chunk of text that a client sends to Speech Server
+   • _Message_ is a chunk of text that a client sends to Speech Server
      to request saying something or play some sound.
 
-   * _To cancel a message_ means to stop saying it and/or remove it from
+   • _To cancel a message_ means to stop saying it and/or remove it from
      the queue of messages waiting to be said.  However, it is not
      removed from the history, where it was stored after being received
      by Speech Server.
@@ -208,22 +208,22 @@ commands having no arguments.
 carriage return and line feed characters, in that order.
 
    When you connect to Speech Server, you should at least set your
-client name, through the 'SET SELF CLIENT_NAME' command (*note Parameter
+client name, through the ‘SET SELF CLIENT_NAME’ command (*note Parameter
 Setting Commands::).  This is important to get a proper identification
-of your client -- to allow managing it from the control center
+of your client — to allow managing it from the control center
 application and to identify it in a message history browser.  You might
 want to set other connection parameters as well.  Look for more details
 in *note Parameter Setting Commands::.
 
-   An SSIP connection is preferably closed by issuing the 'QUIT'
+   An SSIP connection is preferably closed by issuing the ‘QUIT’
 command, see *note Other Commands::.
 
-   SSIP is a synchronous protocol -- you send commands and only after a
+   SSIP is a synchronous protocol — you send commands and only after a
 complete response from SSIP arrives back are you allowed to send the
 next command.  Usually, the SSIP connection remains open during the
 whole run of the particular client application.  If you close the
 connection and open it again, you must set all the previously set
-parameters again, SSIP doesn't store session parameters between
+parameters again, SSIP doesn’t store session parameters between
 connections.
 
    The protocol allows you to perform commands influencing other
@@ -238,16 +238,16 @@ prevent one user from seeing history messages of another user.
 *note Parameter Setting Commands::) take an argument in the form:
              { ID | all | self }
 
-   where the value can be the 'id' of the connection the command should
-be performed on (a positive number), the string 'all' to act on all
-clients of this server or 'self' to act on the connection itself.
+   where the value can be the ‘id’ of the connection the command should
+be performed on (a positive number), the string ‘all’ to act on all
+clients of this server or ‘self’ to act on the connection itself.
 Unless you are writing a special client for managing Speech Server or
-unless you have specific needs, you should only use the 'self' value for
+unless you have specific needs, you should only use the ‘self’ value for
 this argument.
 
    Not all parameter setting commands may receive all kinds of the first
 parameter defined above, for instance, some of them may receive only
-'self'.
+‘self’.
 
    SSIP replies have the following format:
 
@@ -277,12 +277,12 @@ commands.  Each of these command groups is described in one of the
 following sections.
 
    In the command descriptions, the command is written together with its
-arguments.  Optional arguments are enclosed by square brackets ('[' and
-']'), alternatives are separated by the vertical rule ('|') and are
-grouped within braces ('{' and '}') or square brackets for mandatory or
+arguments.  Optional arguments are enclosed by square brackets (‘[’ and
+‘]’), alternatives are separated by the vertical rule (‘|’) and are
+grouped within braces (‘{’ and ‘}’) or square brackets for mandatory or
 optional arguments respectively.  Literal argument values are typeset in
 lowercase letters (they are case insensitive), and variable arguments
-are typeset LIKE THIS.  Ellipsis denoted by three dots ('...') means
+are typeset LIKE THIS.  Ellipsis denoted by three dots (‘...’) means
 repetition (zero or more times) of all the arguments within the current
 brackets.
 
@@ -308,32 +308,32 @@ These commands invoke actual output to particular output device.  The
 particular way how the message is handled depends on current speech
 parameter settings and user configuration.
 
-'SPEAK'
+‘SPEAK’
      Start receiving a text message and synthesize it.  After sending a
      reply to the command, Speech Server waits for the text of the
      message.  The text can spread over any number of lines and is
      finished by an end of line marker followed by the line containing
-     the single character '.' (dot).  Thus the complete character
-     sequence closing the input text is 'CR LF . CR LF'.  If any line
+     the single character ‘.’ (dot).  Thus the complete character
+     sequence closing the input text is ‘CR LF . CR LF’.  If any line
      within the sent text starts with a dot, an extra dot is prepended
      before it.
 
-     During reception of the text message, Speech Server doesn't send
+     During reception of the text message, Speech Server doesn’t send
      responses for the lines sent.  The response line is sent only
-     immediately after the 'SPEAK' command and after receiving the
+     immediately after the ‘SPEAK’ command and after receiving the
      closing dot line.
 
      The content of the message can be either a plain text or a SSML
-     (Speech Synthesis Markup Language) text.  See 'SET SELF SSML_MODE'.
+     (Speech Synthesis Markup Language) text.  See ‘SET SELF SSML_MODE’.
      There is no guarantee that the SSML markup will be respected, so
-     the application shouldn't rely on them.  The external parameters
+     the application shouldn’t rely on them.  The external parameters
      can still be set by the parameter setting commands.  SSML is
      intended only for additional markup inside the message.  In SSML
-     mode, each message must begin with '<speak>' and end with
-     '</speak>'.
+     mode, each message must begin with ‘<speak>’ and end with
+     ‘</speak>’.
 
      Speech Server can start speech synthesis as soon as a sufficient
-     amount of the text arrives; it generally needn't (but may) wait
+     amount of the text arrives; it generally needn’t (but may) wait
      until the end of data marker is received.
 
      There is no explicit upper limit on the size of the text, but the
@@ -353,7 +353,7 @@ parameter settings and user configuration.
      commands as well as for *note Message Events Notification and Index
      Marking::.
 
-     The 'SPEAK' command might be used for example in this way:
+     The ‘SPEAK’ command might be used for example in this way:
 
           SPEAK
           230 OK RECEIVING DATA
@@ -362,10 +362,10 @@ parameter settings and user configuration.
           225-21
           225 OK MESSAGE QUEUED
 
-'CHAR CHAR'
+‘CHAR CHAR’
      Speak letter CHAR.  CHAR can be any character representable by the
-     UTF-8 encoding.  The only exception is the character space (' ');
-     that can't be sent directly.  In this case, a string 'space' must
+     UTF-8 encoding.  The only exception is the character space (‘ ’);
+     that can’t be sent directly.  In this case, a string ‘space’ must
      be sent instead.
 
           CHAR e
@@ -376,7 +376,7 @@ parameter settings and user configuration.
      This command is intended to be used for speaking single letters,
      e.g.  when reading a character under cursor or when spelling words.
 
-'KEY KEY-NAME'
+‘KEY KEY-NAME’
      Speak key identified by KEY-NAME.  The command is intended to be
      used for speaking keys pressed by the user.
 
@@ -387,15 +387,15 @@ parameter settings and user configuration.
      Key name may contain any character excluding control characters
      (for example, the characters in the range 0 to 31 in the ASCII
      table, characters in the range 128 to 159 in the Latin-* tables and
-     other "invisible" characters), spaces, underscores, and double
+     other “invisible” characters), spaces, underscores, and double
      quotes.
 
      The recognized key names are:
 
-        * Any single UTF-8 character, excluding the exceptions defined
+        • Any single UTF-8 character, excluding the exceptions defined
           above.
 
-        * Any of the symbolic key names defined in *note Key Names::.
+        • Any of the symbolic key names defined in *note Key Names::.
 
      Examples of valid key names:
 
@@ -410,7 +410,7 @@ parameter settings and user configuration.
           control_alt_delete
           control
 
-'SOUND_ICON ICON-NAME'
+‘SOUND_ICON ICON-NAME’
      Send a sound identified by ICON-NAME to the audio output.
      ICON-NAME is a symbolic name of the given sound from the standard
      set listed in *note Standard Sound Icons::, or another name from
@@ -426,44 +426,44 @@ These commands can stop or resume speech or audio output.  They all
 affect only the synthesis process and output to a sound device, they do
 not affect the message history.
 
-'STOP { ID | all | self }'
-     Immediately stop outputting the current message (whatever it is --
+‘STOP { ID | all | self }’
+     Immediately stop outputting the current message (whatever it is —
      text, letter, key, or sound icon) from the identified client, if
-     any is being output.  If the command argument is 'self', the last
+     any is being output.  If the command argument is ‘self’, the last
      message from the current client connection is stopped.  If it is
-     'all', stop currently output message or messages from all the
+     ‘all’, stop currently output message or messages from all the
      clients.  Otherwise, argument ID must be given as a positive
      integer and the currently processed message from the client
      connection identified by ID is stopped; if there is none such, do
      nothing.
 
-'CANCEL { ID | all | self }'
-     This command is the same as 'STOP', with the exception that it
+‘CANCEL { ID | all | self }’
+     This command is the same as ‘STOP’, with the exception that it
      stops as yet unspoken output messages as well.  All currently
      queued messages are stored into the message history without being
      sent to the audio output device.
 
-'PAUSE { ID | all | self }'
+‘PAUSE { ID | all | self }’
      Stop audio output immediately, but do not discard anything.  All
      the currently speaking and currently or later queued messages are
      postponed and saved for later processing, until a corresponding
-     'RESUME' command is received.
+     ‘RESUME’ command is received.
 
-     The meaning of the command arguments is the same as in the 'STOP'
+     The meaning of the command arguments is the same as in the ‘STOP’
      command.
 
-'RESUME { ID | all | self }'
-     Cancel the effect of the previously issued 'PAUSE' command.  Note
-     that messages of the priority "progress" and "notification"
+‘RESUME { ID | all | self }’
+     Cancel the effect of the previously issued ‘PAUSE’ command.  Note
+     that messages of the priority “progress” and “notification”
      received during the pause are not output (but they remain stored in
      the message history).
 
-     It is an error to send the 'RESUME' command when the output
+     It is an error to send the ‘RESUME’ command when the output
      corresponding to the given argument is not paused by a previous
-     invocation of the 'PAUSE' command.  Such an error is signaled by a
-     '4XX' return code.
+     invocation of the ‘PAUSE’ command.  Such an error is signaled by a
+     ‘4XX’ return code.
 
-     The meaning of the command arguments is the same as in the 'STOP'
+     The meaning of the command arguments is the same as in the ‘STOP’
      command.
 
 
@@ -472,7 +472,7 @@ File: ssip.info,  Node: Message Priority Commands,  Next: Blocks of Messages Com
 4.3 Priority Setting Commands
 =============================
 
-A speech synthesizer can't synthesize everything that comes to it, for
+A speech synthesizer can’t synthesize everything that comes to it, for
 the simple reason that messages are often coming faster than a synthetic
 voice can say them.  On the screen of a monitor, there is relatively a
 lot of space compared to one-channel speech synthesis output.  For this
@@ -504,39 +504,39 @@ information, or the default value will be used.
 
    Please see also the diagram below.
 
-Priority 'important'
+Priority ‘important’
 ====================
 
 This message will be said immediately as it comes to server.  It is
 never interrupted.  When several concurrent messages of this priority
 are received by server, they are queued and said in the order they came.
 
-   When a new message of level 'important' comes while a message of
+   When a new message of level ‘important’ comes while a message of
 another priority is being spoken, the other message is canceled and the
-message with priority 'important' is said instead.  Other messages of
-lower priorities are postponed (priority 'message' and 'text') until
+message with priority ‘important’ is said instead.  Other messages of
+lower priorities are postponed (priority ‘message’ and ‘text’) until
 there are no messages of priority important waiting, or are canceled
-(priority 'notification' and 'progress').
+(priority ‘notification’ and ‘progress’).
 
    These messages should be as short as possible and should rarely be
 used, because they block the output of all other messages.
 
-Priority 'message'
+Priority ‘message’
 ==================
 
 This message will be said when there is no message of priority
-'important' or 'message' waiting in the queue.  If there are, this
+‘important’ or ‘message’ waiting in the queue.  If there are, this
 message is postponed until those messages are spoken.  This means that
-the priority 'message' doesn't interrupt itself.  If there are messages
-of priority 'notification', 'progress' or 'text' waiting in the queue or
-being spoken when a message of priority 'message' comes, they are
+the priority ‘message’ doesn’t interrupt itself.  If there are messages
+of priority ‘notification’, ‘progress’ or ‘text’ waiting in the queue or
+being spoken when a message of priority ‘message’ comes, they are
 canceled.
 
-Priority 'text'
+Priority ‘text’
 ===============
 
 This message will be said when there is no message of priority
-'important' or 'message' waiting in the queue.  If there are, this
+‘important’ or ‘message’ waiting in the queue.  If there are, this
 message is postponed until the previous messages are spoken.
 
    The priority text interrupts itself.  This means that if several
@@ -544,46 +544,46 @@ messages of this priority are received, they are not said in the order
 they were received, but only the latest of them is said; others are
 canceled.
 
-   If there are messages of priority 'notification' and 'progress'
-waiting in the queue or being spoken when a message of priority 'text'
+   If there are messages of priority ‘notification’ and ‘progress’
+waiting in the queue or being spoken when a message of priority ‘text’
 comes, they are canceled.
 
-Priority 'notification'
+Priority ‘notification’
 =======================
 
 This is a low priority message.  If there are messages with priorities
-'important', 'message', 'text' or 'progress' waiting in the queues or
-being spoken, this 'notification' message is canceled.
+‘important’, ‘message’, ‘text’ or ‘progress’ waiting in the queues or
+being spoken, this ‘notification’ message is canceled.
 
    This priority interrupts itself, so if more messages with priority
-'notification' come at the same time, only the last of them is spoken.
+‘notification’ come at the same time, only the last of them is spoken.
 
-Priority 'progress'
+Priority ‘progress’
 ===================
 
 This is a special priority for messages that are coming shortly one
 after each other and they carry the information about some work in
-progress (e.g. 'Completed 45%').
+progress (e.g. ‘Completed 45%’).
 
    If new messages interrupted each other (see priority Notification),
 the user might not receive any complete message.
 
-   This priority behaves the same as "notification" except for two
+   This priority behaves the same as “notification” except for two
 things:
 
-   * The messages of this priority don't interrupt each other, instead,
+   • The messages of this priority don’t interrupt each other, instead,
      a newly arriving message is canceled if another message is being
      spoken.
-   * Speech Server tries to detect the last message of a series of
-     messages (for instance, it's important for the user to hear the
-     final 'Completed 100%' message to know the work has completed).
+   • Speech Server tries to detect the last message of a series of
+     messages (for instance, it’s important for the user to hear the
+     final ‘Completed 100%’ message to know the work has completed).
      Speech Server waits until there are no more messages of this
-     priority waiting in queues and if the last of them wasn't spoken
-     yet, it speaks it with the priority 'message'.
+     priority waiting in queues and if the last of them wasn’t spoken
+     yet, it speaks it with the priority ‘message’.
 
    This way, even if Speech Server is busy speaking messages of other
 priorities, we are still sure that the important messages at the end of
-the 'progress' sequences will be said.
+the ‘progress’ sequences will be said.
 
 
 File: ssip.info,  Node: Priority Diagram,  Next: Priority Setting Commands,  Prev: Priority Categories,  Up: Message Priority Commands
@@ -608,6 +608,7 @@ File: ssip.info,  Node: Priority Diagram,  Next: Priority Setting Commands,  Pre
        itself
                     " ]
 
+
 
 File: ssip.info,  Node: Priority Setting Commands,  Next: Examples of Using Priorities,  Prev: Priority Diagram,  Up: Message Priority Commands
 
@@ -618,13 +619,13 @@ When a priority is set for a given connection, all the newly arriving
 messages will be said with this priority until it is changed for a new
 value.
 
-   * SET self PRIORITY P
+   • SET self PRIORITY P
 
      This command sets message priority to P.  P must be one of the
-     values 'important', 'text', 'message', 'notification', 'progress'.
+     values ‘important’, ‘text’, ‘message’, ‘notification’, ‘progress’.
      *Note Priority Categories::.
 
-     Only 'self' is allowed as the 'target' argument.
+     Only ‘self’ is allowed as the ‘target’ argument.
 
 
 File: ssip.info,  Node: Examples of Using Priorities,  Prev: Priority Setting Commands,  Up: Message Priority Commands
@@ -632,35 +633,35 @@ File: ssip.info,  Node: Examples of Using Priorities,  Prev: Priority Setting Co
 4.3.4 Examples of Using Priorities
 ----------------------------------
 
-Example uses for priority 'important' are:
+Example uses for priority ‘important’ are:
 
-   * error messages
-   * very important messages
-   * ...
+   • error messages
+   • very important messages
+   • ...
 
-   Example uses for priority 'message' are:
+   Example uses for priority ‘message’ are:
 
-   * regular program messages
-   * warnings
-   * ...
+   • regular program messages
+   • warnings
+   • ...
 
-   Example uses for priority 'text' are:
+   Example uses for priority ‘text’ are:
 
-   * text the user is working on
-   * menu items
-   * ...
+   • text the user is working on
+   • menu items
+   • ...
 
-   Example uses for priority 'notification' are:
+   Example uses for priority ‘notification’ are:
 
-   * less important status information
-   * letters when typing input
-   * run-time help
-   * ...
+   • less important status information
+   • letters when typing input
+   • run-time help
+   • ...
 
-   Example uses for level 'progress' are:
+   Example uses for level ‘progress’ are:
 
-   * "completed 15%", "completed 16%", "completed 17%"
-   * "Loading sounds", "Loading graphics", "Loading ai", ...
+   • “completed 15%”, “completed 16%”, “completed 17%”
+   • “Loading sounds”, “Loading graphics”, “Loading ai”, ...
 
 
 File: ssip.info,  Node: Blocks of Messages Commands,  Next: Parameter Setting Commands,  Prev: Message Priority Commands,  Up: SSIP Commands
@@ -671,7 +672,7 @@ File: ssip.info,  Node: Blocks of Messages Commands,  Next: Parameter Setting Co
 Block commands allow the client to concatenate several messages to form
 one block that behaves as one message in the priority system and
 history.  After opening the block, client can send a specified subset of
-the commands and the messages introduced by 'SPEAK' will be processed
+the commands and the messages introduced by ‘SPEAK’ will be processed
 immediately, however there will be no priority interaction before
 closing the block.  The *note Speech Output Control Commands:: also
 handle the whole block as one message.
@@ -681,38 +682,38 @@ handle the whole block as one message.
      > Hi, how are you?
      I'm fine. Thank you.
 
-   The character '>' clearly marks who said which part.  So it'd be nice
-to say the two lines with different voices, however, it'd be desirable
+   The character ‘>’ clearly marks who said which part.  So it’d be nice
+to say the two lines with different voices, however, it’d be desirable
 to treat it all as one message with priority TEXT and have it put
 together in history, because in fact, it logically _is_ one message.
 
-'BLOCK BEGIN'
+‘BLOCK BEGIN’
      Opens a block of messages.  There will be no priority interaction
      between the messages inside the block, the whole block will be
      treated as one message of the priority that was specified by
-     previous 'SET' command.
+     previous ‘SET’ command.
 
      It can only be called outside of a block; nesting is not allowed.
 
           The allowed commands inside a block are:
-        * 'SPEAK'
-        * 'SOUND_ICON'
-        * 'CHAR'
-        * 'KEY'
-        * 'SET SELF RATE'
-        * 'SET SELF PITCH'
-        * 'SET SELF VOLUME'
-        * 'SET SELF VOICE'
-        * 'SET SELF LANGUAGE'
-        * 'SET SELF PUNCTUATION'
-        * 'SET SELF CAP_LET_RECOGN'
-        * 'QUIT'
-        * 'BLOCK END'
+        • ‘SPEAK’
+        • ‘SOUND_ICON’
+        • ‘CHAR’
+        • ‘KEY’
+        • ‘SET SELF RATE’
+        • ‘SET SELF PITCH’
+        • ‘SET SELF VOLUME’
+        • ‘SET SELF VOICE’
+        • ‘SET SELF LANGUAGE’
+        • ‘SET SELF PUNCTUATION’
+        • ‘SET SELF CAP_LET_RECOGN’
+        • ‘QUIT’
+        • ‘BLOCK END’
 
-'BLOCK END'
-     Closes a block of messages, see 'BLOCK BEGIN'.
+‘BLOCK END’
+     Closes a block of messages, see ‘BLOCK BEGIN’.
 
-     It can be only called inside a block opened by 'BLOCK BEGIN';
+     It can be only called inside a block opened by ‘BLOCK BEGIN’;
      nesting is not allowed.
 
    A more complete example of SSIP communication using BLOCKs.
@@ -755,28 +756,28 @@ File: ssip.info,  Node: Parameter Setting Commands,  Next: Information Retrieval
 4.5 Parameter Setting
 =====================
 
-The 'SET' command sets various control parameters of the synthesized
+The ‘SET’ command sets various control parameters of the synthesized
 speech or server configuration.  The parameter is always denoted by the
 second command argument.
 
    All the settings take effect on the connections specified in the
 first argument (*note General Rules::) and until the parameter setting
-is changed by another invocation of the appropriate 'SET' command or
+is changed by another invocation of the appropriate ‘SET’ command or
 until the connection is closed.
 
    The voice property and TTS-processing settings can sometimes be
-without any real effect if the end synthesizer doesn't provide the
+without any real effect if the end synthesizer doesn’t provide the
 required functionality.  This is not considered an error in the
 implementation of SSIP.
 
-'SET self CLIENT_NAME USER:CLIENT:COMPONENT'
-     Set client's name.  Client name consists of the user name, client
+‘SET self CLIENT_NAME USER:CLIENT:COMPONENT’
+     Set client’s name.  Client name consists of the user name, client
      (application) identification, and the identification of the
      component of the client (application).  Each of the parts of the
-     client name may contain only alphanumeric characters, dashes ('-')
-     and underscores ('_').
+     client name may contain only alphanumeric characters, dashes (‘-’)
+     and underscores (‘_’).
 
-     For example, for a client called 'lynx' that creates an SSIP
+     For example, for a client called ‘lynx’ that creates an SSIP
      connection for its command processing, the name could be set in the
      following way:
 
@@ -784,23 +785,23 @@ implementation of SSIP.
 
      The client name is used in the server configuration settings,
      client listings and message history handling.  All its three parts
-     can be arbitrary, but it's important to define and follow rules for
+     can be arbitrary, but it’s important to define and follow rules for
      each application supporting Speech Synthesis Interface Protocol, so
      that a Speech Server user can configure all the aspects of the
      speech output easily.
 
      Usually, this command should be sent as the very first command when
      a new SSIP connection is established.  The command may be sent only
-     once within a single connection.  Attempts to change the client's
-     name once it's already set are answered with an error code.
+     once within a single connection.  Attempts to change the client’s
+     name once it’s already set are answered with an error code.
 
-     Only 'self' is allowed as the 'target' argument.
+     Only ‘self’ is allowed as the ‘target’ argument.
 
-'SET all DEBUG {ON|OFF}'
-     If set to 'ON', Speech Dispatcher will write all its debugging
+‘SET all DEBUG {ON|OFF}’
+     If set to ‘ON’, Speech Dispatcher will write all its debugging
      information (including output modules) with maximal verbosity into
      a debug directory which is reported by the server to the client in
-     reply to this command.  When subsequently set to 'OFF', Speech
+     reply to this command.  When subsequently set to ‘OFF’, Speech
      Dispatcher will stop writing out debugging information into this
      path and close all the appropriate logging files.
 
@@ -820,16 +821,16 @@ implementation of SSIP.
           262-/home/hanke/.cache/speech-dispatcher/log/debug
           262 OK DEBUGGING SET
 
-'SET {all | self | ID } OUTPUT_MODULE MODULE'
+‘SET {all | self | ID } OUTPUT_MODULE MODULE’
      Set the output module to MODULE.  This overrides the selection
-     based on language.  Only values returned by the 'LIST
-     OUTPUT_MODULES' command are permitted.  *Note
+     based on language.  Only values returned by the ‘LIST
+     OUTPUT_MODULES’ command are permitted.  *Note
      list-output-modules::.
 
           SET self OUTPUT_MODULE espeak
           216 OK OUTPUT MODULE SET
 
-'GET OUTPUT_MODULE'
+‘GET OUTPUT_MODULE’
      Get the output module currently in use.  This takes no parameters
      and simply returns the current output module.
 
@@ -837,7 +838,7 @@ implementation of SSIP.
           251-espeak
           251 OK GET RETURNED
 
-'SET { all | self | ID } LANGUAGE LANGUAGE-CODE'
+‘SET { all | self | ID } LANGUAGE LANGUAGE-CODE’
      Set recommended language for this client according to
      LANGUAGE-CODE.  LANGUAGE-CODE is the code of the language according
      to RFC 1766.
@@ -849,25 +850,25 @@ implementation of SSIP.
 
      Please note, that switching a language may require switching a
      voice, so this command may actually override a previous call to
-     'SET VOICE' or 'SET SYNTHESIS_VOICE'.
+     ‘SET VOICE’ or ‘SET SYNTHESIS_VOICE’.
 
      The default for the Speech Dispatcher implementation of SSIP is
-     determined by the 'DefaultLanguage' setting in the 'speechd.conf'
-     file.  The factory default is 'en-US' (American English).
+     determined by the ‘DefaultLanguage’ setting in the ‘speechd.conf’
+     file.  The factory default is ‘en-US’ (American English).
 
-'SET {self} SSML_MODE MODE'
+‘SET {self} SSML_MODE MODE’
      Set the mode of the text received in the message body sent by the
-     'SPEAK' command.  This can be either a plain text, if 'mode' is set
-     to 'off' or a SSML marked text, if 'mode' is set to 'on'.
+     ‘SPEAK’ command.  This can be either a plain text, if ‘mode’ is set
+     to ‘off’ or a SSML marked text, if ‘mode’ is set to ‘on’.
 
      There is no guarantee that the SSML markup will be respected, so
-     the application shouldn't rely on them.  The external parameters
+     the application shouldn’t rely on them.  The external parameters
      can still be set by the parameter setting commands.  SSML is
      intended only for additional markup inside the message.  In SSML
-     mode, each message must begin with '<speak>' and end with
-     '</speak>'.
+     mode, each message must begin with ‘<speak>’ and end with
+     ‘</speak>’.
 
-     For example a simple 'hello world' looks like this:
+     For example a simple ‘hello world’ looks like this:
 
           SET SELF SSML_MODE on
           SPEAK
@@ -876,121 +877,121 @@ implementation of SSIP.
           </speak>
           .
 
-'SET { all | self | ID } PUNCTUATION { all | most | some | none }'
-     Set punctuation mode to the given value.  'all' means speak all
-     punctuation characters, 'none' means speak no punctuation
-     characters, 'some' and 'most' mean speak only intermediate sets of
-     punctuation characters defined in the synthesizer's configuration
+‘SET { all | self | ID } PUNCTUATION { all | most | some | none }’
+     Set punctuation mode to the given value.  ‘all’ means speak all
+     punctuation characters, ‘none’ means speak no punctuation
+     characters, ‘some’ and ‘most’ mean speak only intermediate sets of
+     punctuation characters defined in the synthesizer’s configuration
      or symbols files.  The default for the Speech Dispatcher
      implementation of SSIP is determined by the
-     'DefaultPunctuationMode' setting in the 'speechd.conf' file.  The
-     factory default is 'none'.
+     ‘DefaultPunctuationMode’ setting in the ‘speechd.conf’ file.  The
+     factory default is ‘none’.
 
-'SET { all | self | ID } SPELLING { on | off }'
+‘SET { all | self | ID } SPELLING { on | off }’
      Switch spelling on or off.  If spelling is set to on, all the
      incoming messages will be said letter-by-letter, instead of
      speaking them as whole words.  The default for the Speech
      Dispatcher implementation of SSIP is determined by the
-     'DefaultSpelling' setting in the 'speechd.conf' file.  The factory
-     default is 'off'.
+     ‘DefaultSpelling’ setting in the ‘speechd.conf’ file.  The factory
+     default is ‘off’.
 
-'SET { all | self | ID } CAP_LET_RECOGN { none | spell | icon }'
-     Set capital letters recognition mode.  'none' switches this feature
-     off.  'spell' causes capital letters to be spelled in the speech
-     using the table set as 'CAP_LET_RECOGN_TABLE'.  With parameter
-     'icon', each capital letter will be preceeded by a sound icon
+‘SET { all | self | ID } CAP_LET_RECOGN { none | spell | icon }’
+     Set capital letters recognition mode.  ‘none’ switches this feature
+     off.  ‘spell’ causes capital letters to be spelled in the speech
+     using the table set as ‘CAP_LET_RECOGN_TABLE’.  With parameter
+     ‘icon’, each capital letter will be preceded by a sound icon
      (either sound or textual) specified by the user in his
      configuration.  The default for the Speech Dispatcher
      implementation of SSIP is determined by the
-     'DefaultCapLetRecognition' setting in the 'speechd.conf' file.  The
-     factory default is 'none'.
+     ‘DefaultCapLetRecognition’ setting in the ‘speechd.conf’ file.  The
+     factory default is ‘none’.
 
-'SET { all | self | ID } VOICE_TYPE NAME'
+‘SET { all | self | ID } VOICE_TYPE NAME’
      Set the voice identified by NAME.  NAME must be one of the voice
-     identifiers returned by the command 'LIST VOICES' (*note
+     identifiers returned by the command ‘LIST VOICES’ (*note
      Information Retrieval Commands::).
 
      There is a standard set of voice identifiers defined in *note
      Standard Voices::.
 
      The default for the Speech Dispatcher implementation of SSIP is
-     determined by the 'DefaultVoiceType' setting in the 'speechd.conf'
-     file.  The factory default is 'MALE1'.
+     determined by the ‘DefaultVoiceType’ setting in the ‘speechd.conf’
+     file.  The factory default is ‘MALE1’.
 
-'GET VOICE_TYPE'
+‘GET VOICE_TYPE’
      Gets the current pre-defined voice.  A list of voice identifiers
-     can be obtained by the command 'LIST VOICES' (*note Information
+     can be obtained by the command ‘LIST VOICES’ (*note Information
      Retrieval Commands::).
 
           GET VOICE_TYPE
           251-MALE1
           251 OK GET RETURNED
 
-'SET { all | self | ID } SYNTHESIS_VOICE NAME'
+‘SET { all | self | ID } SYNTHESIS_VOICE NAME’
      Set the voice identified by NAME.  NAME is a voice name recognized
      by the current synthesizer.  It must be one of the names returned
-     by the command 'LIST SYNTHESIS_VOICES' run for the appropriate
+     by the command ‘LIST SYNTHESIS_VOICES’ run for the appropriate
      synthesizer.  (*note Information Retrieval Commands::).
 
      Please note, that switching to a particular voice may require
      switching a language, so this command may actually override a
-     previous call to 'SET LANGUAGE'.
+     previous call to ‘SET LANGUAGE’.
 
-'SET { all | self | ID } RATE N'
+‘SET { all | self | ID } RATE N’
      Set the rate of speech.  N is an integer value within the range
      from -100 to 100, lower values meaning slower speech and higher
      values meaning faster speech.  The default for the Speech
      Dispatcher implementation of SSIP is determined by the
-     'DefaultRate' setting in the 'speechd.conf' file.  The factory
+     ‘DefaultRate’ setting in the ‘speechd.conf’ file.  The factory
      default is 0.
 
-'GET RATE'
+‘GET RATE’
      Get the current rate of speech value.
 
           GET RATE
           251-10
           251 OK GET RETURNED
 
-'SET { all | self | ID } PITCH N'
+‘SET { all | self | ID } PITCH N’
      Set the pitch of speech.  N is an integer value within the range
      from -100 to 100, lower values meaning lower pitch and higher
      values meaning higher pitch.  The default for the Speech Dispatcher
-     implementation of SSIP is determined by the 'DefaultPitch' setting
-     in the 'speechd.conf' file.  The factory default is 0.
+     implementation of SSIP is determined by the ‘DefaultPitch’ setting
+     in the ‘speechd.conf’ file.  The factory default is 0.
 
-'GET PITCH'
+‘GET PITCH’
      Get the current pitch value.
 
           GET PITCH
           251-10
           251 OK GET RETURNED
 
-'SET { all | self | ID } VOLUME N'
+‘SET { all | self | ID } VOLUME N’
      Set the volume of speech.  N is an integer value within the range
      from -100 to 100.  lower values meaning lower volume and higher
      values meaning higher volume.  The default for the Speech
      Dispatcher implementation of SSIP is determined by the
-     'DefaultVolume' setting in the 'speechd.conf' file.  The factory
+     ‘DefaultVolume’ setting in the ‘speechd.conf’ file.  The factory
      default is 100.
 
-'GET VOLUME'
+‘GET VOLUME’
      Get the current volume value.
 
           GET VOLUME
           251-100
           251 OK GET RETURNED
 
-'SET { all | self | ID } PAUSE_CONTEXT N'
+‘SET { all | self | ID } PAUSE_CONTEXT N’
      Set the number of (more or less) sentences that should be repeated
-     after a previously paused text is resumed.  If there isn't enough
+     after a previously paused text is resumed.  If there isn’t enough
      text before the pause spot, the entire message is repeated.  N is a
      positive integer value specifying the number of sentences to
      repeat.  The default for the Speech Dispatcher implementation of
-     SSIP is determined by the 'DefaultPauseContext' setting in the
-     'speechd.conf' file.  The factory default is 0.
+     SSIP is determined by the ‘DefaultPauseContext’ setting in the
+     ‘speechd.conf’ file.  The factory default is 0.
 
-'SET { all | self | ID } HISTORY { on | off }'
-     Enable ('on') or disable ('off') storing of received messages into
+‘SET { all | self | ID } HISTORY { on | off }’
+     Enable (‘on’) or disable (‘off’) storing of received messages into
      history.
 
      This command is intended for use by message history browsers and
@@ -1002,12 +1003,12 @@ File: ssip.info,  Node: Information Retrieval Commands,  Next: Message Events No
 4.6 Retrieving Information
 ==========================
 
-The 'LIST' command serves for retrieving information that can be
-presented to the user for selection of the values to the 'SET' command.
+The ‘LIST’ command serves for retrieving information that can be
+presented to the user for selection of the values to the ‘SET’ command.
 The information listed is selected according to the first argument of
-the 'LIST' command.
+the ‘LIST’ command.
 
-'LIST OUTPUT_MOUDLES'
+‘LIST OUTPUT_MOUDLES’
      Lists the available output modules putting each module
      identification name one on a single line.
 
@@ -1017,7 +1018,7 @@ the 'LIST' command.
           250-espeak
           250 OK MODULE LIST SENT
 
-'LIST VOICES'
+‘LIST VOICES’
      Lists the available symbolic voice names putting each voice name on
      a single line.  These are symbolic names that are mapped to the
      real voices used in the synthesizer either automatically or via
@@ -1035,10 +1036,10 @@ the 'LIST' command.
           249-CHILD_FEMALE
           249 OK VOICE LIST SENT
 
-'LIST SYNTHESIS_VOICES'
+‘LIST SYNTHESIS_VOICES’
 
      Lists the available voices for the current synthesizer in use.
-     These names differ from those obtained by 'LIST VOICES' in that
+     These names differ from those obtained by ‘LIST VOICES’ in that
      they are names of the real voices used inside the synthesizer.
 
      This feature should only be used to allow the user to choose the
@@ -1050,7 +1051,7 @@ the 'LIST' command.
      language code and dialect identification string separated by tabs.
      The dialect identification strings do not have well-defined meaning
      yet.  If no dialect is specified by the synthesizer, the value
-     'none' is used.
+     ‘none’ is used.
 
      Example:
           LIST SYNTHESIS_VOICES
@@ -1082,7 +1083,7 @@ File: ssip.info,  Node: Why Events Notification,  Next: Types of Events,  Prev: 
 -----------------------------
 
 Applications can send messages to a Speech Server through the SSIP
-'SPEAK' command.  However, this command only puts the received message
+‘SPEAK’ command.  However, this command only puts the received message
 into a queue in Speech Server and returns immediately.  The message then
 will or will not be said at some particular time according to its
 priority.  Through Message Events Notification, the application is able
@@ -1090,7 +1091,7 @@ to discover certain kind of events, including when the message started
 to be played on the speakers, when it terminated playing, when it was
 paused and resumed, or when it was interrupted/discarded.  It is also
 possible to get notification when a certain place in the given text was
-reached while playing the synthesized text on the speakers - this
+reached while playing the synthesized text on the speakers – this
 capability, however, might or might not be supported by the end
 synthesizer and so client applications should not rely on it.
 
@@ -1105,58 +1106,58 @@ together with the unique identification of the message and client it is
 associated with.  This is an overview of available events.  For detailed
 SSIP syntax, please look below.
 
-'BEGIN'
+‘BEGIN’
 
      This event means that the synthesizer just started to speak the
      message and the user is able to hear the speech on his/her
      speakers.
 
      Please note that not every message stored for speaking by the
-     'SPEAK' command will issue this event.  It can issue the 'CANCEL'
+     ‘SPEAK’ command will issue this event.  It can issue the ‘CANCEL’
      event instead.
 
-'END'
+‘END’
 
      This event means that the synthesizer just terminated speaking the
      message (by reaching its end) and the user is no longer able to
      hear the speech on their speakers.
 
      Again, note that not every message that has already reported the
-     'BEGIN' event will necessarily get to the 'END' event.  It might
-     instead issue the 'CANCEL' or 'PAUSE' events.
+     ‘BEGIN’ event will necessarily get to the ‘END’ event.  It might
+     instead issue the ‘CANCEL’ or ‘PAUSE’ events.
 
-'CANCEL'
+‘CANCEL’
 
-     The 'CANCEL' event is reported when the message was canceled
-     (either after 'BEGIN' during speaking or even before, when waiting
+     The ‘CANCEL’ event is reported when the message was canceled
+     (either after ‘BEGIN’ during speaking or even before, when waiting
      in the queues) and will not be spoken anymore.
 
-'PAUSE'
+‘PAUSE’
 
-     The event 'PAUSE' means that the message that was being spoken was
+     The event ‘PAUSE’ means that the message that was being spoken was
      paused and no longer produces any sound on the speakers, but was
      not discarded and the rest of the message might be spoken again
-     after the 'RESUME' command is sent.  *Note Speech Output Control
-     Commands::.  This will be reported by the 'RESUME' event.
+     after the ‘RESUME’ command is sent.  *Note Speech Output Control
+     Commands::.  This will be reported by the ‘RESUME’ event.
 
-     'PAUSE' is always preceded by the event 'BEGIN', and can be
-     followed by either the event 'RESUME' or 'CANCEL'.
+     ‘PAUSE’ is always preceded by the event ‘BEGIN’, and can be
+     followed by either the event ‘RESUME’ or ‘CANCEL’.
 
-'RESUME'
+‘RESUME’
 
-     The event 'RESUME' means that a message that was paused while being
+     The event ‘RESUME’ means that a message that was paused while being
      spoken, just started to continue and again produces sound in the
      speakers.
 
-     'RESUME' is always preceeded by the event 'PAUSE', and can be
-     followed by either the event 'END' or 'CANCEL'.
+     ‘RESUME’ is always preceded by the event ‘PAUSE’, and can be
+     followed by either the event ‘END’ or ‘CANCEL’.
 
-'INDEX_MARK'
+‘INDEX_MARK’
 
      This event means that some previously specified place in the text
      (so-called index mark) was reached when speaking the synthesized
      message in the speakers.  It is always accompanied by an additional
-     parameter that indicates which place it is - the name of the index
+     parameter that indicates which place it is – the name of the index
      mark.
 
    Example (not in SSIP syntax):
@@ -1187,52 +1188,52 @@ File: ssip.info,  Node: Events Notifications in SSIP,  Next: Switching Notificat
 
 Event notifications, if requested, are reported asynchronously in SSIP.
 This means that they are not sent as replies to any particular requests
-but can arrive anytime.  However, notifications can't arrive in the time
+but can arrive anytime.  However, notifications can’t arrive in the time
 between when a SSIP command is sent by the client and its reply is sent
 back by the server.
 
    Each notification consists of a multi-line SSIP reply as defined in
-*note General Rules::, and includes at least two parameters: 'msg_id'
-and 'client_id'.  'msg_id' is the identification number of the message
-the event is related to, *note SPEAK:: while 'client_id' is the
+*note General Rules::, and includes at least two parameters: ‘msg_id’
+and ‘client_id’.  ‘msg_id’ is the identification number of the message
+the event is related to, *note SPEAK:: while ‘client_id’ is the
 identification number of the client who sent the message.  Some events
 may have additional parameters.
 
-'INDEX_MARK'
+‘INDEX_MARK’
 
           700-msg_id
           700-client_id
           700-index_mark
           700 END
 
-     The event 'INDEX_MARK' carries a special parameter 'index_mark'
+     The event ‘INDEX_MARK’ carries a special parameter ‘index_mark’
      which is a string of characters identifying the index mark, as
      specified by the client application (e.g.  by the SSML tag <mark/>.
 
-'BEGIN'
+‘BEGIN’
 
           701-msg_id
           701-client_id
           701 BEGIN
-'END'
+‘END’
 
           702-msg_id
           702-client_id
           702 END
 
-'CANCEL'
+‘CANCEL’
 
           703-msg_id
           703-client_id
           703 CANCELED
 
-'PAUSE'
+‘PAUSE’
 
           704-msg_id
           704-client_id
           704 PAUSED
 
-'RESUME'
+‘RESUME’
 
           705-msg_id
           705-client_id
@@ -1250,41 +1251,41 @@ others.  SSIP allows clients to specify which notifications are to be
 used.
 
    The following commands for setting notifications on and off affect
-all the text messages (sent by the 'SPEAK' SSIP command) based on when
-the appropriate 'SPEAK' command was called.  So if for example, you set
+all the text messages (sent by the ‘SPEAK’ SSIP command) based on when
+the appropriate ‘SPEAK’ command was called.  So if for example, you set
 all notifications on, send a message and then set all notifications off,
 you will receive all the available notifications for that message even
 though it might start speaking after the notifications are already
 turned off.
 
-'SET SELF NOTIFICATION ALL { on | off }'
+‘SET SELF NOTIFICATION ALL { on | off }’
 
-     Set all available event notifications to either "on" or "off" for
+     Set all available event notifications to either “on” or “off” for
      for the messages that follow.  *Note Types of Events::.
 
-'SET SELF NOTIFICATION BEGIN { on | off }'
-'SET SELF NOTIFICATION END { on | off }'
+‘SET SELF NOTIFICATION BEGIN { on | off }’
+‘SET SELF NOTIFICATION END { on | off }’
 
-     Set the event notifications for 'BEGIN' or 'END' to either "on" or
-     "off" for the messages that follow.  *Note Types of Events::.
+     Set the event notifications for ‘BEGIN’ or ‘END’ to either “on” or
+     “off” for the messages that follow.  *Note Types of Events::.
 
-'SET SELF NOTIFICATION CANCEL { on | off }'
+‘SET SELF NOTIFICATION CANCEL { on | off }’
 
-     Set the event notifications for 'CANCEL' to 'mode' where 'mode' is
-     either "on" or "off" for switching the notifications on or off for
+     Set the event notifications for ‘CANCEL’ to ‘mode’ where ‘mode’ is
+     either “on” or “off” for switching the notifications on or off for
      the messages that follow.  *Note Types of Events::.
 
-'SET SELF NOTIFICATION PAUSE { on | off }'
-'SET SELF NOTIFICATION RESUME { on | off }'
+‘SET SELF NOTIFICATION PAUSE { on | off }’
+‘SET SELF NOTIFICATION RESUME { on | off }’
 
-     Set the event notifications for 'PAUSE' or 'RESUME' to 'mode' where
-     'mode' is either "on" or "off" for switching the notifications on
+     Set the event notifications for ‘PAUSE’ or ‘RESUME’ to ‘mode’ where
+     ‘mode’ is either “on” or “off” for switching the notifications on
      or off for the messages that follow.  *Note Types of Events::.
 
-'SET SELF NOTIFICATION INDEX_MARKS { on | off }'
+‘SET SELF NOTIFICATION INDEX_MARKS { on | off }’
 
-     Set the event notifications for 'INDEX_MARK' to either "on" or
-     "off" for switching the notifications on or off for the messages
+     Set the event notifications for ‘INDEX_MARK’ to either “on” or
+     “off” for switching the notifications on or off for the messages
      that follow.  *Note Types of Events::.
 
 
@@ -1321,7 +1322,7 @@ search for it later by time, keywords or using other methods.
    On the other hand, this may cause security issues as several clients
 may connect to Speech Server and they might originate from different
 users.  Because of flatpak and other technologies checking the user id
-isn't enough.  So now, only those messages that come from the same
+isn’t enough.  So now, only those messages that come from the same
 client connection are accessible.
 
 
@@ -1330,9 +1331,9 @@ File: ssip.info,  Node: Message History in SSIP,  Prev: Purpose of Message Histo
 4.8.2 Message History in SSIP
 -----------------------------
 
-History is handled by the 'HISTORY' command.  It can take many forms,
+History is handled by the ‘HISTORY’ command.  It can take many forms,
 described below, that allow browsing, retrieving and repeating stored
-messages.  In each invocation of the 'HISTORY' command there is no
+messages.  In each invocation of the ‘HISTORY’ command there is no
 difference between processing spoken or not spoken messages, all the
 received messages are processed.
 
@@ -1340,12 +1341,12 @@ received messages are processed.
 implementation of SSIP is still under way.  If you want to use them,
 please contact us to see the current status.
 
-   There is a "history cursor" pointing to some message in the history.
+   There is a “history cursor” pointing to some message in the history.
 You can move it across history messages and retrieve the message the
-cursor is pointing to, using the 'HISTORY CURSOR' set of command
+cursor is pointing to, using the ‘HISTORY CURSOR’ set of command
 arguments described below.
 
-'HISTORY GET CLIENT_LIST'
+‘HISTORY GET CLIENT_LIST’
      List known client names, their identifiers and status.  Each
      connection is listed on a separate line in the following format:
 
@@ -1354,8 +1355,8 @@ arguments described below.
      where ID is a client id that can be used in other history handling
      requests or in the speech output control commands (*note Speech
      Output Control Commands::), NAME is the client name as set through
-     the 'SET SELF CLIENT_NAME' command, and STATUS is '1' for connected
-     clients and '0' for disconnected clients.  IDs are unique within a
+     the ‘SET SELF CLIENT_NAME’ command, and STATUS is ‘1’ for connected
+     clients and ‘0’ for disconnected clients.  IDs are unique within a
      single run of Speech Server.
 
      Sample SSIP reply:
@@ -1365,7 +1366,7 @@ arguments described below.
           240-2 unknown:unknown:unknown 1
           240 OK CLIENTS LIST SENT
 
-'HISTORY GET CLIENT_ID'
+‘HISTORY GET CLIENT_ID’
      Return id of the client itself.
 
      The id is listed on a separate line in the following format:
@@ -1376,10 +1377,10 @@ arguments described below.
           200-123
           200 OK CLIENT ID SENT
 
-'HISTORY GET CLIENT_MESSAGES { ID | all | self } START NUMBER'
+‘HISTORY GET CLIENT_MESSAGES { ID | all | self } START NUMBER’
      List identifiers of messages sent by the client identified by ID.
-     If the special identifier 'all' is used, identifiers of messages
-     sent by all clients are listed; if the special identifier 'self' is
+     If the special identifier ‘all’ is used, identifiers of messages
+     sent by all clients are listed; if the special identifier ‘self’ is
      used, identifiers of messages sent by this client are listed.
 
      NUMBER of messages is listed, starting from the message numbered
@@ -1388,8 +1389,8 @@ arguments described below.
      exceeds the range of available messages, no error is signaled and
      the given range is restricted to the available range of messages.
 
-     Messages are sorted by the criterion used in the last client's
-     invocation of the 'HISTORY SORT' command.  If no 'HISTORY SET' has
+     Messages are sorted by the criterion used in the last client’s
+     invocation of the ‘HISTORY SORT’ command.  If no ‘HISTORY SET’ has
      been invoked yet, the messages are sorted from the oldest to the
      newest, according to their time of arrival at Speech Server.
 
@@ -1399,33 +1400,33 @@ arguments described below.
           ID CLIENT-ID CLIENT-NAME "TIME" PRIORITY "INTRO"
 
      CLIENT-ID is a numeric identifier of the client which sent the
-     message, CLIENT-NAME is its name as set by the 'SET SELF
-     CLIENT_NAME' command (*note Parameter Setting Commands::).  TIME is
-     the time of arrival of the message, in the fixed length 'YYYY-MM-DD
-     HH:MM:SS' format.  PRIORITY is the priority of the message, one of
-     the values accepted by the 'SET SELF PRIORITY' command (*note
+     message, CLIENT-NAME is its name as set by the ‘SET SELF
+     CLIENT_NAME’ command (*note Parameter Setting Commands::).  TIME is
+     the time of arrival of the message, in the fixed length ‘YYYY-MM-DD
+     HH:MM:SS’ format.  PRIORITY is the priority of the message, one of
+     the values accepted by the ‘SET SELF PRIORITY’ command (*note
      Parameter Setting Commands::).
 
      INTRO is the introductory part of the message of a certain maximum
-     length, see the 'HISTORY SET SHORT_MESSAGE_LENGTH' command.  INTRO
+     length, see the ‘HISTORY SET SHORT_MESSAGE_LENGTH’ command.  INTRO
      does not contain any double quotes nor the line feed character.
 
      All the message identifiers in the history, regardless of clients
      that issued them, are unique within a single run of Speech Server
      and remain unchanged.
 
-'HISTORY GET LAST'
+‘HISTORY GET LAST’
      List the id of the last message sent by the client.
 
      The id is listed on a separate line of the following format:
 
           ID
 
-     If the client hasn't sent any message yet, return an error code.
+     If the client hasn’t sent any message yet, return an error code.
 
-'HISTORY GET MESSAGE ID'
+‘HISTORY GET MESSAGE ID’
      Return the text of the history message identified by ID.  If ID
-     doesn't refer to any message, return an error code instead.  The
+     doesn’t refer to any message, return an error code instead.  The
      text is sent as a multi-line message, with no escaping or special
      transformation.
 
@@ -1435,7 +1436,7 @@ arguments described below.
           200-How are you?
           200 OK MESSAGE SENT
 
-'HISTORY CURSOR GET'
+‘HISTORY CURSOR GET’
      Get the id of the message the history cursor is pointing to.
 
      The id is listed on a separate line.  Sample SSIP reply to this
@@ -1444,115 +1445,114 @@ arguments described below.
           243-42
           243 OK CURSOR POSITION RETURNED
 
-'HISTORY CURSOR SET { ID | all | self } { first | last | pos N }'
+‘HISTORY CURSOR SET { ID | all | self } { first | last | pos N }’
      Set the history cursor to the given position.  The meaning of the
-     first argument after 'SET' is the same as in the 'HISTORY GET
-     CLIENT_MESSAGES' command.  The argument 'first' asks to set the
-     cursor on the first position and the argument 'last' asks to set
+     first argument after ‘SET’ is the same as in the ‘HISTORY GET
+     CLIENT_MESSAGES’ command.  The argument ‘first’ asks to set the
+     cursor on the first position and the argument ‘last’ asks to set
      the cursor on the last position of the history of the given client.
-     If the argument 'pos' is used, the position is set to N, where N is
-     a positive integer.  It is an error if ID doesn't identify any
-     client or if N doesn't point to any existing position in the
+     If the argument ‘pos’ is used, the position is set to N, where N is
+     a positive integer.  It is an error if ID doesn’t identify any
+     client or if N doesn’t point to any existing position in the
      history.
 
      As for the order and numbering of the messages in the history, the
-     same rules apply as in 'HISTORY GET CLIENT_MESSAGES'.  See above.
+     same rules apply as in ‘HISTORY GET CLIENT_MESSAGES’.  See above.
 
-'HISTORY CURSOR { forward | backward }'
-     Move the cursor one position 'forward', resp.  'backward', within
-     the messages of the client specified in the last 'HISTORY CURSOR
-     SET' command.  If there is no next, resp.  previous, message, don't
+‘HISTORY CURSOR { forward | backward }’
+     Move the cursor one position ‘forward’, resp.  ‘backward’, within
+     the messages of the client specified in the last ‘HISTORY CURSOR
+     SET’ command.  If there is no next, resp.  previous, message, don’t
      move the cursor and return an error code.
 
-'HISTORY SAY ID'
-     Speak the message from history identified by ID.  If ID doesn't
+‘HISTORY SAY ID’
+     Speak the message from history identified by ID.  If ID doesn’t
      refer to any message, return an error code instead.
 
      The message is spoken as it would be sent by its originating
-     command ('SPEAK' or 'SOUND_ICON'), but the _current_ settings
+     command (‘SPEAK’ or ‘SOUND_ICON’), but the _current_ settings
      (priority, etc.)  apply.
 
-'HISTORY SORT { asc | desc } { time | user | client_name | priority | message_type }'
+‘HISTORY SORT { asc | desc } { time | user | client_name | priority | message_type }’
      Sort the messages in history according to the given criteria.  If
-     the second command argument is 'asc', sort in ascending order, if
-     it is 'desc', sort in descending order.  The third command argument
+     the second command argument is ‘asc’, sort in ascending order, if
+     it is ‘desc’, sort in descending order.  The third command argument
      specifies the message property to order by:
 
-     'time'
+     ‘time’
           Time of arrival of the message.
 
-     'user'
+     ‘user’
           User name.
 
-     'client_name'
+     ‘client_name’
           Client name, excluding user name.
 
-     'priority'
+     ‘priority’
           Priority.
 
-     'message_type'
+     ‘message_type’
           Type of the message (text, sound icon, character, key), in the
           order specified in the Speech Server configuration or by the
-          'HISTORY SET MESSAGE_TYPE_ORDERING' command.
+          ‘HISTORY SET MESSAGE_TYPE_ORDERING’ command.
 
-     The sorting is stable -- order of all the messages that are equal
-     in the given ordering remains the same.
+     The sorting is stable — order of all the messages that are equal in
+     the given ordering remains the same.
 
      The sorting is specific to the given client connection, other
      connections are unaffected by invocation of this command.
 
-'HISTORY SET SHORT_MESSAGE_LENGTH LENGTH'
+‘HISTORY SET SHORT_MESSAGE_LENGTH LENGTH’
      Set the maximum length of short versions of history messages to
      LENGTH characters.  LENGTH must be a non-negative integer.
 
      Short (truncated) versions of history messages are used e.g.  in
-     the answer to the 'HISTORY GET CLIENT_MESSAGES' format.
+     the answer to the ‘HISTORY GET CLIENT_MESSAGES’ format.
 
-'HISTORY SET MESSAGE_TYPE_ORDERING "ORDERING"'
+‘HISTORY SET MESSAGE_TYPE_ORDERING "ORDERING"’
      Set the ordering of the message types, from the minimum to the
      maximum.  ORDERING is a sequence of the following symbols,
-     separated by spaces: 'text', 'sound_icon', 'char', 'key'.  The
+     separated by spaces: ‘text’, ‘sound_icon’, ‘char’, ‘key’.  The
      symbols are case insensitive and each of them must be present in
      ORDERING exactly once.
 
-     The specified ordering can be used by the 'HISTORY SORT' command.
+     The specified ordering can be used by the ‘HISTORY SORT’ command.
 
-'HISTORY SEARCH { ID | all | self } "CONDITION"'
+‘HISTORY SEARCH { ID | all | self } "CONDITION"’
      Return the list of history messages satisfying CONDITION.  The
      command allows searching messages by given words.  The output
-     format is the same as the 'HISTORY GET CLIENT_MESSAGES' command.
+     format is the same as the ‘HISTORY GET CLIENT_MESSAGES’ command.
 
-     The meaning of the first argument after 'SEARCH' is the same as the
-     'HISTORY GET CLIENT_MESSAGES' command.
+     The meaning of the first argument after ‘SEARCH’ is the same as the
+     ‘HISTORY GET CLIENT_MESSAGES’ command.
 
      CONDITION is constructed according to the following grammar rules:
 
-     'CONDITION :: WORD'
+     ‘CONDITION :: WORD’
           Matches messages containing WORD.
 
-     'CONDITION :: ( ! CONDITION )'
+     ‘CONDITION :: ( ! CONDITION )’
           Negation of the given condition.
 
-     'CONDITION :: ( CONDITION [ & CONDITION ... ] )'
-          Logical AND -- all the conditions must be satisfied.
+     ‘CONDITION :: ( CONDITION [ & CONDITION ... ] )’
+          Logical AND — all the conditions must be satisfied.
 
-     'CONDITION :: ( CONDITION [ | CONDITION ... ] )'
-          Logical OR -- at least one of the conditions must be
-          satisfied.
+     ‘CONDITION :: ( CONDITION [ | CONDITION ... ] )’
+          Logical OR — at least one of the conditions must be satisfied.
 
      Spaces within the condition are insignificant and ignored.
 
      The following rules apply to WORDs:
 
-        - WORD is a sequence of adjacent alphanumeric characters.
+        − WORD is a sequence of adjacent alphanumeric characters.
 
-        - If WORD contains any upper-case letter, the search for the
-          word is case sensitive, otherwise it's case insensitive.
+        − If WORD contains any upper-case letter, the search for the
+          word is case sensitive, otherwise it’s case insensitive.
 
-        - WORD must match whole word, not only its substring.
+        − WORD must match whole word, not only its substring.
 
-        - WORD can contain the wild card characters '?', substituting
-          any single alphanumeric character, and '*', substituting any
+        − WORD can contain the wild card characters ‘?’, substituting
+          any single alphanumeric character, and ‘*’, substituting any
           number (incl.  zero) of alphanumeric characters.
 
      Returned messages are sorted by the following rules:
@@ -1562,8 +1562,8 @@ arguments described below.
           the highest (best matching messages first) to the lowest.
           This takes effect only if the given condition is the OR rule.
 
-       2. The criterion used in the last client's invocation of the
-          'HISTORY SORT' command.  If no 'HISTORY SORT' has been invoked
+       2. The criterion used in the last client’s invocation of the
+          ‘HISTORY SORT’ command.  If no ‘HISTORY SORT’ has been invoked
           yet, the messages are sorted from the oldest to the newest,
           according to their time of arrival.
 
@@ -1573,10 +1573,10 @@ File: ssip.info,  Node: Other Commands,  Prev: History Handling Commands,  Up: S
 4.9 Other Commands
 ==================
 
-'QUIT'
+‘QUIT’
      Close the connection.
 
-'HELP'
+‘HELP’
      Print a short list of all SSIP commands, as a multi-line message.
 
 
@@ -1592,8 +1592,8 @@ finer classification of the result.
    SSIP defines the following result groups:
 
 1XX
-     Informative response -- general information about the protocol,
-     help messages.
+     Informative response — general information about the protocol, help
+     messages.
 
 2XX
      Operation was completely successful.
@@ -1614,12 +1614,12 @@ finer classification of the result.
 groups to unsuccessful actions.  Only the groups defined here may be
 returned in an SSIP connection.
 
-   Currently, for return codes in the range '100'-'599', only the
+   Currently, for return codes in the range ‘100’–‘599’, only the
 meaning of the first digit of the result code is defined.  The last two
-digits are insignificant and can be of any value.  Clients shouldn't
+digits are insignificant and can be of any value.  Clients shouldn’t
 rely on the unspecified digits in any way.
 
-   However, the return codes in the range '700'-'800', reserved for
+   However, the return codes in the range ‘700’–‘800’, reserved for
 events notification, are well defined in the appropriate section of SSIP
 documentation and client applications can rely on them.
 
@@ -1697,86 +1697,86 @@ are case sensitive.
 Special Key Names
 -----------------
 
-'space'
-'underscore'
-'double-quote'
+‘space’
+‘underscore’
+‘double-quote’
 
 Auxiliary Keys
 --------------
 
-'alt'
-'control'
-'hyper'
-'meta'
-'shift'
-'super'
+‘alt’
+‘control’
+‘hyper’
+‘meta’
+‘shift’
+‘super’
 
 Control Character Keys
 ----------------------
 
-'backspace'
-'break'
-'delete'
-'down'
-'end'
-'enter'
-'escape'
-'f1'
-'f2'
-'f3'
-'f4'
-'f5'
-'f6'
-'f7'
-'f8'
-'f9'
-'f10'
-'f11'
-'f12'
-'f13'
-'f14'
-'f15'
-'f16'
-'f17'
-'f18'
-'f19'
-'f20'
-'f21'
-'f22'
-'f23'
-'f24'
-'home'
-'insert'
-'kp-*'
-'kp-+'
-'kp--'
-'kp-.'
-'kp-/'
-'kp-0'
-'kp-1'
-'kp-2'
-'kp-3'
-'kp-4'
-'kp-5'
-'kp-6'
-'kp-7'
-'kp-8'
-'kp-9'
-'kp-enter'
-'left'
-'menu'
-'next'
-'num-lock'
-'pause'
-'print'
-'prior'
-'return'
-'right'
-'scroll-lock'
-'space'
-'tab'
-'up'
-'window'
+‘backspace’
+‘break’
+‘delete’
+‘down’
+‘end’
+‘enter’
+‘escape’
+‘f1’
+‘f2’
+‘f3’
+‘f4’
+‘f5’
+‘f6’
+‘f7’
+‘f8’
+‘f9’
+‘f10’
+‘f11’
+‘f12’
+‘f13’
+‘f14’
+‘f15’
+‘f16’
+‘f17’
+‘f18’
+‘f19’
+‘f20’
+‘f21’
+‘f22’
+‘f23’
+‘f24’
+‘home’
+‘insert’
+‘kp-*’
+‘kp-+’
+‘kp--’
+‘kp-.’
+‘kp-/’
+‘kp-0’
+‘kp-1’
+‘kp-2’
+‘kp-3’
+‘kp-4’
+‘kp-5’
+‘kp-6’
+‘kp-7’
+‘kp-8’
+‘kp-9’
+‘kp-enter’
+‘left’
+‘menu’
+‘next’
+‘num-lock’
+‘pause’
+‘print’
+‘prior’
+‘return’
+‘right’
+‘scroll-lock’
+‘space’
+‘tab’
+‘up’
+‘window’
 
 
 File: ssip.info,  Node: Standard Sound Icons,  Next: Standard Voices,  Prev: Key Names,  Up: Appendices
@@ -1792,20 +1792,20 @@ File: ssip.info,  Node: Standard Voices,  Prev: Standard Sound Icons,  Up: Appen
 A.3 Standard Voices
 ===================
 
-The following voice names are always present in the output of the 'LIST
-VOICES' command (*note Information Retrieval Commands::):
+The following voice names are always present in the output of the ‘LIST
+VOICES’ command (*note Information Retrieval Commands::):
 
-'MALE1'
-'MALE2'
-'MALE3'
-'FEMALE1'
-'FEMALE2'
-'FEMALE3'
-'CHILD_MALE'
-'CHILD_FEMALE'
+‘MALE1’
+‘MALE2’
+‘MALE3’
+‘FEMALE1’
+‘FEMALE2’
+‘FEMALE3’
+‘CHILD_MALE’
+‘CHILD_FEMALE’
 
    The actual presence of any of these voices is not guaranteed.  But
-the command 'SET VOICE' (*note Parameter Setting Commands::) must accept
+the command ‘SET VOICE’ (*note Parameter Setting Commands::) must accept
 any of them.  If the given voice is not available, it is mapped to
 another voice by the output module.
 
@@ -1817,7 +1817,7 @@ Appendix B GNU Free Documentation License
 
                       Version 1.2, November 2002
 
-     Copyright (C) 2000,2001,2002 Free Software Foundation, Inc.
+     Copyright © 2000,2001,2002 Free Software Foundation, Inc.
      51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
 
      Everyone is permitted to copy and distribute verbatim copies
@@ -1826,14 +1826,14 @@ Appendix B GNU Free Documentation License
   0. PREAMBLE
 
      The purpose of this License is to make a manual, textbook, or other
-     functional and useful document "free" in the sense of freedom: to
+     functional and useful document “free” in the sense of freedom: to
      assure everyone the effective freedom to copy and redistribute it,
      with or without modifying it, either commercially or
      noncommercially.  Secondarily, this License preserves for the
      author and publisher a way to get credit for their work, while not
      being considered responsible for modifications made by others.
 
-     This License is a kind of "copyleft", which means that derivative
+     This License is a kind of “copyleft”, which means that derivative
      works of the document must themselves be free in the same sense.
      It complements the GNU General Public License, which is a copyleft
      license designed for free software.
@@ -1854,18 +1854,18 @@ Appendix B GNU Free Documentation License
      be distributed under the terms of this License.  Such a notice
      grants a world-wide, royalty-free license, unlimited in duration,
      to use that work under the conditions stated herein.  The
-     "Document", below, refers to any such manual or work.  Any member
-     of the public is a licensee, and is addressed as "you".  You accept
+     “Document”, below, refers to any such manual or work.  Any member
+     of the public is a licensee, and is addressed as “you”.  You accept
      the license if you copy, modify or distribute the work in a way
      requiring permission under copyright law.
 
-     A "Modified Version" of the Document means any work containing the
+     A “Modified Version” of the Document means any work containing the
      Document or a portion of it, either copied verbatim, or with
      modifications and/or translated into another language.
 
-     A "Secondary Section" is a named appendix or a front-matter section
+     A “Secondary Section” is a named appendix or a front-matter section
      of the Document that deals exclusively with the relationship of the
-     publishers or authors of the Document to the Document's overall
+     publishers or authors of the Document to the Document’s overall
      subject (or to related matters) and contains nothing that could
      fall directly within that overall subject.  (Thus, if the Document
      is in part a textbook of mathematics, a Secondary Section may not
@@ -1874,7 +1874,7 @@ Appendix B GNU Free Documentation License
      of legal, commercial, philosophical, ethical or political position
      regarding them.
 
-     The "Invariant Sections" are certain Secondary Sections whose
+     The “Invariant Sections” are certain Secondary Sections whose
      titles are designated, as being those of Invariant Sections, in the
      notice that says that the Document is released under this License.
      If a section does not fit the above definition of Secondary then it
@@ -1882,13 +1882,13 @@ Appendix B GNU Free Documentation License
      contain zero Invariant Sections.  If the Document does not identify
      any Invariant Sections then there are none.
 
-     The "Cover Texts" are certain short passages of text that are
+     The “Cover Texts” are certain short passages of text that are
      listed, as Front-Cover Texts or Back-Cover Texts, in the notice
      that says that the Document is released under this License.  A
      Front-Cover Text may be at most 5 words, and a Back-Cover Text may
      be at most 25 words.
 
-     A "Transparent" copy of the Document means a machine-readable copy,
+     A “Transparent” copy of the Document means a machine-readable copy,
      represented in a format whose specification is available to the
      general public, that is suitable for revising the document
      straightforwardly with generic text editors or (for images composed
@@ -1900,7 +1900,7 @@ Appendix B GNU Free Documentation License
      been arranged to thwart or discourage subsequent modification by
      readers is not Transparent.  An image format is not Transparent if
      used for any substantial amount of text.  A copy that is not
-     "Transparent" is called "Opaque".
+     “Transparent” is called “Opaque”.
 
      Examples of suitable formats for Transparent copies include plain
      ASCII without markup, Texinfo input format, LaTeX input format,
@@ -1913,20 +1913,20 @@ Appendix B GNU Free Documentation License
      the machine-generated HTML, PostScript or PDF produced by some word
      processors for output purposes only.
 
-     The "Title Page" means, for a printed book, the title page itself,
+     The “Title Page” means, for a printed book, the title page itself,
      plus such following pages as are needed to hold, legibly, the
      material this License requires to appear in the title page.  For
-     works in formats which do not have any title page as such, "Title
-     Page" means the text near the most prominent appearance of the
-     work's title, preceding the beginning of the body of the text.
+     works in formats which do not have any title page as such, “Title
+     Page” means the text near the most prominent appearance of the
+     work’s title, preceding the beginning of the body of the text.
 
-     A section "Entitled XYZ" means a named subunit of the Document
+     A section “Entitled XYZ” means a named subunit of the Document
      whose title either is precisely XYZ or contains XYZ in parentheses
      following text that translates XYZ in another language.  (Here XYZ
      stands for a specific section name mentioned below, such as
-     "Acknowledgements", "Dedications", "Endorsements", or "History".)
-     To "Preserve the Title" of such a section when you modify the
-     Document means that it remains a section "Entitled XYZ" according
+     “Acknowledgements”, “Dedications”, “Endorsements”, or “History”.)
+     To “Preserve the Title” of such a section when you modify the
+     Document means that it remains a section “Entitled XYZ” according
      to this definition.
 
      The Document may include Warranty Disclaimers next to the notice
@@ -1956,7 +1956,7 @@ Appendix B GNU Free Documentation License
 
      If you publish printed copies (or copies in media that commonly
      have printed covers) of the Document, numbering more than 100, and
-     the Document's license notice requires Cover Texts, you must
+     the Document’s license notice requires Cover Texts, you must
      enclose the copies in covers that carry, clearly and legibly, all
      these Cover Texts: Front-Cover Texts on the front cover, and
      Back-Cover Texts on the back cover.  Both covers must also clearly
@@ -2028,15 +2028,15 @@ Appendix B GNU Free Documentation License
           the Addendum below.
 
        G. Preserve in that license notice the full lists of Invariant
-          Sections and required Cover Texts given in the Document's
+          Sections and required Cover Texts given in the Document’s
           license notice.
 
        H. Include an unaltered copy of this License.
 
-       I. Preserve the section Entitled "History", Preserve its Title,
+       I. Preserve the section Entitled “History”, Preserve its Title,
           and add to it an item stating at least the title, year, new
           authors, and publisher of the Modified Version as given on the
-          Title Page.  If there is no section Entitled "History" in the
+          Title Page.  If there is no section Entitled “History” in the
           Document, create one stating the title, year, authors, and
           publisher of the Document as given on its Title Page, then add
           an item describing the Modified Version as stated in the
@@ -2046,12 +2046,12 @@ Appendix B GNU Free Documentation License
           for public access to a Transparent copy of the Document, and
           likewise the network locations given in the Document for
           previous versions it was based on.  These may be placed in the
-          "History" section.  You may omit a network location for a work
+          “History” section.  You may omit a network location for a work
           that was published at least four years before the Document
           itself, or if the original publisher of the version it refers
           to gives permission.
 
-       K. For any section Entitled "Acknowledgements" or "Dedications",
+       K. For any section Entitled “Acknowledgements” or “Dedications”,
           Preserve the Title of the section, and preserve in the section
           all the substance and tone of each of the contributor
           acknowledgements and/or dedications given therein.
@@ -2060,11 +2060,11 @@ Appendix B GNU Free Documentation License
           in their text and in their titles.  Section numbers or the
           equivalent are not considered part of the section titles.
 
-       M. Delete any section Entitled "Endorsements".  Such a section
+       M. Delete any section Entitled “Endorsements”.  Such a section
           may not be included in the Modified Version.
 
        N. Do not retitle any existing section to be Entitled
-          "Endorsements" or to conflict in title with any Invariant
+          “Endorsements” or to conflict in title with any Invariant
           Section.
 
        O. Preserve any Warranty Disclaimers.
@@ -2073,15 +2073,15 @@ Appendix B GNU Free Documentation License
      appendices that qualify as Secondary Sections and contain no
      material copied from the Document, you may at your option designate
      some or all of these sections as invariant.  To do this, add their
-     titles to the list of Invariant Sections in the Modified Version's
+     titles to the list of Invariant Sections in the Modified Version’s
      license notice.  These titles must be distinct from any other
      section titles.
 
-     You may add a section Entitled "Endorsements", provided it contains
+     You may add a section Entitled “Endorsements”, provided it contains
      nothing but endorsements of your Modified Version by various
-     parties--for example, statements of peer review or that the text
-     has been approved by an organization as the authoritative
-     definition of a standard.
+     parties—for example, statements of peer review or that the text has
+     been approved by an organization as the authoritative definition of
+     a standard.
 
      You may add a passage of up to five words as a Front-Cover Text,
      and a passage of up to 25 words as a Back-Cover Text, to the end of
@@ -2119,10 +2119,10 @@ Appendix B GNU Free Documentation License
      combined work.
 
      In the combination, you must combine any sections Entitled
-     "History" in the various original documents, forming one section
-     Entitled "History"; likewise combine any sections Entitled
-     "Acknowledgements", and any sections Entitled "Dedications".  You
-     must delete all sections Entitled "Endorsements."
+     “History” in the various original documents, forming one section
+     Entitled “History”; likewise combine any sections Entitled
+     “Acknowledgements”, and any sections Entitled “Dedications”.  You
+     must delete all sections Entitled “Endorsements.”
 
   6. COLLECTIONS OF DOCUMENTS
 
@@ -2143,16 +2143,16 @@ Appendix B GNU Free Documentation License
 
      A compilation of the Document or its derivatives with other
      separate and independent documents or works, in or on a volume of a
-     storage or distribution medium, is called an "aggregate" if the
+     storage or distribution medium, is called an “aggregate” if the
      copyright resulting from the compilation is not used to limit the
-     legal rights of the compilation's users beyond what the individual
+     legal rights of the compilation’s users beyond what the individual
      works permit.  When the Document is included in an aggregate, this
      License does not apply to the other works in the aggregate which
      are not themselves derivative works of the Document.
 
      If the Cover Text requirement of section 3 is applicable to these
      copies of the Document, then if the Document is less than one half
-     of the entire aggregate, the Document's Cover Texts may be placed
+     of the entire aggregate, the Document’s Cover Texts may be placed
      on covers that bracket the Document within the aggregate, or the
      electronic equivalent of covers if the Document is in electronic
      form.  Otherwise they must appear on printed covers that bracket
@@ -2174,8 +2174,8 @@ Appendix B GNU Free Documentation License
      this License or a notice or disclaimer, the original version will
      prevail.
 
-     If a section in the Document is Entitled "Acknowledgements",
-     "Dedications", or "History", the requirement (section 4) to
+     If a section in the Document is Entitled “Acknowledgements”,
+     “Dedications”, or “History”, the requirement (section 4) to
      Preserve its Title (section 1) will typically require changing the
      actual title.
 
@@ -2199,7 +2199,7 @@ Appendix B GNU Free Documentation License
 
      Each version of the License is given a distinguishing version
      number.  If the Document specifies that a particular numbered
-     version of this License "or any later version" applies to it, you
+     version of this License “or any later version” applies to it, you
      have the option of following the terms and conditions either of
      that specified version or of any later version that has been
      published (not as a draft) by the Free Software Foundation.  If the
@@ -2223,7 +2223,7 @@ notices just after the title page:
        Free Documentation License''.
 
    If you have Invariant Sections, Front-Cover Texts and Back-Cover
-Texts, replace the "with...Texts."  line with this:
+Texts, replace the “with...Texts.” line with this:
 
          with the Invariant Sections being LIST THEIR TITLES, with
          the Front-Cover Texts being LIST, and with the Back-Cover Texts
@@ -2248,7 +2248,7 @@ Appendix C GNU General Public License
 
                          Version 2, June 1991
 
-     Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+     Copyright © 1989, 1991 Free Software Foundation, Inc.
      51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
 
      Everyone is permitted to copy and distribute verbatim copies
@@ -2259,9 +2259,9 @@ Preamble
 
 The licenses for most software are designed to take away your freedom to
 share and change it.  By contrast, the GNU General Public License is
-intended to guarantee your freedom to share and change free software--to
+intended to guarantee your freedom to share and change free software—to
 make sure the software is free for all its users.  This General Public
-License applies to most of the Free Software Foundation's software and
+License applies to most of the Free Software Foundation’s software and
 to any other program whose authors commit to using it.  (Some other Free
 Software Foundation software is covered by the GNU Lesser General Public
 License instead.)  You can apply it to your programs, too.
@@ -2288,18 +2288,18 @@ rights.
 and (2) offer you this license which gives you legal permission to copy,
 distribute and/or modify the software.
 
-   Also, for each author's protection and ours, we want to make certain
+   Also, for each author’s protection and ours, we want to make certain
 that everyone understands that there is no warranty for this free
 software.  If the software is modified by someone else and passed on, we
 want its recipients to know that what they have is not the original, so
 that any problems introduced by others will not reflect on the original
-authors' reputations.
+authors’ reputations.
 
    Finally, any free program is threatened constantly by software
 patents.  We wish to avoid the danger that redistributors of a free
 program will individually obtain patent licenses, in effect making the
 program proprietary.  To prevent this, we have made it clear that any
-patent must be licensed for everyone's free use or not licensed at all.
+patent must be licensed for everyone’s free use or not licensed at all.
 
    The precise terms and conditions for copying, distribution and
 modification follow.
@@ -2309,14 +2309,14 @@ TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
   0. This License applies to any program or other work which contains a
      notice placed by the copyright holder saying it may be distributed
-     under the terms of this General Public License.  The "Program",
-     below, refers to any such program or work, and a "work based on the
-     Program" means either the Program or any derivative work under
+     under the terms of this General Public License.  The “Program”,
+     below, refers to any such program or work, and a “work based on the
+     Program” means either the Program or any derivative work under
      copyright law: that is to say, a work containing the Program or a
      portion of it, either verbatim or with modifications and/or
      translated into another language.  (Hereinafter, translation is
-     included without limitation in the term "modification".)  Each
-     licensee is addressed as "you".
+     included without limitation in the term “modification”.)  Each
+     licensee is addressed as “you”.
 
      Activities other than copying, distribution and modification are
      not covered by this License; they are outside its scope.  The act
@@ -2325,7 +2325,7 @@ TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
      the Program (independent of having been made by running the
      Program).  Whether that is true depends on what the Program does.
 
-  1. You may copy and distribute verbatim copies of the Program's source
+  1. You may copy and distribute verbatim copies of the Program’s source
      code as you receive it, in any medium, provided that you
      conspicuously and appropriately publish on each copy an appropriate
      copyright notice and disclaimer of warranty; keep intact all the
@@ -2444,7 +2444,7 @@ TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
      Program), the recipient automatically receives a license from the
      original licensor to copy, distribute or modify the Program subject
      to these terms and conditions.  You may not impose any further
-     restrictions on the recipients' exercise of the rights granted
+     restrictions on the recipients’ exercise of the rights granted
      herein.  You are not responsible for enforcing compliance by third
      parties to this License.
 
@@ -2497,7 +2497,7 @@ TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
      Each version is given a distinguishing version number.  If the
      Program specifies a version number of this License which applies to
-     it and "any later version", you have the option of following the
+     it and “any later version”, you have the option of following the
      terms and conditions either of that version or of any later version
      published by the Free Software Foundation.  If the Program does not
      specify a version number of this License, you may choose any
@@ -2517,7 +2517,7 @@ TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
   11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO
      WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE
      LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS
-     AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
+     AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY
      OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT
      LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
      FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND
@@ -2549,7 +2549,7 @@ terms.
    To do so, attach the following notices to the program.  It is safest
 to attach them to the start of each source file to most effectively
 convey the exclusion of warranty; and each file should have at least the
-"copyright" line and a pointer to where the full notice is found.
+“copyright” line and a pointer to where the full notice is found.
 
      ONE LINE TO GIVE THE PROGRAM'S NAME AND A BRIEF IDEA OF WHAT IT DOES.
      Copyright (C) YYYY  NAME OF AUTHOR
@@ -2578,14 +2578,14 @@ this when it starts in an interactive mode:
      This is free software, and you are welcome to redistribute it
      under certain conditions; type `show c' for details.
 
-   The hypothetical commands 'show w' and 'show c' should show the
+   The hypothetical commands ‘show w’ and ‘show c’ should show the
 appropriate parts of the General Public License.  Of course, the
-commands you use may be called something other than 'show w' and 'show
-c'; they could even be mouse-clicks or menu items--whatever suits your
+commands you use may be called something other than ‘show w’ and ‘show
+c’; they could even be mouse-clicks or menu items—whatever suits your
 program.
 
    You should also get your employer (if you work as a programmer) or
-your school, if any, to sign a "copyright disclaimer" for the program,
+your school, if any, to sign a “copyright disclaimer” for the program,
 if necessary.  Here is a sample; alter the names:
 
      Yoyodyne, Inc., hereby disclaims all copyright interest in the program
@@ -2603,45 +2603,45 @@ GNU Lesser General Public License instead of this License.
 
 
 Tag Table:
-Node: Top221
-Node: Introduction1541
-Node: Purpose1727
-Node: Protocol Philosophy3305
-Node: Higher Level API5695
-Node: Basic Terminology6596
-Node: General Rules7755
-Node: SSIP Commands11250
-Node: Speech Synthesis and Sound Output Commands12648
-Ref: SPEAK13066
-Ref: SSIP KEY15832
-Ref: SSIP SOUND_ICON16883
-Node: Speech Output Control Commands17148
-Node: Message Priority Commands19356
-Node: Priority Categories20536
-Node: Priority Diagram24314
-Node: Priority Setting Commands25251
-Node: Examples of Using Priorities25868
-Node: Blocks of Messages Commands26673
-Node: Parameter Setting Commands29213
-Node: Information Retrieval Commands39660
-Ref: list-output-modules40110
-Node: Message Events Notification and Index Marking41938
-Node: Why Events Notification42335
-Node: Types of Events43402
-Node: Events Notifications in SSIP46305
-Node: Switching Notifications On and Off47931
-Node: History Handling Commands49991
-Node: Purpose of Message History50253
-Node: Message History in SSIP51493
-Node: Other Commands61376
-Node: Return Codes61625
-Node: Sample SSIP Dialog63110
-Node: Appendices64368
-Node: Key Names64686
-Node: Standard Sound Icons65552
-Node: Standard Voices65737
-Node: GNU Free Documentation License66328
-Node: GNU General Public Licence88768
+Node: Top223
+Node: Introduction1550
+Node: Purpose1736
+Node: Protocol Philosophy3321
+Node: Higher Level API5713
+Node: Basic Terminology6614
+Node: General Rules7787
+Node: SSIP Commands11314
+Node: Speech Synthesis and Sound Output Commands12736
+Ref: SPEAK13158
+Ref: SSIP KEY15976
+Ref: SSIP SOUND_ICON17039
+Node: Speech Output Control Commands17304
+Node: Message Priority Commands19577
+Node: Priority Categories20759
+Node: Priority Diagram24685
+Node: Priority Setting Commands25623
+Node: Examples of Using Priorities26270
+Node: Blocks of Messages Commands27149
+Node: Parameter Setting Commands29799
+Node: Information Retrieval Commands40569
+Ref: list-output-modules41031
+Node: Message Events Notification and Index Marking42879
+Node: Why Events Notification43276
+Node: Types of Events44349
+Node: Events Notifications in SSIP47357
+Node: Switching Notifications On and Off49033
+Node: History Handling Commands51209
+Node: Purpose of Message History51471
+Node: Message History in SSIP52713
+Node: Other Commands62871
+Node: Return Codes63128
+Node: Sample SSIP Dialog64636
+Node: Appendices65894
+Node: Key Names66212
+Node: Standard Sound Icons67366
+Node: Standard Voices67551
+Node: GNU Free Documentation License68182
+Node: GNU General Public Licence90791
 
 End Tag Table
 

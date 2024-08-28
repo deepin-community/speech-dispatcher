@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -e
+
+patch -p1 < debian/test-patches/use_system_libspeechd
+
+dh_autoreconf 2>&1
+dh_auto_configure 2>&1
+
+make check -C src/tests 2>&1
+make testsuite -C src/tests
+
+(cd src/tests ; ./testsuite) || (cat src/tests/testsuite.log ; cat $XDG_RUNTIME_DIR/speech-dispatcher/log/speech-dispatcher.log ; false)
+
+patch -p1 -R < debian/test-patches/use_system_libspeechd
