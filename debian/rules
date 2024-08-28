@@ -61,7 +61,6 @@ override_dh_installsystemd:
 main:
 	sed -i 's/^speech-dispatcher-contrib /speech-dispatcher /' debian/changelog
 	sed -i '1s/^Source: speech-dispatcher-contrib$$/Source: speech-dispatcher/' debian/control
-	sed -i 's/^ libdumbtts-dev/# libdumbtts-dev/' debian/control
 	sed -i 's/^ libttspico-dev/# libttspico-dev/' debian/control
 	sed -i '/^#start-contrib$$/,/^#end-contrib$$/s/^/#/' debian/control
 	sed -i '/Package: speech-dispatcher$$/,$$s/^#*//' debian/control
@@ -71,7 +70,6 @@ main:
 contrib:
 	sed -i 's/^speech-dispatcher /speech-dispatcher-contrib /' debian/changelog
 	sed -i '1s/^Source: speech-dispatcher$$/Source: speech-dispatcher-contrib/' debian/control
-	sed -i 's/^#* libdumbtts-dev/ libdumbtts-dev/' debian/control
 	sed -i 's/^#* libttspico-dev/ libttspico-dev/' debian/control
 	sed -i '/^##start-contrib$$/,/^##end-contrib$$/s/^#//' debian/control
 	sed -i '/Package: speech-dispatcher$$/,$$s/^/#/' debian/control

@@ -13,7 +13,7 @@
 # Copyright (C) 2017 Colomban Wendling <cwendling@hypra.fr>
 # Copyright (C) 2017 Jan Tojnar <jtojnar@gmail.com>
 # Copyright (C) 2018 Raphaël POITEVIN <rpoitevin@hypra.fr>
-# Copyright (C) 2018-2019 Samuel Thibault <samuel.thibault@ens-lyon.org>
+# Copyright (C) 2018-2021 Samuel Thibault <samuel.thibault@ens-lyon.org>
 # Copyright (C) 2018 Alan Coopersmith <alan.coopersmith@oracle.com>
 #
 # This program is free software; you can redistribute it and/or modify it under
@@ -60,6 +60,7 @@ AC_CONFIG_TESTDIR(src/tests)
 AC_PROG_CC
 AC_PROG_CXX
 AC_PROG_INSTALL
+AC_PROG_LN_S
 AC_CHECK_PROGS([HELP2MAN], [help2man])
 AM_CONDITIONAL([HAVE_HELP2MAN], [test "x$HELP2MAN" != "x"])
 
@@ -181,6 +182,9 @@ AC_SUBST([ESPEAK_NG_CFLAGS])
 AC_SUBST([ESPEAK_NG_LIBS])
 AS_IF([test $with_espeak_ng = "yes"], [output_modules="${output_modules} espeak-ng"])
 
+AC_CHECK_PROGS([ESPEAK], [espeak-ng espeak])
+AM_CONDITIONAL([espeak_dummy_message], [test x$ESPEAK != x])
+
 # check for flite support
 AC_ARG_WITH([flite],
 	[AS_HELP_STRING([--with-flite], [include Festival Lite (Flite) support])],
@@ -223,11 +227,22 @@ AC_SUBST([flite_basic])
 AC_SUBST([flite_kal])
 AS_IF([test $with_flite = "yes"], [output_modules="${output_modules} flite"])
 
+AC_CHECK_PROGS([FLITE], [flite])
+AM_CONDITIONAL([flite_dummy_message], [test x$FLITE != x])
+
 # check for IBMTTS support
+case "$host" in
+	[i[3-6]86-*-linux*])
+		default_ibmtts=check
+		;;
+	*)
+		default_ibmtts=no
+		;;
+esac
 AC_ARG_WITH([ibmtts],
 	[AS_HELP_STRING([--with-ibmtts[[=yes|no|shim]]], [include IBM TTS support])],
 	[],
-	[with_ibmtts=check])
+	[with_ibmtts=$default_ibmtts])
 AS_IF([test $with_ibmtts = yes -o $with_ibmtts = check],
 	[AC_CHECK_LIB([ibmeci], [eciStop],
 		[with_ibmtts=yes;
@@ -324,7 +339,8 @@ AM_CONDITIONAL([kali_support], [test $with_kali != no])
 AM_CONDITIONAL([kali_shim], [test $with_kali = shim])
 AS_IF([test $with_kali != no], [output_modules="${output_modules} kali"])
 
-audio_dlopen_modules='-dlopen force'
+audio_dlopen='-dlopen force'
+audio_dlopen_modules=
 
 # clear default audio method
 default_audio_method=""
@@ -428,6 +444,7 @@ AC_ARG_WITH([default-audio-method],
 AC_SUBST([default_audio_method])
 
 # We'll build these modules:
+AC_SUBST([audio_dlopen])
 AC_SUBST([audio_dlopen_modules])
 
 # current, age and revision values for libspeechd.
@@ -471,9 +488,11 @@ AC_SUBST([localedatadir])
 # Path for module binaries:
 AC_ARG_WITH([module-bindir],
 	AS_HELP_STRING([--with-module-bindir],[Directory where to install speech-dispatcher modules (defaults to ${libdir}/speech-dispatcher-modules)]),
-	[modulebindir=$withval], [modulebindir='${libdir}/speech-dispatcher-modules'])
-
+	[modulebindir=$withval], [modulebindir='${libexecdir}/speech-dispatcher-modules'])
 AC_SUBST([modulebindir])
+
+oldmodulebindir='${libdir}/speech-dispatcher-modules'
+AC_SUBST([oldmodulebindir])
 
 # Path for speech-dispatcher libraries:
 spdlibdir='${libdir}/speech-dispatcher'
@@ -499,6 +518,7 @@ fi
 AM_CONDITIONAL(HAVE_SYSTEMD, [test -n "$with_systemdsystemunitdir" -a "x$with_systemdsystemunitdir" != xno ])
 
 AC_CONFIG_FILES([Makefile
+		 run-speechd
                  speech-dispatcher.pc
                  config/Makefile
                  config/clients/Makefile
@@ -521,7 +541,8 @@ AC_CONFIG_FILES([Makefile
                  src/common/Makefile
                  src/modules/Makefile
                  src/server/Makefile
-                 src/tests/Makefile])
+                 src/tests/Makefile],
+	 	[chmod +x run-speechd])
 AC_OUTPUT
 AC_MSG_NOTICE([output modules to be built are $output_modules])
 AC_MSG_NOTICE([audio methods to be built are $audio_methods])

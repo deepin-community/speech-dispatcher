@@ -10,13 +10,17 @@ espeak uses the multiarch directory for voices.
 
 --- a/config/modules/espeak-ng-mbrola-generic.conf
 +++ /dev/null
-@@ -1,282 +0,0 @@
+@@ -1,287 +0,0 @@
 -# Espeak mbrola output module is based on the generic plugin for Speech
 -# Dispatcher. It means there is no code written explicitly for
 -# this plugin, all the specifics are handled in this configuration
 -# and we call a simple command line client to perform the actual
 -# synthesis. Use this config file with the sd_generic output module.
--#
+-
+-# Debug turns debugging on or off
+-# See speechd.conf for information where debugging information is stored
+-Debug 0
+-
 -# IMPORTANT: The audio output method relies on an audio playback
 -# utility (play, aplay, paplay for OSS, ALSA or Pulse)
 -# being installed. If this is not the case, consider installing it
@@ -230,6 +234,11 @@ espeak uses the multiarch directory for voices.
 -AddVoice "tr" "MALE1" "tr1"
 -AddVoice "tr" "FEMALE1" "tr2"
 -
+-# DefaultVoice specifies which $VOICE string should be used if no voice is
+-# specified otherwise.
+-
+-DefaultVoice    "en1"
+-
 -# These parameters set _rate_, _pitch_, and _volume_ conversion. This is
 -# part of the core of the definition of this generic output
 -# module for this concrete synthesizer, it's not intended to
@@ -271,14 +280,10 @@ espeak uses the multiarch directory for voices.
 -
 -# Note that SSIP rates < -50 are spoken at -50.
 -
--# Debug turns debugging on or off
--# See speechd.conf for information where debugging information is stored
--Debug 0
--
 -
 -# Copyright (C) 2008-2010 Brailcom, o.p.s
 -# Copyright (C) 2014 Luke Yelavich <themuso@ubuntu.com>
--# Copyright (C) 2018-2020 Samuel Thibault <samuel.thibault@ens-lyon.org>
+-# Copyright (C) 2018-2021 Samuel Thibault <samuel.thibault@ens-lyon.org>
 -# Copyright (C) 2018 Didier Spaier <didier@slint.fr>
 -#
 -# This program is free software; you can redistribute it and/or modify it under
@@ -295,13 +300,17 @@ espeak uses the multiarch directory for voices.
 -# along with this program.  If not, see <https://www.gnu.org/licenses/>.
 --- /dev/null
 +++ b/config/modules/espeak-ng-mbrola-generic.conf.in
-@@ -0,0 +1,282 @@
+@@ -0,0 +1,287 @@
 +# Espeak mbrola output module is based on the generic plugin for Speech
 +# Dispatcher. It means there is no code written explicitly for
 +# this plugin, all the specifics are handled in this configuration
 +# and we call a simple command line client to perform the actual
 +# synthesis. Use this config file with the sd_generic output module.
-+#
++
++# Debug turns debugging on or off
++# See speechd.conf for information where debugging information is stored
++Debug 0
++
 +# IMPORTANT: The audio output method relies on an audio playback
 +# utility (play, aplay, paplay for OSS, ALSA or Pulse)
 +# being installed. If this is not the case, consider installing it
@@ -515,6 +524,11 @@ espeak uses the multiarch directory for voices.
 +AddVoice "tr" "MALE1" "tr1"
 +AddVoice "tr" "FEMALE1" "tr2"
 +
++# DefaultVoice specifies which $VOICE string should be used if no voice is
++# specified otherwise.
++
++DefaultVoice    "en1"
++
 +# These parameters set _rate_, _pitch_, and _volume_ conversion. This is
 +# part of the core of the definition of this generic output
 +# module for this concrete synthesizer, it's not intended to
@@ -556,14 +570,10 @@ espeak uses the multiarch directory for voices.
 +
 +# Note that SSIP rates < -50 are spoken at -50.
 +
-+# Debug turns debugging on or off
-+# See speechd.conf for information where debugging information is stored
-+Debug 0
-+
 +
 +# Copyright (C) 2008-2010 Brailcom, o.p.s
 +# Copyright (C) 2014 Luke Yelavich <themuso@ubuntu.com>
-+# Copyright (C) 2018-2020 Samuel Thibault <samuel.thibault@ens-lyon.org>
++# Copyright (C) 2018-2021 Samuel Thibault <samuel.thibault@ens-lyon.org>
 +# Copyright (C) 2018 Didier Spaier <didier@slint.fr>
 +#
 +# This program is free software; you can redistribute it and/or modify it under
@@ -593,13 +603,17 @@ espeak uses the multiarch directory for voices.
  database.
 --- a/config/modules/espeak-mbrola-generic.conf
 +++ /dev/null
-@@ -1,228 +0,0 @@
+@@ -1,233 +0,0 @@
 -# Espeak mbrola output module is based on the generic plugin for Speech
 -# Dispatcher. It means there is no code written explicitly for
 -# this plugin, all the specifics are handled in this configuration
 -# and we call a simple command line client to perform the actual
 -# synthesis. Use this config file with the sd_generic output module.
--#
+-
+-# Debug turns debugging on or off
+-# See speechd.conf for information where debugging information is stored
+-Debug 0
+-
 -# IMPORTANT: The audio output method relies on an audio playback
 -# utility (play, aplay, paplay for OSS, ALSA or Pulse)
 -# being installed. If this is not the case, consider installing it
@@ -759,6 +773,11 @@ espeak uses the multiarch directory for voices.
 -AddVoice        "tr"    "MALE1"         "tr1"
 -AddVoice        "tr"    "FEMALE1"       "tr2"
 -
+-# DefaultVoice specifies which $VOICE string should be used if no voice is
+-# specified otherwise.
+-
+-DefaultVoice    "en1"
+-
 -# These parameters set _rate_, _pitch_, and _volume_ conversion. This is
 -# part of the core of the definition of this generic output
 -# module for this concrete synthesizer, it's not intended to
@@ -800,14 +819,10 @@ espeak uses the multiarch directory for voices.
 -
 -# Note that SSIP rates < -50 are spoken at -50.
 -
--# Debug turns debugging on or off
--# See speechd.conf for information where debugging information is stored
--Debug 0
--
 -
 -# Copyright (C) 2008-2010 Brailcom, o.p.s
 -# Copyright (C) 2014 Luke Yelavich <themuso@ubuntu.com>
--# Copyright (C) 2018-2020 Samuel Thibault <samuel.thibault@ens-lyon.org>
+-# Copyright (C) 2018-2021 Samuel Thibault <samuel.thibault@ens-lyon.org>
 -# Copyright (C) 2018 Didier Spaier <didier@slint.fr>
 -#
 -# This program is free software; you can redistribute it and/or modify it under
@@ -824,13 +839,17 @@ espeak uses the multiarch directory for voices.
 -# along with this program.  If not, see <https://www.gnu.org/licenses/>.
 --- /dev/null
 +++ b/config/modules/espeak-mbrola-generic.conf.in
-@@ -0,0 +1,228 @@
+@@ -0,0 +1,233 @@
 +# Espeak mbrola output module is based on the generic plugin for Speech
 +# Dispatcher. It means there is no code written explicitly for
 +# this plugin, all the specifics are handled in this configuration
 +# and we call a simple command line client to perform the actual
 +# synthesis. Use this config file with the sd_generic output module.
-+#
++
++# Debug turns debugging on or off
++# See speechd.conf for information where debugging information is stored
++Debug 0
++
 +# IMPORTANT: The audio output method relies on an audio playback
 +# utility (play, aplay, paplay for OSS, ALSA or Pulse)
 +# being installed. If this is not the case, consider installing it
@@ -990,6 +1009,11 @@ espeak uses the multiarch directory for voices.
 +AddVoice        "tr"    "MALE1"         "tr1"
 +AddVoice        "tr"    "FEMALE1"       "tr2"
 +
++# DefaultVoice specifies which $VOICE string should be used if no voice is
++# specified otherwise.
++
++DefaultVoice    "en1"
++
 +# These parameters set _rate_, _pitch_, and _volume_ conversion. This is
 +# part of the core of the definition of this generic output
 +# module for this concrete synthesizer, it's not intended to
@@ -1031,14 +1055,10 @@ espeak uses the multiarch directory for voices.
 +
 +# Note that SSIP rates < -50 are spoken at -50.
 +
-+# Debug turns debugging on or off
-+# See speechd.conf for information where debugging information is stored
-+Debug 0
-+
 +
 +# Copyright (C) 2008-2010 Brailcom, o.p.s
 +# Copyright (C) 2014 Luke Yelavich <themuso@ubuntu.com>
-+# Copyright (C) 2018-2020 Samuel Thibault <samuel.thibault@ens-lyon.org>
++# Copyright (C) 2018-2021 Samuel Thibault <samuel.thibault@ens-lyon.org>
 +# Copyright (C) 2018 Didier Spaier <didier@slint.fr>
 +#
 +# This program is free software; you can redistribute it and/or modify it under

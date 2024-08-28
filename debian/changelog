@@ -1,3 +1,66 @@
+speech-dispatcher (0.11.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Play cat and mice again with lintian warning suppression.
+  * control: Bump Standards-Version to 4.6.0 (no change)
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 09 Jan 2022 01:53:42 +0100
+
+speech-dispatcher (0.11.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sat, 11 Dec 2021 23:07:28 +0100
+
+speech-dispatcher (0.11.0~rc5-1) experimental; urgency=medium
+
+  * New upstream release candidate.
+    - patches/dummy-message: upstreamed.
+    - speech-dispatcher-espeak-ng.install: Add espeak-ng-mbrola module.
+
+ -- Samuel Thibault <sthibault@debian.org>  Tue, 09 Nov 2021 00:53:29 +0100
+
+speech-dispatcher (0.11.0~rc3-1) experimental; urgency=medium
+
+  * New upstream release candidate.
+    - control: Add flite build-depends.
+  * control: Build-depend on libdumbtts-dev.
+  * control: Add speech-dispatcher-ivona package.
+  * copyright: Fix file path.
+  * patches/mbrola-paths: Refresh.
+  * patches/ivona-paths: Upstreamed.
+  * patches/ivona-config: Upstreamed.
+  * patches/generic-set-voice-name: Upstreamed.
+  * patches/dummy-message: Add missing shipped file.
+  * control: Set python3 build-dep arch-dep as well since we use dh-python3.
+
+ -- Samuel Thibault <sthibault@debian.org>  Mon, 18 Oct 2021 00:06:03 +0200
+
+speech-dispatcher (0.11.0~rc2-1) experimental; urgency=medium
+
+  [ Samuel Thibault ]
+  * New upstream release candidate.
+    - patches/mbrola-paths: Refresh.
+    - speech-dispatcher.maintscript: Remove old mary-generic-disabled.conf
+    configuration file.
+    - control: Build speech-dispatcher-ibmtts only on i386.
+  * speech-dispatcher.postinst, speech-dispatcher.maintscript: Remove upgrade
+    path from 0.8.8, which is before Buster.
+  * control: Set Rules-Requires-Root to no.
+  * rules,salsa-ci.yml: Ignore specific blhc false positive rather than the
+    whole result.
+  * rules: Drop ddeb-migration rules, now useless
+
+ -- Samuel Thibault <sthibault@debian.org>  Thu, 17 Jun 2021 00:07:32 +0200
+
+speech-dispatcher (0.10.2-4) UNRELEASED; urgency=medium
+
+  [ Paul Wise ]
+  * speech-dispatcher.links: Remove, replaced by Alias in the service file,
+    and was put in the wrong place (Closes: Bug#995037).
+
+ -- Samuel Thibault <sthibault@debian.org>  Sat, 25 Sep 2021 09:52:09 +0200
+
 speech-dispatcher (0.10.2-3) unstable; urgency=medium
 
   [ Samuel Thibault ]
@@ -19,6 +82,7 @@ speech-dispatcher (0.10.2-3) unstable; urgency=medium
   * rules: Drop ddeb-migration rules, now useless
   * patches/generic-set-voice-name: Fix setting voice name for the generic
     module.
+  * patches/kali-glib-fix: Fix building Kali with more recent glib.
 
   [ Debian Janitor ]
   * Remove constraints unnecessary since stretch:

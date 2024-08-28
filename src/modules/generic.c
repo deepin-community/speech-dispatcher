@@ -52,6 +52,8 @@ static int generic_pause_requested = 0;
 static char *execute_synth_str1;
 static char *execute_synth_str2;
 
+static gboolean initialized = FALSE;
+
 /* Internal functions prototypes */
 static void *get_ht_option(GHashTable * hash_table, const char *key);
 static void *_generic_speak(void *);
@@ -71,6 +73,7 @@ void generic_set_punct(SPDPunctuation punct);
 
 MOD_OPTION_1_STR(GenericExecuteSynth)
     MOD_OPTION_1_STR(GenericCmdDependency)
+    MOD_OPTION_1_INT(GenericPortDependency)
     MOD_OPTION_1_STR(GenericSoundIconFolder)
 
     MOD_OPTION_1_INT(GenericMaxChunkLength)
@@ -112,6 +115,7 @@ int module_load(void)
 
 	MOD_OPTION_1_STR_REG(GenericExecuteSynth, "");
 	MOD_OPTION_1_STR_REG(GenericCmdDependency, "");
+	MOD_OPTION_1_INT_REG(GenericPortDependency, 0);
 	MOD_OPTION_1_STR_REG(GenericSoundIconFolder, "/usr/share/sounds/sound-icons/");
 
 	REGISTER_DEBUG();
@@ -160,6 +164,7 @@ int module_init(char **status_info)
 	DBG("GenericDelimiters = %s\n", GenericDelimiters);
 	DBG("GenericExecuteSynth = %s\n", GenericExecuteSynth);
 	DBG("GenericCmdDependency = %s\n", GenericCmdDependency);
+	DBG("GenericPortDependency = %u\n", GenericPortDependency);
 
 	generic_msg_language =
 	    (TGenericLanguage *) g_malloc(sizeof(TGenericLanguage));
@@ -173,7 +178,7 @@ int module_init(char **status_info)
 
 	DBG("Generic: creating new thread for generic_speak\n");
 	generic_speaking = 0;
-	ret = pthread_create(&generic_speak_thread, NULL, _generic_speak, NULL);
+	ret = spd_pthread_create(&generic_speak_thread, NULL, _generic_speak, NULL);
 	if (ret != 0) {
 		DBG("Generic: thread failed\n");
 		*status_info = g_strdup("The module couldn't initialize threads"
@@ -183,6 +188,7 @@ int module_init(char **status_info)
 		return -1;
 	}
 
+	initialized = TRUE;
 	*status_info = g_strdup("Everything ok so far.");
 	return 0;
 }
@@ -202,9 +208,9 @@ int module_speak(gchar * data, size_t bytes, SPDMessageType msgtype)
 		DBG("Speaking when requested to write");
 		return 0;
 	}
-	UPDATE_STRING_PARAMETER(voice.name, generic_set_synthesis_voice);
 	UPDATE_STRING_PARAMETER(voice.language, generic_set_language);
 	UPDATE_PARAMETER(voice_type, generic_set_voice);
+	UPDATE_STRING_PARAMETER(voice.name, generic_set_synthesis_voice);
 	UPDATE_PARAMETER(punctuation_mode, generic_set_punct);
 	UPDATE_PARAMETER(pitch, generic_set_pitch);
 	UPDATE_PARAMETER(pitch_range, generic_set_pitch_range);
@@ -225,7 +231,7 @@ int module_speak(gchar * data, size_t bytes, SPDMessageType msgtype)
 	} else {
 		DBG("Warning: Preferred charset not specified, recoding to iso-8859-1");
 		tmp =
-		    (char *)g_convert_with_fallback(data, bytes, "iso-8859-2",
+		    (char *)g_convert_with_fallback(data, bytes, "iso-8859-1",
 						    "UTF-8",
 						    GenericRecodeFallback, NULL,
 						    NULL, NULL);
@@ -293,10 +299,15 @@ int module_close(void)
 		module_stop();
 	}
 
+	if (!initialized)
+		return 0;
+
 	if (module_terminate_thread(generic_speak_thread) != 0)
 		return -1;
 
 	sem_destroy(&generic_semaphore);
+
+	initialized = FALSE;
 
 	return 0;
 }
@@ -353,6 +364,7 @@ void *_generic_speak(void *nothing)
 
 	DBG("generic: speaking thread starting.......\n");
 
+	/* Make interruptible */
 	set_speaking_thread_parameters();
 
 	while (1) {
@@ -374,8 +386,12 @@ void *_generic_speak(void *nothing)
 				DBG("Warning: bad icon name %s\n", generic_message);
 			}
 			char *cmd = g_strdup_printf("%s '%s/%s'", play_command, GenericSoundIconFolder, generic_message);
-			system(cmd);
+			module_report_event_begin();
 			DBG("icon command = |%s|\n", cmd);
+			ret = system(cmd);
+			if (ret)
+				DBG("failed to run icon command: (error=%d) %s\n", errno, strerror(errno));
+			module_report_event_end();
 			free(cmd);
 			generic_speaking = 0;
 			continue;
@@ -470,10 +486,14 @@ void *_generic_speak(void *nothing)
 					e_string =
 					    string_replace(e_string, "$VOICE",
 							   generic_msg_voice_str);
-				else
+				else {
+					char *default_voice = module_getdefaultvoice();
+					if (!default_voice)
+						default_voice = "no_voice";
 					e_string =
 					    string_replace(e_string, "$VOICE",
-							   "no_voice");
+							    default_voice);
+				}
 
 				/* Cut it into two strings */
 				p = strstr(e_string, "$DATA");
@@ -695,6 +715,7 @@ void generic_set_language(char *lang)
 
 void generic_set_voice(SPDVoiceType voice)
 {
+	DBG("Setting voice type %d", voice);
 	assert(generic_msg_language);
 	generic_msg_voice_str =
 	    module_getvoice(generic_msg_language->code, voice);
@@ -705,6 +726,7 @@ void generic_set_voice(SPDVoiceType voice)
 
 void generic_set_synthesis_voice(char *name)
 {
+	DBG("Setting voice name %s (%s)", name, msg_settings.voice.name);
 	assert(msg_settings.voice.name);
 	if (module_existsvoice(msg_settings.voice.name))
 		generic_msg_voice_str = msg_settings.voice.name;

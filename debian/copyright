@@ -28,8 +28,8 @@ Files: include/spd_audio_plugin.h
        src/modules/module_utils.h
        src/modules/module_utils_addvoice.c
        src/modules/pico.c
-       src/modules/spd_audio.c
-       src/modules/spd_audio.h
+       src/common/spd_audio.c
+       src/common/spd_audio.h
        src/api/cl/sysdep.lisp
        src/api/cl/configuration.lisp
        src/api/cl/ssip.lisp

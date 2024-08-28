@@ -8,16 +8,6 @@ symbols:
 🏽	kulit kuning	none
 🏾	kulit sawo mateng	none
 🏿	kulit ireng	none
-–	en setrip	none
-—	em setrip	none
-·	titik cilek	none
-«	kurung lancip kiwa	none
-»	kurung lancip tengen	none
-§	bagean	none
-†	tanda lading	none
-‡	tanda lading pindo	none
-•	pluru	none
-°	drajat	none
 ℗	hak cipta rekaman swara	none
 ←	panah nuding ngiwo	none
 →	panah nuding nengen	none
@@ -28,14 +18,17 @@ symbols:
 ∆	mundhak	none
 ∇	mlorot	none
 ∈	unsur saka	none
-÷	para	none
-×	ping-pingan	none
+≠	ora podho	none
+−	tandha kurang	none
 ⁻	tandha kurang ing dhuwur	none
 √	oyod peng loro	none
 ∞	tandha tanpa wates	none
 ∩	simpangan	none
 ∪	sarekat	none
+≈	meh pada	none
 ≡	podho karo	none
+≤	luwih cilik utowo podho	none
+≥	luwih gedhe utowo podho	none
 ⊂	subset saka	none
 ▲	pesagi telu kapenuhan pucuke ing ndhuwur	none
 ▼	pesagi telu kapenuhan pucuke ing ngisor	none
@@ -43,6 +36,9 @@ symbols:
 ○	bunderan kothong	none
 ●	bundera kapenuhan	none
 ◯	bunderan kothong gedhe	none
+♪	gendhing wolu	none
+♭	warata	none
+♯	landep	none
 😀	rai ngguyu	none
 😃	rai ngguyu matane mblalak	none
 😄	rai ngguyu nganti merem-merem	none
@@ -80,10 +76,12 @@ symbols:
 😐	rai anteng	none
 😑	rai tanpa ekspresi	none
 😶	rai tanpa cangkem	none
+😶‍🌫	rai ora dong	none
 😏	rai mesem ngenyek	none
 😒	rai wegah ngguyu	none
 🙄	rai matane mlerok	none
 😬	rai mringis mbatek	none
+😮‍💨	rai ambegan lego	none
 🤥	rai ngapusi	none
 😌	rai lega	none
 😔	rai sedhih anggone mikir	none
@@ -100,6 +98,7 @@ symbols:
 🥶	rai katisen	none
 🥴	rai mendem	none
 😵	rai mumet	none
+😵‍💫	rai ngelu	none
 🤯	rai ndhase njeblug	none
 🤠	rai nganggo topi koboi	none
 🥳	rai pista	none
@@ -171,6 +170,8 @@ symbols:
 💟	dhekorasi ati	none
 ❣	tandha penthung wujude ati	none
 💔	lara ati	none
+❤‍🔥	ati kasmaran	none
+❤‍🩹	ndandani ati	none
 ❤	ati abang	none
 🧡	ati kunir	none
 💛	ati kuning	none
@@ -252,9 +253,11 @@ symbols:
 🧑	wong	none
 👱	wong rambute pirang	none
 👨	wong lanang	none
-🧔	wong lanang jenggot	none
+🧔	wong jenggot	none
+🧔‍♂	wong lanang jenggot	none
 👱‍♂	wong lanang rambut pirang	none
 👩	wong wadon	none
+🧔‍♀	wong wadon jenggot	none
 👱‍♀	wong wadon rambut pirang	none
 🧓	wong tuwa	none
 👴	wong tuwa lanang	none
@@ -357,9 +360,9 @@ symbols:
 👳‍♀	wong wadon serbanan	none
 👲	wong lanang nganggo kethu Cina	none
 🧕	wong wadon jilbaban	none
-🤵	wong lanang anganggo jas tuksedo	none
-🤵‍♂	wong lanang anganggo tuksedo	none
-🤵‍♀	wong wadon anganggo jas tuksedo	none
+🤵	wong anganggo jas tuksedo	none
+🤵‍♂	wong lanang anganggo jas tuksedo	none
+🤵‍♀	wong wadon anganggo tuksedo	none
 👰	wong nganggo kudhung manten	none
 👰‍♂	wong lanang nganggo kudhung manten	none
 👰‍♀	wong wadon nganggo kudhung manten	none
@@ -488,7 +491,7 @@ symbols:
 🛌	wong turu	none
 🧑‍🤝‍🧑	wong gandhengan tangan	none
 👭	wong wadon loro gandhengan tangan	none
-👫	wong lanang lan wadon gandhengan tangan	none
+👫	wong lanang lan wadon gandhengan	none
 👬	wong lanang loro gandhengan tangan	none
 💏	ambung	none
 💑	pasangan lan tandha ati	none
@@ -1420,17 +1423,14 @@ symbols:
 ♂	tandha priya	none
 ⚧	tandha wariya	none
 ✖	tandha ping-pingan	none
-➕	tandha tambah	none
-➖	tandha kurang	none
+➕	tambah	none
+➖	kurang	none
 ➗	tandha para	none
 ♾	tanpa wates	none
-‼	tandha penthung dhobel	none
-⁉	tandha penthung lan pitakon	none
-❓	tandha pitakon	none
+❓	tandha pitakon abang	none
 ❔	tandha pitakon putih	none
 ❕	tandha penthung putih	none
-❗	tandha penthung	none
-〰	setrip ngeluk	none
+❗	tandha penthung abang	none
 💱	rega ijol mata uang	none
 💲	tandha dolar kandel	none
 ⚕	tandha medhis	none
@@ -1447,12 +1447,9 @@ symbols:
 ❎	tombol tenger ping	none
 ➰	garis cunthel	none
 ➿	garis cunthel dhobel	none
-〽	tandha rikala sindhen wiwit nyanyi	none
 ✳	asterisk kembang wolu	none
 ✴	lintang mata wolu	none
 ❇	kelip-kelip	none
-©	hak cipta	none
-®	kadhaptar	none
 ™	merek dagang	none
 🔠	lebokake aksara latin gedhe	none
 🔡	lebokake aksara latin cilik	none
@@ -1476,23 +1473,6 @@ symbols:
 🆘	tombol SOS	none
 🆙	tombol UP!	none
 🆚	tombol VS	none
-🈁	tombol Jepang "ing kene"	none
-🈂	tombol Jepang "beya laden"	none
-🈷	tombol Jepang "gunggung sesasen"	none
-🈶	tombol Jepang "ora gratis"	none
-🈯	tombol Jepang "wis dipesen"	none
-🉐	tombol Jepang "rega murah"	none
-🈹	tombol Jepang "diskon"	none
-🈚	tombol Jepang "gratis"	none
-🈲	tombol Jepang "larangan"	none
-🉑	tombol Jepang "oleh"	none
-🈸	tombol Jepang "aplikasi"	none
-🈴	tombol Jepang "munggah kelas"	none
-🈳	tombol Jepang "lowongan"	none
-㊗	tombol Jepang "sugeng"	none
-㊙	tombol Jepang "rahasia"	none
-🈺	tombol Jepang "kantor bukak"	none
-🈵	tombol Jepang "lowongan kosong"	none
 🔴	bunderan abang	none
 🟠	bunderan kunir	none
 🟡	bunderan kuning	none
@@ -1535,12 +1515,23 @@ symbols:
 🏳‍🌈	gendera plangi	none
 🏳‍⚧	gendera wariya	none
 🏴‍☠	gendera begal segara	none
-£	pound	none
-¥	yen	none
+₥	mill	none
+₩	won	none
 €	euro	none
+₱	peso	none
 ₹	rupee india	none
 ₽	ruble	none
-¹	tandha siji ing dhuwur	none
-²	tandha loro ing dhuwur	none
-³	tandha telu ing dhuwur	none
-µ	tandha mikro	none
+₿	bitcoin	none
+₡	Colon Kosta Rika	none
+₦	Naira Nigeria	none
+₪	Shekel Anyar Israel	none
+₫	Dong Vietnam	none
+₭	Kip Laos	none
+₮	Tugrik Mongol	none
+₲	Guarani Paraguay	none
+₴	Hryvnia Ukrania	none
+₵	Cedi Ghana	none
+₸	Tenge Kasakhstan	none
+₺	Lira Turki	none
+₼	Manat Azerbaijan	none
+₾	Lari Georgia	none
