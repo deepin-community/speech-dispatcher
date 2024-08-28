@@ -72,7 +72,6 @@
 #include <config.h>
 #endif
 
-#include <spd_utils.h>
 #include "symbols.h"
 
 /* This denotes the position of some SSML tags */
@@ -156,7 +155,7 @@ static LocaleMap *G_processors = NULL;
 /* List of files to load */
 static GSList *symbols_files;
 
-SymLvl str2SymLvl(char *str)
+SymLvl str2SymLvl(const char *str)
 {
 	SymLvl punct;
 
@@ -676,7 +675,7 @@ static int speech_symbols_load(SpeechSymbols *ss, const char *filename, gboolean
 	    bom[0] != 0xEF || bom[1] != 0xBB || bom[2] != 0xBF)
 		fseek(fp, 0, SEEK_SET);
 
-	while (spd_getline(&line, &n, fp) >= 0) {
+	while (getline(&line, &n, fp) >= 0) {
 		if (skip_line(line))
 			continue;
 		strip_newline(line);
@@ -691,7 +690,7 @@ static int speech_symbols_load(SpeechSymbols *ss, const char *filename, gboolean
 		}
 	}
 
-	g_free(line);
+	free(line);
 	fclose(fp);
 
 	return 0;
@@ -701,6 +700,7 @@ static void speech_symbols_free(SpeechSymbols *ss)
 {
 	g_slist_free_full(ss->complex_symbols, (GDestroyNotify) g_strfreev);
 	g_hash_table_destroy(ss->symbols);
+	g_free(ss->source);
 	g_free(ss);
 }
 
@@ -712,6 +712,7 @@ static gpointer speech_symbols_new(const gchar *locale, const gchar *file)
 	gchar *path;
 
 	ss->complex_symbols = NULL;
+	ss->source = NULL;
 	ss->symbols = g_hash_table_new_full(g_str_hash, g_str_equal,
 					    g_free,
 					    (GDestroyNotify) speech_symbol_free);
@@ -732,6 +733,7 @@ static gpointer speech_symbols_new(const gchar *locale, const gchar *file)
 		speech_symbols_free(ss);
 		ss = NULL;
 	}
+	g_free(path);
 
 	return ss;
 }
@@ -766,6 +768,7 @@ static void speech_symbols_processor_free(SpeechSymbolProcessor *ssp)
 	g_slist_free(ssp->complex_list);
 	if (ssp->symbols)
 		g_hash_table_unref(ssp->symbols);
+	g_free(ssp->source);
 	g_free(ssp);
 }
 
@@ -981,6 +984,7 @@ static SpeechSymbolProcessor *speech_symbols_processor_new(const char *locale, S
 	g_string_free(pattern, TRUE);
 	g_string_free(characters, TRUE);
 	g_slist_free(multi_chars_list);
+	g_slist_free(sources);
 
 	return ssp;
 }
@@ -1000,7 +1004,7 @@ static gpointer speech_symbols_processor_list_new(const char *locale, const char
 		ss = get_locale_speech_symbols(locale, node->data);
 		if (!ss) {
 			MSG2(1, "symbols", "Failed to load symbols '%s' for locale '%s'",
-					   node->data, locale);
+					   (char*) node->data, locale);
 		} else {
 			ssp = speech_symbols_processor_new(locale, ss);
 			if (ssp)

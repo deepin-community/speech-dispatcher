@@ -1,4 +1,4 @@
-# Copyright (C) 2020 Samuel Thibault <samuel.thibault@ens-lyon.org>
+# Copyright (C) 2020-2021 Samuel Thibault <samuel.thibault@ens-lyon.org>
 #
 # This program is free software; you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -24,7 +24,7 @@ complexSymbols:
 # end of sentences.
 
 
-# Référence: Bescherelle Hatier 1997, article 50
+# Référence: Bescherelle Hatier 1997, Grammaire, article 50
 
 # petit(e)s
 end-words (e)	(?<=[^\W_])[(][eE][)]?(?=\b)
@@ -128,7 +128,7 @@ end-words cette1	(?<=\b[cC][eE])[.·•‧⋅‐‑-][cC]?[eE]?[tT][tT][eE](?=\b
 end-words cette2	(?<=\b[cC][eE][tT])[.·•‧⋅‐‑-][cC]?[eE]?[tT][tT][eE](?=\b)
 
 # le·la
-word le	(?<=\b)[lL][eE][.·•‧⋅‐‑-/][lL]?[aA](?=\b)
+word le	(?<=\b)[lL][eE][/.·•‧⋅‐‑-][lL]?[aA](?=\b)
 
 
 # As last resort, when it's inside a word just drop it and hope for the best

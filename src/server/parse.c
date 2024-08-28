@@ -948,7 +948,6 @@ char *parse_list(const char *buf, const int bytes, const int fd,
 
 		return helper;
 	} else if (TEST_CMD(list_type, "synthesis_voices")) {
-		char *module_name;
 		int uid;
 		TFDSetElement *settings;
 		SPDVoice **voices;
@@ -960,10 +959,7 @@ char *parse_list(const char *buf, const int bytes, const int fd,
 		settings = get_client_settings_by_uid(uid);
 		if (settings == NULL)
 			return g_strdup(ERR_INTERNAL);
-		module_name = settings->output_module;
-		if (module_name == NULL)
-			return g_strdup(ERR_NO_OUTPUT_MODULE);
-		voices = output_list_voices(module_name);
+		voices = output_list_voices(settings->output_module);
 		if (voices == NULL)
 			return g_strdup(ERR_CANT_REPORT_VOICES);
 
@@ -1255,7 +1251,7 @@ char *get_param(const char *buf, const int n, const int bytes,
  * at least  7 bytes (6 bytes character + 1 byte trailing 0). This
  * function doesn't validate if the string is valid UTF-8.
  */
-int spd_utf8_read_char(char *pointer, char *character)
+int spd_utf8_read_char(const char *pointer, char *character)
 {
 	int bytes;
 	gunichar u_char;

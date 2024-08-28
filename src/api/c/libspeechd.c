@@ -78,7 +78,7 @@ static void *spd_events_handler(void *);
 const int range_low = -100;
 const int range_high = 100;
 
-pthread_mutex_t spd_logging_mutex;
+pthread_mutex_t spd_logging_mutex = PTHREAD_MUTEX_INITIALIZER;
 
 struct SPDConnection_threaddata {
 	pthread_t events_thread;
@@ -243,11 +243,6 @@ static void _init_debug(void)
 		if (spd_debug == NULL)
 			SPD_FATAL("COULDN'T ACCES FILE INTENDED FOR DEBUG");
 
-		if (pthread_mutex_init(&spd_logging_mutex, NULL)) {
-			fprintf(stderr, "Mutex initialization failed");
-			fflush(stderr);
-			exit(1);
-		}
 		SPD_DBG("Debugging started");
 	}
 #endif /* LIBSPEECHD_DEBUG */
@@ -330,7 +325,7 @@ static char *resolve_host(char *host_name_or_ip, int *is_localhost,
 }
 
 static int
-spawn_server(SPDConnectionAddress * address, int is_localhost,
+spawn_server(const SPDConnectionAddress * address, int is_localhost,
 	     gchar ** spawn_error)
 {
 	gchar *speechd_cmd[16];
@@ -339,6 +334,7 @@ spawn_server(SPDConnectionAddress * address, int is_localhost,
 	GError *gerror = NULL;
 	int exit_status;
 	int i;
+	const char *cmd;
 
 	if ((address->method == SPD_METHOD_INET_SOCKET) && (!is_localhost)) {
 		*spawn_error =
@@ -347,7 +343,10 @@ spawn_server(SPDConnectionAddress * address, int is_localhost,
 		return 1;
 	}
 
-	speechd_cmd[0] = g_strdup(SPD_SPAWN_CMD);
+	cmd = getenv("SPEECHD_CMD");
+	if (!cmd)
+		cmd = SPD_SPAWN_CMD;
+	speechd_cmd[0] = g_strdup(cmd);
 	speechd_cmd[1] = g_strdup("--spawn");
 	speechd_cmd[2] = g_strdup("--communication-method");
 	if (address->method == SPD_METHOD_INET_SOCKET) {
@@ -393,7 +392,7 @@ spawn_server(SPDConnectionAddress * address, int is_localhost,
 
 SPDConnection *spd_open2(const char *client_name, const char *connection_name,
 			 const char *user_name, SPDConnectionMode mode,
-			 SPDConnectionAddress * address, int autospawn,
+			 const SPDConnectionAddress * address, int autospawn,
 			 char **error_result)
 {
 	SPDConnection *connection = NULL;
@@ -1505,7 +1504,7 @@ void free_spd_voices(SPDVoice ** voices)
 }
 
 char **spd_execute_command_with_list_reply(SPDConnection * connection,
-					   char *command)
+					   const char *command)
 {
 	char *reply = NULL;
 	char *line;
@@ -1577,7 +1576,7 @@ spd_get_message_list_fd(SPDConnection * connection, int target, int *msg_ids,
 #endif
 }
 
-int spd_execute_command(SPDConnection * connection, char *command)
+int spd_execute_command(SPDConnection * connection, const char *command)
 {
 	char *reply;
 	int ret;
@@ -1595,7 +1594,7 @@ int spd_execute_command(SPDConnection * connection, char *command)
 	return ret;
 }
 
-int spd_execute_command_wo_mutex(SPDConnection * connection, char *command)
+int spd_execute_command_wo_mutex(SPDConnection * connection, const char *command)
 {
 	char *reply;
 	int ret;
@@ -1612,7 +1611,7 @@ int spd_execute_command_wo_mutex(SPDConnection * connection, char *command)
 }
 
 int
-spd_execute_command_with_reply(SPDConnection * connection, char *command,
+spd_execute_command_with_reply(SPDConnection * connection, const char *command,
 			       char **reply)
 {
 	char *buf;
