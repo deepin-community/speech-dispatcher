@@ -8,10 +8,10 @@
  
  [Service]
  Type=forking
--ExecStart=@bindir@/speech-dispatcher -d
+-ExecStart=@bindir@/speech-dispatcher -d -t 0
 +User=speech-dispatcher
 +PIDFile=/run/speech-dispatcher/speech-dispatcher.pid
-+ExecStart=@bindir@/speech-dispatcher -d --pid-file /run/speech-dispatcher/speech-dispatcher.pid
++ExecStart=@bindir@/speech-dispatcher -d -t 0 --pid-file /run/speech-dispatcher/speech-dispatcher.pid
  ExecReload=/bin/kill -HUP $MAINPID
  
  [Install]

@@ -30,7 +30,6 @@
 #include <string.h>
 
 #include <glib.h>
-#include <semaphore.h>
 
 #include <picoapi.h>
 
@@ -39,7 +38,7 @@
 #include "module_utils.h"
 
 #define MODULE_NAME     "pico"
-#define MODULE_VERSION  "0.1"
+#define MODULE_VERSION  "0.2"
 
 DECLARE_DEBUG();
 
@@ -103,10 +102,6 @@ static const SPDVoice *pico_voices_list[] = {
 	&pico_voices[5],
 	NULL
 };
-
-static GThread *pico_play_thread;
-static sem_t pico_play_semaphore;
-static sem_t pico_idle_semaphore;
 
 enum states { STATE_IDLE, STATE_PLAY, STATE_PAUSE, STATE_STOP, STATE_CLOSE };
 static enum states pico_state;
@@ -174,20 +169,23 @@ static int pico_process_tts(void)
 
 	text_remaining = strlen((const char *)buf) + 1;
 
-	DBG(MODULE_NAME " Text: %s\n", picoInp);
+	DBG(MODULE_NAME ": Text: %s\n", picoInp);
 
 	/* synthesis loop   */
 	while (text_remaining) {
+		/* Process server events in case we were told to stop in between */
+		module_process(STDIN_FILENO, 0);
+
 		/* Feed the text into the engine.   */
 		if ((ret = pico_putTextUtf8(picoEngine, buf, text_remaining,
 					    &bytes_sent))) {
 			pico_getSystemStatusMessage(picoSystem, ret,
 						    outMessage);
-			DBG(MODULE_NAME "Cannot put Text (%i): %s\n", ret,
+			DBG(MODULE_NAME ": Cannot put Text (%i): %s\n", ret,
 			    outMessage);
 			return -1;
 		}
-		DBG(MODULE_NAME " Sent %d bytes\n", bytes_sent);
+		DBG(MODULE_NAME ": Sent %d bytes\n", bytes_sent);
 
 		text_remaining -= bytes_sent;
 		buf += bytes_sent;
@@ -206,7 +204,7 @@ static int pico_process_tts(void)
 				pico_getSystemStatusMessage(picoSystem,
 							    getstatus,
 							    outMessage);
-				DBG(MODULE_NAME "Cannot get Data (%i): %s\n",
+				DBG(MODULE_NAME ": Cannot get Data (%i): %s\n",
 				    getstatus, outMessage);
 				return -1;
 			}
@@ -224,14 +222,10 @@ static int pico_process_tts(void)
 				    ": Sending %i samples to audio.",
 				    track.num_samples);
 
-				if (module_tts_output(track, format) < 0) {
-					DBG(MODULE_NAME
-					    "Can't play track for unknown reason.");
-					return -1;
-				}
+				module_tts_output_server(&track, format);
 				bytes_stored = 0;
 			}
-			if (g_atomic_int_get(&pico_state) != STATE_PLAY) {
+			if (pico_state != STATE_PLAY) {
 				text_remaining = 0;
 				break;
 			}
@@ -240,50 +234,6 @@ static int pico_process_tts(void)
 
 	g_free(picoInp);
 	picoInp = NULL;
-	return 0;
-}
-
-/* Playback thread. */
-static gpointer pico_play_func(gpointer nothing)
-{
-	DBG(MODULE_NAME ": Playback thread starting");
-
-	set_speaking_thread_parameters();
-
-	while (g_atomic_int_get(&pico_state) != STATE_CLOSE) {
-
-		sem_wait(&pico_play_semaphore);
-		if (g_atomic_int_get(&pico_state) != STATE_PLAY)
-			continue;
-
-		DBG(MODULE_NAME ": Sending to TTS engine");
-		module_report_event_begin();
-
-		if (0 != pico_process_tts()) {
-			DBG(MODULE_NAME ": ERROR in TTS");
-		}
-
-		if (g_atomic_int_get(&pico_state) == STATE_PLAY) {
-			module_report_event_end();
-			g_atomic_int_set(&pico_state, STATE_IDLE);
-		}
-
-		if (g_atomic_int_get(&pico_state) == STATE_STOP) {
-			module_report_event_stop();
-			g_atomic_int_set(&pico_state, STATE_IDLE);
-			sem_post(&pico_idle_semaphore);
-
-		}
-
-		if (g_atomic_int_get(&pico_state) == STATE_PAUSE) {
-			module_report_event_pause();
-			g_atomic_int_set(&pico_state, STATE_IDLE);
-			sem_post(&pico_idle_semaphore);
-		}
-
-		DBG(MODULE_NAME ": state %d", pico_state);
-
-	}
 	return 0;
 }
 
@@ -306,8 +256,9 @@ int pico_init_voice(int voice_index)
 				 PICO_MAX_FILE_NAME_SIZE];
 	pico_Char picoSgFileName[PICO_MAX_DATAPATH_NAME_SIZE +
 				 PICO_MAX_FILE_NAME_SIZE];
-	pico_Char picoTaResourceName[PICO_MAX_RESOURCE_NAME_SIZE];
-	pico_Char picoSgResourceName[PICO_MAX_RESOURCE_NAME_SIZE];
+
+	pico_Retstring picoTaResourceName;
+	pico_Retstring picoSgResourceName;
 
 	/* Load the text analysis Lingware resource file.   */
 	strcpy((char *)picoTaFileName, PicoLingwarePath);
@@ -317,7 +268,7 @@ int pico_init_voice(int voice_index)
 	     pico_loadResource(picoSystem, picoTaFileName, &picoTaResource))) {
 		pico_getSystemStatusMessage(picoSystem, ret, outMessage);
 		DBG(MODULE_NAME
-		    "Cannot load TA Lingware resource file (%i): %s\n", ret,
+		    ": Cannot load TA Lingware resource file (%i): %s\n", ret,
 		    outMessage);
 		return -1;
 	}
@@ -330,26 +281,26 @@ int pico_init_voice(int voice_index)
 	     pico_loadResource(picoSystem, picoSgFileName, &picoSgResource))) {
 		pico_getSystemStatusMessage(picoSystem, ret, outMessage);
 		DBG(MODULE_NAME
-		    "Cannot load SG Lingware resource file (%i): %s\n", ret,
+		    ": Cannot load SG Lingware resource file (%i): %s\n", ret,
 		    outMessage);
 		return -1;
 	}
 
 	/* Get the text analysis resource name.     */
 	if ((ret = pico_getResourceName(picoSystem, picoTaResource,
-					(char *)picoTaResourceName))) {
+					picoTaResourceName))) {
 		pico_getSystemStatusMessage(picoSystem, ret, outMessage);
 		DBG(MODULE_NAME
-		    "Cannot get TA resource name (%i): %s\n", ret, outMessage);
+		    ": Cannot get TA resource name (%i): %s\n", ret, outMessage);
 		return -1;
 	}
 
 	/* Get the signal generation resource name. */
 	if ((ret = pico_getResourceName(picoSystem, picoSgResource,
-					(char *)picoSgResourceName))) {
+					picoSgResourceName))) {
 		pico_getSystemStatusMessage(picoSystem, ret, outMessage);
 		DBG(MODULE_NAME
-		    "Cannot get SG resource name (%i): %s\n", ret, outMessage);
+		    ": Cannot get SG resource name (%i): %s\n", ret, outMessage);
 		return -1;
 	}
 
@@ -358,7 +309,7 @@ int pico_init_voice(int voice_index)
 					      pico_voices[voice_index].name))) {
 		pico_getSystemStatusMessage(picoSystem, ret, outMessage);
 		DBG(MODULE_NAME
-		    "Cannot create voice definition (%i): %s\n", ret,
+		    ": Cannot create voice definition (%i): %s\n", ret,
 		    outMessage);
 		return -1;
 	}
@@ -368,10 +319,11 @@ int pico_init_voice(int voice_index)
 						     (const pico_Char *)
 						     pico_voices
 						     [voice_index].name,
+						     (pico_Char *)
 						     picoTaResourceName))) {
 		pico_getSystemStatusMessage(picoSystem, ret, outMessage);
 		DBG(MODULE_NAME
-		    "Cannot add TA resource to the voice (%i): %s\n",
+		    ": Cannot add TA resource to the voice (%i): %s\n",
 		    ret, outMessage);
 		return -1;
 	}
@@ -381,10 +333,11 @@ int pico_init_voice(int voice_index)
 						     (const pico_Char *)
 						     pico_voices
 						     [voice_index].name,
+						     (pico_Char *)
 						     picoSgResourceName))) {
 		pico_getSystemStatusMessage(picoSystem, ret, outMessage);
 		DBG(MODULE_NAME
-		    "Cannot add SG resource to the voice (%i): %s\n",
+		    ": Cannot add SG resource to the voice (%i): %s\n",
 		    ret, outMessage);
 		return -1;
 	}
@@ -397,20 +350,8 @@ int module_init(char **status_info)
 	int ret, i;
 	pico_Retstring outMessage;
 	void *pmem;
-	GError *error = NULL;
 
-	sem_init(&pico_play_semaphore, 0, 0);
-	sem_init(&pico_idle_semaphore, 0, 0);
-
-	if ((pico_play_thread = g_thread_try_new(NULL, (GThreadFunc) pico_play_func,
-						NULL, &error)) == NULL) {
-		*status_info = g_strdup_printf(MODULE_NAME
-					       "Failed to create a play thread : %s\n",
-					       error->message);
-		DBG(MODULE_NAME ": %s", *status_info);
-		g_error_free(error);
-		return -1;
-	}
+	module_audio_set_server();
 
 	pmem = g_malloc(PICO_MEM_SIZE);
 	if ((ret = pico_initialize(pmem, PICO_MEM_SIZE, &picoSystem))) {
@@ -446,7 +387,7 @@ int module_init(char **status_info)
 
 	*status_info = g_strdup(MODULE_NAME ": Initialized successfully.");
 
-	g_atomic_int_set(&pico_state, STATE_IDLE);
+	pico_state = STATE_IDLE;
 	return 0;
 }
 
@@ -455,81 +396,84 @@ SPDVoice **module_list_voices(void)
 	return (SPDVoice **)pico_voices_list;
 }
 
-void pico_set_synthesis_voice(char *voice_name)
+int pico_set_synthesis_voice(char *voice_name)
 {
 	int ret;
 	pico_Retstring outMessage;
 
-	/* Create a new Pico engine, english default */
-	if ((ret = pico_disposeEngine(picoSystem, &picoEngine))) {
+	DBG(MODULE_NAME ": setting voice %s", voice_name);
+
+	if (picoEngine && (ret = pico_disposeEngine(picoSystem, &picoEngine))) {
 		pico_getSystemStatusMessage(picoSystem, ret, outMessage);
 		DBG(MODULE_NAME
-		    "Cannot dispose pico engine (%i): %s\n", ret, outMessage);
-		return;
+		    ": Cannot dispose pico engine (%i): %s\n", ret, outMessage);
+		return 0;
 	}
 
-	/* Create a new Pico engine, english default */
+	/* Create a new Pico engine */
 	if ((ret = pico_newEngine(picoSystem, (const pico_Char *)voice_name,
 				  &picoEngine))) {
 		pico_getSystemStatusMessage(picoSystem, ret, outMessage);
 		DBG(MODULE_NAME
-		    "Cannot create a new pico engine (%i): %s\n", ret,
+		    ": Cannot create a new pico engine (%i): %s\n", ret,
 		    outMessage);
-		/* Try to fallback to english */
-		if ((ret = pico_newEngine(picoSystem,
-					  (const pico_Char *)pico_voices[0].name,
-					  &picoEngine))) {
-			pico_getSystemStatusMessage(picoSystem, ret, outMessage);
-			DBG(MODULE_NAME
-			    "Cannot create default english pico engine (%i): %s\n", ret,
-			    outMessage);
-			return;
-		}
-
-		return;
+		return 0;
 	}
 
-	return;
+	return 1;
 }
 
 static void pico_set_language(char *lang)
 {
 	int i;
-	DBG(MODULE_NAME "setting language %s", lang);
+	DBG(MODULE_NAME ": setting language %s", lang);
 
 	/* get voice name based on language */
 	for (i = 0; i < sizeof(pico_voices) / sizeof(SPDVoice); i++) {
 		if (!strcasecmp(pico_voices[i].language, lang)) {
-			pico_set_synthesis_voice(pico_voices[i].name);
-			return;
+			if (pico_set_synthesis_voice(pico_voices[i].name))
+				return;
 		}
 	}
 	/* get voice name based on main part of language */
 	for (i = 0; i < sizeof(pico_voices) / sizeof(SPDVoice); i++) {
 		if (!strncasecmp(pico_voices[i].language, lang, 2)) {
-			pico_set_synthesis_voice(pico_voices[i].name);
-			return;
+			if (pico_set_synthesis_voice(pico_voices[i].name))
+				return;
 		}
 	}
+
+	/* Try to fallback to english */
+	pico_set_synthesis_voice(pico_voices[0].name);
 	return;
 }
 
-int module_speak(char *data, size_t bytes, SPDMessageType msgtype)
+void pico_set_synthesis_voice_fallback(char *voice_name)
+{
+	if (!pico_set_synthesis_voice(voice_name))
+		/* Try to fallback to language */
+		pico_set_language(msg_settings.voice.language);
+}
+
+void module_speak_sync(const char *data, size_t bytes, SPDMessageType msgtype)
 {
 	int value;
 	static pico_Char *tmp;
 
-	if (g_atomic_int_get(&pico_state) != STATE_IDLE) {
+	if (pico_state != STATE_IDLE) {
 		DBG(MODULE_NAME
 		    ": module still speaking state = %d", pico_state);
-		return 0;
+		module_speak_error();
+		return;
 	}
 
 	/* Setting speech parameters. */
-
-	UPDATE_STRING_PARAMETER(voice.name, pico_set_synthesis_voice);
-	/*      UPDATE_PARAMETER(voice_type, pico_set_voice); */
+	/* Set language first, since that sets the voice */
 	UPDATE_STRING_PARAMETER(voice.language, pico_set_language);
+
+	/* Then set the voice if needed */
+	UPDATE_STRING_PARAMETER(voice.name, pico_set_synthesis_voice_fallback);
+	/*      UPDATE_PARAMETER(voice_type, pico_set_voice); */
 
 	picoInp = (pico_Char *) module_strip_ssml(data);
 
@@ -570,9 +514,20 @@ int module_speak(char *data, size_t bytes, SPDMessageType msgtype)
 	   break;
 	   }
 	 */
-	g_atomic_int_set(&pico_state, STATE_PLAY);
-	sem_post(&pico_play_semaphore);
-	return bytes;
+	pico_state = STATE_PLAY;
+
+	module_speak_ok();
+
+	DBG(MODULE_NAME ": Sending to TTS engine");
+	module_report_event_begin();
+
+	if (0 != pico_process_tts()) {
+		DBG(MODULE_NAME ": ERROR in TTS");
+	}
+
+	module_report_event_end();
+
+	pico_state = STATE_IDLE;
 }
 
 int module_stop(void)
@@ -580,19 +535,18 @@ int module_stop(void)
 	pico_Status ret;
 	pico_Retstring outMessage;
 
-	if (g_atomic_int_get(&pico_state) != STATE_PLAY) {
+	if (pico_state != STATE_PLAY) {
 		DBG(MODULE_NAME ": STOP called when not in PLAY state");
 		return -1;
 	}
 
-	g_atomic_int_set(&pico_state, STATE_STOP);
-	sem_wait(&pico_idle_semaphore);
+	pico_state = STATE_STOP;
 
 	/* reset Pico engine. */
 	if ((ret = pico_resetEngine(picoEngine, PICO_RESET_SOFT))) {
 		pico_getSystemStatusMessage(picoSystem, ret, outMessage);
 		DBG(MODULE_NAME
-		    "Cannot reset pico engine (%i): %s\n", ret, outMessage);
+		    ": Cannot reset pico engine (%i): %s\n", ret, outMessage);
 		return -1;
 	}
 
@@ -604,19 +558,18 @@ size_t module_pause(void)
 	pico_Status ret;
 	pico_Retstring outMessage;
 
-	if (g_atomic_int_get(&pico_state) != STATE_PLAY) {
+	if (pico_state != STATE_PLAY) {
 		DBG(MODULE_NAME ": PAUSE called when not in PLAY state");
 		return -1;
 	}
 
-	g_atomic_int_set(&pico_state, STATE_PAUSE);
-	sem_wait(&pico_idle_semaphore);
+	pico_state = STATE_PAUSE;
 
 	/* reset Pico engine. */
 	if ((ret = pico_resetEngine(picoEngine, PICO_RESET_SOFT))) {
 		pico_getSystemStatusMessage(picoSystem, ret, outMessage);
 		DBG(MODULE_NAME
-		    "Cannot reset pico engine (%i): %s\n", ret, outMessage);
+		    ": Cannot reset pico engine (%i): %s\n", ret, outMessage);
 		return -1;
 	}
 
@@ -625,19 +578,12 @@ size_t module_pause(void)
 
 int module_close(void)
 {
-
-	g_atomic_int_set(&pico_state, STATE_CLOSE);
-	sem_post(&pico_play_semaphore);
-
-	g_thread_join(pico_play_thread);
+	pico_state = STATE_CLOSE;
 
 	if (picoSystem) {
 		pico_terminate(&picoSystem);
 		picoSystem = NULL;
 	}
-
-	sem_destroy(&pico_idle_semaphore);
-	sem_destroy(&pico_play_semaphore);
 
 	return 0;
 }

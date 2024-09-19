@@ -1,6 +1,7 @@
 libspeechd.so.2 libspeechd2 #MINVER#
  SPDConnectionAddress__free@Base 0.8.3
  free_spd_modules@Base 0.8.3
+ free_spd_symbolic_voices@Base 0.11.2
  free_spd_voices@Base 0.8.3
  range_high@Base 0.8.3
  range_low@Base 0.8.3

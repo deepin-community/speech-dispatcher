@@ -1,4 +1,5 @@
+#! /usr/bin/dh-exec
 usr/bin/spd-conf
 usr/lib/python3*
 usr/share/sounds/speech-dispatcher/test.wav
-usr/share/man/man1/spd-conf.1
+<!cross> usr/share/man/man1/spd-conf.1

@@ -8,41 +8,262 @@ symbols:
 🏽	mellanfärgad hy	none
 🏾	mellanmörk hy	none
 🏿	mörk hy	none
-–	tankstreck	none
-—	långt tankstreck	none
-·	halvhög punkt	none
-«	gåsögon vänster	none
-»	gåsögon höger	none
-§	avsnitt	none
-†	korstecken	none
-‡	dubbelkorstecken	none
-•	listpunkt	none
-°	grad	none
 ℗	ljudinspelning upphovsrätt	none
 ←	vänsterriktad pil	none
+↚	vänsterriktat pilstreck	none
 →	högerriktad pil	none
+↛	högerriktat pilstreck	none
 ↑	uppåtriktad pil	none
 ↓	nedåtriktad pil	none
+↜	vänsterriktad vågig pil	none
+↝	högerriktad vågig pil	none
+↞	vänsterriktad dubbelhövdad pil	none
+↟	uppåtriktad dubbelhövdad pil	none
+↠	högerriktad dubbelhövdad pil	none
+↡	nedåtriktad dubbelhövdad pil	none
+↢	vänsterriktad pilsvans	none
+↣	högerriktad pilsvans	none
+↤	vänsterriktad pil från streck	none
+↥	uppåtriktad pil från streck	none
+↦	högerriktad pil från streck	none
+↧	nedåtriktad pil från streck	none
+↨	upp- och nedåtriktad pil med bas	none
+↫	vänsterriktad pilloop	none
+↬	högerriktad pilloop	none
+↭	höger- och vänsterriktad vågpil	none
+↯	nedåtriktad sicksackpil	none
+↰	uppåtriktad pil med spetsen åt vänster	none
+↱	uppåtriktad pil med spetsen åt höger	none
+↲	nedåtriktad pil med spetsen åt vänster	none
+↳	nedåtriktad pil med spetsen åt höger	none
+↴	högerriktad vinklad pil med spetsen nedåt	none
+↵	nedåtriktad vinklad pil med spetsen åt vänster	none
+↶	delcirkelpil uppifrån motsols	none
+↷	delcirkelpil uppifrån medsols	none
+↸	nordvästpil med långt streck	none
+↹	vänsterriktat pilstreck över högerriktat pilstreck	none
+↺	motsols öppen cirkelpil	none
+↻	medsols öppen cirkelpil	none
+↼	vänsterriktad harpunhulling uppåt	none
+↽	vänsterriktad harpunhulling nedåt	none
+↾	uppåtriktad harpunhulling åt höger	none
+↿	uppåtriktad harpunhulling åt vänster	none
+⇀	högerriktad harpunhulling uppåt	none
+⇁	högerriktad harpunhulling nedåt	none
+⇂	nedåtriktad harpunhulling åt höger	none
+⇃	nedåtriktad harpunhulling åt vänster	none
+⇄	högerriktad pil över vänsterriktad pil	none
 ⇅	uppåt- och nedåtriktade pilar	none
 ⇆	vänsterriktad över högerriktad pil	none
+⇇	vänsterriktat pilpar	none
+⇈	uppåtriktat pilpar	none
+⇉	högerriktat pilpar	none
+⇊	nedåtriktat pilpar	none
+⇋	vänsterriktad harpun över högerriktad harpun	none
+⇌	högerriktad harpun över vänsterriktad harpun	none
+⇐	vänsterriktad dubbelpil	none
+⇍	vänsterriktat dubbelpilstreck	none
+⇑	uppåtriktad dubbelpil	none
+⇒	högerriktad dubbelpil	none
+⇏	högerriktat dubbelpilstreck	none
+⇓	nedåtriktad dubbelpil	none
+⇔	vänster- och högerriktad dubbelpil	none
+⇎	vänster- och högerriktat dubbelpilstreck	none
+⇖	nordväst dubbelpil	none
+⇗	nordöst dubbelpil	none
+⇘	sydöst dubbelpil	none
+⇙	sydväst dubbelpil	none
+⇚	vänsterriktad trippelpil	none
+⇛	högerriktad trippelpil	none
+⇜	vänsterriktad krusig pil	none
+⇝	högerriktad krusig pil	none
+⇞	uppåtriktat dubbelpilstreck	none
+⇟	nedåtriktat dubbelpilstreck	none
+⇠	vänsterriktad streckad pil	none
+⇡	uppåtriktad streckad pil	none
+⇢	högerriktad streckad pil	none
+⇣	nedåtriktad streckad pil	none
+⇤	vänsterriktat pilfält	none
+⇥	högerriktat pilfält	none
+⇦	vänsterriktad ihålig pil	none
+⇧	uppåtriktad ihålig pil	none
+⇨	högerriktad ihålig pil	none
+⇩	nedåtriktad ihålig pil	none
+⇪	uppåtriktad ihålig pil från streck	none
+⇵	nedåtriktad pil åt vänster uppåtriktad pil	none
+∀	för allt	none
+∂	partiell differential	none
+∃	existenskvanta	none
+∅	tom mängd	none
 ∆	tillskott	none
 ∇	nablaoperatorn	none
 ∈	element i	none
-÷	divisionstecken	none
-×	multiplikationstecken	none
+∉	inte ett element	none
+∋	tillhör mängd	none
+∎	bevisslut	none
+∏	n-ställig produkt	none
+∑	n-ställig summering	none
+≮	inte mindre än	none
+≠	inte lika med	none
+≯	inte större än	none
+−	minustecken	none
 ⁻	upphöjt till minus	none
+∓	minus eller plus	none
+∕	divisionsstreck	none
+∗	asteriskoperator	none
+∘	ringoperator	none
+∙	punktoperator	none
 √	kvadratrot	none
+∝	proportionerlig	none
 ∞	oändlighetstecken	none
+∟	rät vinkel	none
+∠	vinkel	none
+∣	delar	none
+∥	parallell	none
+∧	logiskt och	none
 ∩	snitt	none
 ∪	union	none
+∫	integral	none
+∬	dubbelintegral	none
+∮	konturintegral	none
+∴	alltså	none
+∵	eftersom	none
+∶	förhållande	none
+∷	proportion	none
+∼	tildeoperator	none
+∽	omvänd tilde	none
+∾	inverterat liggande s	none
+≃	asymptotiskt lika med	none
+≅	ungefär lika med	none
+≈	nästan lika med	none
+≌	allt lika	none
+≒	ungefärligt lika med-bild	none
+≖	ring i likhetstecken	none
 ≡	identiskt lika med	none
+≣	strikt ekvivalent	none
+≤	mindre än eller lika med	none
+≥	större än eller lika med	none
+≦	mindre än över lika med	none
+≧	större än över lika med	none
+≪	mycket mindre än	none
+≫	mycket större än	none
+≬	mellan	none
+≳	större än likvärdig	none
+≺	föregår	none
+≻	efterföljer	none
+⊁	efterföljer inte	none
 ⊂	delmängd av	none
+⊃	supermängd	none
+⊆	delmängd lika med	none
+⊇	supermängd lika med	none
+⊕	plus i cirkel	none
+⊖	minus i cirkel	none
+⊗	gångertecken i cirkel	none
+⊘	divisionsstreck i cirkel	none
+⊙	prickoperator i cirkel	none
+⊚	ringoperator i cirkel	none
+⊛	asteriskoperator i cirkel	none
+⊞	plus i kvadrat	none
+⊟	minus i kvadrat	none
+⊥	falsum	none
+⊮	tvingar inte	none
+⊰	efterföljer under relation	none
+⊱	föregår under relation	none
+⋭	innehåller inte som normal delgruppslikvärdig	none
+⊶	original	none
+⊹	hermitesk matris	none
+⊿	rätvinklig triangel	none
+⋁	n-ställig logik eller	none
+⋂	n-ställigt snitt	none
+⋃	n-ställig union	none
+⋅	prickoperator	none
+⋆	stjärnoperator	none
+⋈	naturlig ordning	none
+⋒	dubbelsnitt	none
+⋘	väldigt mycket mindre än	none
+⋙	väldigt mycket större än	none
+⋮	vertikal ellips	none
+⋯	mellanhög horisontell ellips	none
+⋰	högerstigande diagonal ellips	none
+⋱	högersjunkande diagonal ellips	none
+■	fylld kvadrat	none
+□	ihålig kvadrat	none
+▢	ihålig kvadrat med rundade hörn	none
+▣	ihålig kvadrat som innehåller fylld kvadrat	none
+▤	kvadrat med horisontell fyllning	none
+▥	kvadrat med vertikal fyllning	none
+▦	kvadrat med ortogonalt korsande streckfyllning	none
+▧	kvadrat med diagonalt sjunkande fyllning från vänster till höger	none
+▨	kvadrat med diagonalt sjunkande fyllning från höger till vänster	none
+▩	kvadrat med diagonalt korsande streckfyllning	none
+▬	fylld rektangel	none
+▭	ihålig rektangel	none
+▮	fylld vertikal rektangel	none
+▰	fyllt parallellogram	none
 ▲	fylld uppåtpekande triangel	none
+△	ihålig uppåtpekande triangel	none
+▴	fylld uppåtpekande liten triangel	none
+▵	ihålig uppåtpekande liten triangel	none
+▷	ihålig högerpekande triangel	none
+▸	fylld högerpekande liten triangel	none
+▹	ihålig högerpekande liten triangel	none
+►	fylld högerpekande pekare	none
+▻	ihålig högerpekande pekare	none
 ▼	fylld nedåtpekande triangel	none
+▽	ihålig nedåtpekande triangel	none
+▾	fylld nedåtpekande liten triangel	none
+▿	ihålig nedåtpekande liten triangel	none
+◁	ihålig vänsterpekande triangel	none
+◂	fylld vänsterpekande liten triangel	none
+◃	ihålig vänsterpekande liten triangel	none
+◄	fylld vänsterpekande pekare	none
+◅	ihålig vänsterpekande pekare	none
+◆	fylld romb	none
+◇	ihålig romb	none
+◈	ihålig romb som innehåller fylld romb	none
+◉	ihålig cirkel som innehåller fylld cirkel	none
 ◊	romb	none
 ○	ihålig cirkel	none
+◌	punktcirkel	none
+◍	cirkel med vertikal fyllning	none
+◎	måltavla	none
 ●	fylld cirkel	none
+◐	cirkel med vänster halva fylld	none
+◑	cirkel med höger halva fylld	none
+◒	cirkel med nedre halva fylld	none
+◓	cirkel med övre halva fylld	none
+◔	cirkel med övre högra fjärdedel fylld	none
+◕	fylld cirkel med övre vänstra fjärdedel tom	none
+◖	vänster halvfylld cirkel	none
+◗	höger halvfylld cirkel	none
+◘	inverterad punkt	none
+◙	fylld kvadrat med ihålig cirkel	none
+◜	övre vänstra kvadrant cirkulär båge	none
+◝	övre högra kvadrant cirkulär båge	none
+◞	nedre högra kvadrant cirkulär båge	none
+◟	nedre vänstra kvadrant cirkulär båge	none
+◠	övre halvcirkel	none
+◡	nedre halvcirkel	none
+◢	fylld triangel nedtill höger	none
+◣	fylld triangel nedtill vänster	none
+◤	fylld triangel upptill vänster	none
+◥	fylld triangel upptill höger	none
+◦	ihålig punkt	none
 ◯	stor ihålig cirkel	none
+◳	ihålig kvadrat övre högra kvadrant	none
+◷	ihålig cirkel med övre högra kvadrant	none
+◿	triangel nedtill höger	none
+♪	åttondelsnot	none
+⨧	plus nedsänkt två	none
+⨯	vektorkryssprodukt	none
+⨼	inre produkt	none
+⩣	logiskt eller dubbelt understreck	none
+⩽	lutande mindre än-likhetstecken	none
+⪍	lutande mindre än ovanför-likhetstecken	none
+⪚	lika med större än med dubbla linjer	none
+⪺	föregår över inte nästan lika med	none
+♭	dur	none
+♯	moll	none
 😀	ansikte med stort leende	none
 😃	flinande ansikte med stora ögon	none
 😄	flinande ansikte med leende ögon	none
@@ -53,6 +274,7 @@ symbols:
 😂	ansikte med glädjetårar	none
 🙂	småleende ansikte	none
 🙃	upp-och-nervänt ansikte	none
+🫠	smältande ansikte	none
 😉	ansikte som blinkar med ögonen	none
 😊	leende ansikte och ögon	none
 😇	leende ansikte med gloria	none
@@ -73,18 +295,25 @@ symbols:
 🤑	ansikte med dollarögon	none
 🤗	ansikte som kramas	none
 🤭	ansikte med handen för munnen	none
+🫢	ansikte med ögonen öppna och handen för munnen	none
+🫣	ansikte med kikande öga	none
 🤫	hyssjande ansikte	none
 🤔	ansikte som tänker	none
+🫡	ansikte som gör honnör	none
 🤐	ansikte som tiger	none
 🤨	ansikte med höjt ögonbryn	none
 😐	neutralt ansikte	none
 😑	uttryckslöst ansikte	none
 😶	ansikte utan mun	none
+🫥	osynligt ansikte	none
+😶‍🌫	ansikte i moln	none
 😏	halvleende ansikte	none
 😒	missnöjt ansikte	none
 🙄	ansikte som himlar med ögonen	none
 😬	grimaserande ansikte	none
+😮‍💨	ansikte andas ut	none
 🤥	ljugande ansikte	none
+🫨	skakande ansikte	none
 😌	lättat ansikte	none
 😔	funderande ansikte	none
 😪	sömnigt ansikte	none
@@ -100,6 +329,7 @@ symbols:
 🥶	kallt ansikte	none
 🥴	yrt ansikte	none
 😵	omtumlat ansikte	none
+😵‍💫	ansikte med spiralögon	none
 🤯	exploderande huvud	none
 🤠	ansikte med cowboyhatt	none
 🥳	festande ansikte	none
@@ -108,6 +338,7 @@ symbols:
 🤓	nördansikte	none
 🧐	ansikte med monokel	none
 😕	förbryllat ansikte	none
+🫤	ansikte med diagonal mun	none
 😟	bekymrat ansikte	none
 🙁	ansikte med lite sur mun	none
 ☹	ansikte med sur mun	none
@@ -116,6 +347,7 @@ symbols:
 😲	chockat ansikte	none
 😳	rodnande ansikte	none
 🥺	bönfallande ansikte	none
+🥹	ansikte som håller tillbaka tårarna	none
 😦	ogillande ansikte med öppen mun	none
 😧	plågat ansikte	none
 😨	skrämt ansikte	none
@@ -159,7 +391,6 @@ symbols:
 🙈	apa ser inget	none
 🙉	apa hör inget	none
 🙊	apa säger inget	none
-💋	läppavtryck	none
 💌	kärleksbrev	none
 💘	hjärta med pil	none
 💝	hjärta med rosett	none
@@ -171,15 +402,21 @@ symbols:
 💟	hjärtdekoration	none
 ❣	utropstecken i form av ett hjärta	none
 💔	brustet hjärta	none
+❤‍🔥	brinnande hjärta	none
+❤‍🩹	läkande hjärta	none
 ❤	rött hjärta	none
+🩷	rosa hjärta	none
 🧡	hjärta i orange	none
 💛	gult hjärta	none
 💚	grönt hjärta	none
 💙	blått hjärta	none
+🩵	ljusblått hjärta	none
 💜	lila hjärta	none
 🤎	brunt hjärta	none
 🖤	svart hjärta	none
+🩶	grått hjärta	none
 🤍	vitt hjärta	none
+💋	läppavtryck	none
 💯	100 poäng	none
 💢	symbol för ilska	none
 💥	explosion	none
@@ -187,7 +424,6 @@ symbols:
 💦	stänkande svett	none
 💨	fartsymbol	none
 🕳	hål	none
-💣	bomb	none
 💬	pratbubbla	none
 👁‍🗨	öga i pratbubbla	none
 🗨	pratbubbla åt vänster	none
@@ -199,11 +435,18 @@ symbols:
 🖐	hand med utspretade fingrar	none
 ✋	hand i luften	none
 🖖	vulcan-hälsning	none
+🫱	hand som pekar till höger	none
+🫲	hand som pekar till vänster	none
+🫳	handflatan nedåt	none
+🫴	handflatan uppåt	none
+🫷	hand som knuffar åt vänster	none
+🫸	hand som knuffar åt höger	none
 👌	OK-tecken	none
 🤌	fingerportmonnä	none
 🤏	nypande hand	none
 ✌	v-tecken	none
 🤞	korsade fingrar	none
+🫰	hand med tummen och pekfingret korsade	none
 🤟	jag älskar dig-gest	none
 🤘	djävulstecknet	none
 🤙	ring mig-hand	none
@@ -213,6 +456,7 @@ symbols:
 🖕	långfinger upp	none
 👇	nedåtpekande finger	none
 ☝	finger upp	none
+🫵	finger som pekar på mig	none
 👍	tummen upp	none
 👎	tummen ned	none
 ✊	knytnäve i luften	none
@@ -221,6 +465,7 @@ symbols:
 🤜	högervänd näve	none
 👏	klappande händer	none
 🙌	båda händerna i luften	none
+🫶	handhjärta	none
 👐	öppna händer	none
 🤲	handflatorna upp	none
 🤝	handskakning	none
@@ -245,6 +490,7 @@ symbols:
 👁	öga	none
 👅	tunga	none
 👄	mun	none
+🫦	biter i läppen	none
 👶	bebis	none
 🧒	barn	none
 👦	pojke	none
@@ -253,8 +499,10 @@ symbols:
 👱	blond person	none
 👨	man	none
 🧔	man med skägg	none
+🧔‍♂	man skägg	none
 👱‍♂	blond man	none
 👩	kvinna	none
+🧔‍♀	kvinna skägg	none
 👱‍♀	blond kvinna	none
 🧓	äldre person	none
 👴	gammal man	none
@@ -350,6 +598,7 @@ symbols:
 👷	byggarbetare	none
 👷‍♂	manlig byggarbetare	none
 👷‍♀	kvinnlig byggarbetare	none
+🫅	person med krona	none
 🤴	prins	none
 👸	prinsessa	none
 👳	man med turban	none
@@ -364,6 +613,8 @@ symbols:
 👰‍♂	man i brudslöja	none
 👰‍♀	kvinna i brudslöja	none
 🤰	gravid kvinna	none
+🫃	gravid man	none
+🫄	gravid person	none
 🤱	amning	none
 👩‍🍼	kvinna matar spädbarn	none
 👨‍🍼	man matar spädbarn	none
@@ -399,6 +650,7 @@ symbols:
 🧟	zombie	none
 🧟‍♂	manlig zombie	none
 🧟‍♀	kvinnlig zombie	none
+🧌	troll	none
 💆	person som blir masserad	none
 💆‍♂	man som blir masserad	none
 💆‍♀	kvinna som blir masserad	none
@@ -522,6 +774,8 @@ symbols:
 🐅	tiger	none
 🐆	leopard	none
 🐴	hästansikte	none
+🫎	älg	none
+🫏	åsna	none
 🐎	häst	none
 🦄	enhörningsansikte	none
 🦓	zebra	none
@@ -584,6 +838,8 @@ symbols:
 🦩	flamingo	none
 🦚	påfågel	none
 🦜	papegoja	none
+🪽	vinge	none
+🪿	gås	none
 🐸	grodansikte	none
 🐊	krokodil	none
 🐢	sköldpadda	none
@@ -603,6 +859,8 @@ symbols:
 🦈	haj	none
 🐙	bläckfisk	none
 🐚	snäcka	none
+🪸	korall	none
+🪼	manet	none
 🐌	snigel	none
 🦋	fjäril	none
 🐛	tusenfoting	none
@@ -622,6 +880,7 @@ symbols:
 💐	blombukett	none
 🌸	körsbärsblomma	none
 💮	vit blomma	none
+🪷	lotus	none
 🏵	bandros	none
 🌹	ros	none
 🥀	vissnad blomma	none
@@ -629,6 +888,7 @@ symbols:
 🌻	solros	none
 🌼	blomma	none
 🌷	tulpan	none
+🪻	hyacint	none
 🌱	skott	none
 🪴	krukväxt	none
 🌲	barrträd	none
@@ -642,6 +902,9 @@ symbols:
 🍁	lönnlöv	none
 🍂	fallande löv	none
 🍃	löv i vinden	none
+🪹	tomt bo	none
+🪺	bo med ägg	none
+🍄	svamp	none
 🍇	vindruvor	none
 🍈	melon	none
 🍉	vattenmelon	none
@@ -673,9 +936,11 @@ symbols:
 🥦	broccoli	none
 🧄	vitlök	none
 🧅	lök	none
-🍄	svamp	none
 🥜	jordnötter	none
+🫘	bönor	none
 🌰	kastanj	none
+🫚	ingefära	none
+🫛	ärtskida	none
 🍞	bröd	none
 🥐	croissant	none
 🥖	baguette	none
@@ -760,6 +1025,7 @@ symbols:
 🍻	skålande ölstop	none
 🥂	skålande glas	none
 🥃	whiskyglas	none
+🫗	hälla vätska	none
 🥤	mugg med sugrör	none
 🧋	bubbelte	none
 🧃	dryckeskartong	none
@@ -770,6 +1036,7 @@ symbols:
 🍴	kniv och gaffel	none
 🥄	sked	none
 🔪	kökskniv	none
+🫙	burk	none
 🏺	amfora	none
 🌍	jordglob Europa–Afrika	none
 🌎	jordglob nord- och sydamerika	none
@@ -832,6 +1099,7 @@ symbols:
 🌉	bro på natten	none
 ♨	varma källor	none
 🎠	karusellhäst	none
+🛝	rutschbana	none
 🎡	pariserhjul	none
 🎢	berg- och dalbana	none
 💈	barberarstolpe	none
@@ -880,12 +1148,14 @@ symbols:
 🛤	räls	none
 🛢	oljefat	none
 ⛽	bränslepump	none
+🛞	hjul	none
 🚨	polisbilslampa	none
 🚥	vågräta trafikljus	none
 🚦	lodräta trafikljus	none
 🛑	stoppskylt	none
 🚧	skylt för byggområde	none
 ⚓	ankare	none
+🛟	livboj	none
 ⛵	segelbåt	none
 🛶	kanot	none
 🚤	racerbåt	none
@@ -1043,10 +1313,10 @@ symbols:
 🎯	mitt i prick	none
 🪀	jojo	none
 🪁	flygande drake	none
+🔫	vattenpistol	none
 🎱	biljardboll	none
 🔮	kristallkula	none
 🪄	trollspö	none
-🧿	onda ögat-sten	none
 🎮	tv-spel	none
 🕹	joystick	none
 🎰	enarmad bandit	none
@@ -1054,6 +1324,7 @@ symbols:
 🧩	pusselbit	none
 🧸	nallebjörn	none
 🪅	piñata	none
+🪩	discokula	none
 🪆	ryska dockor	none
 ♠	spader	none
 ♥	hjärter	none
@@ -1090,6 +1361,7 @@ symbols:
 🩳	shorts	none
 👙	bikini	none
 👚	blus	none
+🪭	solfjäder	none
 👛	portmonnä	none
 👜	handväska	none
 👝	kuvertväska	none
@@ -1104,6 +1376,7 @@ symbols:
 👡	damsandal	none
 🩰	ballettskor	none
 👢	damstövel	none
+🪮	afrokam	none
 👑	krona	none
 👒	damhatt	none
 🎩	hög hatt	none
@@ -1142,6 +1415,8 @@ symbols:
 🪕	banjo	none
 🥁	trumma	none
 🪘	congatrumma	none
+🪇	maracas	none
+🪈	flöjt	none
 📱	mobiltelefon	none
 📲	mobiltelefon med pil	none
 ☎	telefon	none
@@ -1149,6 +1424,7 @@ symbols:
 📟	personsökare	none
 📠	fax	none
 🔋	batteri	none
+🪫	låg batterinivå	none
 🔌	elkontakt	none
 💻	bärbar dator	none
 🖥	stationär dator	none
@@ -1205,7 +1481,7 @@ symbols:
 🧾	kvitto	none
 💹	stigande diagram med yen	none
 ✉	kuvert	none
-📧	e-postsymbol	none
+📧	e-post	none
 📨	inkommande brev	none
 📩	kuvert med pil	none
 📤	utkorg	none
@@ -1260,7 +1536,7 @@ symbols:
 🛠	hammare och skiftnyckel	none
 🗡	dolk	none
 ⚔	korslagda svärd	none
-🔫	pistol	none
+💣	bomb	none
 🪃	boomerang	none
 🏹	pil och båge	none
 🛡	sköld	none
@@ -1289,7 +1565,9 @@ symbols:
 🩸	blodsdroppe	none
 💊	piller	none
 🩹	plåster	none
+🩼	krycka	none
 🩺	stetoskop	none
+🩻	röntgen	none
 🚪	dörr	none
 🛗	hiss	none
 🪞	spegel	none
@@ -1310,6 +1588,7 @@ symbols:
 🧻	toarulle	none
 🪣	spann	none
 🧼	tvål	none
+🫧	bubblor	none
 🪥	tandborste	none
 🧽	tvättsvamp	none
 🧯	brandsläckare	none
@@ -1318,8 +1597,11 @@ symbols:
 ⚰	kista	none
 🪦	gravsten	none
 ⚱	begravningsurna	none
+🧿	onda ögat-sten	none
+🪬	hamsa	none
 🗿	staty	none
 🪧	plakat	none
+🪪	ID-kort	none
 🏧	bankomat	none
 🚮	soptunna	none
 🚰	dricksvatten	none
@@ -1356,6 +1638,7 @@ symbols:
 ↖	uppåtpil vänster	none
 ↕	pil upp och ned	none
 ↔	pil höger och vänster	none
+↮	höger och vänsterriktat pilstreck	none
 ↩	svängd vänsterpil	none
 ↪	svängd högerpil	none
 ⤴	svängd uppåtpil	none
@@ -1379,6 +1662,7 @@ symbols:
 ☮	fredssymbol	none
 🕎	menora	none
 🔯	sexuddig stjärna med prick	none
+🪯	khanda	none
 ♈	Väduren	none
 ♉	Oxen	none
 ♊	Tvillingarna	none
@@ -1414,6 +1698,7 @@ symbols:
 🔅	låg ljusstyrka	none
 🔆	hög ljusstyrka	none
 📶	stapel signalstyrka	none
+🛜	trådlös	none
 📳	vibrationsläge	none
 📴	avstängd mobil	none
 ♀	kvinnosymbol	none
@@ -1421,16 +1706,14 @@ symbols:
 ⚧	transgendersymbol	none
 ✖	multiplicera	none
 ➕	addera	none
-➖	minustecken	none
+➖	subtrahera	none
 ➗	dividera	none
+🟰	fetstilt likamedtecken	none
 ♾	oändlighet	none
-‼	dubbla utropstecken	none
-⁉	utropstecken och frågetecken	none
-❓	frågetecken	none
+❓	rött frågetecken	none
 ❔	vitt frågetecken	none
 ❕	vitt utropstecken	none
-❗	utropstecken	none
-〰	vågigt tankstreck	none
+❗	rött utropstecken	none
 💱	valutaväxling	none
 💲	dollartecken	none
 ⚕	medicinsk symbol	none
@@ -1447,12 +1730,9 @@ symbols:
 ❎	vitt kryss i ruta	none
 ➰	ögla	none
 ➿	dubbel ögla	none
-〽	japansk kommatering	none
 ✳	åttauddig spetsig stjärna	none
 ✴	åttauddig stjärna	none
 ❇	glittra	none
-©	upphovsrättssymbol	none
-®	registrerat varumärke	none
 ™	skyddat varumärke	none
 🔠	versaler	none
 🔡	gemener	none
@@ -1476,23 +1756,6 @@ symbols:
 🆘	SOS-knapp	none
 🆙	UP!-knapp	none
 🆚	VS-knapp	none
-🈁	japansk ”här”-knapp	none
-🈂	japansk ”serviceavgift”-knapp	none
-🈷	japansk ”månadsbelopp”-knapp	none
-🈶	japansk ”inte gratis”-knapp	none
-🈯	japansk ”reserverad”-knapp	none
-🉐	japansk ”fynd”-knapp	none
-🈹	japansk ”rabatt”-knapp	none
-🈚	japansk ”gratis”-knapp	none
-🈲	japansk ”förbjudet”-knapp	none
-🉑	japansk ”godtagbart”-knapp	none
-🈸	japansk ”användning”-knapp	none
-🈴	japansk ”godkänt betyg”-knapp	none
-🈳	japansk ”lediga rum”-knapp	none
-㊗	japansk ”grattis”-knapp	none
-㊙	japansk ”hemligt”-knapp	none
-🈺	japansk ”öppet”-knapp	none
-🈵	japansk ”fullbelagt”-knapp	none
 🔴	röd cirkel	none
 🟠	orange cirkel	none
 🟡	gul cirkel	none
@@ -1535,15 +1798,21 @@ symbols:
 🏳‍🌈	regnbågsflagga	none
 🏳‍⚧	transflagga	none
 🏴‍☠	sjörövarflagga	none
-£	pund	none
-¥	yen	none
+₢	cruzeiro	none
+₣	fransk franc	none
+₤	lira	none
+₥	mill	none
+₩	won	none
 €	euro	none
+₰	tysk pfennig	none
+₱	peso	none
+₳	austral	none
+₶	livre tournois	none
+₷	spesmilo	none
 ₹	indisk rupie	none
 ₽	rubel	none
-¹	upphöjt till ett	none
-²	upphöjt till två	none
-³	upphöjt till tre	none
-µ	mikrotecken	none
+₿	bitcoin	none
+₨	rupie	none
 👋🏻	vinkande hand ljus hy	none
 👋🏼	vinkande hand mellanljus hy	none
 👋🏽	vinkande hand mellanfärgad hy	none
@@ -1569,6 +1838,56 @@ symbols:
 🖖🏽	vulcan-hälsning mellanfärgad hy	none
 🖖🏾	vulcan-hälsning mellanmörk hy	none
 🖖🏿	vulcan-hälsning mörk hy	none
+🫱🏻	hand som pekar till höger ljus hy	none
+🫱🏼	hand som pekar till höger mellanljus hy	none
+🫱🏽	hand som pekar till höger mellanfärgad hy	none
+🫱🏾	hand som pekar till höger mellanmörk hy	none
+🫱🏿	hand som pekar till höger mörk hy	none
+🫱🏻‍🫲🏼	handskakning ljus hy, mellanljus hy	none
+🫱🏻‍🫲🏽	handskakning ljus hy, mellanfärgad hy	none
+🫱🏻‍🫲🏾	handskakning ljus hy, mellanmörk hy	none
+🫱🏻‍🫲🏿	handskakning ljus hy, mörk hy	none
+🫱🏼‍🫲🏻	handskakning mellanljus hy, ljus hy	none
+🫱🏼‍🫲🏽	handskakning mellanljus hy, mellanfärgad hy	none
+🫱🏼‍🫲🏾	handskakning mellanljus hy, mellanmörk hy	none
+🫱🏼‍🫲🏿	handskakning mellanljus hy, mörk hy	none
+🫱🏽‍🫲🏻	handskakning mellanfärgad hy, ljus hy	none
+🫱🏽‍🫲🏼	handskakning mellanfärgad hy, mellanljus hy	none
+🫱🏽‍🫲🏾	handskakning mellanfärgad hy, mellanmörk hy	none
+🫱🏽‍🫲🏿	handskakning mellanfärgad hy, mörk hy	none
+🫱🏾‍🫲🏻	handskakning mellanmörk hy, ljus hy	none
+🫱🏾‍🫲🏼	handskakning mellanmörk hy, mellanljus hy	none
+🫱🏾‍🫲🏽	handskakning mellanmörk hy, mellanfärgad hy	none
+🫱🏾‍🫲🏿	handskakning mellanmörk hy, mörk hy	none
+🫱🏿‍🫲🏻	handskakning mörk hy, ljus hy	none
+🫱🏿‍🫲🏼	handskakning mörk hy, mellanljus hy	none
+🫱🏿‍🫲🏽	handskakning mörk hy, mellanfärgad hy	none
+🫱🏿‍🫲🏾	handskakning mörk hy, mellanmörk hy	none
+🫲🏻	hand som pekar till vänster ljus hy	none
+🫲🏼	hand som pekar till vänster mellanljus hy	none
+🫲🏽	hand som pekar till vänster mellanfärgad hy	none
+🫲🏾	hand som pekar till vänster mellanmörk hy	none
+🫲🏿	hand som pekar till vänster mörk hy	none
+🫳🏻	handflatan nedåt ljus hy	none
+🫳🏼	handflatan nedåt mellanljus hy	none
+🫳🏽	handflatan nedåt mellanfärgad hy	none
+🫳🏾	handflatan nedåt mellanmörk hy	none
+🫳🏿	handflatan nedåt mörk hy	none
+🫴🏻	handflatan uppåt ljus hy	none
+🫴🏼	handflatan uppåt mellanljus hy	none
+🫴🏽	handflatan uppåt mellanfärgad hy	none
+🫴🏾	handflatan uppåt mellanmörk hy	none
+🫴🏿	handflatan uppåt mörk hy	none
+🫷🏻	hand som knuffar åt vänster ljus hy	none
+🫷🏼	hand som knuffar åt vänster mellanljus hy	none
+🫷🏽	hand som knuffar åt vänster mellanfärgad hy	none
+🫷🏾	hand som knuffar åt vänster mellanmörk hy	none
+🫷🏿	hand som knuffar åt vänster mörk hy	none
+🫸🏻	hand som knuffar åt höger ljus hy	none
+🫸🏼	hand som knuffar åt höger mellanljus hy	none
+🫸🏽	hand som knuffar åt höger mellanfärgad hy	none
+🫸🏾	hand som knuffar åt höger mellanmörk hy	none
+🫸🏿	hand som knuffar åt höger mörk hy	none
 👌🏻	OK-tecken ljus hy	none
 👌🏼	OK-tecken mellanljus hy	none
 👌🏽	OK-tecken mellanfärgad hy	none
@@ -1594,6 +1913,11 @@ symbols:
 🤞🏽	korsade fingrar mellanfärgad hy	none
 🤞🏾	korsade fingrar mellanmörk hy	none
 🤞🏿	korsade fingrar mörk hy	none
+🫰🏻	hand med tummen och pekfingret korsade ljus hy	none
+🫰🏼	hand med tummen och pekfingret korsade mellanljus hy	none
+🫰🏽	hand med tummen och pekfingret korsade mellanfärgad hy	none
+🫰🏾	hand med tummen och pekfingret korsade mellanmörk hy	none
+🫰🏿	hand med tummen och pekfingret korsade mörk hy	none
 🤟🏻	jag älskar dig-gest ljus hy	none
 🤟🏼	jag älskar dig-gest mellanljus hy	none
 🤟🏽	jag älskar dig-gest mellanfärgad hy	none
@@ -1639,6 +1963,11 @@ symbols:
 ☝🏽	finger upp mellanfärgad hy	none
 ☝🏾	finger upp mellanmörk hy	none
 ☝🏿	finger upp mörk hy	none
+🫵🏻	finger som pekar på mig ljus hy	none
+🫵🏼	finger som pekar på mig mellanljus hy	none
+🫵🏽	finger som pekar på mig mellanfärgad hy	none
+🫵🏾	finger som pekar på mig mellanmörk hy	none
+🫵🏿	finger som pekar på mig mörk hy	none
 👍🏻	tummen upp ljus hy	none
 👍🏼	tummen upp mellanljus hy	none
 👍🏽	tummen upp mellanfärgad hy	none
@@ -1679,6 +2008,11 @@ symbols:
 🙌🏽	båda händerna i luften mellanfärgad hy	none
 🙌🏾	båda händerna i luften mellanmörk hy	none
 🙌🏿	båda händerna i luften mörk hy	none
+🫶🏻	handhjärta ljus hy	none
+🫶🏼	handhjärta mellanljus hy	none
+🫶🏽	handhjärta mellanfärgad hy	none
+🫶🏾	handhjärta mellanmörk hy	none
+🫶🏿	handhjärta mörk hy	none
 👐🏻	öppna händer ljus hy	none
 👐🏼	öppna händer mellanljus hy	none
 👐🏽	öppna händer mellanfärgad hy	none
@@ -1689,6 +2023,11 @@ symbols:
 🤲🏽	handflatorna upp mellanfärgad hy	none
 🤲🏾	handflatorna upp mellanmörk hy	none
 🤲🏿	handflatorna upp mörk hy	none
+🤝🏻	handskakning ljus hy	none
+🤝🏼	handskakning mellanljus hy	none
+🤝🏽	handskakning mellanfärgad hy	none
+🤝🏾	handskakning mellanmörk hy	none
+🤝🏿	handskakning mörk hy	none
 🙏🏻	beende händer ljus hy	none
 🙏🏼	beende händer mellanljus hy	none
 🙏🏽	beende händer mellanfärgad hy	none
@@ -1769,6 +2108,46 @@ symbols:
 👱🏽	blond person mellanfärgad hy	none
 👱🏾	blond person mellanmörk hy	none
 👱🏿	blond person mörk hy	none
+🧑🏻‍❤‍💋‍🧑🏼	puss person, person, ljus hy, mellanljus hy	none
+🧑🏻‍❤‍💋‍🧑🏽	puss person, person, ljus hy, mellanfärgad hy	none
+🧑🏻‍❤‍💋‍🧑🏾	puss person, person, ljus hy, mellanmörk hy	none
+🧑🏻‍❤‍💋‍🧑🏿	puss person, person, ljus hy, mörk hy	none
+🧑🏼‍❤‍💋‍🧑🏻	puss person, person, mellanljus hy, ljus hy	none
+🧑🏼‍❤‍💋‍🧑🏽	puss person, person, mellanljus hy, mellanfärgad hy	none
+🧑🏼‍❤‍💋‍🧑🏾	puss person, person, mellanljus hy, mellanmörk hy	none
+🧑🏼‍❤‍💋‍🧑🏿	puss person, person, mellanljus hy, mörk hy	none
+🧑🏽‍❤‍💋‍🧑🏻	puss person, person, mellanfärgad hy, ljus hy	none
+🧑🏽‍❤‍💋‍🧑🏼	puss person, person, mellanfärgad hy, mellanljus hy	none
+🧑🏽‍❤‍💋‍🧑🏾	puss person, person, mellanfärgad hy, mellanmörk hy	none
+🧑🏽‍❤‍💋‍🧑🏿	puss person, person, mellanfärgad hy, mörk hy	none
+🧑🏾‍❤‍💋‍🧑🏻	puss person, person, mellanmörk hy, ljus hy	none
+🧑🏾‍❤‍💋‍🧑🏼	puss person, person, mellanmörk hy, mellanljus hy	none
+🧑🏾‍❤‍💋‍🧑🏽	puss person, person, mellanmörk hy, mellanfärgad hy	none
+🧑🏾‍❤‍💋‍🧑🏿	puss person, person, mellanmörk hy, mörk hy	none
+🧑🏿‍❤‍💋‍🧑🏻	puss person, person, mörk hy, ljus hy	none
+🧑🏿‍❤‍💋‍🧑🏼	puss person, person, mörk hy, mellanljus hy	none
+🧑🏿‍❤‍💋‍🧑🏽	puss person, person, mörk hy, mellanfärgad hy	none
+🧑🏿‍❤‍💋‍🧑🏾	puss person, person, mörk hy, mellanmörk hy	none
+🧑🏻‍❤‍🧑🏼	par med hjärta person, person, ljus hy, mellanljus hy	none
+🧑🏻‍❤‍🧑🏽	par med hjärta person, person, ljus hy, mellanfärgad hy	none
+🧑🏻‍❤‍🧑🏾	par med hjärta person, person, ljus hy, mellanmörk hy	none
+🧑🏻‍❤‍🧑🏿	par med hjärta person, person, ljus hy, mörk hy	none
+🧑🏼‍❤‍🧑🏻	par med hjärta person, person, mellanljus hy, ljus hy	none
+🧑🏼‍❤‍🧑🏽	par med hjärta person, person, mellanljus hy, mellanfärgad hy	none
+🧑🏼‍❤‍🧑🏾	par med hjärta person, person, mellanljus hy, mellanmörk hy	none
+🧑🏼‍❤‍🧑🏿	par med hjärta person, person, mellanljus hy, mörk hy	none
+🧑🏽‍❤‍🧑🏻	par med hjärta person, person, mellanfärgad hy, ljus hy	none
+🧑🏽‍❤‍🧑🏼	par med hjärta person, person, mellanfärgad hy, mellanljus hy	none
+🧑🏽‍❤‍🧑🏾	par med hjärta person, person, mellanfärgad hy, mellanmörk hy	none
+🧑🏽‍❤‍🧑🏿	par med hjärta person, person, mellanfärgad hy, mörk hy	none
+🧑🏾‍❤‍🧑🏻	par med hjärta person, person, mellanmörk hy, ljus hy	none
+🧑🏾‍❤‍🧑🏼	par med hjärta person, person, mellanmörk hy, mellanljus hy	none
+🧑🏾‍❤‍🧑🏽	par med hjärta person, person, mellanmörk hy, mellanfärgad hy	none
+🧑🏾‍❤‍🧑🏿	par med hjärta person, person, mellanmörk hy, mörk hy	none
+🧑🏿‍❤‍🧑🏻	par med hjärta person, person, mörk hy, ljus hy	none
+🧑🏿‍❤‍🧑🏼	par med hjärta person, person, mörk hy, mellanljus hy	none
+🧑🏿‍❤‍🧑🏽	par med hjärta person, person, mörk hy, mellanfärgad hy	none
+🧑🏿‍❤‍🧑🏾	par med hjärta person, person, mörk hy, mellanmörk hy	none
 🧑‍🦰	person rödhårig	none
 🧑🏻‍🦰	person ljus hy, rödhårig	none
 🧑🏼‍🦰	person mellanljus hy, rödhårig	none
@@ -1803,11 +2182,66 @@ symbols:
 🧔🏽	man med skägg mellanfärgad hy	none
 🧔🏾	man med skägg mellanmörk hy	none
 🧔🏿	man med skägg mörk hy	none
+🧔🏻‍♂	man ljus hy, skägg	none
+🧔🏼‍♂	man mellanljus hy, skägg	none
+🧔🏽‍♂	man mellanfärgad hy, skägg	none
+🧔🏾‍♂	man mellanmörk hy, skägg	none
+🧔🏿‍♂	man mörk hy, skägg	none
 👱🏻‍♂	blond man ljus hy	none
 👱🏼‍♂	blond man mellanljus hy	none
 👱🏽‍♂	blond man mellanfärgad hy	none
 👱🏾‍♂	blond man mellanmörk hy	none
 👱🏿‍♂	blond man mörk hy	none
+👨🏻‍❤‍💋‍👨🏻	puss man, man, ljus hy	none
+👨🏻‍❤‍💋‍👨🏼	puss man, man, ljus hy, mellanljus hy	none
+👨🏻‍❤‍💋‍👨🏽	puss man, man, ljus hy, mellanfärgad hy	none
+👨🏻‍❤‍💋‍👨🏾	puss man, man, ljus hy, mellanmörk hy	none
+👨🏻‍❤‍💋‍👨🏿	puss man, man, ljus hy, mörk hy	none
+👨🏼‍❤‍💋‍👨🏻	puss man, man, mellanljus hy, ljus hy	none
+👨🏼‍❤‍💋‍👨🏼	puss man, man, mellanljus hy	none
+👨🏼‍❤‍💋‍👨🏽	puss man, man, mellanljus hy, mellanfärgad hy	none
+👨🏼‍❤‍💋‍👨🏾	puss man, man, mellanljus hy, mellanmörk hy	none
+👨🏼‍❤‍💋‍👨🏿	puss man, man, mellanljus hy, mörk hy	none
+👨🏽‍❤‍💋‍👨🏻	puss man, man, mellanfärgad hy, ljus hy	none
+👨🏽‍❤‍💋‍👨🏼	puss man, man, mellanfärgad hy, mellanljus hy	none
+👨🏽‍❤‍💋‍👨🏽	puss man, man, mellanfärgad hy	none
+👨🏽‍❤‍💋‍👨🏾	puss man, man, mellanfärgad hy, mellanmörk hy	none
+👨🏽‍❤‍💋‍👨🏿	puss man, man, mellanfärgad hy, mörk hy	none
+👨🏾‍❤‍💋‍👨🏻	puss man, man, mellanmörk hy, ljus hy	none
+👨🏾‍❤‍💋‍👨🏼	puss man, man, mellanmörk hy, mellanljus hy	none
+👨🏾‍❤‍💋‍👨🏽	puss man, man, mellanmörk hy, mellanfärgad hy	none
+👨🏾‍❤‍💋‍👨🏾	puss man, man, mellanmörk hy	none
+👨🏾‍❤‍💋‍👨🏿	puss man, man, mellanmörk hy, mörk hy	none
+👨🏿‍❤‍💋‍👨🏻	puss man, man, mörk hy, ljus hy	none
+👨🏿‍❤‍💋‍👨🏼	puss man, man, mörk hy, mellanljus hy	none
+👨🏿‍❤‍💋‍👨🏽	puss man, man, mörk hy, mellanfärgad hy	none
+👨🏿‍❤‍💋‍👨🏾	puss man, man, mörk hy, mellanmörk hy	none
+👨🏿‍❤‍💋‍👨🏿	puss man, man, mörk hy	none
+👨🏻‍❤‍👨🏻	par med hjärta man, man, ljus hy	none
+👨🏻‍❤‍👨🏼	par med hjärta man, man, ljus hy, mellanljus hy	none
+👨🏻‍❤‍👨🏽	par med hjärta man, man, ljus hy, mellanfärgad hy	none
+👨🏻‍❤‍👨🏾	par med hjärta man, man, ljus hy, mellanmörk hy	none
+👨🏻‍❤‍👨🏿	par med hjärta man, man, ljus hy, mörk hy	none
+👨🏼‍❤‍👨🏻	par med hjärta man, man, mellanljus hy, ljus hy	none
+👨🏼‍❤‍👨🏼	par med hjärta man, man, mellanljus hy	none
+👨🏼‍❤‍👨🏽	par med hjärta man, man, mellanljus hy, mellanfärgad hy	none
+👨🏼‍❤‍👨🏾	par med hjärta man, man, mellanljus hy, mellanmörk hy	none
+👨🏼‍❤‍👨🏿	par med hjärta man, man, mellanljus hy, mörk hy	none
+👨🏽‍❤‍👨🏻	par med hjärta man, man, mellanfärgad hy, ljus hy	none
+👨🏽‍❤‍👨🏼	par med hjärta man, man, mellanfärgad hy, mellanljus hy	none
+👨🏽‍❤‍👨🏽	par med hjärta man, man, mellanfärgad hy	none
+👨🏽‍❤‍👨🏾	par med hjärta man, man, mellanfärgad hy, mellanmörk hy	none
+👨🏽‍❤‍👨🏿	par med hjärta man, man, mellanfärgad hy, mörk hy	none
+👨🏾‍❤‍👨🏻	par med hjärta man, man, mellanmörk hy, ljus hy	none
+👨🏾‍❤‍👨🏼	par med hjärta man, man, mellanmörk hy, mellanljus hy	none
+👨🏾‍❤‍👨🏽	par med hjärta man, man, mellanmörk hy, mellanfärgad hy	none
+👨🏾‍❤‍👨🏾	par med hjärta man, man, mellanmörk hy	none
+👨🏾‍❤‍👨🏿	par med hjärta man, man, mellanmörk hy, mörk hy	none
+👨🏿‍❤‍👨🏻	par med hjärta man, man, mörk hy, ljus hy	none
+👨🏿‍❤‍👨🏼	par med hjärta man, man, mörk hy, mellanljus hy	none
+👨🏿‍❤‍👨🏽	par med hjärta man, man, mörk hy, mellanfärgad hy	none
+👨🏿‍❤‍👨🏾	par med hjärta man, man, mörk hy, mellanmörk hy	none
+👨🏿‍❤‍👨🏿	par med hjärta man, man, mörk hy	none
 👨‍🦰	man rödhårig	none
 👨🏻‍🦰	man ljus hy, rödhårig	none
 👨🏼‍🦰	man mellanljus hy, rödhårig	none
@@ -1837,11 +2271,116 @@ symbols:
 👩🏽	kvinna mellanfärgad hy	none
 👩🏾	kvinna mellanmörk hy	none
 👩🏿	kvinna mörk hy	none
+🧔🏻‍♀	kvinna ljus hy, skägg	none
+🧔🏼‍♀	kvinna mellanljus hy, skägg	none
+🧔🏽‍♀	kvinna mellanfärgad hy, skägg	none
+🧔🏾‍♀	kvinna mellanmörk hy, skägg	none
+🧔🏿‍♀	kvinna mörk hy, skägg	none
 👱🏻‍♀	blond kvinna ljus hy	none
 👱🏼‍♀	blond kvinna mellanljus hy	none
 👱🏽‍♀	blond kvinna mellanfärgad hy	none
 👱🏾‍♀	blond kvinna mellanmörk hy	none
 👱🏿‍♀	blond kvinna mörk hy	none
+👩🏻‍❤‍💋‍👨🏻	puss kvinna, man, ljus hy	none
+👩🏻‍❤‍💋‍👨🏼	puss kvinna, man, ljus hy, mellanljus hy	none
+👩🏻‍❤‍💋‍👨🏽	puss kvinna, man, ljus hy, mellanfärgad hy	none
+👩🏻‍❤‍💋‍👨🏾	puss kvinna, man, ljus hy, mellanmörk hy	none
+👩🏻‍❤‍💋‍👨🏿	puss kvinna, man, ljus hy, mörk hy	none
+👩🏼‍❤‍💋‍👨🏻	puss kvinna, man, mellanljus hy, ljus hy	none
+👩🏼‍❤‍💋‍👨🏼	puss kvinna, man, mellanljus hy	none
+👩🏼‍❤‍💋‍👨🏽	puss kvinna, man, mellanljus hy, mellanfärgad hy	none
+👩🏼‍❤‍💋‍👨🏾	puss kvinna, man, mellanljus hy, mellanmörk hy	none
+👩🏼‍❤‍💋‍👨🏿	puss kvinna, man, mellanljus hy, mörk hy	none
+👩🏽‍❤‍💋‍👨🏻	puss kvinna, man, mellanfärgad hy, ljus hy	none
+👩🏽‍❤‍💋‍👨🏼	puss kvinna, man, mellanfärgad hy, mellanljus hy	none
+👩🏽‍❤‍💋‍👨🏽	puss kvinna, man, mellanfärgad hy	none
+👩🏽‍❤‍💋‍👨🏾	puss kvinna, man, mellanfärgad hy, mellanmörk hy	none
+👩🏽‍❤‍💋‍👨🏿	puss kvinna, man, mellanfärgad hy, mörk hy	none
+👩🏾‍❤‍💋‍👨🏻	puss kvinna, man, mellanmörk hy, ljus hy	none
+👩🏾‍❤‍💋‍👨🏼	puss kvinna, man, mellanmörk hy, mellanljus hy	none
+👩🏾‍❤‍💋‍👨🏽	puss kvinna, man, mellanmörk hy, mellanfärgad hy	none
+👩🏾‍❤‍💋‍👨🏾	puss kvinna, man, mellanmörk hy	none
+👩🏾‍❤‍💋‍👨🏿	puss kvinna, man, mellanmörk hy, mörk hy	none
+👩🏿‍❤‍💋‍👨🏻	puss kvinna, man, mörk hy, ljus hy	none
+👩🏿‍❤‍💋‍👨🏼	puss kvinna, man, mörk hy, mellanljus hy	none
+👩🏿‍❤‍💋‍👨🏽	puss kvinna, man, mörk hy, mellanfärgad hy	none
+👩🏿‍❤‍💋‍👨🏾	puss kvinna, man, mörk hy, mellanmörk hy	none
+👩🏿‍❤‍💋‍👨🏿	puss kvinna, man, mörk hy	none
+👩🏻‍❤‍💋‍👩🏻	puss kvinna, kvinna, ljus hy	none
+👩🏻‍❤‍💋‍👩🏼	puss kvinna, kvinna, ljus hy, mellanljus hy	none
+👩🏻‍❤‍💋‍👩🏽	puss kvinna, kvinna, ljus hy, mellanfärgad hy	none
+👩🏻‍❤‍💋‍👩🏾	puss kvinna, kvinna, ljus hy, mellanmörk hy	none
+👩🏻‍❤‍💋‍👩🏿	puss kvinna, kvinna, ljus hy, mörk hy	none
+👩🏼‍❤‍💋‍👩🏻	puss kvinna, kvinna, mellanljus hy, ljus hy	none
+👩🏼‍❤‍💋‍👩🏼	puss kvinna, kvinna, mellanljus hy	none
+👩🏼‍❤‍💋‍👩🏽	puss kvinna, kvinna, mellanljus hy, mellanfärgad hy	none
+👩🏼‍❤‍💋‍👩🏾	puss kvinna, kvinna, mellanljus hy, mellanmörk hy	none
+👩🏼‍❤‍💋‍👩🏿	puss kvinna, kvinna, mellanljus hy, mörk hy	none
+👩🏽‍❤‍💋‍👩🏻	puss kvinna, kvinna, mellanfärgad hy, ljus hy	none
+👩🏽‍❤‍💋‍👩🏼	puss kvinna, kvinna, mellanfärgad hy, mellanljus hy	none
+👩🏽‍❤‍💋‍👩🏽	puss kvinna, kvinna, mellanfärgad hy	none
+👩🏽‍❤‍💋‍👩🏾	puss kvinna, kvinna, mellanfärgad hy, mellanmörk hy	none
+👩🏽‍❤‍💋‍👩🏿	puss kvinna, kvinna, mellanfärgad hy, mörk hy	none
+👩🏾‍❤‍💋‍👩🏻	puss kvinna, kvinna, mellanmörk hy, ljus hy	none
+👩🏾‍❤‍💋‍👩🏼	puss kvinna, kvinna, mellanmörk hy, mellanljus hy	none
+👩🏾‍❤‍💋‍👩🏽	puss kvinna, kvinna, mellanmörk hy, mellanfärgad hy	none
+👩🏾‍❤‍💋‍👩🏾	puss kvinna, kvinna, mellanmörk hy	none
+👩🏾‍❤‍💋‍👩🏿	puss kvinna, kvinna, mellanmörk hy, mörk hy	none
+👩🏿‍❤‍💋‍👩🏻	puss kvinna, kvinna, mörk hy, ljus hy	none
+👩🏿‍❤‍💋‍👩🏼	puss kvinna, kvinna, mörk hy, mellanljus hy	none
+👩🏿‍❤‍💋‍👩🏽	puss kvinna, kvinna, mörk hy, mellanfärgad hy	none
+👩🏿‍❤‍💋‍👩🏾	puss kvinna, kvinna, mörk hy, mellanmörk hy	none
+👩🏿‍❤‍💋‍👩🏿	puss kvinna, kvinna, mörk hy	none
+👩🏻‍❤‍👨🏻	par med hjärta kvinna, man, ljus hy	none
+👩🏻‍❤‍👨🏼	par med hjärta kvinna, man, ljus hy, mellanljus hy	none
+👩🏻‍❤‍👨🏽	par med hjärta kvinna, man, ljus hy, mellanfärgad hy	none
+👩🏻‍❤‍👨🏾	par med hjärta kvinna, man, ljus hy, mellanmörk hy	none
+👩🏻‍❤‍👨🏿	par med hjärta kvinna, man, ljus hy, mörk hy	none
+👩🏼‍❤‍👨🏻	par med hjärta kvinna, man, mellanljus hy, ljus hy	none
+👩🏼‍❤‍👨🏼	par med hjärta kvinna, man, mellanljus hy	none
+👩🏼‍❤‍👨🏽	par med hjärta kvinna, man, mellanljus hy, mellanfärgad hy	none
+👩🏼‍❤‍👨🏾	par med hjärta kvinna, man, mellanljus hy, mellanmörk hy	none
+👩🏼‍❤‍👨🏿	par med hjärta kvinna, man, mellanljus hy, mörk hy	none
+👩🏽‍❤‍👨🏻	par med hjärta kvinna, man, mellanfärgad hy, ljus hy	none
+👩🏽‍❤‍👨🏼	par med hjärta kvinna, man, mellanfärgad hy, mellanljus hy	none
+👩🏽‍❤‍👨🏽	par med hjärta kvinna, man, mellanfärgad hy	none
+👩🏽‍❤‍👨🏾	par med hjärta kvinna, man, mellanfärgad hy, mellanmörk hy	none
+👩🏽‍❤‍👨🏿	par med hjärta kvinna, man, mellanfärgad hy, mörk hy	none
+👩🏾‍❤‍👨🏻	par med hjärta kvinna, man, mellanmörk hy, ljus hy	none
+👩🏾‍❤‍👨🏼	par med hjärta kvinna, man, mellanmörk hy, mellanljus hy	none
+👩🏾‍❤‍👨🏽	par med hjärta kvinna, man, mellanmörk hy, mellanfärgad hy	none
+👩🏾‍❤‍👨🏾	par med hjärta kvinna, man, mellanmörk hy	none
+👩🏾‍❤‍👨🏿	par med hjärta kvinna, man, mellanmörk hy, mörk hy	none
+👩🏿‍❤‍👨🏻	par med hjärta kvinna, man, mörk hy, ljus hy	none
+👩🏿‍❤‍👨🏼	par med hjärta kvinna, man, mörk hy, mellanljus hy	none
+👩🏿‍❤‍👨🏽	par med hjärta kvinna, man, mörk hy, mellanfärgad hy	none
+👩🏿‍❤‍👨🏾	par med hjärta kvinna, man, mörk hy, mellanmörk hy	none
+👩🏿‍❤‍👨🏿	par med hjärta kvinna, man, mörk hy	none
+👩🏻‍❤‍👩🏻	par med hjärta kvinna, kvinna, ljus hy	none
+👩🏻‍❤‍👩🏼	par med hjärta kvinna, kvinna, ljus hy, mellanljus hy	none
+👩🏻‍❤‍👩🏽	par med hjärta kvinna, kvinna, ljus hy, mellanfärgad hy	none
+👩🏻‍❤‍👩🏾	par med hjärta kvinna, kvinna, ljus hy, mellanmörk hy	none
+👩🏻‍❤‍👩🏿	par med hjärta kvinna, kvinna, ljus hy, mörk hy	none
+👩🏼‍❤‍👩🏻	par med hjärta kvinna, kvinna, mellanljus hy, ljus hy	none
+👩🏼‍❤‍👩🏼	par med hjärta kvinna, kvinna, mellanljus hy	none
+👩🏼‍❤‍👩🏽	par med hjärta kvinna, kvinna, mellanljus hy, mellanfärgad hy	none
+👩🏼‍❤‍👩🏾	par med hjärta kvinna, kvinna, mellanljus hy, mellanmörk hy	none
+👩🏼‍❤‍👩🏿	par med hjärta kvinna, kvinna, mellanljus hy, mörk hy	none
+👩🏽‍❤‍👩🏻	par med hjärta kvinna, kvinna, mellanfärgad hy, ljus hy	none
+👩🏽‍❤‍👩🏼	par med hjärta kvinna, kvinna, mellanfärgad hy, mellanljus hy	none
+👩🏽‍❤‍👩🏽	par med hjärta kvinna, kvinna, mellanfärgad hy	none
+👩🏽‍❤‍👩🏾	par med hjärta kvinna, kvinna, mellanfärgad hy, mellanmörk hy	none
+👩🏽‍❤‍👩🏿	par med hjärta kvinna, kvinna, mellanfärgad hy, mörk hy	none
+👩🏾‍❤‍👩🏻	par med hjärta kvinna, kvinna, mellanmörk hy, ljus hy	none
+👩🏾‍❤‍👩🏼	par med hjärta kvinna, kvinna, mellanmörk hy, mellanljus hy	none
+👩🏾‍❤‍👩🏽	par med hjärta kvinna, kvinna, mellanmörk hy, mellanfärgad hy	none
+👩🏾‍❤‍👩🏾	par med hjärta kvinna, kvinna, mellanmörk hy	none
+👩🏾‍❤‍👩🏿	par med hjärta kvinna, kvinna, mellanmörk hy, mörk hy	none
+👩🏿‍❤‍👩🏻	par med hjärta kvinna, kvinna, mörk hy, ljus hy	none
+👩🏿‍❤‍👩🏼	par med hjärta kvinna, kvinna, mörk hy, mellanljus hy	none
+👩🏿‍❤‍👩🏽	par med hjärta kvinna, kvinna, mörk hy, mellanfärgad hy	none
+👩🏿‍❤‍👩🏾	par med hjärta kvinna, kvinna, mörk hy, mellanmörk hy	none
+👩🏿‍❤‍👩🏿	par med hjärta kvinna, kvinna, mörk hy	none
 👩‍🦰	kvinna rödhårig	none
 👩🏻‍🦰	kvinna ljus hy, rödhårig	none
 👩🏼‍🦰	kvinna mellanljus hy, rödhårig	none
@@ -2336,6 +2875,11 @@ symbols:
 👷🏽‍♀	kvinnlig byggarbetare mellanfärgad hy	none
 👷🏾‍♀	kvinnlig byggarbetare mellanmörk hy	none
 👷🏿‍♀	kvinnlig byggarbetare mörk hy	none
+🫅🏻	person med krona ljus hy	none
+🫅🏼	person med krona mellanljus hy	none
+🫅🏽	person med krona mellanfärgad hy	none
+🫅🏾	person med krona mellanmörk hy	none
+🫅🏿	person med krona mörk hy	none
 🤴🏻	prins ljus hy	none
 🤴🏼	prins mellanljus hy	none
 🤴🏽	prins mellanfärgad hy	none
@@ -2406,6 +2950,16 @@ symbols:
 🤰🏽	gravid kvinna mellanfärgad hy	none
 🤰🏾	gravid kvinna mellanmörk hy	none
 🤰🏿	gravid kvinna mörk hy	none
+🫃🏻	gravid man ljus hy	none
+🫃🏼	gravid man mellanljus hy	none
+🫃🏽	gravid man mellanfärgad hy	none
+🫃🏾	gravid man mellanmörk hy	none
+🫃🏿	gravid man mörk hy	none
+🫄🏻	gravid person ljus hy	none
+🫄🏼	gravid person mellanljus hy	none
+🫄🏽	gravid person mellanfärgad hy	none
+🫄🏾	gravid person mellanmörk hy	none
+🫄🏿	gravid person mörk hy	none
 🤱🏻	amning ljus hy	none
 🤱🏼	amning mellanljus hy	none
 🤱🏽	amning mellanfärgad hy	none
@@ -3046,9 +3600,19 @@ symbols:
 👨🏿‍🤝‍👨🏽	två män håller hand mörk hy, mellanfärgad hy	none
 👨🏿‍🤝‍👨🏾	två män håller hand mörk hy, mellanmörk hy	none
 👬🏿	två män håller hand mörk hy	none
+💏🏻	puss ljus hy	none
+💏🏼	puss mellanljus hy	none
+💏🏽	puss mellanfärgad hy	none
+💏🏾	puss mellanmörk hy	none
+💏🏿	puss mörk hy	none
 👩‍❤‍💋‍👨	puss kvinna, man	none
 👨‍❤‍💋‍👨	puss man, man	none
 👩‍❤‍💋‍👩	puss kvinna, kvinna	none
+💑🏻	par med hjärta ljus hy	none
+💑🏼	par med hjärta mellanljus hy	none
+💑🏽	par med hjärta mellanfärgad hy	none
+💑🏾	par med hjärta mellanmörk hy	none
+💑🏿	par med hjärta mörk hy	none
 👩‍❤‍👨	par med hjärta kvinna, man	none
 👨‍❤‍👨	par med hjärta man, man	none
 👩‍❤‍👩	par med hjärta kvinna, kvinna	none
@@ -3077,8 +3641,6 @@ symbols:
 👩‍👧	familj kvinna, flicka	none
 👩‍👧‍👦	familj kvinna, flicka, pojke	none
 👩‍👧‍👧	familj kvinna, flicka, flicka	none
-#⃣	keycap #	none
-*⃣	keycap *	none
 🔟	keycap 10	none
 🇦🇨	flagga Ascension	none
 🇦🇩	flagga Andorra	none
@@ -3179,7 +3741,7 @@ symbols:
 🇬🇺	flagga Guam	none
 🇬🇼	flagga Guinea-Bissau	none
 🇬🇾	flagga Guyana	none
-🇭🇰	flagga Hongkong	none
+🇭🇰	flagga Hongkong SAR	none
 🇭🇲	flagga Heardön och McDonaldöarna	none
 🇭🇳	flagga Honduras	none
 🇭🇷	flagga Kroatien	none
@@ -3233,7 +3795,7 @@ symbols:
 🇲🇱	flagga Mali	none
 🇲🇲	flagga Myanmar (Burma)	none
 🇲🇳	flagga Mongoliet	none
-🇲🇴	flagga Macao	none
+🇲🇴	flagga Macao SAR	none
 🇲🇵	flagga Nordmarianerna	none
 🇲🇶	flagga Martinique	none
 🇲🇷	flagga Mauretanien	none
@@ -3298,7 +3860,7 @@ symbols:
 🇸🇻	flagga El Salvador	none
 🇸🇽	flagga Sint Maarten	none
 🇸🇾	flagga Syrien	none
-🇸🇿	flagga Swaziland	none
+🇸🇿	flagga Eswatini	none
 🇹🇦	flagga Tristan da Cunha	none
 🇹🇨	flagga Turks- och Caicosöarna	none
 🇹🇩	flagga Tchad	none
@@ -3306,7 +3868,7 @@ symbols:
 🇹🇬	flagga Togo	none
 🇹🇭	flagga Thailand	none
 🇹🇯	flagga Tadzjikistan	none
-🇹🇰	flagga Tokelau	none
+🇹🇰	flagga Tokelauöarna	none
 🇹🇱	flagga Östtimor	none
 🇹🇲	flagga Turkmenistan	none
 🇹🇳	flagga Tunisien	none
@@ -3341,13 +3903,17 @@ symbols:
 🏴󠁧󠁢󠁥󠁮󠁧󠁿	flagga England	none
 🏴󠁧󠁢󠁳󠁣󠁴󠁿	flagga Skottland	none
 🏴󠁧󠁢󠁷󠁬󠁳󠁿	flagga Wales	none
-0⃣	keycap 0	none
-1⃣	keycap 1	none
-2⃣	keycap 2	none
-3⃣	keycap 3	none
-4⃣	keycap 4	none
-5⃣	keycap 5	none
-6⃣	keycap 6	none
-7⃣	keycap 7	none
-8⃣	keycap 8	none
-9⃣	keycap 9	none
+₡	costarikansk colón	none
+₦	nigeriansk naira	none
+₧	spansk peseta	none
+₪	israelisk ny shekel	none
+₫	vietnamesisk dong	none
+₭	laotisk kip	none
+₮	mongolisk tögrög	none
+₲	paraguayansk guarani	none
+₴	ukrainsk hryvnia	none
+₵	ghanansk cedi	none
+₸	kazakisk tenge	none
+₺	turkisk lira	none
+₼	azerbajdzjansk manat	none
+₾	georgisk lari	none

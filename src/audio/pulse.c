@@ -51,7 +51,11 @@
 #include <pulse/simple.h>
 #include <pulse/error.h>
 
+#ifdef USE_DLOPEN
+#define SPD_AUDIO_PLUGIN_ENTRY spd_audio_plugin_get
+#else
 #define SPD_AUDIO_PLUGIN_ENTRY spd_pulse_LTX_spd_audio_plugin_get
+#endif
 #include <spd_audio_plugin.h>
 
 typedef struct {
@@ -182,6 +186,11 @@ static AudioID *pulse_open(void **pars)
 {
 	spd_pulse_id_t *pulse_id;
 	int ret;
+
+	if (pars[3] == NULL) {
+		ERR("Can't open Pulse sound output, missing parameters in argument.");
+		return NULL;
+	}
 
 	pulse_id = (spd_pulse_id_t *) g_malloc(sizeof(spd_pulse_id_t));
 

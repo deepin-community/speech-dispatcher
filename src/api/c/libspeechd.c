@@ -1,5 +1,5 @@
 /*
-  libspeechd.c - Shared library for easy acces to Speech Dispatcher functions
+  libspeechd.c - Shared library for easy access to Speech Dispatcher functions
  *
  * Copyright (C) 2001, 2002, 2003, 2006, 2007, 2008 Brailcom, o.p.s.
  *
@@ -78,7 +78,7 @@ static void *spd_events_handler(void *);
 const int range_low = -100;
 const int range_high = 100;
 
-pthread_mutex_t spd_logging_mutex;
+pthread_mutex_t spd_logging_mutex = PTHREAD_MUTEX_INITIALIZER;
 
 struct SPDConnection_threaddata {
 	pthread_t events_thread;
@@ -241,13 +241,8 @@ static void _init_debug(void)
 	if (!spd_debug) {
 		spd_debug = fopen("/tmp/libspeechd.log", "w");
 		if (spd_debug == NULL)
-			SPD_FATAL("COULDN'T ACCES FILE INTENDED FOR DEBUG");
+			SPD_FATAL("COULDN'T ACCESS FILE INTENDED FOR DEBUG");
 
-		if (pthread_mutex_init(&spd_logging_mutex, NULL)) {
-			fprintf(stderr, "Mutex initialization failed");
-			fflush(stderr);
-			exit(1);
-		}
 		SPD_DBG("Debugging started");
 	}
 #endif /* LIBSPEECHD_DEBUG */
@@ -330,7 +325,7 @@ static char *resolve_host(char *host_name_or_ip, int *is_localhost,
 }
 
 static int
-spawn_server(SPDConnectionAddress * address, int is_localhost,
+spawn_server(const SPDConnectionAddress * address, int is_localhost,
 	     gchar ** spawn_error)
 {
 	gchar *speechd_cmd[16];
@@ -339,6 +334,7 @@ spawn_server(SPDConnectionAddress * address, int is_localhost,
 	GError *gerror = NULL;
 	int exit_status;
 	int i;
+	const char *cmd;
 
 	if ((address->method == SPD_METHOD_INET_SOCKET) && (!is_localhost)) {
 		*spawn_error =
@@ -347,7 +343,10 @@ spawn_server(SPDConnectionAddress * address, int is_localhost,
 		return 1;
 	}
 
-	speechd_cmd[0] = g_strdup(SPD_SPAWN_CMD);
+	cmd = getenv("SPEECHD_CMD");
+	if (!cmd)
+		cmd = SPD_SPAWN_CMD;
+	speechd_cmd[0] = g_strdup(cmd);
 	speechd_cmd[1] = g_strdup("--spawn");
 	speechd_cmd[2] = g_strdup("--communication-method");
 	if (address->method == SPD_METHOD_INET_SOCKET) {
@@ -382,9 +381,11 @@ spawn_server(SPDConnectionAddress * address, int is_localhost,
 			    g_strdup_printf
 			    ("Autospawn failed. Speech Dispatcher refused to start with error code, "
 			     "stating this as a reason: %s", stderr_output);
+			g_free(stderr_output);
 			return 1;
 		} else {
 			*spawn_error = NULL;
+			g_free(stderr_output);
 			return 0;
 		}
 	}
@@ -393,7 +394,7 @@ spawn_server(SPDConnectionAddress * address, int is_localhost,
 
 SPDConnection *spd_open2(const char *client_name, const char *connection_name,
 			 const char *user_name, SPDConnectionMode mode,
-			 SPDConnectionAddress * address, int autospawn,
+			 const SPDConnectionAddress * address, int autospawn,
 			 char **error_result)
 {
 	SPDConnection *connection = NULL;
@@ -562,11 +563,11 @@ SPDConnection *spd_open2(const char *client_name, const char *connection_name,
 			*error_result = strdup("Thread initialization failed");
 			SPD_DBG(*error_result);
 			fclose(connection->stream);
-			close(connection->socket);
 			free(connection);
 			connection = NULL;
 			goto out;
 		}
+		connection->reply = NULL;
 	}
 
 	/* By now, the connection is created and operational */
@@ -619,7 +620,9 @@ void spd_close(SPDConnection * connection)
 	}
 
 	/* close the socket */
-	close(connection->socket);
+	if (connection->stream != NULL)
+		fclose(connection->stream);
+	connection->stream = NULL;
 
 	pthread_mutex_unlock(&connection->ssip_mutex);
 
@@ -719,7 +722,7 @@ int spd_say(SPDConnection * connection, SPDPriority priority, const char *text)
 	return msg_id;
 }
 
-/* The same as spd_say, accepts also formated strings */
+/* The same as spd_say, accepts also formatted strings */
 int
 spd_sayf(SPDConnection * connection, SPDPriority priority, const char *format,
 	 ...)
@@ -859,7 +862,10 @@ spd_char(SPDConnection * connection, SPDPriority priority,
 	if (ret)
 		RET(-1);
 
-	sprintf(command, "CHAR %s", character);
+	if (!strcmp(character, " "))
+		sprintf(command, "CHAR space");
+	else
+		sprintf(command, "CHAR %s", character);
 	ret = spd_execute_command_wo_mutex(connection, command);
 	if (ret)
 		RET(-1);
@@ -881,6 +887,7 @@ spd_wchar(SPDConnection * connection, SPDPriority priority, wchar_t wcharacter)
 	ret = wcrtomb(character, wcharacter, NULL);
 	if (ret <= 0)
 		RET(-1);
+	character[ret] = '\0';
 
 	ret = spd_set_priority(connection, priority);
 	if (ret)
@@ -1454,6 +1461,16 @@ char **spd_list_voices(SPDConnection * connection)
 	return voices;
 }
 
+void free_spd_symbolic_voices(char **voices)
+{
+	int i = 0;
+	while (voices != NULL && voices[i] != NULL) {
+		free(voices[i]);
+		++i;
+	}
+	free(voices);
+}
+
 SPDVoice **spd_list_synthesis_voices(SPDConnection * connection)
 {
 	char **svoices_str;
@@ -1505,7 +1522,7 @@ void free_spd_voices(SPDVoice ** voices)
 }
 
 char **spd_execute_command_with_list_reply(SPDConnection * connection,
-					   char *command)
+					   const char *command)
 {
 	char *reply = NULL;
 	char *line;
@@ -1515,7 +1532,7 @@ char **spd_execute_command_with_list_reply(SPDConnection * connection,
 	int i;
 
 	spd_execute_command_with_reply(connection, command, &reply);
-	if (!ret_ok(reply)) {
+	if (ret_ok(reply) <= 0) {
 		if (reply != NULL)
 			free(reply);
 		return NULL;
@@ -1577,7 +1594,7 @@ spd_get_message_list_fd(SPDConnection * connection, int target, int *msg_ids,
 #endif
 }
 
-int spd_execute_command(SPDConnection * connection, char *command)
+int spd_execute_command(SPDConnection * connection, const char *command)
 {
 	char *reply;
 	int ret;
@@ -1595,7 +1612,7 @@ int spd_execute_command(SPDConnection * connection, char *command)
 	return ret;
 }
 
-int spd_execute_command_wo_mutex(SPDConnection * connection, char *command)
+int spd_execute_command_wo_mutex(SPDConnection * connection, const char *command)
 {
 	char *reply;
 	int ret;
@@ -1612,7 +1629,7 @@ int spd_execute_command_wo_mutex(SPDConnection * connection, char *command)
 }
 
 int
-spd_execute_command_with_reply(SPDConnection * connection, char *command,
+spd_execute_command_with_reply(SPDConnection * connection, const char *command,
 			       char **reply)
 {
 	char *buf;
@@ -1696,24 +1713,25 @@ char *spd_send_data_wo_mutex(SPDConnection * connection, const char *message,
 			SPD_DBG
 			    ("Reading the reply in spd_send_data_wo_mutex threaded mode");
 			/* Read the reply */
+			pthread_mutex_lock(&connection->td->mutex_reply_ack);
 			if (connection->reply != NULL) {
 				reply = connection->reply;
 				connection->reply = NULL;
 			} else {
 				SPD_DBG
 				    ("Error: Can't read reply, broken socket in spd_send_data.");
+				pthread_mutex_unlock(&connection->td->mutex_reply_ack);
 				return NULL;
 			}
+			/* Signal the reply has been read */
+			pthread_cond_signal(&connection->td->cond_reply_ack);
+			pthread_mutex_unlock(&connection->td->mutex_reply_ack);
 			bytes = strlen(reply);
 			if (bytes == 0) {
 				free(reply);
 				SPD_DBG("Error: Empty reply, broken socket.");
 				return NULL;
 			}
-			/* Signal the reply has been read */
-			pthread_mutex_lock(&connection->td->mutex_reply_ack);
-			pthread_cond_signal(&connection->td->cond_reply_ack);
-			pthread_mutex_unlock(&connection->td->mutex_reply_ack);
 		} else {
 			reply = get_reply(connection);
 		}
@@ -1766,21 +1784,35 @@ static int spd_set_priority(SPDConnection * connection, SPDPriority priority)
 	return spd_execute_command_wo_mutex(connection, command);
 }
 
+struct get_reply_data {
+	GString *str;
+	char *line;
+};
+
+static void get_reply_cleanup(void *arg)
+{
+	struct get_reply_data *data = arg;
+	g_string_free(data->str, TRUE);
+	free(data->line);
+}
+
 static char *get_reply(SPDConnection * connection)
 {
-	GString *str;
-	char *line = NULL;
 	size_t N = 0;
 	int bytes;
 	char *reply;
 	gboolean errors = FALSE;
+	struct get_reply_data data;
 
-	str = g_string_new("");
+	data.line = NULL;
+	data.str = g_string_new("");
+
+	pthread_cleanup_push(get_reply_cleanup, &data);
 
 	/* Wait for activity on the socket, when there is some,
 	   read all the message line by line */
 	do {
-		bytes = getline(&line, &N, connection->stream);
+		bytes = getline(&data.line, &N, connection->stream);
 		if (bytes == -1) {
 			SPD_DBG
 			    ("Error: Can't read reply, broken socket in get_reply!");
@@ -1789,22 +1821,24 @@ static char *get_reply(SPDConnection * connection)
 			connection->stream = NULL;
 			errors = TRUE;
 		} else {
-			g_string_append(str, line);
+			g_string_append(data.str, data.line);
 		}
 		/* terminate if we reached the last line (without '-' after numcode) */
-	} while (!errors && !((strlen(line) < 4) || (line[3] == ' ')));
+	} while (!errors && !((strlen(data.line) < 4) || (data.line[3] == ' ')));
 
-	free(line);		/* getline allocates with malloc. */
+	pthread_cleanup_pop(0);
+
+	free(data.line);		/* getline allocates with malloc. */
 
 	if (errors) {
 		/* Free the GString and its character data, and return NULL. */
-		g_string_free(str, TRUE);
+		g_string_free(data.str, TRUE);
 		reply = NULL;
 	} else {
 		/* The resulting message received from the socket is stored in reply */
-		reply = str->str;
+		reply = data.str->str;
 		/* Free the GString, but not its character data. */
-		g_string_free(str, FALSE);
+		g_string_free(data.str, FALSE);
 	}
 
 	return reply;
@@ -1908,9 +1942,10 @@ static void *spd_events_handler(void *conn)
 			pthread_cond_signal(&connection->td->cond_reply_ready);
 			pthread_mutex_lock(&connection->td->mutex_reply_ack);
 			pthread_mutex_unlock(&connection->td->mutex_reply_ready);
-			/* Wait until it has bean read */
-			pthread_cond_wait(&connection->td->cond_reply_ack,
-					  &connection->td->mutex_reply_ack);
+			/* Wait until it has been read */
+			while (connection->reply)
+				pthread_cond_wait(&connection->td->cond_reply_ack,
+						  &connection->td->mutex_reply_ack);
 			pthread_mutex_unlock(&connection->td->mutex_reply_ack);
 			/* Continue */
 		}
