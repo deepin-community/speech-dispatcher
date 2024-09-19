@@ -78,9 +78,11 @@ void delete_FT_Info(FT_Info * info);
 
 #define FEST_SEND_CMD(format) \
 	do { \
-		FILE *fd; \
+		FILE *fd = NULL; \
 		char *str; \
-		fd = fdopen(dup(info->server_fd),"wb"); \
+		int server = dup(info->server_fd); \
+		if (server >= 0) \
+			fd = fdopen(server,"wb"); \
 		if (fd != NULL){ \
 			str = g_strdup(format"\n"); \
 			fputs(str, fd); \
@@ -94,9 +96,11 @@ void delete_FT_Info(FT_Info * info);
 
 #define FEST_SEND_CMDA(format, args...) \
 	do { \
-		FILE *fd; \
+		FILE *fd = NULL; \
 		char *str; \
-		fd = fdopen(dup(info->server_fd),"wb"); \
+		int server = dup(info->server_fd); \
+		if (server >= 0) \
+			fd = fdopen(server,"wb"); \
 		if (fd != NULL){ \
 			str = g_strdup_printf(format"\n", args); \
 			fputs(str, fd); \
@@ -124,13 +128,13 @@ int festivalSpell(FT_Info * info, const char *text);
 
 FT_Wave *festivalStringToWaveGetData(FT_Info * info);
 
-FT_Info *festivalDefaultInfo();
+FT_Info *festivalDefaultInfo(void);
 void festivalEmptySocket(FT_Info * info);
 int save_FT_Wave_snd(FT_Wave * wave, const char *filename);
 FT_Wave *festivalGetDataMulti(FT_Info * info, char **callback, int *stop_flag,
 			      int stop_by_close);
 
-int festival_check_info(FT_Info * info, char *fnname);
-char **lisp_list_get_vect(char *expr);
+int festival_check_info(FT_Info * info, const char *fnname);
+char **lisp_list_get_vect(const char *expr);
 int festival_read_response(FT_Info * info, char **expr);
 #endif

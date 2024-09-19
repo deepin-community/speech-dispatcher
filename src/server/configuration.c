@@ -223,6 +223,8 @@ GLOBAL_FDSET_OPTION_CB_STR(DefaultModule, output_module)
 			&& (val <= 5), "Invalid log (verbosity) level!")
     SPEECHD_OPTION_CB_INT(MaxHistoryMessages, max_history_messages, val >= 0,
 		      "Invalid parameter!")
+    SPEECHD_OPTION_CB_INT(MaxQueueSize, max_queue_size, val >= 0,
+		      "Invalid parameter!")
     SPEECHD_OPTION_CB_INT_M(Timeout, server_timeout, val >= 0, "Invalid timeout value!")
 
     DOTCONF_CB(cb_LanguageDefaultModule)
@@ -328,7 +330,9 @@ DOTCONF_CB(cb_AddModule)
 				g_strdup(cmd->data.list[2]),
 				g_strdup_printf("%s/%s.log",
 						SpeechdOptions.log_dir,
-						cmd->data.list[0]));
+						cmd->data.list[0]),
+				NULL,
+				NULL);
 
 	return NULL;
 }
@@ -440,6 +444,7 @@ configoption_t *load_config_options(int *num_options)
 	ADD_CONFIG_OPTION(DefaultLanguage, ARG_STR);
 	ADD_CONFIG_OPTION(DefaultPriority, ARG_STR);
 	ADD_CONFIG_OPTION(MaxHistoryMessages, ARG_INT);
+	ADD_CONFIG_OPTION(MaxQueueSize, ARG_INT);
 	ADD_CONFIG_OPTION(DefaultPunctuationMode, ARG_STR);
 	ADD_CONFIG_OPTION(SymbolsPreproc, ARG_STR);
 	ADD_CONFIG_OPTION(SymbolsPreprocFile, ARG_STR);
@@ -496,6 +501,7 @@ void load_default_global_set_options()
 	GlobalFDSet.audio_pulse_min_length = 10;
 
 	SpeechdOptions.max_history_messages = 10000;
+	SpeechdOptions.max_queue_size = 10000;
 
 	/* Options which are accessible from command line must be handled
 	   specially to make sure we don't overwrite them */

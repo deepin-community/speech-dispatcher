@@ -1,3 +1,200 @@
+speech-dispatcher (0.11.5-5) unstable; urgency=medium
+
+  [ Nathan Teodosio ]
+  * d/t/tests: Use trap to reverse patch so that iterating doesn't break
+    (closes: #1076147).
+
+  [ Samuel Thibault ]
+  * control: Add python3-setuptools build-dep (Closes: Bug#1080804)
+
+ -- Samuel Thibault <sthibault@debian.org>  Sat, 07 Sep 2024 17:44:47 +0200
+
+speech-dispatcher (0.11.5-4) unstable; urgency=medium
+
+  * control: Drop systemd build-dep, .pc files now provided by systemd-dev
+    (Closes: Bug#1060556, Bug#1060599)
+  * patches/implicit: Fix build with qa=+bug-implicit-func.
+    (Closes: Bug#1066205)
+
+ -- Samuel Thibault <sthibault@debian.org>  Wed, 13 Mar 2024 14:55:48 +0100
+
+speech-dispatcher (0.11.5-3) unstable; urgency=medium
+
+  * control: Enable voxin on armhf and arm64 archs.
+  * patches/nopython: Fix building without python.
+  * control: Move python dependencies to Build-Depends-Indep.
+  * control: Disable help2man build-dep when cross-building and for contrib.
+  * control: Build-dep on gawk.
+
+ -- Samuel Thibault <sthibault@debian.org>  Wed, 22 Nov 2023 23:12:11 +0100
+
+speech-dispatcher (0.11.5-2) unstable; urgency=medium
+
+  [ Samuel Thibault ]
+  * patches/clean: Clean generated files (Closes: Bug#1048264)
+
+  [ Helmut Grohne ]
+  * Fix FTBFS when systemd.pc changes systemdsystemunitdir.
+    (Closes: Bug#1052706)
+
+ -- Samuel Thibault <sthibault@debian.org>  Tue, 26 Sep 2023 21:55:02 +0200
+
+speech-dispatcher (0.11.5-1) unstable; urgency=medium
+
+  * New upstream release.
+    - patches/buffer_size: Upstreamed.
+  * control: Drop dependency on elder version of lsb-base.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 06 Aug 2023 20:16:54 +0200
+
+speech-dispatcher (0.11.4-3) unstable; urgency=medium
+
+  * control: Add missing breaks+replaces between speech-dispatcher-ivona and
+    speech-dispatcher, missed when moving ivona.conf from the latter to the
+    former (Closes: Bug#1034897)
+
+ -- Samuel Thibault <sthibault@debian.org>  Thu, 27 Apr 2023 01:08:20 +0200
+
+speech-dispatcher (0.11.4-2) unstable; urgency=medium
+
+  * patches/buffer_size: Reduce espeak buffer size to avoid synth artifacts.
+
+ -- Samuel Thibault <sthibault@debian.org>  Fri, 25 Nov 2022 14:04:48 +0100
+
+speech-dispatcher (0.11.4-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 30 Oct 2022 23:06:55 +0100
+
+speech-dispatcher (0.11.3-2) unstable; urgency=medium
+
+  * control, rules: Replace dh-python and --with python3 with
+    dh-sequence-python3.
+  * watch: Use API instead of releases page.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 23 Oct 2022 12:29:15 +0200
+
+speech-dispatcher (0.11.3-1) unstable; urgency=medium
+
+  * New upstream release.
+    - patches/systemd-debian: Refresh.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 18 Sep 2022 02:03:59 +0200
+
+speech-dispatcher (0.11.2-3) unstable; urgency=medium
+
+  * debian/speech-dispatcher.init, debian/patches/systemd-debian: Pass -t 0 to
+    speech-dispatcher started as a daemon.
+  * control: Make cl-speech-dispatcher and python3-speechd Multi-Arch: foreign.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sat, 17 Sep 2022 21:26:12 +0200
+
+speech-dispatcher (0.11.2-2) unstable; urgency=medium
+
+  * test-patches/use_system_libspeechd: Refresh.
+
+ -- Samuel Thibault <sthibault@debian.org>  Fri, 26 Aug 2022 00:46:25 +0200
+
+speech-dispatcher (0.11.2-1) unstable; urgency=medium
+
+  [ Samuel Thibault ]
+  * New upstream release (Closes: Bug#1018075)
+    - patches/clibrary2: Upstreamed.
+    - patches/mbrola-paths: Refresh.
+    - libspeechd2.symbols: Add free_spd_symbolic_voices symbol.
+
+  [ Sebastien Bacher ]
+  * debian/speech-dispatcher.maintscript:
+    - don't remove mary-generic.conf on upgrade, it's included in the
+      package again. Fix conffile prompt on update (lp: #1981611)
+      (Closes: Bug#1015804)
+
+  [ Samuel Thibault ]
+  * rules: Leverage /usr/share/dpkg/pkg-info.mk to provide package
+    information.
+  * speech-dispatcher.lintian-overrides: Update formatting.
+
+ -- Samuel Thibault <sthibault@debian.org>  Fri, 26 Aug 2022 00:20:22 +0200
+
+speech-dispatcher (0.11.1-3) unstable; urgency=medium
+
+  * patches/clibrary2: avoid iterating over each and every voice.
+  * tests/: Add testsuite in autopkgtest.
+  * control: Drop recommending pulseaudio, so pipewire can be installed
+    by installation tasks instead (Closes: Bug#1011361)
+
+ -- Samuel Thibault <sthibault@debian.org>  Sat, 28 May 2022 22:59:04 +0200
+
+speech-dispatcher (0.11.1-2) unstable; urgency=medium
+
+  * Continue playing cat and mice again with lintian warning suppression.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sat, 29 Jan 2022 14:48:11 +0100
+
+speech-dispatcher (0.11.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Play cat and mice again with lintian warning suppression.
+  * control: Bump Standards-Version to 4.6.0 (no change)
+
+ -- Samuel Thibault <sthibault@debian.org>  Sun, 09 Jan 2022 01:53:42 +0100
+
+speech-dispatcher (0.11.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sat, 11 Dec 2021 23:07:28 +0100
+
+speech-dispatcher (0.11.0~rc5-1) experimental; urgency=medium
+
+  * New upstream release candidate.
+    - patches/dummy-message: upstreamed.
+    - speech-dispatcher-espeak-ng.install: Add espeak-ng-mbrola module.
+
+ -- Samuel Thibault <sthibault@debian.org>  Tue, 09 Nov 2021 00:53:29 +0100
+
+speech-dispatcher (0.11.0~rc3-1) experimental; urgency=medium
+
+  * New upstream release candidate.
+    - control: Add flite build-depends.
+  * control: Build-depend on libdumbtts-dev.
+  * control: Add speech-dispatcher-ivona package.
+  * copyright: Fix file path.
+  * patches/mbrola-paths: Refresh.
+  * patches/ivona-paths: Upstreamed.
+  * patches/ivona-config: Upstreamed.
+  * patches/generic-set-voice-name: Upstreamed.
+  * patches/dummy-message: Add missing shipped file.
+  * control: Set python3 build-dep arch-dep as well since we use dh-python3.
+
+ -- Samuel Thibault <sthibault@debian.org>  Mon, 18 Oct 2021 00:06:03 +0200
+
+speech-dispatcher (0.11.0~rc2-1) experimental; urgency=medium
+
+  [ Samuel Thibault ]
+  * New upstream release candidate.
+    - patches/mbrola-paths: Refresh.
+    - speech-dispatcher.maintscript: Remove old mary-generic-disabled.conf
+    configuration file.
+    - control: Build speech-dispatcher-ibmtts only on i386.
+  * speech-dispatcher.postinst, speech-dispatcher.maintscript: Remove upgrade
+    path from 0.8.8, which is before Buster.
+  * control: Set Rules-Requires-Root to no.
+  * rules,salsa-ci.yml: Ignore specific blhc false positive rather than the
+    whole result.
+  * rules: Drop ddeb-migration rules, now useless
+
+ -- Samuel Thibault <sthibault@debian.org>  Thu, 17 Jun 2021 00:07:32 +0200
+
+speech-dispatcher (0.10.2-4) UNRELEASED; urgency=medium
+
+  [ Paul Wise ]
+  * speech-dispatcher.links: Remove, replaced by Alias in the service file,
+    and was put in the wrong place (Closes: Bug#995037).
+
+ -- Samuel Thibault <sthibault@debian.org>  Sat, 25 Sep 2021 09:52:09 +0200
+
 speech-dispatcher (0.10.2-3) unstable; urgency=medium
 
   [ Samuel Thibault ]
@@ -19,6 +216,7 @@ speech-dispatcher (0.10.2-3) unstable; urgency=medium
   * rules: Drop ddeb-migration rules, now useless
   * patches/generic-set-voice-name: Fix setting voice name for the generic
     module.
+  * patches/kali-glib-fix: Fix building Kali with more recent glib.
 
   [ Debian Janitor ]
   * Remove constraints unnecessary since stretch:

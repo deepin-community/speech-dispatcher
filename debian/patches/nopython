@@ -1,0 +1,20 @@
+diff --git a/src/api/python/speechd_config/Makefile.am b/src/api/python/speechd_config/Makefile.am
+index 7efaad14..96824b4d 100644
+--- a/src/api/python/speechd_config/Makefile.am
++++ b/src/api/python/speechd_config/Makefile.am
+@@ -59,6 +59,7 @@ CLEANFILES += buildconfig.py speechd.desktop
+ 
+ EXTRA_DIST = buildconfig.py.in speechd.desktop.in
+ 
++if HAVE_PYTHON
+ if HAVE_HELP2MAN
+ spd-conf.1: buildconfig.py $(abs_builddir)/__init__.py $(abs_builddir)/config.py
+ 	LC_ALL=C PYTHONPATH=$(builddir)/.. PYTHONDONTWRITEBYTECODE=1 help2man -N -n "configure Speech Dispatcher and diagnose problems" --output=$@ $(srcdir)/spd-conf
+@@ -66,6 +67,7 @@ spd-conf.1: buildconfig.py $(abs_builddir)/__init__.py $(abs_builddir)/config.py
+ dist_man1_MANS = \
+ 	spd-conf.1
+ endif
++endif
+ 
+ CLEANFILES += $(dist_man1_MANS)
+ 

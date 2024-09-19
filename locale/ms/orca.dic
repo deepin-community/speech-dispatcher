@@ -7,11 +7,5 @@
 # This file is distributed under the same license as the orca package.
 
 symbols:
-¤	tanda mata wang	all
-¬	logikal not	some
-½	setengah	none
-¾	tiga suku	none
-‚	tunggal rendah kutipan	most
-„	ganda rendah kutipan	most
-†	pisau belati	some
-‡	belati ganda	some
+ª	superskrip a	some
+￼	aksara pengganti objek	none

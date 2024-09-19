@@ -8,6 +8,6 @@ usr/share/sounds/speech-dispatcher/dummy-message.wav
 usr/share/locale
 usr/share/speech-dispatcher
 etc/speech-dispatcher
-[linux-any] lib/systemd/system/speech-dispatcherd.service
-usr/share/man/man1/speech-dispatcher.1
-usr/share/man/man1/spd-say.1
+[linux-any] ${deb_systemdsystemunitdir}/speech-dispatcherd.service
+<!cross> usr/share/man/man1/speech-dispatcher.1
+<!cross> usr/share/man/man1/spd-say.1

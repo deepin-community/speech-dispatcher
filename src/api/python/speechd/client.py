@@ -148,7 +148,7 @@ class CommunicationMethod(object):
     """Inet socket communication using a host and port"""
 
 class _SSIP_Connection(object):
-    """Implemantation of low level SSIP communication."""
+    """Implementation of low level SSIP communication."""
     
     _NEWLINE = b"\r\n"
     _END_OF_DATA_MARKER = b'.'
@@ -214,9 +214,9 @@ class _SSIP_Connection(object):
         self._communication_thread.join()
         
     def _communication(self):
-        """Handle incomming socket communication.
+        """Handle incoming socket communication.
 
-        Listens for all incomming communication on the socket, dispatches
+        Listens for all incoming communication on the socket, dispatches
         events and puts all other replies into self._com_buffer list in the
         already parsed form as (code, msg, data).  Each time a new item is
         appended to the _com_buffer list, the corresponding semaphore
@@ -490,6 +490,11 @@ class SSIPClient(object):
     Dispatcher control application, however.  More datails can be found in
     Speech Dispatcher documentation.
 
+    Here is a simple example:
+
+    from speechd import client
+    c = client.SSIPClient("mytest")
+    c.speak("hello, world!")
     """
     
     DEFAULT_HOST = '127.0.0.1'
@@ -510,7 +515,7 @@ class SSIPClient(object):
           component -- connection identification string.  When one client opens
             multiple connections, this can be used to identify each of them.
           user -- user identification string (user name).  When multi-user
-            acces is expected, this can be used to identify their connections.
+            access is expected, this can be used to identify their connections.
           address -- server address as specified in Speech Dispatcher
             documentation (e.g. "unix:/run/user/joe/speech-dispatcher/speechd.sock"
             or "inet:192.168.0.85:6561")
@@ -667,13 +672,16 @@ class SSIPClient(object):
                     "resolves on %s which seems to be a remote host. You must start the "
                     "server manually or choose another connection address." % (connection_args['host'],
                                                                                str(ip_addresses),))
-        if os.path.exists(paths.SPD_SPAWN_CMD):
+        cmd = os.getenv("SPEECHD_CMD")
+        if not cmd:
+            cmd = paths.SPD_SPAWN_CMD
+        if os.path.exists(cmd):
             connection_params = []
             for param, value in connection_args.items():
                 if param not in ["host",]:
                     connection_params += ["--"+param.replace("_","-"), str(value)]
 
-            server = subprocess.Popen([paths.SPD_SPAWN_CMD, "--spawn"]+connection_params,
+            server = subprocess.Popen([cmd, "--spawn"]+connection_params,
                                       stdin=None, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             stdout_reply, stderr_reply = server.communicate()
             retcode = server.wait()
@@ -682,7 +690,7 @@ class SSIPClient(object):
             return server.pid
         else:
             raise SpawnError("Can't find Speech Dispatcher spawn command %s"
-                                         % (paths.SPD_SPAWN_CMD,))
+                                         % (cmd))
 
     def set_priority(self, priority):
         """Set the priority category for the following messages.
@@ -969,7 +977,7 @@ class SSIPClient(object):
         return None
 
     def set_punctuation(self, value, scope=Scope.SELF):
-        """Set the punctuation pronounciation level.
+        """Set the punctuation pronunciation level.
 
         Arguments:
           value -- one of the 'PunctuationMode' constants.
@@ -981,17 +989,17 @@ class SSIPClient(object):
         self._conn.send_command('SET', scope, 'PUNCTUATION', value)
 
     def get_punctuation(self):
-        """Get the punctuation pronounciation level."""
+        """Get the punctuation pronunciation level."""
         code, msg, data = self._conn.send_command('GET', 'PUNCTUATION')
         if data:
             return data[0]
         return None
 
     def set_spelling(self, value, scope=Scope.SELF):
-        """Toogle the spelling mode or on off.
+        """Toggle the spelling mode or on off.
 
         Arguments:
-          value -- if 'True', all incomming messages will be spelled
+          value -- if 'True', all incoming messages will be spelled
             instead of being read as normal words. 'False' switches
             this behavior off.
           scope -- see the documentation of this class.
@@ -1009,7 +1017,7 @@ class SSIPClient(object):
         Arguments:
           value -- one of 'none', 'spell', 'icon'. None means no signalization
             of capital letters, 'spell' means capital letters will be spelled
-            with a syntetic voice and 'icon' means that the capital-letter icon
+            with a synthetic voice and 'icon' means that the capital-letter icon
             will be prepended before each capital letter.
           scope -- see the documentation of this class.
             
@@ -1066,7 +1074,7 @@ class SSIPClient(object):
         written into these files with maximal verbosity until switched
         off. You should always first call set_debug_destination.
 
-        The intended use of this functionality is to switch debuging
+        The intended use of this functionality is to switch debugging
         on for a period of time while the user will repeat the behavior
         and then send the logs to the appropriate bug-reporting place.
 
@@ -1089,7 +1097,7 @@ class SSIPClient(object):
         """Set debug destination.
 
         Arguments:
-          path -- path (string) to the directory where debuging
+          path -- path (string) to the directory where debugging
                   files will be created
           scope -- see the documentation of this class.
         
@@ -1124,7 +1132,7 @@ class SSIPClient(object):
 class Client(SSIPClient):
     """A DEPRECATED backwards-compatible API.
 
-    This Class is provided only for backwards compatibility with the prevoius
+    This Class is provided only for backwards compatibility with the previous
     unofficial API.  It will be removed in future versions.  Please use either
     'SSIPClient' or 'Speaker' interface instead.  As deprecated, the API is no
     longer documented.

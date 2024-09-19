@@ -13,7 +13,7 @@
 # Copyright (C) 2017 Colomban Wendling <cwendling@hypra.fr>
 # Copyright (C) 2017 Jan Tojnar <jtojnar@gmail.com>
 # Copyright (C) 2018 Raphaël POITEVIN <rpoitevin@hypra.fr>
-# Copyright (C) 2018-2019 Samuel Thibault <samuel.thibault@ens-lyon.org>
+# Copyright (C) 2018-2023 Samuel Thibault <samuel.thibault@ens-lyon.org>
 # Copyright (C) 2018 Alan Coopersmith <alan.coopersmith@oracle.com>
 #
 # This program is free software; you can redistribute it and/or modify it under
@@ -30,7 +30,11 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 AC_PREREQ([2.63])
-AC_INIT([speech-dispatcher], [m4_esyscmd(./git-version-gen .tarball-version)], [speechd-discuss@nongnu.org])
+m4_define([MAJOR_VERSION], [0])
+m4_define([MINOR_VERSION], [11])
+m4_define([MICRO_VERSION], [5])
+m4_define([AC_PACKAGE_VERSION],[MAJOR_VERSION.MINOR_VERSION.MICRO_VERSION])
+AC_INIT([speech-dispatcher], [AC_PACKAGE_VERSION], [speechd-discuss@nongnu.org])
 AC_CONFIG_MACRO_DIRS([m4])
 AM_INIT_AUTOMAKE([foreign info-in-builddir])
 m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES(yes)])
@@ -46,9 +50,9 @@ then
 fi
 
 # Split version number
-MAJOR_VERSION="$(./split-version.sh -ma)"
-MINOR_VERSION="$(./split-version.sh -mi)"
-MICRO_VERSION="$(./split-version.sh -mc)"
+[MAJOR_VERSION]=MAJOR_VERSION
+[MINOR_VERSION]=MINOR_VERSION
+[MICRO_VERSION]=MICRO_VERSION
 AC_SUBST([MAJOR_VERSION])
 AC_SUBST([MINOR_VERSION])
 AC_SUBST([MICRO_VERSION])
@@ -60,6 +64,7 @@ AC_CONFIG_TESTDIR(src/tests)
 AC_PROG_CC
 AC_PROG_CXX
 AC_PROG_INSTALL
+AC_PROG_LN_S
 AC_CHECK_PROGS([HELP2MAN], [help2man])
 AM_CONDITIONAL([HAVE_HELP2MAN], [test "x$HELP2MAN" != "x"])
 
@@ -68,8 +73,30 @@ AC_SEARCH_LIBS([sqrt], [m], [],
 	[AC_MSG_FAILURE([Math library missing])])
 AC_SEARCH_LIBS([pthread_create], [pthread], [],
 	[AC_MSG_FAILURE([Threads library missing])])
-AC_SEARCH_LIBS([lt_dlopen], [ltdl], [],
-	[AC_MSG_FAILURE([ltdl library missing])])
+AC_ARG_ENABLE([ltdl],
+	[AS_HELP_STRING([--disable-ltdl], [do not use ltdl for modules])],
+	[],
+	[enable_ltdl=check])
+
+if test x$enable_ltdl != xno;
+then
+	AC_SEARCH_LIBS([lt_dlopen], [ltdl], [use_ltdl=yes], [use_ltdl=no])
+	if test x$use_ltdl = xno ;
+	then
+		if test x$enable_ltdl = xyes ;
+		then
+			AC_MSG_FAILURE([ltdl requested but missing])
+		fi
+		enable_ltdl=no
+	fi
+fi
+
+if test x$enable_ltdl = xno;
+then
+	AC_DEFINE(USE_DLOPEN, [1], [Use dlopen rather than lt_dlopen])
+	AC_SEARCH_LIBS([dlopen], [dl], [],
+		[AC_MSG_FAILURE([dlopen missing])])
+fi
 
 PKG_CHECK_MODULES([GLIB], [glib-2.0 >= 2.36])
 AC_SUBST([GLIB_CFLAGS])
@@ -137,6 +164,10 @@ AC_SUBST([EXTRA_SOCKET_LIBS])
 AC_SUBST([ERROR_CFLAGS])
 AC_SUBST([RDYNAMIC])
 
+AC_ARG_ENABLE([doc],
+              [AC_HELP_STRING([--disable-doc], [turn off documentation])])
+AM_CONDITIONAL(ENABLE_DOC, test "$enable_doc" != "no")
+
 # Check for python support.
 # Python 3 or greater required
 AC_ARG_ENABLE([python],
@@ -181,6 +212,9 @@ AC_SUBST([ESPEAK_NG_CFLAGS])
 AC_SUBST([ESPEAK_NG_LIBS])
 AS_IF([test $with_espeak_ng = "yes"], [output_modules="${output_modules} espeak-ng"])
 
+AC_CHECK_PROGS([ESPEAK], [espeak-ng espeak])
+AM_CONDITIONAL([espeak_dummy_message], [test x$ESPEAK != x])
+
 # check for flite support
 AC_ARG_WITH([flite],
 	[AS_HELP_STRING([--with-flite], [include Festival Lite (Flite) support])],
@@ -223,11 +257,22 @@ AC_SUBST([flite_basic])
 AC_SUBST([flite_kal])
 AS_IF([test $with_flite = "yes"], [output_modules="${output_modules} flite"])
 
+AC_CHECK_PROGS([FLITE], [flite])
+AM_CONDITIONAL([flite_dummy_message], [test x$FLITE != x])
+
 # check for IBMTTS support
+case "$host" in
+	[i[3-6]86-*-linux*])
+		default_ibmtts=check
+		;;
+	*)
+		default_ibmtts=no
+		;;
+esac
 AC_ARG_WITH([ibmtts],
 	[AS_HELP_STRING([--with-ibmtts[[=yes|no|shim]]], [include IBM TTS support])],
 	[],
-	[with_ibmtts=check])
+	[with_ibmtts=$default_ibmtts])
 AS_IF([test $with_ibmtts = yes -o $with_ibmtts = check],
 	[AC_CHECK_LIB([ibmeci], [eciStop],
 		[with_ibmtts=yes;
@@ -324,7 +369,8 @@ AM_CONDITIONAL([kali_support], [test $with_kali != no])
 AM_CONDITIONAL([kali_shim], [test $with_kali = shim])
 AS_IF([test $with_kali != no], [output_modules="${output_modules} kali"])
 
-audio_dlopen_modules='-dlopen force'
+audio_dlopen='-dlopen force'
+audio_dlopen_modules=
 
 # clear default audio method
 default_audio_method=""
@@ -428,6 +474,7 @@ AC_ARG_WITH([default-audio-method],
 AC_SUBST([default_audio_method])
 
 # We'll build these modules:
+AC_SUBST([audio_dlopen])
 AC_SUBST([audio_dlopen_modules])
 
 # current, age and revision values for libspeechd.
@@ -470,10 +517,12 @@ AC_SUBST([localedatadir])
 
 # Path for module binaries:
 AC_ARG_WITH([module-bindir],
-	AS_HELP_STRING([--with-module-bindir],[Directory where to install speech-dispatcher modules (defaults to ${libdir}/speech-dispatcher-modules)]),
-	[modulebindir=$withval], [modulebindir='${libdir}/speech-dispatcher-modules'])
-
+	AS_HELP_STRING([--with-module-bindir],[Directory where to install speech-dispatcher modules (defaults to ${libexecdir}/speech-dispatcher-modules)]),
+	[modulebindir=$withval], [modulebindir='${libexecdir}/speech-dispatcher-modules'])
 AC_SUBST([modulebindir])
+
+oldmodulebindir='${libdir}/speech-dispatcher-modules'
+AC_SUBST([oldmodulebindir])
 
 # Path for speech-dispatcher libraries:
 spdlibdir='${libdir}/speech-dispatcher'
@@ -498,7 +547,10 @@ if test "x$with_systemdsystemunitdir" != xno; then
 fi
 AM_CONDITIONAL(HAVE_SYSTEMD, [test -n "$with_systemdsystemunitdir" -a "x$with_systemdsystemunitdir" != xno ])
 
+AM_CONDITIONAL(BUILD_HTML_DOC, [test "$EMAIL" = samuel.thibault@ens-lyon.org])
+
 AC_CONFIG_FILES([Makefile
+		 run-speechd
                  speech-dispatcher.pc
                  config/Makefile
                  config/clients/Makefile
@@ -521,7 +573,8 @@ AC_CONFIG_FILES([Makefile
                  src/common/Makefile
                  src/modules/Makefile
                  src/server/Makefile
-                 src/tests/Makefile])
+                 src/tests/Makefile],
+	 	[chmod +x run-speechd])
 AC_OUTPUT
 AC_MSG_NOTICE([output modules to be built are $output_modules])
 AC_MSG_NOTICE([audio methods to be built are $audio_methods])

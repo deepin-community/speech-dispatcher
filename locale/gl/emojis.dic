@@ -8,41 +8,262 @@ symbols:
 🏽	ton de pel medio	none
 🏾	ton de pel escuro	none
 🏿	ton de pel moi escuro	none
-–	trazo longo	none
-—	raia	none
-·	punto medio	none
-«	aspas angulares esquerdas	none
-»	aspas angulares dereitas	none
-§	sección	none
-†	signo da cruz	none
-‡	signo da dobre cruz	none
-•	viñeta	none
-°	grao	none
 ℗	copyright de gravación sonora	none
 ←	frecha apuntando cara a esquerda	none
+↚	frecha cara á esquerda con trazo	none
 →	frecha apuntando cara a dereita	none
+↛	frecha cara á dereita con trazo	none
 ↑	frecha apuntando cara arriba	none
 ↓	frecha apuntando cara abaixo	none
+↜	frecha ondulada cara á esquerda	none
+↝	frecha ondulada cara á dereita	none
+↞	frecha con dúas puntas cara á esquerda	none
+↟	frecha con dúas puntas cara arriba	none
+↠	frecha con dúas puntas cara á dereita	none
+↡	frecha con dúas puntas cara abaixo	none
+↢	frecha con cola cara á esquerda	none
+↣	frecha con cola cara á dereita	none
+↤	frecha cara á esquerda desde unha barra	none
+↥	frecha cara arriba desde unha barra	none
+↦	frecha cara á dereita desde unha barra	none
+↧	frecha cara abaixo desde unha barra	none
+↨	frecha cara arriba e cara abaixo con base	none
+↫	frecha en lazo cara á esquerda	none
+↬	frecha en lazo cara á dereita	none
+↭	frecha ondulada cara á esquerda e cara á dereita	none
+↯	frecha en zigzag cara abaixo	none
+↰	frecha cara arriba coa punta cara á esquerda	none
+↱	frecha cara arriba coa punta cara á dereita	none
+↲	frecha cara abaixo coa punta cara á esquerda	none
+↳	frecha cara abaixo coa punta cara á dereita	none
+↴	frecha cara á dereita coa esquina cara abaixo	none
+↵	frecha cara á esquerda coa esquina cara abaixo	none
+↶	frecha en semicírculo xirando cara á esquerda	none
+↷	frecha en semicírculo xirando cara á dereita	none
+↸	frecha cara o noroeste cunha barra longa	none
+↹	frecha cara á esquerda cunha barra sobre frecha cara á dereita cunha barra	none
+↺	frecha en círculo aberto xirando cara á esquerda	none
+↻	frecha en círculo aberto xirando cara á dereita	none
+↼	arpón cara á esquerda coa punta cara arriba	none
+↽	arpón cara á esquerda coa punta cara abaixo	none
+↾	arpón cara arriba coa punta cara á dereita	none
+↿	arpón cara arriba coa punta cara á esquerda	none
+⇀	arpón cara á dereita coa punta cara arriba	none
+⇁	arpón cara á dereita coa punta cara abaixo	none
+⇂	arpón cara abaixo coa punta cara á dereita	none
+⇃	arpón cara abaixo coa punta cara á esquerda	none
+⇄	frecha cara á dereita sobre frecha cara á esquerda	none
 ⇅	frechas apuntando cara arriba e cara abaixo	none
 ⇆	frechas cara a esquerda e dereita	none
+⇇	par de frechas cara á esquerda	none
+⇈	par de frechas cara arriba	none
+⇉	par de frechas cara á dereita	none
+⇊	par de frechas cara abaixo	none
+⇋	arpón cara á esquerda sobre arpón cara á dereita	none
+⇌	arpón cara á dereita sobre arpón cara á esquerda	none
+⇐	frecha dobre cara á esquerda	none
+⇍	frecha dobre cará a esquerda con trazo	none
+⇑	frecha dobre cara arriba	none
+⇒	frecha dobre cara á dereita	none
+⇏	frecha dobre cara á dereita con trazo	none
+⇓	frecha dobre cara abaixo	none
+⇔	frecha dobre cara á esquerda e cara á dereita	none
+⇎	frecha dobre cara á esquerda e cara á dereita con trazo	none
+⇖	frecha dobre cara o noroeste	none
+⇗	frecha dobre cara o nordeste	none
+⇘	frecha dobre cara o sueste	none
+⇙	frecha dobre cara o suroeste	none
+⇚	frecha tripla cara á esquerda	none
+⇛	frecha tripla cara á dereita	none
+⇜	frecha garabateada cara á esquerda	none
+⇝	frecha garabateada cara á dereita	none
+⇞	frecha cara arriba con trazo dobre	none
+⇟	frecha cara abaixo con trazo dobre	none
+⇠	frecha descontinua cara á esquerda	none
+⇡	frecha descontinua cara arriba	none
+⇢	frecha descontinua cara á dereita	none
+⇣	frecha descontinua cara abaixo	none
+⇤	frecha cara á esquerda con barra vertical	none
+⇥	frecha cara á dereita con barra vertical	none
+⇦	frecha baleira cara á esquerda	none
+⇧	frecha baleira cara arriba	none
+⇨	frecha baleira cara á dereita	none
+⇩	frecha baleira cara abaixo	none
+⇪	frecha baleira cara arriba desde barra	none
+⇵	frecha cara abaixo xunto a frecha cara arriba	none
+∀	para todo	none
+∂	diferencial parcial	none
+∃	existe	none
+∅	conxunto baleiro	none
 ∆	incremento	none
 ∇	nabla	none
 ∈	elemento de	none
-÷	signo de división	none
-×	signo de multiplicación	none
+∉	non é un elemento	none
+∋	contén como membro	none
+∎	fin da demostración	none
+∏	produto n-ario	none
+∑	sumatorio n-ario	none
+≮	non menor que	none
+≠	non igual	none
+≯	non maior que	none
+−	signo menos	none
 ⁻	menos en superíndice	none
+∓	menos ou máis	none
+∕	barra de división	none
+∗	operador asterisco	none
+∘	operador anel	none
+∙	operador de viñeta	none
 √	raíz cadrada	none
+∝	proporcional	none
 ∞	signo do infinito	none
+∟	ángulo recto	none
+∠	ángulo	none
+∣	divide	none
+∥	paralelo	none
+∧	e lóxica	none
 ∩	intersección	none
 ∪	unión	none
+∫	integral	none
+∬	integral dobre	none
+∮	integral de contorno	none
+∴	entón	none
+∵	porque	none
+∶	razón	none
+∷	proporción	none
+∼	operador til	none
+∽	til invertido	none
+∾	s deitada invertida	none
+≃	asintoticamente igual	none
+≅	aproximadamente igual	none
+≈	case igual	none
+≌	todo igual	none
+≒	aproximadamente igual á imaxe	none
+≖	círculo en igual	none
 ≡	idéntico a	none
+≣	estritamente equivalente	none
+≤	menor ou igual a	none
+≥	maior ou igual a	none
+≦	menor sobre igual	none
+≧	maior sobre igual	none
+≪	moito menor que	none
+≫	moito maior que	none
+≬	entre	none
+≳	maior que ou equivalente	none
+≺	precede	none
+≻	sucede	none
+⊁	non sucede	none
 ⊂	subconxunto de	none
+⊃	superconxunto	none
+⊆	subconxunto igual a	none
+⊇	superconxunto igual a	none
+⊕	máis nun círculo	none
+⊖	menos nun círculo	none
+⊗	multiplicación nun círculo	none
+⊘	división nun círculo	none
+⊙	operador punto nun círculo	none
+⊚	operador anel nun círculo	none
+⊛	operador asterisco nun círculo	none
+⊞	máis nun cadrado	none
+⊟	menos nun cadrado	none
+⊥	chatola cara arriba	none
+⊮	non forza	none
+⊰	precede baixo relación	none
+⊱	sucede baixo relación	none
+⋭	non contén como subgrupo normal igual a	none
+⊶	orixinal	none
+⊹	matriz hermitiana conxugada	none
+⊿	triángulo rectángulo	none
+⋁	ou lóxico n-ario	none
+⋂	intersección n-aria	none
+⋃	unión n-aria	none
+⋅	operador punto	none
+⋆	operador estrela	none
+⋈	unión natural	none
+⋒	dobre intersección	none
+⋘	considerablemente menor que	none
+⋙	considerablemente maior que	none
+⋮	elipse vertical	none
+⋯	elipse horizontal centrada	none
+⋰	elipse diagonal da dereita cara a arriba	none
+⋱	elipse diagonal da dereita cara a abaixo	none
+■	cadrado enchido	none
+□	cadrado baleiro	none
+▢	cadrado baleiro con cantos arrendodados	none
+▣	cadrado baleiro cun cadrado enchido dentro	none
+▤	cadrado con enchemento horizontal	none
+▥	cadrado con enchemento vertical	none
+▦	cadrado con enchemento ortogonal cruzado	none
+▧	cadrado con enchemento desde o canto superior esquerdo ao inferior dereito	none
+▨	cadrado con enchemento desde o canto superior dereito ao inferior esquerdo	none
+▩	cadrado con enchemento diagonal cruzado	none
+▬	rectángulo enchido	none
+▭	rectángulo baleiro	none
+▮	rectángulo vertical enchido	none
+▰	paralelogramo enchido	none
 ▲	triángulo enchido apuntando cara arriba	none
+△	triángulo baleiro apuntando cara arriba	none
+▴	triángulo pequeno enchido apuntando cara arriba	none
+▵	triángulo pequeno baleiro apuntando cara arriba	none
+▷	triángulo baleiro apuntando cara á dereita	none
+▸	triángulo pequeno enchido apuntando cara á dereita	none
+▹	triángulo pequeno baleiro apuntando cara á dereita	none
+►	punteiro enchido apuntando cara á dereita	none
+▻	punteiro baleiro apuntando cara á dereita	none
 ▼	triángulo enchido apuntando cara abaixo	none
+▽	triángulo baleiro apuntando cara abaixo	none
+▾	triángulo pequeno enchido apuntando cara abaixo	none
+▿	triángulo pequeno baleiro apuntando cara abaixo	none
+◁	triángulo baleiro apuntando cara á esquerda	none
+◂	triángulo pequeno enchido apuntando cara á esquerda	none
+◃	triángulo pequeno baleiro apuntando cara á esquerda	none
+◄	punteiro enchido apuntando cara á esquerda	none
+◅	punteiro baleiro apuntando cara á esquerda	none
+◆	rombo enchido	none
+◇	rombo baleiro	none
+◈	rombo baleiro cun rombo enchido dentro	none
+◉	círculo baleiro cun círculo enchido dentro	none
 ◊	losanxe	none
 ○	círculo baleiro	none
+◌	círculo punteado	none
+◍	círculo con enchemento vertical	none
+◎	círculos concéntricos	none
 ●	círculo enchido	none
-◯	círculo baleiro grande	none
+◐	círculo coa metade esquerda enchida	none
+◑	círculo coa metade dereita enchida	none
+◒	círculo coa metade inferior enchida	none
+◓	círculo coa metade superior enchida	none
+◔	círculo co cuadrante superior dereito enchido	none
+◕	círculo con todos os cuadrantes enchidos menos o superior esquerdo	none
+◖	metade esquerda dun círculo enchida	none
+◗	metade dereita dun círculo enchida	none
+◘	viñeta inversa	none
+◙	cadrado enchido cun círculo baleiro dentro	none
+◜	arco circular de cuadrante superior esquerdo	none
+◝	arco circular de cuadrante superior dereito	none
+◞	arco circular de cuadrante inferior dereito	none
+◟	arco circular de cuadrante inferior esquerdo	none
+◠	arco superior dun semicírculo	none
+◡	arco inferior dun semicírculo	none
+◢	triángulo rectángulo enchido apoiado no canto inferior dereito	none
+◣	triángulo rectángulo enchido apoiado no canto inferior esquerdo	none
+◤	triángulo rectángulo enchido apoiado no canto superior esquerdo	none
+◥	triángulo rectángulo enchido apoiado no canto superior dereito	none
+◦	viñeta baleira	none
+◯	círculo grande baleiro	none
+◳	cadrado baleiro con cuadrante superior dereito	none
+◷	círculo baleiro con cuadrante superior dereito	none
+◿	triángulo apoiado no canto inferior dereito	none
+♪	corchea	none
+⨧	máis cun dous en subíndice	none
+⨯	produto cruzado de vectores	none
+⨼	produto interior	none
+⩣	ou lóxico con barra inferior dobre	none
+⩽	menor que ou igual inclinado	none
+⪍	menor que sobre similar ou igual	none
+⪚	igual de línea dobre ou maior que	none
+⪺	sucede sobre non case igual a	none
+♭	bemol	none
+♯	díese	none
 😀	cara moi riseira	none
 😃	cara moi riseira con ollos grandes	none
 😄	cara moi riseira cos ollos alegres	none
@@ -53,6 +274,7 @@ symbols:
 😂	cara chorando de risa	none
 🙂	cara cun leve sorriso	none
 🙃	cara ao revés	none
+🫠	cara derreténdose	none
 😉	cara chiscando un ollo	none
 😊	cara alegre con ollos riseiros	none
 😇	cara riseira con auréola	none
@@ -73,18 +295,25 @@ symbols:
 🤑	cara de pensar en cartos	none
 🤗	cara dando un abrazo	none
 🤭	cara rindo disimuladamente	none
+🫢	cara cos ollos abertos e a man na boca	none
+🫣	cara cun ollo asomando	none
 🤫	cara de mandar calar	none
 🤔	cara pensativa	none
+🫡	cara saudando	none
 🤐	cara coa boca pechada cunha cremalleira	none
 🤨	cara cunha cella levantada	none
 😐	cara neutra	none
 😑	cara inexpresiva	none
 😶	cara sen boca	none
+🫥	cara de liñas punteadas	none
+😶‍🌫	cara nas nubes	none
 😏	cara con sorriso malicioso	none
 😒	cara de que non ten graza	none
 🙄	cara cos ollos en branco	none
 😬	cara apertando os dentes	none
+😮‍💨	cara exhalando	none
 🤥	cara de mentirán	none
+🫨	cara tremente	none
 😌	cara de alivio	none
 😔	cara desanimada	none
 😪	cara de sono	none
@@ -100,6 +329,7 @@ symbols:
 🥶	cara de frío	none
 🥴	cara atordada	none
 😵	cara mareada	none
+😵‍💫	cara con ollos de espiral	none
 🤯	cara de estoupar a cabeza	none
 🤠	sombreiro de vaqueiro	none
 🥳	cara de festa	none
@@ -108,6 +338,7 @@ symbols:
 🤓	cara de chapón	none
 🧐	cara con monóculo	none
 😕	cara confusa	none
+🫤	cara coa boca en diagonal	none
 😟	cara de preocupación	none
 🙁	cara triste	none
 ☹	cara moi triste	none
@@ -116,6 +347,7 @@ symbols:
 😲	cara abraiada	none
 😳	cara arroibada	none
 🥺	cara de súplica	none
+🥹	cara contendo as bágoas	none
 😦	cara triste coa boca aberta	none
 😧	cara de angustia	none
 😨	cara de medo	none
@@ -159,7 +391,6 @@ symbols:
 🙈	mono cos ollos tapados	none
 🙉	mono coas orellas tapadas	none
 🙊	mono coa boca tapada	none
-💋	marca de bico	none
 💌	carta de amor	none
 💘	corazón con frecha	none
 💝	corazón cun lazo	none
@@ -171,15 +402,21 @@ symbols:
 💟	decoración en forma de corazón	none
 ❣	exclamación en forma de corazón	none
 💔	corazón roto	none
+❤‍🔥	corazón en chamas	none
+❤‍🩹	corazón curándose	none
 ❤	corazón	none
+🩷	corazón rosa	none
 🧡	corazón laranxa	none
 💛	corazón amarelo	none
 💚	corazón verde	none
 💙	corazón azul	none
+🩵	corazón azul claro	none
 💜	corazón violeta	none
 🤎	corazón marrón	none
 🖤	corazón negro	none
+🩶	corazón gris	none
 🤍	corazón branco	none
+💋	marca de bico	none
 💯	100 puntos	none
 💢	símbolo de enfado	none
 💥	explosión	none
@@ -187,7 +424,6 @@ symbols:
 💦	pingas de suor	none
 💨	símbolo de saír correndo	none
 🕳	burato	none
-💣	bomba	none
 💬	globo de diálogo á esquerda	none
 👁‍🗨	globo de diálogo en forma de ollo	none
 🗨	globo de diálogo á dereita	none
@@ -199,11 +435,18 @@ symbols:
 🖐	man aberta	none
 ✋	man levantada	none
 🖖	saúdo vulcaniano	none
+🫱	man cara á dereita	none
+🫲	man cara á esquerda	none
+🫳	man coa palma cara abaixo	none
+🫴	man coa palma cara arriba	none
+🫷	man empuxando cara á esquerda	none
+🫸	man empuxando cara á dereita	none
 👌	xesto de “OK”	none
 🤌	xesto de "ateigado"	none
 🤏	xesto de "un chisco"	none
 ✌	xesto de vitoria	none
 🤞	dedos cruzados	none
+🫰	man cos dedos índice e polgar cruzados	none
 🤟	xesto das iniciais de "I Love You"	none
 🤘	man facendo os cornos	none
 🤙	xesto de chamar por teléfono	none
@@ -213,6 +456,7 @@ symbols:
 🖕	dedo do medio levantado	none
 👇	dedo apuntando cara abaixo	none
 ☝	índice apuntando cara arriba	none
+🫵	dedo índice apuntando de fronte	none
 👍	polgar cara arriba	none
 👎	polgar cara abaixo	none
 ✊	puño en alto	none
@@ -221,6 +465,7 @@ symbols:
 🤜	puño cara á dereita	none
 👏	mans aplaudindo	none
 🙌	mans levantadas	none
+🫶	mans facendo un corazón	none
 👐	mans abertas	none
 🤲	palmas xuntas	none
 🤝	aperta de mans	none
@@ -245,6 +490,7 @@ symbols:
 👁	ollo	none
 👅	lingua	none
 👄	boca	none
+🫦	mordedura de beizo	none
 👶	bebé	none
 🧒	criatura	none
 👦	neno	none
@@ -252,9 +498,11 @@ symbols:
 🧑	persoa	none
 👱	persoa loura	none
 👨	home	none
-🧔	home con barba	none
+🧔	persoa con barba	none
+🧔‍♂	home con barba	none
 👱‍♂	home louro	none
 👩	muller	none
+🧔‍♀	muller con barba	none
 👱‍♀	muller loura	none
 🧓	persoa maior	none
 👴	vello	none
@@ -350,6 +598,7 @@ symbols:
 👷	traballador da construción	none
 👷‍♂	obreiro	none
 👷‍♀	obreira	none
+🫅	persoa con coroa	none
 🤴	príncipe	none
 👸	princesa	none
 👳	persoa con turbante	none
@@ -364,7 +613,9 @@ symbols:
 👰‍♂	home con veo	none
 👰‍♀	muller con veo	none
 🤰	muller embarazada	none
-🤱	muller dando o peito	none
+🫃	home embarazado	none
+🫄	persoa embarazada	none
+🤱	dar o peito	none
 👩‍🍼	muller alimentando bebé	none
 👨‍🍼	home alimentando bebé	none
 🧑‍🍼	persoa alimentando bebé	none
@@ -399,6 +650,7 @@ symbols:
 🧟	zombi	none
 🧟‍♂	zombi de sexo masculino	none
 🧟‍♀	zombi de sexo feminino	none
+🧌	troll	none
 💆	masaxe facial	none
 💆‍♂	masaxe facial a home	none
 💆‍♀	masaxe facial a muller	none
@@ -522,6 +774,8 @@ symbols:
 🐅	tigre	none
 🐆	leopardo	none
 🐴	cara de cabalo	none
+🫎	alce	none
+🫏	burro	none
 🐎	cabalo	none
 🦄	unicornio	none
 🦓	cebra	none
@@ -584,6 +838,8 @@ symbols:
 🦩	flamengo	none
 🦚	pavón	none
 🦜	loro	none
+🪽	á	none
+🪿	ganso	none
 🐸	ra	none
 🐊	crocodilo	none
 🐢	tartaruga	none
@@ -603,6 +859,8 @@ symbols:
 🦈	tiburón	none
 🐙	polbo	none
 🐚	bucina mariña	none
+🪸	coral	none
+🪼	medusa	none
 🐌	caracol	none
 🦋	bolboreta	none
 🐛	cempés	none
@@ -622,6 +880,7 @@ symbols:
 💐	ramo de flores	none
 🌸	flor de cerdeira	none
 💮	flor branca	none
+🪷	loto	none
 🏵	roseta	none
 🌹	rosa	none
 🥀	flor murcha	none
@@ -629,6 +888,7 @@ symbols:
 🌻	xirasol	none
 🌼	flor	none
 🌷	tulipán	none
+🪻	xacinto	none
 🌱	plántula	none
 🪴	planta en testo	none
 🌲	árbore de folla perenne	none
@@ -642,6 +902,9 @@ symbols:
 🍁	folla de pradairo	none
 🍂	folla seca	none
 🍃	folla ao vento	none
+🪹	niño baleiro	none
+🪺	niño con ovos	none
+🍄	cogomelo	none
 🍇	uvas	none
 🍈	melón	none
 🍉	sandía	none
@@ -649,7 +912,7 @@ symbols:
 🍋	limón	none
 🍌	plátano	none
 🍍	piña	none
-🥭	mango	none
+🥭	manga	none
 🍎	mazá vermella	none
 🍏	mazá verde	none
 🍐	pera	none
@@ -673,9 +936,11 @@ symbols:
 🥦	brócoli	none
 🧄	allo	none
 🧅	cebola	none
-🍄	cogomelo	none
 🥜	cacahuete	none
+🫘	fabas	none
 🌰	castaña	none
+🫚	xenxibre	none
+🫛	vaíña	none
 🍞	pan de molde	none
 🥐	croissant	none
 🥖	barra de pan	none
@@ -760,6 +1025,7 @@ symbols:
 🍻	brinde de cervexas	none
 🥂	brinde	none
 🥃	vaso con xeo	none
+🫗	derramamento de líquido	none
 🥤	vaso con palla	none
 🧋	té de burbullas	none
 🧃	brik	none
@@ -770,13 +1036,14 @@ symbols:
 🍴	garfo e coitelo	none
 🥄	culler	none
 🔪	coitelo de cociña	none
+🫙	tarro	none
 🏺	ánfora	none
 🌍	globo terráqueo Europa-África	none
 🌎	globo terráqueo América	none
 🌏	globo terráqueo Asia-Australia	none
 🌐	globo terráqueo con meridianos	none
 🗺	mapa do mundo	none
-🗾	mapa de Xapón	none
+🗾	mapa do Xapón	none
 🧭	compás	none
 🏔	montañas nevadas	none
 ⛰	montañas	none
@@ -813,7 +1080,7 @@ symbols:
 🏰	castelo	none
 💒	voda pola Igrexa	none
 🗼	Torre de Tokyo	none
-🗽	Estatua da liberdade	none
+🗽	Estatua da Liberdade	none
 ⛪	igrexa	none
 🕌	mesquita	none
 🛕	templo hindú	none
@@ -832,6 +1099,7 @@ symbols:
 🌉	ponte de noite	none
 ♨	augas termais	none
 🎠	cabaliño de carrusel	none
+🛝	esvaradoiro	none
 🎡	nora	none
 🎢	montaña rusa	none
 💈	poste de barbeiro	none
@@ -880,12 +1148,14 @@ symbols:
 🛤	vía do tren	none
 🛢	barril de petróleo	none
 ⛽	gasolineira	none
+🛞	roda	none
 🚨	sirena de policía	none
 🚥	semáforo horizontal	none
 🚦	semáforo	none
 🛑	sinal de stop	none
 🚧	en construción	none
 ⚓	áncora	none
+🛟	salvavidas	none
 ⛵	veleiro	none
 🛶	canoa	none
 🚤	lancha motora	none
@@ -959,7 +1229,7 @@ symbols:
 ⭐	estrela	none
 🌟	estrela brillante	none
 🌠	estrela fugaz	none
-🌌	vía láctea	none
+🌌	Vía Láctea	none
 ☁	nube	none
 ⛅	ceo parcialmente cuberto	none
 ⛈	tormenta	none
@@ -1022,7 +1292,7 @@ symbols:
 🏉	balón de rugby	none
 🎾	tenis	none
 🥏	disco voante	none
-🎳	bolos	none
+🎳	birlos	none
 🏏	crícket	none
 🏑	hóckey sobre herba	none
 🏒	hóckey sobre xeo	none
@@ -1043,17 +1313,18 @@ symbols:
 🎯	diana	none
 🪀	ioió	none
 🪁	papaventos	none
+🔫	pistola de auga	none
 🎱	billar	none
 🔮	bola de cristal	none
 🪄	variña máxica	none
-🧿	ollo turco	none
 🎮	videoxogo	none
-🕹	panca de mando	none
+🕹	panca de control	none
 🎰	máquina comecartos	none
 🎲	dado	none
 🧩	crebacabezas	none
 🧸	osiño	none
 🪅	piñata	none
+🪩	bola de discoteca	none
 🪆	bonecas rusas	none
 ♠	picas	none
 ♥	corazóns	none
@@ -1090,6 +1361,7 @@ symbols:
 🩳	pantalón curto	none
 👙	bikini	none
 👚	roupa de muller	none
+🪭	abano	none
 👛	moedeiro	none
 👜	bolso	none
 👝	bolso de man	none
@@ -1104,6 +1376,7 @@ symbols:
 👡	sandalia de muller	none
 🩰	bailarinas	none
 👢	botas de muller	none
+🪮	peite de pelo rizado	none
 👑	coroa	none
 👒	sombreiro de muller	none
 🎩	sombreiro de copa	none
@@ -1142,6 +1415,8 @@ symbols:
 🪕	banxo	none
 🥁	tambor	none
 🪘	tambor alto	none
+🪇	maracas	none
+🪈	frauta	none
 📱	teléfono móbil	none
 📲	teléfono móbil con frecha	none
 ☎	teléfono	none
@@ -1149,6 +1424,7 @@ symbols:
 📟	buscapersoas	none
 📠	fax	none
 🔋	pila	none
+🪫	batería baixa	none
 🔌	enchufe	none
 💻	ordenador portátil	none
 🖥	ordenador de escritorio	none
@@ -1260,7 +1536,7 @@ symbols:
 🛠	martelo e chave inglesa	none
 🗡	daga	none
 ⚔	espadas cruzadas	none
-🔫	pistola	none
+💣	bomba	none
 🪃	búmerang	none
 🏹	arco e frecha	none
 🛡	escudo	none
@@ -1289,7 +1565,9 @@ symbols:
 🩸	pinga de sangue	none
 💊	pílula	none
 🩹	apósito	none
+🩼	muleta	none
 🩺	estetoscopio	none
+🩻	radiografía	none
 🚪	porta	none
 🛗	ascensor	none
 🪞	espello	none
@@ -1310,6 +1588,7 @@ symbols:
 🧻	rolo de papel	none
 🪣	caldeiro	none
 🧼	xabón	none
+🫧	burbullas	none
 🪥	cepillo de dentes	none
 🧽	esponxa	none
 🧯	extintor	none
@@ -1318,8 +1597,11 @@ symbols:
 ⚰	ataúde	none
 🪦	lápida	none
 ⚱	urna funeraria	none
+🧿	ollo turco	none
+🪬	jamsa	none
 🗿	estatua da illa de Pascua	none
 🪧	pancarta	none
+🪪	tarxeta de identidade	none
 🏧	sinal de caixeiro automático	none
 🚮	sinal de tirar lixo na papeleira	none
 🚰	sinal de auga potable	none
@@ -1356,6 +1638,7 @@ symbols:
 ↖	frecha cara arriba á esquerda	none
 ↕	frecha cara arriba e abaixo	none
 ↔	frecha cara á esquerda e a dereita	none
+↮	frecha cara á esquerda e cara á dereita con trazo	none
 ↩	frecha curvada cara á esquerda	none
 ↪	frecha curvada cara á dereita	none
 ⤴	frecha curvada cara arriba	none
@@ -1379,6 +1662,7 @@ symbols:
 ☮	símbolo da paz	none
 🕎	menorá	none
 🔯	estrela de seis puntas con punto	none
+🪯	khanda	none
 ♈	Aries	none
 ♉	Tauro	none
 ♊	Xémini	none
@@ -1414,6 +1698,7 @@ symbols:
 🔅	botón de diminuír o brillo	none
 🔆	botón de aumentar o brillo	none
 📶	sinal de cobertura	none
+🛜	wifi	none
 📳	modo vibración	none
 📴	teléfono móbil apagado	none
 ♀	símbolo da muller	none
@@ -1423,14 +1708,12 @@ symbols:
 ➕	suma	none
 ➖	resta	none
 ➗	división	none
+🟰	signo igual groso	none
 ♾	infinito	none
-‼	signo de exclamación dobre	none
-⁉	signo de exclamación e interrogación	none
-❓	signo de interrogación	none
+❓	signo de interrogación vermello	none
 ❔	signo de interrogación branco	none
 ❕	signo de exclamación branco	none
-❗	signo de exclamación	none
-〰	liña ondulada	none
+❗	signo de exclamación vermello	none
 💱	cambio de divisas	none
 💲	símbolo do dólar	none
 ⚕	símbolo da medicina	none
@@ -1447,18 +1730,15 @@ symbols:
 ❎	botón “X”	none
 ➰	bucle	none
 ➿	bucle dobre	none
-〽	signo de alternancia	none
 ✳	asterisco de oito raios	none
 ✴	estrela de oito puntas	none
 ❇	chispa	none
-©	copyright	none
-®	marca rexistrada “R”	none
 ™	marca rexistrada “TM”	none
-🔠	introducir letras en maiúsculas	none
-🔡	introducir letras en minúsculas	none
-🔢	introducir números	none
-🔣	introducir símbolos	none
-🔤	introducir letras	none
+🔠	letras en maiúscula	none
+🔡	letras en minúscula	none
+🔢	números	none
+🔣	símbolos	none
+🔤	letras	none
 🅰	grupo sanguíneo A	none
 🆎	grupo sanguíneo AB	none
 🅱	grupo sanguíneo B	none
@@ -1476,23 +1756,6 @@ symbols:
 🆘	botón "socorro!" en inglés	none
 🆙	botón "arriba!" en inglés	none
 🆚	botón "fronte a" en inglés	none
-🈁	botón "aquí" en xaponés	none
-🈂	botón “cargo por servizo” en xaponés	none
-🈷	botón "cantidade mensual" en xaponés	none
-🈶	botón "de pago" en xaponés	none
-🈯	botón "reservado" en xaponés	none
-🉐	botón "oportunidade" en xaponés	none
-🈹	botón "desconto" en xaponés	none
-🈚	botón "gratis" en xaponés	none
-🈲	botón "prohibido" en xaponés	none
-🉑	botón "aceptable" en xaponés	none
-🈸	botón "aplicación" en xaponés	none
-🈴	botón "aprobado" en xaponés	none
-🈳	botón "hai vacantes" en xaponés	none
-㊗	botón "parabéns" en xaponés	none
-㊙	botón "secreto" en xaponés	none
-🈺	botón "aberto ao público" en xaponés	none
-🈵	botón "non hai vacantes" en xaponés	none
 🔴	círculo vermello	none
 🟠	círculo laranxa	none
 🟡	círculo amarelo	none
@@ -1535,15 +1798,21 @@ symbols:
 🏳‍🌈	bandeira do arco da vella	none
 🏳‍⚧	bandeira transxénero	none
 🏴‍☠	bandeira pirata	none
-£	libra (divisa)	none
-¥	ien	none
+₢	cruzeiro	none
+₣	franco francés	none
+₤	lira	none
+₥	mill	none
+₩	won	none
 €	euro	none
+₰	penique alemán	none
+₱	peso	none
+₳	austral	none
+₶	libra tornesa	none
+₷	spesmilo	none
 ₹	rupia india	none
 ₽	rublo	none
-¹	un en superíndice	none
-²	dous en superíndice	none
-³	tres en superíndice	none
-µ	signo de micro	none
+₿	bitcoin	none
+₨	rupia	none
 👋🏻	man saudando ton de pel moi claro	none
 👋🏼	man saudando ton de pel claro	none
 👋🏽	man saudando ton de pel medio	none
@@ -1569,6 +1838,56 @@ symbols:
 🖖🏽	saúdo vulcaniano ton de pel medio	none
 🖖🏾	saúdo vulcaniano ton de pel escuro	none
 🖖🏿	saúdo vulcaniano ton de pel moi escuro	none
+🫱🏻	man cara á dereita ton de pel moi claro	none
+🫱🏼	man cara á dereita ton de pel claro	none
+🫱🏽	man cara á dereita ton de pel medio	none
+🫱🏾	man cara á dereita ton de pel escuro	none
+🫱🏿	man cara á dereita ton de pel moi escuro	none
+🫱🏻‍🫲🏼	aperta de mans ton de pel moi claro, ton de pel claro	none
+🫱🏻‍🫲🏽	aperta de mans ton de pel moi claro, ton de pel medio	none
+🫱🏻‍🫲🏾	aperta de mans ton de pel moi claro, ton de pel escuro	none
+🫱🏻‍🫲🏿	aperta de mans ton de pel moi claro, ton de pel moi escuro	none
+🫱🏼‍🫲🏻	aperta de mans ton de pel claro, ton de pel moi claro	none
+🫱🏼‍🫲🏽	aperta de mans ton de pel claro, ton de pel medio	none
+🫱🏼‍🫲🏾	aperta de mans ton de pel claro, ton de pel escuro	none
+🫱🏼‍🫲🏿	aperta de mans ton de pel claro, ton de pel moi escuro	none
+🫱🏽‍🫲🏻	aperta de mans ton de pel medio, ton de pel moi claro	none
+🫱🏽‍🫲🏼	aperta de mans ton de pel medio, ton de pel claro	none
+🫱🏽‍🫲🏾	aperta de mans ton de pel medio, ton de pel escuro	none
+🫱🏽‍🫲🏿	aperta de mans ton de pel medio, ton de pel moi escuro	none
+🫱🏾‍🫲🏻	aperta de mans ton de pel escuro, ton de pel moi claro	none
+🫱🏾‍🫲🏼	aperta de mans ton de pel escuro, ton de pel claro	none
+🫱🏾‍🫲🏽	aperta de mans ton de pel escuro, ton de pel medio	none
+🫱🏾‍🫲🏿	aperta de mans ton de pel escuro, ton de pel moi escuro	none
+🫱🏿‍🫲🏻	aperta de mans ton de pel moi escuro, ton de pel moi claro	none
+🫱🏿‍🫲🏼	aperta de mans ton de pel moi escuro, ton de pel claro	none
+🫱🏿‍🫲🏽	aperta de mans ton de pel moi escuro, ton de pel medio	none
+🫱🏿‍🫲🏾	aperta de mans ton de pel moi escuro, ton de pel escuro	none
+🫲🏻	man cara á esquerda ton de pel moi claro	none
+🫲🏼	man cara á esquerda ton de pel claro	none
+🫲🏽	man cara á esquerda ton de pel medio	none
+🫲🏾	man cara á esquerda ton de pel escuro	none
+🫲🏿	man cara á esquerda ton de pel moi escuro	none
+🫳🏻	man coa palma cara abaixo ton de pel moi claro	none
+🫳🏼	man coa palma cara abaixo ton de pel claro	none
+🫳🏽	man coa palma cara abaixo ton de pel medio	none
+🫳🏾	man coa palma cara abaixo ton de pel escuro	none
+🫳🏿	man coa palma cara abaixo ton de pel moi escuro	none
+🫴🏻	man coa palma cara arriba ton de pel moi claro	none
+🫴🏼	man coa palma cara arriba ton de pel claro	none
+🫴🏽	man coa palma cara arriba ton de pel medio	none
+🫴🏾	man coa palma cara arriba ton de pel escuro	none
+🫴🏿	man coa palma cara arriba ton de pel moi escuro	none
+🫷🏻	man empuxando cara á esquerda ton de pel moi claro	none
+🫷🏼	man empuxando cara á esquerda ton de pel claro	none
+🫷🏽	man empuxando cara á esquerda ton de pel medio	none
+🫷🏾	man empuxando cara á esquerda ton de pel escuro	none
+🫷🏿	man empuxando cara á esquerda ton de pel moi escuro	none
+🫸🏻	man empuxando cara á dereita ton de pel moi claro	none
+🫸🏼	man empuxando cara á dereita ton de pel claro	none
+🫸🏽	man empuxando cara á dereita ton de pel medio	none
+🫸🏾	man empuxando cara á dereita ton de pel escuro	none
+🫸🏿	man empuxando cara á dereita ton de pel moi escuro	none
 👌🏻	xesto de “OK” ton de pel moi claro	none
 👌🏼	xesto de “OK” ton de pel claro	none
 👌🏽	xesto de “OK” ton de pel medio	none
@@ -1594,6 +1913,11 @@ symbols:
 🤞🏽	dedos cruzados ton de pel medio	none
 🤞🏾	dedos cruzados ton de pel escuro	none
 🤞🏿	dedos cruzados ton de pel moi escuro	none
+🫰🏻	man cos dedos índice e polgar cruzados ton de pel moi claro	none
+🫰🏼	man cos dedos índice e polgar cruzados ton de pel claro	none
+🫰🏽	man cos dedos índice e polgar cruzados ton de pel medio	none
+🫰🏾	man cos dedos índice e polgar cruzados ton de pel escuro	none
+🫰🏿	man cos dedos índice e polgar cruzados ton de pel moi escuro	none
 🤟🏻	xesto das iniciais de "I Love You" ton de pel moi claro	none
 🤟🏼	xesto das iniciais de "I Love You" ton de pel claro	none
 🤟🏽	xesto das iniciais de "I Love You" ton de pel medio	none
@@ -1639,6 +1963,11 @@ symbols:
 ☝🏽	índice apuntando cara arriba ton de pel medio	none
 ☝🏾	índice apuntando cara arriba ton de pel escuro	none
 ☝🏿	índice apuntando cara arriba ton de pel moi escuro	none
+🫵🏻	dedo índice apuntando de fronte ton de pel moi claro	none
+🫵🏼	dedo índice apuntando de fronte ton de pel claro	none
+🫵🏽	dedo índice apuntando de fronte ton de pel medio	none
+🫵🏾	dedo índice apuntando de fronte ton de pel escuro	none
+🫵🏿	dedo índice apuntando de fronte ton de pel moi escuro	none
 👍🏻	polgar cara arriba ton de pel moi claro	none
 👍🏼	polgar cara arriba ton de pel claro	none
 👍🏽	polgar cara arriba ton de pel medio	none
@@ -1679,6 +2008,11 @@ symbols:
 🙌🏽	mans levantadas ton de pel medio	none
 🙌🏾	mans levantadas ton de pel escuro	none
 🙌🏿	mans levantadas ton de pel moi escuro	none
+🫶🏻	mans facendo un corazón ton de pel moi claro	none
+🫶🏼	mans facendo un corazón ton de pel claro	none
+🫶🏽	mans facendo un corazón ton de pel medio	none
+🫶🏾	mans facendo un corazón ton de pel escuro	none
+🫶🏿	mans facendo un corazón ton de pel moi escuro	none
 👐🏻	mans abertas ton de pel moi claro	none
 👐🏼	mans abertas ton de pel claro	none
 👐🏽	mans abertas ton de pel medio	none
@@ -1689,6 +2023,11 @@ symbols:
 🤲🏽	palmas xuntas ton de pel medio	none
 🤲🏾	palmas xuntas ton de pel escuro	none
 🤲🏿	palmas xuntas ton de pel moi escuro	none
+🤝🏻	aperta de mans ton de pel moi claro	none
+🤝🏼	aperta de mans ton de pel claro	none
+🤝🏽	aperta de mans ton de pel medio	none
+🤝🏾	aperta de mans ton de pel escuro	none
+🤝🏿	aperta de mans ton de pel moi escuro	none
 🙏🏻	mans en oración ton de pel moi claro	none
 🙏🏼	mans en oración ton de pel claro	none
 🙏🏽	mans en oración ton de pel medio	none
@@ -1769,6 +2108,46 @@ symbols:
 👱🏽	persoa loura ton de pel medio	none
 👱🏾	persoa loura ton de pel escuro	none
 👱🏿	persoa loura ton de pel moi escuro	none
+🧑🏻‍❤‍💋‍🧑🏼	parella bicándose persoa, persoa, ton de pel moi claro, ton de pel claro	none
+🧑🏻‍❤‍💋‍🧑🏽	parella bicándose persoa, persoa, ton de pel moi claro, ton de pel medio	none
+🧑🏻‍❤‍💋‍🧑🏾	parella bicándose persoa, persoa, ton de pel moi claro, ton de pel escuro	none
+🧑🏻‍❤‍💋‍🧑🏿	parella bicándose persoa, persoa, ton de pel moi claro, ton de pel moi escuro	none
+🧑🏼‍❤‍💋‍🧑🏻	parella bicándose persoa, persoa, ton de pel claro, ton de pel moi claro	none
+🧑🏼‍❤‍💋‍🧑🏽	parella bicándose persoa, persoa, ton de pel claro, ton de pel medio	none
+🧑🏼‍❤‍💋‍🧑🏾	parella bicándose persoa, persoa, ton de pel claro, ton de pel escuro	none
+🧑🏼‍❤‍💋‍🧑🏿	parella bicándose persoa, persoa, ton de pel claro, ton de pel moi escuro	none
+🧑🏽‍❤‍💋‍🧑🏻	parella bicándose persoa, persoa, ton de pel medio, ton de pel moi claro	none
+🧑🏽‍❤‍💋‍🧑🏼	parella bicándose persoa, persoa, ton de pel medio, ton de pel claro	none
+🧑🏽‍❤‍💋‍🧑🏾	parella bicándose persoa, persoa, ton de pel medio, ton de pel escuro	none
+🧑🏽‍❤‍💋‍🧑🏿	parella bicándose persoa, persoa, ton de pel medio, ton de pel moi escuro	none
+🧑🏾‍❤‍💋‍🧑🏻	parella bicándose persoa, persoa, ton de pel escuro, ton de pel moi claro	none
+🧑🏾‍❤‍💋‍🧑🏼	parella bicándose persoa, persoa, ton de pel escuro, ton de pel claro	none
+🧑🏾‍❤‍💋‍🧑🏽	parella bicándose persoa, persoa, ton de pel escuro, ton de pel medio	none
+🧑🏾‍❤‍💋‍🧑🏿	parella bicándose persoa, persoa, ton de pel escuro, ton de pel moi escuro	none
+🧑🏿‍❤‍💋‍🧑🏻	parella bicándose persoa, persoa, ton de pel moi escuro, ton de pel moi claro	none
+🧑🏿‍❤‍💋‍🧑🏼	parella bicándose persoa, persoa, ton de pel moi escuro, ton de pel claro	none
+🧑🏿‍❤‍💋‍🧑🏽	parella bicándose persoa, persoa, ton de pel moi escuro, ton de pel medio	none
+🧑🏿‍❤‍💋‍🧑🏾	parella bicándose persoa, persoa, ton de pel moi escuro, ton de pel escuro	none
+🧑🏻‍❤‍🧑🏼	parella cun corazón persoa, persoa, ton de pel moi claro, ton de pel claro	none
+🧑🏻‍❤‍🧑🏽	parella cun corazón persoa, persoa, ton de pel moi claro, ton de pel medio	none
+🧑🏻‍❤‍🧑🏾	parella cun corazón persoa, persoa, ton de pel moi claro, ton de pel escuro	none
+🧑🏻‍❤‍🧑🏿	parella cun corazón persoa, persoa, ton de pel moi claro, ton de pel moi escuro	none
+🧑🏼‍❤‍🧑🏻	parella cun corazón persoa, persoa, ton de pel claro, ton de pel moi claro	none
+🧑🏼‍❤‍🧑🏽	parella cun corazón persoa, persoa, ton de pel claro, ton de pel medio	none
+🧑🏼‍❤‍🧑🏾	parella cun corazón persoa, persoa, ton de pel claro, ton de pel escuro	none
+🧑🏼‍❤‍🧑🏿	parella cun corazón persoa, persoa, ton de pel claro, ton de pel moi escuro	none
+🧑🏽‍❤‍🧑🏻	parella cun corazón persoa, persoa, ton de pel medio, ton de pel moi claro	none
+🧑🏽‍❤‍🧑🏼	parella cun corazón persoa, persoa, ton de pel medio, ton de pel claro	none
+🧑🏽‍❤‍🧑🏾	parella cun corazón persoa, persoa, ton de pel medio, ton de pel escuro	none
+🧑🏽‍❤‍🧑🏿	parella cun corazón persoa, persoa, ton de pel medio, ton de pel moi escuro	none
+🧑🏾‍❤‍🧑🏻	parella cun corazón persoa, persoa, ton de pel escuro, ton de pel moi claro	none
+🧑🏾‍❤‍🧑🏼	parella cun corazón persoa, persoa, ton de pel escuro, ton de pel claro	none
+🧑🏾‍❤‍🧑🏽	parella cun corazón persoa, persoa, ton de pel escuro, ton de pel medio	none
+🧑🏾‍❤‍🧑🏿	parella cun corazón persoa, persoa, ton de pel escuro, ton de pel moi escuro	none
+🧑🏿‍❤‍🧑🏻	parella cun corazón persoa, persoa, ton de pel moi escuro, ton de pel moi claro	none
+🧑🏿‍❤‍🧑🏼	parella cun corazón persoa, persoa, ton de pel moi escuro, ton de pel claro	none
+🧑🏿‍❤‍🧑🏽	parella cun corazón persoa, persoa, ton de pel moi escuro, ton de pel medio	none
+🧑🏿‍❤‍🧑🏾	parella cun corazón persoa, persoa, ton de pel moi escuro, ton de pel escuro	none
 🧑‍🦰	persoa pelo roxo	none
 🧑🏻‍🦰	persoa ton de pel moi claro, pelo roxo	none
 🧑🏼‍🦰	persoa ton de pel claro, pelo roxo	none
@@ -1798,16 +2177,71 @@ symbols:
 👨🏽	home ton de pel medio	none
 👨🏾	home ton de pel escuro	none
 👨🏿	home ton de pel moi escuro	none
-🧔🏻	home con barba ton de pel moi claro	none
-🧔🏼	home con barba ton de pel claro	none
-🧔🏽	home con barba ton de pel medio	none
-🧔🏾	home con barba ton de pel escuro	none
-🧔🏿	home con barba ton de pel moi escuro	none
+🧔🏻	persoa con barba ton de pel moi claro	none
+🧔🏼	persoa con barba ton de pel claro	none
+🧔🏽	persoa con barba ton de pel medio	none
+🧔🏾	persoa con barba ton de pel escuro	none
+🧔🏿	persoa con barba ton de pel moi escuro	none
+🧔🏻‍♂	home con barba ton de pel moi claro	none
+🧔🏼‍♂	home con barba ton de pel claro	none
+🧔🏽‍♂	home con barba ton de pel medio	none
+🧔🏾‍♂	home con barba ton de pel escuro	none
+🧔🏿‍♂	home con barba ton de pel moi escuro	none
 👱🏻‍♂	home louro ton de pel moi claro	none
 👱🏼‍♂	home louro ton de pel claro	none
 👱🏽‍♂	home louro ton de pel medio	none
 👱🏾‍♂	home louro ton de pel escuro	none
 👱🏿‍♂	home louro ton de pel moi escuro	none
+👨🏻‍❤‍💋‍👨🏻	parella bicándose home, home, ton de pel moi claro	none
+👨🏻‍❤‍💋‍👨🏼	parella bicándose home, home, ton de pel moi claro, ton de pel claro	none
+👨🏻‍❤‍💋‍👨🏽	parella bicándose home, home, ton de pel moi claro, ton de pel medio	none
+👨🏻‍❤‍💋‍👨🏾	parella bicándose home, home, ton de pel moi claro, ton de pel escuro	none
+👨🏻‍❤‍💋‍👨🏿	parella bicándose home, home, ton de pel moi claro, ton de pel moi escuro	none
+👨🏼‍❤‍💋‍👨🏻	parella bicándose home, home, ton de pel claro, ton de pel moi claro	none
+👨🏼‍❤‍💋‍👨🏼	parella bicándose home, home, ton de pel claro	none
+👨🏼‍❤‍💋‍👨🏽	parella bicándose home, home, ton de pel claro, ton de pel medio	none
+👨🏼‍❤‍💋‍👨🏾	parella bicándose home, home, ton de pel claro, ton de pel escuro	none
+👨🏼‍❤‍💋‍👨🏿	parella bicándose home, home, ton de pel claro, ton de pel moi escuro	none
+👨🏽‍❤‍💋‍👨🏻	parella bicándose home, home, ton de pel medio, ton de pel moi claro	none
+👨🏽‍❤‍💋‍👨🏼	parella bicándose home, home, ton de pel medio, ton de pel claro	none
+👨🏽‍❤‍💋‍👨🏽	parella bicándose home, home, ton de pel medio	none
+👨🏽‍❤‍💋‍👨🏾	parella bicándose home, home, ton de pel medio, ton de pel escuro	none
+👨🏽‍❤‍💋‍👨🏿	parella bicándose home, home, ton de pel medio, ton de pel moi escuro	none
+👨🏾‍❤‍💋‍👨🏻	parella bicándose home, home, ton de pel escuro, ton de pel moi claro	none
+👨🏾‍❤‍💋‍👨🏼	parella bicándose home, home, ton de pel escuro, ton de pel claro	none
+👨🏾‍❤‍💋‍👨🏽	parella bicándose home, home, ton de pel escuro, ton de pel medio	none
+👨🏾‍❤‍💋‍👨🏾	parella bicándose home, home, ton de pel escuro	none
+👨🏾‍❤‍💋‍👨🏿	parella bicándose home, home, ton de pel escuro, ton de pel moi escuro	none
+👨🏿‍❤‍💋‍👨🏻	parella bicándose home, home, ton de pel moi escuro, ton de pel moi claro	none
+👨🏿‍❤‍💋‍👨🏼	parella bicándose home, home, ton de pel moi escuro, ton de pel claro	none
+👨🏿‍❤‍💋‍👨🏽	parella bicándose home, home, ton de pel moi escuro, ton de pel medio	none
+👨🏿‍❤‍💋‍👨🏾	parella bicándose home, home, ton de pel moi escuro, ton de pel escuro	none
+👨🏿‍❤‍💋‍👨🏿	parella bicándose home, home, ton de pel moi escuro	none
+👨🏻‍❤‍👨🏻	parella cun corazón home, home, ton de pel moi claro	none
+👨🏻‍❤‍👨🏼	parella cun corazón home, home, ton de pel moi claro, ton de pel claro	none
+👨🏻‍❤‍👨🏽	parella cun corazón home, home, ton de pel moi claro, ton de pel medio	none
+👨🏻‍❤‍👨🏾	parella cun corazón home, home, ton de pel moi claro, ton de pel escuro	none
+👨🏻‍❤‍👨🏿	parella cun corazón home, home, ton de pel moi claro, ton de pel moi escuro	none
+👨🏼‍❤‍👨🏻	parella cun corazón home, home, ton de pel claro, ton de pel moi claro	none
+👨🏼‍❤‍👨🏼	parella cun corazón home, home, ton de pel claro	none
+👨🏼‍❤‍👨🏽	parella cun corazón home, home, ton de pel claro, ton de pel medio	none
+👨🏼‍❤‍👨🏾	parella cun corazón home, home, ton de pel claro, ton de pel escuro	none
+👨🏼‍❤‍👨🏿	parella cun corazón home, home, ton de pel claro, ton de pel moi escuro	none
+👨🏽‍❤‍👨🏻	parella cun corazón home, home, ton de pel medio, ton de pel moi claro	none
+👨🏽‍❤‍👨🏼	parella cun corazón home, home, ton de pel medio, ton de pel claro	none
+👨🏽‍❤‍👨🏽	parella cun corazón home, home, ton de pel medio	none
+👨🏽‍❤‍👨🏾	parella cun corazón home, home, ton de pel medio, ton de pel escuro	none
+👨🏽‍❤‍👨🏿	parella cun corazón home, home, ton de pel medio, ton de pel moi escuro	none
+👨🏾‍❤‍👨🏻	parella cun corazón home, home, ton de pel escuro, ton de pel moi claro	none
+👨🏾‍❤‍👨🏼	parella cun corazón home, home, ton de pel escuro, ton de pel claro	none
+👨🏾‍❤‍👨🏽	parella cun corazón home, home, ton de pel escuro, ton de pel medio	none
+👨🏾‍❤‍👨🏾	parella cun corazón home, home, ton de pel escuro	none
+👨🏾‍❤‍👨🏿	parella cun corazón home, home, ton de pel escuro, ton de pel moi escuro	none
+👨🏿‍❤‍👨🏻	parella cun corazón home, home, ton de pel moi escuro, ton de pel moi claro	none
+👨🏿‍❤‍👨🏼	parella cun corazón home, home, ton de pel moi escuro, ton de pel claro	none
+👨🏿‍❤‍👨🏽	parella cun corazón home, home, ton de pel moi escuro, ton de pel medio	none
+👨🏿‍❤‍👨🏾	parella cun corazón home, home, ton de pel moi escuro, ton de pel escuro	none
+👨🏿‍❤‍👨🏿	parella cun corazón home, home, ton de pel moi escuro	none
 👨‍🦰	home pelo roxo	none
 👨🏻‍🦰	home ton de pel moi claro, pelo roxo	none
 👨🏼‍🦰	home ton de pel claro, pelo roxo	none
@@ -1837,11 +2271,116 @@ symbols:
 👩🏽	muller ton de pel medio	none
 👩🏾	muller ton de pel escuro	none
 👩🏿	muller ton de pel moi escuro	none
+🧔🏻‍♀	muller con barba ton de pel moi claro	none
+🧔🏼‍♀	muller con barba ton de pel claro	none
+🧔🏽‍♀	muller con barba ton de pel medio	none
+🧔🏾‍♀	muller con barba ton de pel escuro	none
+🧔🏿‍♀	muller con barba ton de pel moi escuro	none
 👱🏻‍♀	muller loura ton de pel moi claro	none
 👱🏼‍♀	muller loura ton de pel claro	none
 👱🏽‍♀	muller loura ton de pel medio	none
 👱🏾‍♀	muller loura ton de pel escuro	none
 👱🏿‍♀	muller loura ton de pel moi escuro	none
+👩🏻‍❤‍💋‍👨🏻	parella bicándose muller, home, ton de pel moi claro	none
+👩🏻‍❤‍💋‍👨🏼	parella bicándose muller, home, ton de pel moi claro, ton de pel claro	none
+👩🏻‍❤‍💋‍👨🏽	parella bicándose muller, home, ton de pel moi claro, ton de pel medio	none
+👩🏻‍❤‍💋‍👨🏾	parella bicándose muller, home, ton de pel moi claro, ton de pel escuro	none
+👩🏻‍❤‍💋‍👨🏿	parella bicándose muller, home, ton de pel moi claro, ton de pel moi escuro	none
+👩🏼‍❤‍💋‍👨🏻	parella bicándose muller, home, ton de pel claro, ton de pel moi claro	none
+👩🏼‍❤‍💋‍👨🏼	parella bicándose muller, home, ton de pel claro	none
+👩🏼‍❤‍💋‍👨🏽	parella bicándose muller, home, ton de pel claro, ton de pel medio	none
+👩🏼‍❤‍💋‍👨🏾	parella bicándose muller, home, ton de pel claro, ton de pel escuro	none
+👩🏼‍❤‍💋‍👨🏿	parella bicándose muller, home, ton de pel claro, ton de pel moi escuro	none
+👩🏽‍❤‍💋‍👨🏻	parella bicándose muller, home, ton de pel medio, ton de pel moi claro	none
+👩🏽‍❤‍💋‍👨🏼	parella bicándose muller, home, ton de pel medio, ton de pel claro	none
+👩🏽‍❤‍💋‍👨🏽	parella bicándose muller, home, ton de pel medio	none
+👩🏽‍❤‍💋‍👨🏾	parella bicándose muller, home, ton de pel medio, ton de pel escuro	none
+👩🏽‍❤‍💋‍👨🏿	parella bicándose muller, home, ton de pel medio, ton de pel moi escuro	none
+👩🏾‍❤‍💋‍👨🏻	parella bicándose muller, home, ton de pel escuro, ton de pel moi claro	none
+👩🏾‍❤‍💋‍👨🏼	parella bicándose muller, home, ton de pel escuro, ton de pel claro	none
+👩🏾‍❤‍💋‍👨🏽	parella bicándose muller, home, ton de pel escuro, ton de pel medio	none
+👩🏾‍❤‍💋‍👨🏾	parella bicándose muller, home, ton de pel escuro	none
+👩🏾‍❤‍💋‍👨🏿	parella bicándose muller, home, ton de pel escuro, ton de pel moi escuro	none
+👩🏿‍❤‍💋‍👨🏻	parella bicándose muller, home, ton de pel moi escuro, ton de pel moi claro	none
+👩🏿‍❤‍💋‍👨🏼	parella bicándose muller, home, ton de pel moi escuro, ton de pel claro	none
+👩🏿‍❤‍💋‍👨🏽	parella bicándose muller, home, ton de pel moi escuro, ton de pel medio	none
+👩🏿‍❤‍💋‍👨🏾	parella bicándose muller, home, ton de pel moi escuro, ton de pel escuro	none
+👩🏿‍❤‍💋‍👨🏿	parella bicándose muller, home, ton de pel moi escuro	none
+👩🏻‍❤‍💋‍👩🏻	parella bicándose muller, muller, ton de pel moi claro	none
+👩🏻‍❤‍💋‍👩🏼	parella bicándose muller, muller, ton de pel moi claro, ton de pel claro	none
+👩🏻‍❤‍💋‍👩🏽	parella bicándose muller, muller, ton de pel moi claro, ton de pel medio	none
+👩🏻‍❤‍💋‍👩🏾	parella bicándose muller, muller, ton de pel moi claro, ton de pel escuro	none
+👩🏻‍❤‍💋‍👩🏿	parella bicándose muller, muller, ton de pel moi claro, ton de pel moi escuro	none
+👩🏼‍❤‍💋‍👩🏻	parella bicándose muller, muller, ton de pel claro, ton de pel moi claro	none
+👩🏼‍❤‍💋‍👩🏼	parella bicándose muller, muller, ton de pel claro	none
+👩🏼‍❤‍💋‍👩🏽	parella bicándose muller, muller, ton de pel claro, ton de pel medio	none
+👩🏼‍❤‍💋‍👩🏾	parella bicándose muller, muller, ton de pel claro, ton de pel escuro	none
+👩🏼‍❤‍💋‍👩🏿	parella bicándose muller, muller, ton de pel claro, ton de pel moi escuro	none
+👩🏽‍❤‍💋‍👩🏻	parella bicándose muller, muller, ton de pel medio, ton de pel moi claro	none
+👩🏽‍❤‍💋‍👩🏼	parella bicándose muller, muller, ton de pel medio, ton de pel claro	none
+👩🏽‍❤‍💋‍👩🏽	parella bicándose muller, muller, ton de pel medio	none
+👩🏽‍❤‍💋‍👩🏾	parella bicándose muller, muller, ton de pel medio, ton de pel escuro	none
+👩🏽‍❤‍💋‍👩🏿	parella bicándose muller, muller, ton de pel medio, ton de pel moi escuro	none
+👩🏾‍❤‍💋‍👩🏻	parella bicándose muller, muller, ton de pel escuro, ton de pel moi claro	none
+👩🏾‍❤‍💋‍👩🏼	parella bicándose muller, muller, ton de pel escuro, ton de pel claro	none
+👩🏾‍❤‍💋‍👩🏽	parella bicándose muller, muller, ton de pel escuro, ton de pel medio	none
+👩🏾‍❤‍💋‍👩🏾	parella bicándose muller, muller, ton de pel escuro	none
+👩🏾‍❤‍💋‍👩🏿	parella bicándose muller, muller, ton de pel escuro, ton de pel moi escuro	none
+👩🏿‍❤‍💋‍👩🏻	parella bicándose muller, muller, ton de pel moi escuro, ton de pel moi claro	none
+👩🏿‍❤‍💋‍👩🏼	parella bicándose muller, muller, ton de pel moi escuro, ton de pel claro	none
+👩🏿‍❤‍💋‍👩🏽	parella bicándose muller, muller, ton de pel moi escuro, ton de pel medio	none
+👩🏿‍❤‍💋‍👩🏾	parella bicándose muller, muller, ton de pel moi escuro, ton de pel escuro	none
+👩🏿‍❤‍💋‍👩🏿	parella bicándose muller, muller, ton de pel moi escuro	none
+👩🏻‍❤‍👨🏻	parella cun corazón muller, home, ton de pel moi claro	none
+👩🏻‍❤‍👨🏼	parella cun corazón muller, home, ton de pel moi claro, ton de pel claro	none
+👩🏻‍❤‍👨🏽	parella cun corazón muller, home, ton de pel moi claro, ton de pel medio	none
+👩🏻‍❤‍👨🏾	parella cun corazón muller, home, ton de pel moi claro, ton de pel escuro	none
+👩🏻‍❤‍👨🏿	parella cun corazón muller, home, ton de pel moi claro, ton de pel moi escuro	none
+👩🏼‍❤‍👨🏻	parella cun corazón muller, home, ton de pel claro, ton de pel moi claro	none
+👩🏼‍❤‍👨🏼	parella cun corazón muller, home, ton de pel claro	none
+👩🏼‍❤‍👨🏽	parella cun corazón muller, home, ton de pel claro, ton de pel medio	none
+👩🏼‍❤‍👨🏾	parella cun corazón muller, home, ton de pel claro, ton de pel escuro	none
+👩🏼‍❤‍👨🏿	parella cun corazón muller, home, ton de pel claro, ton de pel moi escuro	none
+👩🏽‍❤‍👨🏻	parella cun corazón muller, home, ton de pel medio, ton de pel moi claro	none
+👩🏽‍❤‍👨🏼	parella cun corazón muller, home, ton de pel medio, ton de pel claro	none
+👩🏽‍❤‍👨🏽	parella cun corazón muller, home, ton de pel medio	none
+👩🏽‍❤‍👨🏾	parella cun corazón muller, home, ton de pel medio, ton de pel escuro	none
+👩🏽‍❤‍👨🏿	parella cun corazón muller, home, ton de pel medio, ton de pel moi escuro	none
+👩🏾‍❤‍👨🏻	parella cun corazón muller, home, ton de pel escuro, ton de pel moi claro	none
+👩🏾‍❤‍👨🏼	parella cun corazón muller, home, ton de pel escuro, ton de pel claro	none
+👩🏾‍❤‍👨🏽	parella cun corazón muller, home, ton de pel escuro, ton de pel medio	none
+👩🏾‍❤‍👨🏾	parella cun corazón muller, home, ton de pel escuro	none
+👩🏾‍❤‍👨🏿	parella cun corazón muller, home, ton de pel escuro, ton de pel moi escuro	none
+👩🏿‍❤‍👨🏻	parella cun corazón muller, home, ton de pel moi escuro, ton de pel moi claro	none
+👩🏿‍❤‍👨🏼	parella cun corazón muller, home, ton de pel moi escuro, ton de pel claro	none
+👩🏿‍❤‍👨🏽	parella cun corazón muller, home, ton de pel moi escuro, ton de pel medio	none
+👩🏿‍❤‍👨🏾	parella cun corazón muller, home, ton de pel moi escuro, ton de pel escuro	none
+👩🏿‍❤‍👨🏿	parella cun corazón muller, home, ton de pel moi escuro	none
+👩🏻‍❤‍👩🏻	parella cun corazón muller, muller, ton de pel moi claro	none
+👩🏻‍❤‍👩🏼	parella cun corazón muller, muller, ton de pel moi claro, ton de pel claro	none
+👩🏻‍❤‍👩🏽	parella cun corazón muller, muller, ton de pel moi claro, ton de pel medio	none
+👩🏻‍❤‍👩🏾	parella cun corazón muller, muller, ton de pel moi claro, ton de pel escuro	none
+👩🏻‍❤‍👩🏿	parella cun corazón muller, muller, ton de pel moi claro, ton de pel moi escuro	none
+👩🏼‍❤‍👩🏻	parella cun corazón muller, muller, ton de pel claro, ton de pel moi claro	none
+👩🏼‍❤‍👩🏼	parella cun corazón muller, muller, ton de pel claro	none
+👩🏼‍❤‍👩🏽	parella cun corazón muller, muller, ton de pel claro, ton de pel medio	none
+👩🏼‍❤‍👩🏾	parella cun corazón muller, muller, ton de pel claro, ton de pel escuro	none
+👩🏼‍❤‍👩🏿	parella cun corazón muller, muller, ton de pel claro, ton de pel moi escuro	none
+👩🏽‍❤‍👩🏻	parella cun corazón muller, muller, ton de pel medio, ton de pel moi claro	none
+👩🏽‍❤‍👩🏼	parella cun corazón muller, muller, ton de pel medio, ton de pel claro	none
+👩🏽‍❤‍👩🏽	parella cun corazón muller, muller, ton de pel medio	none
+👩🏽‍❤‍👩🏾	parella cun corazón muller, muller, ton de pel medio, ton de pel escuro	none
+👩🏽‍❤‍👩🏿	parella cun corazón muller, muller, ton de pel medio, ton de pel moi escuro	none
+👩🏾‍❤‍👩🏻	parella cun corazón muller, muller, ton de pel escuro, ton de pel moi claro	none
+👩🏾‍❤‍👩🏼	parella cun corazón muller, muller, ton de pel escuro, ton de pel claro	none
+👩🏾‍❤‍👩🏽	parella cun corazón muller, muller, ton de pel escuro, ton de pel medio	none
+👩🏾‍❤‍👩🏾	parella cun corazón muller, muller, ton de pel escuro	none
+👩🏾‍❤‍👩🏿	parella cun corazón muller, muller, ton de pel escuro, ton de pel moi escuro	none
+👩🏿‍❤‍👩🏻	parella cun corazón muller, muller, ton de pel moi escuro, ton de pel moi claro	none
+👩🏿‍❤‍👩🏼	parella cun corazón muller, muller, ton de pel moi escuro, ton de pel claro	none
+👩🏿‍❤‍👩🏽	parella cun corazón muller, muller, ton de pel moi escuro, ton de pel medio	none
+👩🏿‍❤‍👩🏾	parella cun corazón muller, muller, ton de pel moi escuro, ton de pel escuro	none
+👩🏿‍❤‍👩🏿	parella cun corazón muller, muller, ton de pel moi escuro	none
 👩‍🦰	muller pelo roxo	none
 👩🏻‍🦰	muller ton de pel moi claro, pelo roxo	none
 👩🏼‍🦰	muller ton de pel claro, pelo roxo	none
@@ -2336,6 +2875,11 @@ symbols:
 👷🏽‍♀	obreira ton de pel medio	none
 👷🏾‍♀	obreira ton de pel escuro	none
 👷🏿‍♀	obreira ton de pel moi escuro	none
+🫅🏻	persoa con coroa ton de pel moi claro	none
+🫅🏼	persoa con coroa ton de pel claro	none
+🫅🏽	persoa con coroa ton de pel medio	none
+🫅🏾	persoa con coroa ton de pel escuro	none
+🫅🏿	persoa con coroa ton de pel moi escuro	none
 🤴🏻	príncipe ton de pel moi claro	none
 🤴🏼	príncipe ton de pel claro	none
 🤴🏽	príncipe ton de pel medio	none
@@ -2406,11 +2950,21 @@ symbols:
 🤰🏽	muller embarazada ton de pel medio	none
 🤰🏾	muller embarazada ton de pel escuro	none
 🤰🏿	muller embarazada ton de pel moi escuro	none
-🤱🏻	muller dando o peito ton de pel moi claro	none
-🤱🏼	muller dando o peito ton de pel claro	none
-🤱🏽	muller dando o peito ton de pel medio	none
-🤱🏾	muller dando o peito ton de pel escuro	none
-🤱🏿	muller dando o peito ton de pel moi escuro	none
+🫃🏻	home embarazado ton de pel moi claro	none
+🫃🏼	home embarazado ton de pel claro	none
+🫃🏽	home embarazado ton de pel medio	none
+🫃🏾	home embarazado ton de pel escuro	none
+🫃🏿	home embarazado ton de pel moi escuro	none
+🫄🏻	persoa embarazada ton de pel moi claro	none
+🫄🏼	persoa embarazada ton de pel claro	none
+🫄🏽	persoa embarazada ton de pel medio	none
+🫄🏾	persoa embarazada ton de pel escuro	none
+🫄🏿	persoa embarazada ton de pel moi escuro	none
+🤱🏻	dar o peito ton de pel moi claro	none
+🤱🏼	dar o peito ton de pel claro	none
+🤱🏽	dar o peito ton de pel medio	none
+🤱🏾	dar o peito ton de pel escuro	none
+🤱🏿	dar o peito ton de pel moi escuro	none
 👩🏻‍🍼	muller alimentando bebé ton de pel moi claro	none
 👩🏼‍🍼	muller alimentando bebé ton de pel claro	none
 👩🏽‍🍼	muller alimentando bebé ton de pel medio	none
@@ -3046,9 +3600,19 @@ symbols:
 👨🏿‍🤝‍👨🏽	dous homes collidos da man ton de pel moi escuro, ton de pel medio	none
 👨🏿‍🤝‍👨🏾	dous homes collidos da man ton de pel moi escuro, ton de pel escuro	none
 👬🏿	dous homes collidos da man ton de pel moi escuro	none
+💏🏻	parella bicándose ton de pel moi claro	none
+💏🏼	parella bicándose ton de pel claro	none
+💏🏽	parella bicándose ton de pel medio	none
+💏🏾	parella bicándose ton de pel escuro	none
+💏🏿	parella bicándose ton de pel moi escuro	none
 👩‍❤‍💋‍👨	parella bicándose muller, home	none
 👨‍❤‍💋‍👨	parella bicándose home, home	none
 👩‍❤‍💋‍👩	parella bicándose muller, muller	none
+💑🏻	parella cun corazón ton de pel moi claro	none
+💑🏼	parella cun corazón ton de pel claro	none
+💑🏽	parella cun corazón ton de pel medio	none
+💑🏾	parella cun corazón ton de pel escuro	none
+💑🏿	parella cun corazón ton de pel moi escuro	none
 👩‍❤‍👨	parella cun corazón muller, home	none
 👨‍❤‍👨	parella cun corazón home, home	none
 👩‍❤‍👩	parella cun corazón muller, muller	none
@@ -3077,8 +3641,6 @@ symbols:
 👩‍👧	familia muller, nena	none
 👩‍👧‍👦	familia muller, nena, neno	none
 👩‍👧‍👧	familia muller, nena, nena	none
-#⃣	tecla #	none
-*⃣	tecla *	none
 🔟	tecla 10	none
 🇦🇨	bandeira Illa de Ascensión	none
 🇦🇩	bandeira Andorra	none
@@ -3341,13 +3903,17 @@ symbols:
 🏴󠁧󠁢󠁥󠁮󠁧󠁿	bandeira Inglaterra	none
 🏴󠁧󠁢󠁳󠁣󠁴󠁿	bandeira Escocia	none
 🏴󠁧󠁢󠁷󠁬󠁳󠁿	bandeira Gales	none
-0⃣	tecla 0	none
-1⃣	tecla 1	none
-2⃣	tecla 2	none
-3⃣	tecla 3	none
-4⃣	tecla 4	none
-5⃣	tecla 5	none
-6⃣	tecla 6	none
-7⃣	tecla 7	none
-8⃣	tecla 8	none
-9⃣	tecla 9	none
+₡	colón costarriqueño	none
+₦	naira nixeriano	none
+₧	Peseta española	none
+₪	novo shequel israelí	none
+₫	dong vietnamita	none
+₭	kip laosiano	none
+₮	tugrik mongol	none
+₲	guaraní paraguaio	none
+₴	hrivna ucraína	none
+₵	cedi ghanés	none
+₸	tenge kazako	none
+₺	lira turca	none
+₼	manat acerbaixano	none
+₾	lari xeorxiano	none

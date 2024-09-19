@@ -118,7 +118,8 @@ void options_print_help(char *argv[])
 	printf(_("Speak the key\n"));
 
 	printf("  -m, --punctuation-mode          ");
-	printf(_("Set the punctuation mode %s\n"), "(none, some, most, all)");
+	printf(_("Set the punctuation mode\n"));
+	printf("                                  (none, some, most, all)\n");
 
 	printf("  -s, --spelling                  ");
 	printf(_("Spell the message\n"));
@@ -139,14 +140,14 @@ void options_print_help(char *argv[])
 
 	printf("  -N, --application-name          ");
 	printf(_("Set the application name used to establish\n"
-		 "%sthe connection to specified string value\n"),
+	         "%1$sthe connection to specified string value\n"),
 	       "                                  ");
 	printf("                                  ");
 	printf(_("(default: %s)\n"), "spd-say");
 
 	printf("  -n, --connection-name           ");
 	printf(_("Set the connection name used to establish\n"
-		 "%sthe connection to specified string value\n"),
+	         "%1$sthe connection to specified string value\n"),
 	       "                                  ");
 	printf("                                  ");
 	printf(_("(default: %s)\n"), "main");
